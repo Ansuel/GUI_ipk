@@ -1,0 +1,78 @@
+Package: dbus
+Version: 1.9.14-1
+Depends: libc, librt, libpthread, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 99133
+Filename: dbus_1.9.14-1_brcm63xx-tch.ipk
+Size: 99524
+MD5Sum: ff293bc0c2b4d9ec6b9842c6b702016a
+SHA256sum: 0d5e782d72614308511359dc3ea307d0b7871c53f6a23a1a13acb4554d8db58b
+Description:  Simple interprocess messaging system (daemon)
+
+Package: libdbus
+Version: 1.9.14-1
+Depends: libc, librt, libpthread, libpthread
+Source: feeds/packages/utils/dbus
+License: AFL-2.1
+Section: utils
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 125845
+Filename: libdbus_1.9.14-1_brcm63xx-tch.ipk
+Size: 125982
+MD5Sum: 3b5ab1ae62262b064fe4eb475a992fef
+SHA256sum: d6532d16dcb360d5487fe850879084aa1794f5b5f9490ad1d76df9be5193d899
+Description:  Simple interprocess messaging system (library)
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 62499
+Filename: libexpat_2.1.0-3_brcm63xx-tch.ipk
+Size: 63219
+MD5Sum: 518d7af6ad4e2829e9604965ae541a59
+SHA256sum: fcb3cccc49bd36c9a8b967a9d6f7b071a529cb66daafab61d00ad0968f266051
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 102091
+Filename: libpcre_8.41-2_brcm63xx-tch.ipk
+Size: 102906
+MD5Sum: 3b7d18c119729c9aa41409ae4bafbe9e
+SHA256sum: 0b39f3c47ab31c3eb12f5893f27f93c8193a0edee6adaca04ad7200e06eca6de
+Description:  A Perl Compatible Regular Expression library
+
+Package: nginx
+Version: 1.12.1-1
+Depends: libc, librt, libpthread, libpcre, libopenssl, zlib, liblua, libpthread
+Source: feeds/packages/net/nginx
+License: 2-clause BSD-like license
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: brcm63xx-tch
+Installed-Size: 558932
+Filename: nginx_1.12.1-1_brcm63xx-tch.ipk
+Size: 535855
+MD5Sum: 83ee0c4353a15de25f2cf012f369ba4c
+SHA256sum: b47e58925ec5729a309caa8d109da40451839212231f0a5e2469be085dc7de08
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server,
+ written by Igor Sysoev.
+

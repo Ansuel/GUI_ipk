@@ -1,0 +1,767 @@
+Package: luci-app-firewall
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 10551
+Filename: luci-app-firewall_git-18.097.75958-5537d68-1_all.ipk
+Size: 11268
+MD5Sum: 615f081176a0ec24c0854acaf02558cf
+SHA256sum: f91ac1a1a47bf74def4097c2afd3ecf0fd7627cd767b7c43d612cad5052fc1bc
+Description:  Firewall and Portforwarding application
+
+Package: luci-base
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: brcm63xx-tch
+Installed-Size: 126080
+Filename: luci-base_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
+Size: 126950
+MD5Sum: c3b2095f2e674198ac95f0aa624a1ae7
+SHA256sum: 81236abcefe344b4808590f7786346eee4f883153b303c784dfd8b002a6eb455
+Description:  LuCI core libraries
+
+Package: luci-i18n-base-ca
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 16247
+Filename: luci-i18n-base-ca_git-18.097.75958-5537d68-1_all.ipk
+Size: 17029
+MD5Sum: 1bf64fa764ad15210a15b66617b091bc
+SHA256sum: 2223059768d816bb16a8132d3dc7bcd619fd04ad6d95cb47e5135bb2b5f5614a
+Description:  Translation for luci-base - Català (Catalan)
+
+Package: luci-i18n-base-cs
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20475
+Filename: luci-i18n-base-cs_git-18.097.75958-5537d68-1_all.ipk
+Size: 21292
+MD5Sum: 7951ea5ccc20357e024e638cc7e37790
+SHA256sum: 16464996999489807aed26ab617f0c3749eb92326c235989e82b02efae3a2727
+Description:  Translation for luci-base - Čeština (Czech)
+
+Package: luci-i18n-base-de
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20135
+Filename: luci-i18n-base-de_git-18.097.75958-5537d68-1_all.ipk
+Size: 20949
+MD5Sum: 5d555ded800b31583f144e7ae0d65e35
+SHA256sum: 220ebcea921d25ddd67816666ac86d6ef4d9270d7d2485615364d587025406a1
+Description:  Translation for luci-base - Deutsch (German)
+
+Package: luci-i18n-base-el
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 17253
+Filename: luci-i18n-base-el_git-18.097.75958-5537d68-1_all.ipk
+Size: 18118
+MD5Sum: db4385e0f93684985ff4389b225d2f88
+SHA256sum: 3a2726cefee5d651886a3d913e5b11e558903764c4b4da9a7fee3ad4c0d2ffbe
+Description:  Translation for luci-base - Ελληνικά (Greek)
+
+Package: luci-i18n-base-en
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 724
+Filename: luci-i18n-base-en_git-18.097.75958-5537d68-1_all.ipk
+Size: 1519
+MD5Sum: 1a921430ca3b745d0308fa51a81c1598
+SHA256sum: 36446e3f20bbacff8bca7eaa37a5526c37c54f7b95b27a36c61faa54763a821f
+Description:  Translation for luci-base - English
+
+Package: luci-i18n-base-es
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20698
+Filename: luci-i18n-base-es_git-18.097.75958-5537d68-1_all.ipk
+Size: 21520
+MD5Sum: 73c4c802feea250900fa2b7da643c291
+SHA256sum: 23c68727e4cff1ebe393b42a7ebd7761dd946993931b93ff5f63d496a71c32f2
+Description:  Translation for luci-base - Español (Spanish)
+
+Package: luci-i18n-base-fr
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20870
+Filename: luci-i18n-base-fr_git-18.097.75958-5537d68-1_all.ipk
+Size: 21706
+MD5Sum: be92cf8cc5e45834b45e03a9f67a93f5
+SHA256sum: 833416cdd599aa6de068151e4ad773c9eccf3c9a9520e4cac93a5bfec790016f
+Description:  Translation for luci-base - Français (French)
+
+Package: luci-i18n-base-he
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 6882
+Filename: luci-i18n-base-he_git-18.097.75958-5537d68-1_all.ipk
+Size: 7743
+MD5Sum: 8e0be44057ef1de429504f85706f902f
+SHA256sum: 9f79fab652835102069561f8ebccb06a53f11a680f750d1b6627acbe88851ed4
+Description:  Translation for luci-base - עִבְרִית (Hebrew)
+
+Package: luci-i18n-base-hu
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21494
+Filename: luci-i18n-base-hu_git-18.097.75958-5537d68-1_all.ipk
+Size: 22318
+MD5Sum: c55b42857e1d6ee976eae658692285b6
+SHA256sum: bf9df8291a22dfd795e5e255293bbc91cb0d944389a81831b4194cb1a1add76e
+Description:  Translation for luci-base - Magyar (Hungarian)
+
+Package: luci-i18n-base-it
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 16526
+Filename: luci-i18n-base-it_git-18.097.75958-5537d68-1_all.ipk
+Size: 17345
+MD5Sum: dcbb64c8fb68e28a7e860094d67198b8
+SHA256sum: bf234569b5916f2f6675ae5d6797a6da6bb72ee47f81c6a7941e3b3376684de5
+Description:  Translation for luci-base - Italiano (Italian)
+
+Package: luci-i18n-base-ja
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20205
+Filename: luci-i18n-base-ja_git-18.097.75958-5537d68-1_all.ipk
+Size: 21011
+MD5Sum: 1a4a7e93bafb1df1b5526e81ec35affb
+SHA256sum: 6467754c739be947f1d6a744c196a674be8d80466dcab1e521b750e8f7d021e5
+Description:  Translation for luci-base - 日本語 (Japanese)
+
+Package: luci-i18n-base-ms
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 7425
+Filename: luci-i18n-base-ms_git-18.097.75958-5537d68-1_all.ipk
+Size: 8265
+MD5Sum: eac4c8a1802b8d9bb3b763c40a2095a5
+SHA256sum: fc9260af90f83cfa89508927fc2349e57062c2ff0c9cc975e3ba8d5378ad9ff0
+Description:  Translation for luci-base - Bahasa Melayu (Malay)
+
+Package: luci-i18n-base-no
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 20116
+Filename: luci-i18n-base-no_git-18.097.75958-5537d68-1_all.ipk
+Size: 20921
+MD5Sum: 65d5414bfe5c3a1c40f7e8b2ae15a433
+SHA256sum: fb49b7964b9cb2ac67e87f9939b38b24e184f9e5a75ee7e74bb15e931e5a823b
+Description:  Translation for luci-base - Norsk (Norwegian)
+
+Package: luci-i18n-base-pl
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21324
+Filename: luci-i18n-base-pl_git-18.097.75958-5537d68-1_all.ipk
+Size: 22134
+MD5Sum: 01f338d902582317937f5e1b17c69562
+SHA256sum: 5f566ab950861468117b9267fc7004a18a99f49ee66578274f802b36ea1bb933
+Description:  Translation for luci-base - Polski (Polish)
+
+Package: luci-i18n-base-pt-br
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21408
+Filename: luci-i18n-base-pt-br_git-18.097.75958-5537d68-1_all.ipk
+Size: 22264
+MD5Sum: 33c69e7bcc0b250fcc2f7a198701ee21
+SHA256sum: d0a31d46b12f68ed27a35e8b743e788c982d7f5d14dc650d857bb73699cb7a2e
+Description:  Translation for luci-base - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-base-pt
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 18574
+Filename: luci-i18n-base-pt_git-18.097.75958-5537d68-1_all.ipk
+Size: 19363
+MD5Sum: 02a0e755ff0070b3174964d8b4728a1f
+SHA256sum: 4af0c807115c5ee5fe2fc1cf9a98ed7e7a8b385d7e11fa07f31f4c5925b897c0
+Description:  Translation for luci-base - Português (Portuguese)
+
+Package: luci-i18n-base-ro
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 10321
+Filename: luci-i18n-base-ro_git-18.097.75958-5537d68-1_all.ipk
+Size: 11120
+MD5Sum: 7aac81a4b867d0088ec6c5c94c2a88cf
+SHA256sum: 2ade1ae067b6519de4c1a3ea76fa1ca2bfdccda83e4de4516957004685e0f6d3
+Description:  Translation for luci-base - Română (Romanian)
+
+Package: luci-i18n-base-ru
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 28021
+Filename: luci-i18n-base-ru_git-18.097.75958-5537d68-1_all.ipk
+Size: 28876
+MD5Sum: 2f839b2499420d1ade67900327ce6790
+SHA256sum: 257ee0a2fbeb36ec57abefe221675d3d4634e2caad8961e0eb75684ebe53cde8
+Description:  Translation for luci-base - Русский (Russian)
+
+Package: luci-i18n-base-sk
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 319
+Filename: luci-i18n-base-sk_git-18.097.75958-5537d68-1_all.ipk
+Size: 1122
+MD5Sum: ffaa5390b7ee7c328b24174c527b0c69
+SHA256sum: 081a1312c32bd58905cd6e404a28e041d80908e3e48cf06dda9082c2dbc9c888
+Description:  Translation for luci-base - Slovenčina (Slovak)
+
+Package: luci-i18n-base-sv
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 831
+Filename: luci-i18n-base-sv_git-18.097.75958-5537d68-1_all.ipk
+Size: 1642
+MD5Sum: 183a7efaa7109bed2008182d34a60a42
+SHA256sum: 9d8adb1ee457dc4f148ae88f52997c2e7d66f05ccf0225eca1ae0681b1fedf1b
+Description:  Translation for luci-base - Svenska (Swedish)
+
+Package: luci-i18n-base-tr
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 2794
+Filename: luci-i18n-base-tr_git-18.097.75958-5537d68-1_all.ipk
+Size: 3585
+MD5Sum: e384ba1544198eccab1f8414a5780c19
+SHA256sum: f5f9597b554296f7a3c9f4b672731bcb5c3c96b70c14678af415bb5607aa815b
+Description:  Translation for luci-base - Türkçe (Turkish)
+
+Package: luci-i18n-base-uk
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 24520
+Filename: luci-i18n-base-uk_git-18.097.75958-5537d68-1_all.ipk
+Size: 25374
+MD5Sum: a4db8e852f0f522b44b0e8b0395215a2
+SHA256sum: d8d3edeed6760051369866b570346fcfe4b377a49a978394f5a80664b199c30b
+Description:  Translation for luci-base - украї́нська (Ukrainian)
+
+Package: luci-i18n-base-vi
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 6518
+Filename: luci-i18n-base-vi_git-18.097.75958-5537d68-1_all.ipk
+Size: 7378
+MD5Sum: 854bbad794fd132d8d2f3f2f4031c514
+SHA256sum: c217b1b899a4ab9c71897c51100f0bf46891ad4d0c4b6a06c1728a81c536fe00
+Description:  Translation for luci-base - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-base-zh-cn
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21416
+Filename: luci-i18n-base-zh-cn_git-18.097.75958-5537d68-1_all.ipk
+Size: 22214
+MD5Sum: 682450c371864feea9b5cc6775032f37
+SHA256sum: 72c0308267549249c33a68bdb4d35ffe03e980f34c015c21079ecb4bb6e8bbf6
+Description:  Translation for luci-base - 中文 (Chinese)
+
+Package: luci-i18n-base-zh-tw
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: all
+Installed-Size: 21111
+Filename: luci-i18n-base-zh-tw_git-18.097.75958-5537d68-1_all.ipk
+Size: 21919
+MD5Sum: c989df76771d3c121f6f1bab3b8c47ec
+SHA256sum: 76a8b36ea9c0d003316c4fa29c41ffb3c32f8005774c6557cc49009aa22057ec
+Description:  Translation for luci-base - 臺灣華語 (Taiwanese)
+
+Package: luci-i18n-firewall-ca
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4054
+Filename: luci-i18n-firewall-ca_git-18.097.75958-5537d68-1_all.ipk
+Size: 4844
+MD5Sum: 16093b0c73d0be4e8e01da734e0f241e
+SHA256sum: 5ca66e4c841e28b810d66b3c34551e088e60591cc6bc2019963b347385614c99
+Description:  Translation for luci-app-firewall - Català (Catalan)
+
+Package: luci-i18n-firewall-cs
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4200
+Filename: luci-i18n-firewall-cs_git-18.097.75958-5537d68-1_all.ipk
+Size: 4999
+MD5Sum: f7a46de637ce55ca7bd8f37df6d76e32
+SHA256sum: 24fb5dd748b1f11504dde43941d4aefa812fca8d5493207d9201e140506dfb69
+Description:  Translation for luci-app-firewall - Čeština (Czech)
+
+Package: luci-i18n-firewall-de
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4126
+Filename: luci-i18n-firewall-de_git-18.097.75958-5537d68-1_all.ipk
+Size: 4913
+MD5Sum: 0a366713b7b2713c11966734f72e4510
+SHA256sum: 60409c1a5c654720d954bccd8884307cb31f6bb6265dbb752b6fc08fa1348675
+Description:  Translation for luci-app-firewall - Deutsch (German)
+
+Package: luci-i18n-firewall-el
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 1809
+Filename: luci-i18n-firewall-el_git-18.097.75958-5537d68-1_all.ipk
+Size: 2650
+MD5Sum: 19347c30aed4b388c546cbe7ecba3967
+SHA256sum: 50a8f1d4cf449cd366496fdc2d629694c98c6d24675b8d8e0e34da5fe2f55407
+Description:  Translation for luci-app-firewall - Ελληνικά (Greek)
+
+Package: luci-i18n-firewall-en
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 307
+Filename: luci-i18n-firewall-en_git-18.097.75958-5537d68-1_all.ipk
+Size: 1100
+MD5Sum: c687db8fc9c64ac4b6bc41a5878a4a08
+SHA256sum: dcfa9370a92bec7acf42518b6e3490f0d2f817982f4e4eeacd35b2a6c91bcf42
+Description:  Translation for luci-app-firewall - English
+
+Package: luci-i18n-firewall-es
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4059
+Filename: luci-i18n-firewall-es_git-18.097.75958-5537d68-1_all.ipk
+Size: 4860
+MD5Sum: 7fc63c2d1b850e19c724729b80d30106
+SHA256sum: 5c75485099f15fc4d5198ec81ebddb184947c948ebed8ce58074b8b40ce666b5
+Description:  Translation for luci-app-firewall - Español (Spanish)
+
+Package: luci-i18n-firewall-fr
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 2822
+Filename: luci-i18n-firewall-fr_git-18.097.75958-5537d68-1_all.ipk
+Size: 3614
+MD5Sum: c9b34a54116e0dddd7089ef7b73e63d6
+SHA256sum: b36f50de50fea9c9874eb4f119230fc6bda06dcb8d74ce205630e68098c168c4
+Description:  Translation for luci-app-firewall - Français (French)
+
+Package: luci-i18n-firewall-he
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 337
+Filename: luci-i18n-firewall-he_git-18.097.75958-5537d68-1_all.ipk
+Size: 1159
+MD5Sum: 5a92fce77d9deed8e3e5f5faa333c792
+SHA256sum: 9fe5d9284d1132e2c4c7f10e92235c86ed31555a7e7bd025b0051b0a9a9c9970
+Description:  Translation for luci-app-firewall - עִבְרִית (Hebrew)
+
+Package: luci-i18n-firewall-hu
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4390
+Filename: luci-i18n-firewall-hu_git-18.097.75958-5537d68-1_all.ipk
+Size: 5174
+MD5Sum: d950a3ecf0d6e4330e5e0cd7ba1bd03e
+SHA256sum: e392860eb2d6f35ca90227000bc659655f92d5de036515606e7a911dffff211c
+Description:  Translation for luci-app-firewall - Magyar (Hungarian)
+
+Package: luci-i18n-firewall-it
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 1315
+Filename: luci-i18n-firewall-it_git-18.097.75958-5537d68-1_all.ipk
+Size: 2128
+MD5Sum: adcd88fcdb524f8363c1f55daa746007
+SHA256sum: fd90b4e003f08ce0784f5433e2bbac11cee3db602b2f825d6759675c33b4acd9
+Description:  Translation for luci-app-firewall - Italiano (Italian)
+
+Package: luci-i18n-firewall-ja
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4149
+Filename: luci-i18n-firewall-ja_git-18.097.75958-5537d68-1_all.ipk
+Size: 4957
+MD5Sum: 829c25a16a82eb11f579bb970b4ed4c0
+SHA256sum: 48813463d64f4df643a51238313f1f3f724c4600a2e78ed5b1a86e3ebc835055
+Description:  Translation for luci-app-firewall - 日本語 (Japanese)
+
+Package: luci-i18n-firewall-ms
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 321
+Filename: luci-i18n-firewall-ms_git-18.097.75958-5537d68-1_all.ipk
+Size: 1124
+MD5Sum: 9d586cddb56061b92d87569d0a415c3b
+SHA256sum: 2a62c48ede1a88ffa43fa119878e9d5908578dabaed1e1851ab52f63abd40fe7
+Description:  Translation for luci-app-firewall - Bahasa Melayu (Malay)
+
+Package: luci-i18n-firewall-no
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4025
+Filename: luci-i18n-firewall-no_git-18.097.75958-5537d68-1_all.ipk
+Size: 4809
+MD5Sum: 56eea2caf012b3ebfd73405d94bf167f
+SHA256sum: cc718a5310c18eb1a08b90383e8ba6a04d7390386e8d6b8e7c0fbf509286d8d5
+Description:  Translation for luci-app-firewall - Norsk (Norwegian)
+
+Package: luci-i18n-firewall-pl
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4250
+Filename: luci-i18n-firewall-pl_git-18.097.75958-5537d68-1_all.ipk
+Size: 5036
+MD5Sum: 3ef784c0e69d64c8cdd4a44db59fb7f2
+SHA256sum: 2eaa83bff9834fd2b305f4784a2272c53948028b06aa6f53e3dfaa0868c5a232
+Description:  Translation for luci-app-firewall - Polski (Polish)
+
+Package: luci-i18n-firewall-pt-br
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4114
+Filename: luci-i18n-firewall-pt-br_git-18.097.75958-5537d68-1_all.ipk
+Size: 4923
+MD5Sum: 884a48fb4d2513c17fc8efaaf02266f7
+SHA256sum: a3bd0cfb8339c6fcf58ad31ceb4695ecbc1978e53dba70bc1a341eea8e021ec1
+Description:  Translation for luci-app-firewall - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-firewall-pt
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 3469
+Filename: luci-i18n-firewall-pt_git-18.097.75958-5537d68-1_all.ipk
+Size: 4261
+MD5Sum: a1b04b530593e1ef334598427714b003
+SHA256sum: d3274bc89a87a46d4eeaa828a679022111457bc1bb14e2484a50872c8609ac40
+Description:  Translation for luci-app-firewall - Português (Portuguese)
+
+Package: luci-i18n-firewall-ro
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 1765
+Filename: luci-i18n-firewall-ro_git-18.097.75958-5537d68-1_all.ipk
+Size: 2591
+MD5Sum: a60eb6cd4b12feaad63f4cb5fc8746ed
+SHA256sum: 23b5f62366973164bcac02ddbdffbf3ae41fcc14bdbed4bbf94fd15b293cb07f
+Description:  Translation for luci-app-firewall - Română (Romanian)
+
+Package: luci-i18n-firewall-ru
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4740
+Filename: luci-i18n-firewall-ru_git-18.097.75958-5537d68-1_all.ipk
+Size: 5562
+MD5Sum: b08fccd284314b35edc7291f43912002
+SHA256sum: 0c045a0a8fac2a0c5d3b75d3dadf129df54fb61faf3cf73601d70aa63becc626
+Description:  Translation for luci-app-firewall - Русский (Russian)
+
+Package: luci-i18n-firewall-sk
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 323
+Filename: luci-i18n-firewall-sk_git-18.097.75958-5537d68-1_all.ipk
+Size: 1132
+MD5Sum: 4b4a46af4542a8f5782131958d5d3b1c
+SHA256sum: 932b3d75aca336b899479b215e100d01363061e3312a9976511e6c86dadff63a
+Description:  Translation for luci-app-firewall - Slovenčina (Slovak)
+
+Package: luci-i18n-firewall-sv
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 317
+Filename: luci-i18n-firewall-sv_git-18.097.75958-5537d68-1_all.ipk
+Size: 1114
+MD5Sum: fb5f55b9867fdbcf04f2badf17fc8b07
+SHA256sum: 6c7b4cf03fd046126dc71b294c5651fbac510472b720a4f79e1316cde27ff6cd
+Description:  Translation for luci-app-firewall - Svenska (Swedish)
+
+Package: luci-i18n-firewall-tr
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 324
+Filename: luci-i18n-firewall-tr_git-18.097.75958-5537d68-1_all.ipk
+Size: 1129
+MD5Sum: 0a4686371d4f1d3d9930babc8260f060
+SHA256sum: 7da419f94f0ba6f7a352c5bbf14bb179aa77f2522507d23971811156738e822f
+Description:  Translation for luci-app-firewall - Türkçe (Turkish)
+
+Package: luci-i18n-firewall-uk
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4659
+Filename: luci-i18n-firewall-uk_git-18.097.75958-5537d68-1_all.ipk
+Size: 5491
+MD5Sum: c1e0c0e82e825f84b70fc4ab77de2c26
+SHA256sum: faaa9cacac75f0fd9e0aa0ffd4ec1d291e3bf8c25ea86594c15fa9ad2d74e535
+Description:  Translation for luci-app-firewall - украї́нська (Ukrainian)
+
+Package: luci-i18n-firewall-vi
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 842
+Filename: luci-i18n-firewall-vi_git-18.097.75958-5537d68-1_all.ipk
+Size: 1677
+MD5Sum: be6c186e88cf3b05bb8d3668bfa2b9aa
+SHA256sum: dc960d22900db9624496b537566d063ae2a1b1e4ad45da0313b15edca105efc3
+Description:  Translation for luci-app-firewall - Tiếng Việt (Vietnamese)
+
+Package: luci-i18n-firewall-zh-cn
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 3916
+Filename: luci-i18n-firewall-zh-cn_git-18.097.75958-5537d68-1_all.ipk
+Size: 4711
+MD5Sum: 10714a9fb2bb7f8d1ff5b7b69f97caf7
+SHA256sum: 65ee9db55b3527a71031cc71a6d75e0a13bf269a6e4e98928c28c17c078577fd
+Description:  Translation for luci-app-firewall - 中文 (Chinese)
+
+Package: luci-i18n-firewall-zh-tw
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-app-firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 4045
+Filename: luci-i18n-firewall-zh-tw_git-18.097.75958-5537d68-1_all.ipk
+Size: 4850
+MD5Sum: b95c3f1c58d308fed7ed0ded2618cb5c
+SHA256sum: 5c555207b9379d922ae1fe17d13794d3278029775e29c555f1bd734bfdca61fa
+Description:  Translation for luci-app-firewall - 臺灣華語 (Taiwanese)
+
+Package: luci-lib-ip
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, liblua, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+Section: luci
+Architecture: brcm63xx-tch
+Installed-Size: 15435
+Filename: luci-lib-ip_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
+Size: 16167
+MD5Sum: 8eb95674dd486a03c6eeeedea0adade4
+SHA256sum: 4d106e28627ced80f43385c830475547315762ab2d9b04266b3336f1d608289b
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-nixio
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, liblua
+Source: feeds/luci/libs/luci-lib-nixio
+Section: luci
+Architecture: brcm63xx-tch
+Installed-Size: 31551
+Filename: luci-lib-nixio_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
+Size: 31982
+MD5Sum: ecd84f53eada7eecb417846963dfe530
+SHA256sum: 36460bd7ea25045f0ab051190b9a250d5cc0bbb6958cc8e57f62748e95bb61eb
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, luci-base
+Source: feeds/luci/modules/luci-mod-admin-full
+Section: luci
+Architecture: brcm63xx-tch
+Installed-Size: 71228
+Filename: luci-mod-admin-full_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
+Size: 72096
+MD5Sum: 2468b6c87cfe6e1638a7dc1a170044bf
+SHA256sum: 07d32141ec82a35376ba0d229074db1551d54bf49299c8034cec888846469c74
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ipv6
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread
+Source: feeds/luci/protocols/luci-proto-ipv6
+Section: luci
+Architecture: all
+Installed-Size: 4408
+Filename: luci-proto-ipv6_git-18.097.75958-5537d68-1_all.ipk
+Size: 5113
+MD5Sum: 8c8d8e814baceddbe96825db13f7b7eb
+SHA256sum: 61f18cd4bd2929c38b4dc4895434632a3137265510dea83d317beac321aa13e1
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+
+Package: luci-proto-ppp
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread
+Source: feeds/luci/protocols/luci-proto-ppp
+Section: luci
+Architecture: all
+Installed-Size: 2619
+Filename: luci-proto-ppp_git-18.097.75958-5537d68-1_all.ipk
+Size: 3334
+MD5Sum: a3db0382b129fe40d2bbbde5c48bc811
+SHA256sum: fa21deb02db0470cf9b5ef48f807ea340ec21cf3abfa2288d1c35d8f65088121
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread
+Source: feeds/luci/themes/luci-theme-bootstrap
+Section: luci
+Architecture: all
+Installed-Size: 12943
+Filename: luci-theme-bootstrap_git-18.097.75958-5537d68-1_all.ipk
+Size: 13697
+MD5Sum: 293f780391f84f422fc043fbdbcdc028
+SHA256sum: e10d5f99097dbe5f92e29c322cae0ba362cad1ff104ff5aa86bafd509ace5dd6
+Description:  Bootstrap Theme (default)
+
+Package: luci
+Version: git-18.097.75958-5537d68-1
+Depends: libc, librt, libpthread, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6
+Source: feeds/luci/collections/luci
+Section: luci
+Architecture: all
+Installed-Size: 103
+Filename: luci_git-18.097.75958-5537d68-1_all.ipk
+Size: 885
+MD5Sum: 4e347b9c799e2a7bdc8a9086ad7dc48c
+SHA256sum: 2e50719ea106a085e553413c32cc7106a27836ef78aa453a9500c0bb36210c94
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+

@@ -1,0 +1,1502 @@
+Package: busybox
+Version: 1.23.2-1
+Depends: libc, librt, libpthread
+Source: package/utils/busybox
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 261245
+Filename: busybox_1.23.2-1_brcm63xx-tch.ipk
+Size: 261648
+MD5Sum: a14eaa04dc5eedd893d642992415d755
+SHA256sum: 2b3ad46ae946f8726b5e08bba9b5a65da3b2b15505c2887e46029daddcc9f434
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: busybox_telnet
+Version: 1.23.2-1
+Depends: libc, librt, libpthread
+Source: package/utils/busybox_telnet
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 517448
+Filename: busybox_telnet_1.23.2-1_brcm63xx-tch.ipk
+Size: 517122
+MD5Sum: 2bc3db4fb1c69b40932c9c1ab4fe2d30
+SHA256sum: 2abf0ff3ca1b7d51fac10f287cfc004daff59abfd9ef0f0718b194fed948cc5b
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: curl
+Version: 7.54.0-1
+Depends: libc, librt, libpthread, libcurl
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 43450
+Filename: curl_7.54.0-1_brcm63xx-tch.ipk
+Size: 44169
+MD5Sum: 55d365762543d9537a2b623f796676ba
+SHA256sum: 55c3b4bfea4ab6fa29a10f31cb371d9ae63a688b1f7f2ee09dab00e4d0dd333e
+Description:  A client-side URL transfer utility
+
+Package: firewall
+Version: 2017-05-27
+Depends: libc, librt, libpthread, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
+Source: package/network/config/firewall
+License: ISC
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: brcm63xx-tch
+Installed-Size: 41757
+Filename: firewall_2017-05-27_brcm63xx-tch.ipk
+Size: 42505
+MD5Sum: e7beec3f97f3e81b318d6026b4e92120
+SHA256sum: e9e418a3eb4edb384324e3ab718c28b9a5e4da8992a1fa09e11cbee70495a8e7
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: ip6tables
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, kmod-ip6tables, iptables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 214
+Filename: ip6tables_1.6.1-1_brcm63xx-tch.ipk
+Size: 925
+MD5Sum: abf8ee4373881cf49869fd4bf07116a2
+SHA256sum: b261477b0f2b1f8f25728fff0d121235f55d3414711919bb0474737ebbd25935
+Description:  IPv6 firewall administration tool
+
+Package: ip
+Version: 4.0.0-1
+Depends: libc, librt, libpthread, libnl-tiny
+Conflicts: ip-full
+Source: package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: brcm63xx-tch
+Installed-Size: 87860
+Filename: ip_4.0.0-1_brcm63xx-tch.ipk
+Size: 88609
+MD5Sum: 3c36161c6fa049917c01fe2540b74089
+SHA256sum: 637748b8b89910140b337009d484e4ebbc7ad0f6a89e498d64da8db25b47d74a
+Description:  Routing control utility (Minimal)
+
+Package: iptables-mod-conntrack-extra
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, iptables, kmod-ipt-conntrack-extra
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 10728
+Filename: iptables-mod-conntrack-extra_1.6.1-1_brcm63xx-tch.ipk
+Size: 11492
+MD5Sum: e18a4fd667a44f2c49b925e6c877efe6
+SHA256sum: f1c3883b1ecfe204d7f5f94deb83a28c39d2bf7daeb9af1ae052d1c1041a069c
+Description:  Extra iptables extensions for connection tracking.
+ 
+ Matches:
+ - connbytes
+ - connlimit
+ - connmark
+ - recent
+ - helper
+ 
+ Targets:
+ - CONNMARK
+ 
+
+Package: iptables-mod-ipopt
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, iptables, kmod-ipt-ipopt
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 12293
+Filename: iptables-mod-ipopt_1.6.1-1_brcm63xx-tch.ipk
+Size: 13067
+MD5Sum: cca84b3931398324cdb9693866df2d50
+SHA256sum: 8dfca2087bf075a2f4fea8929eb1a3b1e5c84b29aafd27d66cef772b74764bda
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - statistic
+ - tcpmss
+ - unclean
+ - hl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - HL
+ 
+
+Package: iptables-mod-ipsec
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, iptables, kmod-ipt-ipsec
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 7178
+Filename: iptables-mod-ipsec_1.6.1-1_brcm63xx-tch.ipk
+Size: 7974
+MD5Sum: bd9fb567d88ed4368240bfff1cc774c5
+SHA256sum: f516b55c0f31b55c833b09bb2701c776ac10d699890948a865acb897afe5be8f
+Description:  iptables extensions for matching ipsec traffic.
+ 
+ Matches:
+ - ah
+ - esp
+ - policy
+ 
+
+Package: iptables-mod-nfqueue
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, iptables, kmod-nfnetlink-queue, kmod-ipt-nfqueue
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 3013
+Filename: iptables-mod-nfqueue_1.6.1-1_brcm63xx-tch.ipk
+Size: 3775
+MD5Sum: 4bb8e5f74ebc94dc0bf49a9730b25253
+SHA256sum: 7ba4d8d41996ce4679acac3269806d9d85f3f3e69b8d08ab2cb616e15d06d925
+Description:  iptables extension for user-space queuing via NFNETLINK.
+ 
+ Includes:
+ - libxt_NFQUEUE
+ 
+
+Package: iptables
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: brcm63xx-tch
+Installed-Size: 32985
+Filename: iptables_1.6.1-1_brcm63xx-tch.ipk
+Size: 33915
+MD5Sum: 26239156a883a8fb7b50ae797402fe16
+SHA256sum: 01064368867a00016e421d3f3853b75b49de99f178966abc945b3cde325c1cbb
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: jshn
+Version: 2017-06-17-1
+Depends: libc, librt, libpthread, libjson-c, libubox, libblobmsg-json
+Source: package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 5983
+Filename: jshn_2017-06-17-1_brcm63xx-tch.ipk
+Size: 6764
+MD5Sum: e20e61584df54bdd85bb84c19f275207
+SHA256sum: ff0bdf938379bfa5b7c45f26a453c991306700856b9b72292305c0feb6ed7b80
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2016-07-02-dea067ad67d977c247c300c06676a06adf21e0c7
+Depends: libc, librt, libpthread, libubox, libjson-c
+Source: package/utils/jsonfilter
+License: ISC
+Section: base
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 8755
+Filename: jsonfilter_2016-07-02-dea067ad67d977c247c300c06676a06adf21e0c7_brcm63xx-tch.ipk
+Size: 9576
+MD5Sum: 13fdbbf22b1475fe04c605198bc0dca2
+SHA256sum: 7432e2f870f5edf65d80ae0af7da2898a82eb1618b23550c7e33001ffbffcc93
+Description:  OpenWrt JSON filter utility
+
+Package: kmod-crypto-aead
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 235
+Filename: kmod-crypto-aead_4.1.38-1_brcm63xx-tch.ipk
+Size: 1006
+MD5Sum: eaa6084e751147a5f11cc9d1c0e3dac1
+SHA256sum: f417ce12c67abe1a2f0edf4a46eccc5f2ff37e49a03f1a80d0375dde71c210f5
+Description:  CryptoAPI AEAD support
+
+Package: kmod-crypto-authenc
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 197
+Filename: kmod-crypto-authenc_4.1.38-1_brcm63xx-tch.ipk
+Size: 982
+MD5Sum: 5d39c9286a5ad0c47649b401c28ea7b2
+SHA256sum: 6b6de19548d17c7cee868e2f1e8d377f6bd7db049900a3f6fce8769cddbcfc73
+Description:  Combined mode wrapper for IPsec
+
+Package: kmod-crypto-cbc
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 192
+Filename: kmod-crypto-cbc_4.1.38-1_brcm63xx-tch.ipk
+Size: 975
+MD5Sum: 091010d8a72d4e7ff2ffab1f64f42e48
+SHA256sum: 63fc9804fa049a8a8f3d36e5a91ad4ade8e4ce91d4969e8eb659231c58922343
+Description:  Cipher Block Chaining CryptoAPI module
+
+Package: kmod-crypto-core
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 104
+Filename: kmod-crypto-core_4.1.38-1_brcm63xx-tch.ipk
+Size: 801
+MD5Sum: 4a401c010210e4f0e322efda881b3e2a
+SHA256sum: 80073989cf2f21422237947f063bb5c25e81c10dc0879838f22a84287a08ac01
+Description:  Core CryptoAPI modules
+
+Package: kmod-crypto-deflate
+Version: 4.1.38-1
+Depends: kernel, kmod-lib-zlib, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 1744
+Filename: kmod-crypto-deflate_4.1.38-1_brcm63xx-tch.ipk
+Size: 2557
+MD5Sum: 841aa41bf7228739a13ef9640a640265
+SHA256sum: 501062af98f71e85f4a0590a0781a8a38571e89b65de4fd2a65bc82839cd54b9
+Description:  Deflate compression CryptoAPI module
+
+Package: kmod-crypto-des
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 201
+Filename: kmod-crypto-des_4.1.38-1_brcm63xx-tch.ipk
+Size: 977
+MD5Sum: bd41d678275ac249c97d1a0fd26b7154
+SHA256sum: 268bd036fa15d8383c2ef8a40e97e162e091422fdf0436b50b8e8a8eef828587
+Description:  DES/3DES cipher CryptoAPI module
+
+Package: kmod-crypto-hash
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 239
+Filename: kmod-crypto-hash_4.1.38-1_brcm63xx-tch.ipk
+Size: 1009
+MD5Sum: 78fb7a588b36b2d0819461af64e511e0
+SHA256sum: 8cf8c4ec0458082b9f056594f3e9b5ddd2c962a65b445441296ed6a61c3befb8
+Description:  CryptoAPI hash support
+
+Package: kmod-crypto-hmac
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 195
+Filename: kmod-crypto-hmac_4.1.38-1_brcm63xx-tch.ipk
+Size: 980
+MD5Sum: 592cb9a7b805c694c53549e96ca25e95
+SHA256sum: b1624745fcbbffd4f542277652b3a4e2925a8954eab021f4cd3f99f4d1790d88
+Description:  HMAC digest CryptoAPI module
+
+Package: kmod-crypto-iv
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-manager, kmod-crypto-rng, kmod-crypto-wq, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 201
+Filename: kmod-crypto-iv_4.1.38-1_brcm63xx-tch.ipk
+Size: 994
+MD5Sum: c5833a171e9b9c58a59e1bbac54e36dc
+SHA256sum: 079006a1e3396605b7f5b000c04353857dfb69882f9953aea8377ad61f3cd282
+Description:  CryptoAPI initialization vectors
+
+Package: kmod-crypto-manager
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-aead, kmod-crypto-hash, kmod-crypto-pcompress, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 104
+Filename: kmod-crypto-manager_4.1.38-1_brcm63xx-tch.ipk
+Size: 836
+MD5Sum: 3dd9244601eebc2f2025ab31b5166bf1
+SHA256sum: 69c324deb020a3134e2799f6d441258dbf426a9d7d5669379e6f3036691309d7
+Description:  CryptoAPI algorithm manager
+
+Package: kmod-crypto-md5
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 189
+Filename: kmod-crypto-md5_4.1.38-1_brcm63xx-tch.ipk
+Size: 966
+MD5Sum: a87f7d8cf10f3cdb83214062cf1dc9d6
+SHA256sum: 0243e95b080bfa81734bd1c17c18a7a4a6b57229f04e3b67fa56803738c5acab
+Description:  MD5 digest CryptoAPI module
+
+Package: kmod-crypto-pcompress
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 104
+Filename: kmod-crypto-pcompress_4.1.38-1_brcm63xx-tch.ipk
+Size: 826
+MD5Sum: f97c8a65b5ba432e7f078e93fee04a81
+SHA256sum: 5db1f40ca00634f59d298c19ebf0bdbc5598bf7b76101d348dd66d48a9c7a7aa
+Description:  CryptoAPI Partial (de)compression operations
+
+Package: kmod-crypto-rng
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 198
+Filename: kmod-crypto-rng_4.1.38-1_brcm63xx-tch.ipk
+Size: 972
+MD5Sum: 06986252b52965ca79ee177bc091f844
+SHA256sum: 05d7636bdd7c4af1d81657beae8f4f360dafb520ec8eda08647d18f9b0644f50
+Description:  CryptoAPI random number generation
+
+Package: kmod-crypto-sha1
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-hash, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 200
+Filename: kmod-crypto-sha1_4.1.38-1_brcm63xx-tch.ipk
+Size: 979
+MD5Sum: d60fdb608b9bff981a920e54244c7a16
+SHA256sum: 8744974833a1d1413d84d6cbe5966f224823d66e43dd83c343f95f7f7cd7e782
+Description:  SHA1 digest CryptoAPI module
+
+Package: kmod-crypto-user
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-hash, kmod-crypto-manager, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 12372
+Filename: kmod-crypto-user_4.1.38-1_brcm63xx-tch.ipk
+Size: 13185
+MD5Sum: 8d4edb50ceb77aab30c1e6bd408d3171
+SHA256sum: cdaa27496f353f98f8d6d1a1552aece7f4b4d0754ced2bb87c440ba0215db0ff
+Description:  CryptoAPI userspace interface
+
+Package: kmod-crypto-wq
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 194
+Filename: kmod-crypto-wq_4.1.38-1_brcm63xx-tch.ipk
+Size: 971
+MD5Sum: a00b5ecd7238d50eaf22ed8314fcf3e0
+SHA256sum: 221dd137fd49cdbab8aa0a23dda7d8d406454a5ca2a509bfcf18bb2904c69aad
+Description:  CryptoAPI work queue handling
+
+Package: kmod-ip6tables
+Version: 4.1.38-1
+Depends: kernel, kmod-nf-ipt6, kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 9604
+Filename: kmod-ip6tables_4.1.38-1_brcm63xx-tch.ipk
+Size: 10422
+MD5Sum: 1b957f12ad79d3af2e55b3adeb1c23fc
+SHA256sum: 6881547e09bd01079f3aa244138ddac4acffef21d143335f5d01a8aec84b011c
+Description:  Netfilter IPv6 firewalling support
+
+Package: kmod-ipsec4
+Version: 4.1.38-1
+Depends: kernel, kmod-ipsec, kmod-iptunnel4
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 14198
+Filename: kmod-ipsec4_4.1.38-1_brcm63xx-tch.ipk
+Size: 15018
+MD5Sum: da9a0eeeda82105fb5c03a1a7ae0b0af
+SHA256sum: be1bb1eb874ae262c7f67f80096a5837399b4d6fdb7e46a7ee12a0100294e8c5
+Description:  Kernel modules for IPsec support in IPv4.
+ Includes:
+ - ah4
+ - esp4
+ - ipcomp4
+ - xfrm4_mode_beet
+ - xfrm4_mode_transport
+ - xfrm4_mode_tunnel
+ - xfrm4_tunnel
+
+Package: kmod-ipsec6
+Version: 4.1.38-1
+Depends: kernel, kmod-ipsec, kmod-iptunnel6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 15248
+Filename: kmod-ipsec6_4.1.38-1_brcm63xx-tch.ipk
+Size: 16041
+MD5Sum: 9e38a0c45f8f3f75d941631749f66bf0
+SHA256sum: 899485ce1e715cd8a89903f559e26fea0b5bd9a5a88234833aee3760d89883a9
+Description:  Kernel modules for IPsec support in IPv6.
+ Includes:
+ - ah6
+ - esp6
+ - ipcomp6
+ - xfrm6_mode_beet
+ - xfrm6_mode_transport
+ - xfrm6_mode_tunnel
+ - xfrm6_tunnel
+
+Package: kmod-ipsec
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-authenc, kmod-crypto-iv, kmod-crypto-des, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-sha1, kmod-crypto-deflate, kmod-crypto-cbc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 36572
+Filename: kmod-ipsec_4.1.38-1_brcm63xx-tch.ipk
+Size: 37479
+MD5Sum: 71489e11362fa5d7a2bece81efb5d1c6
+SHA256sum: c332e60dd40f582e286dcd501be71378b95d7dda24f9bed727b3bf35f93a8840
+Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
+ Includes:
+ - af_key
+ - xfrm_ipcomp
+ - xfrm_user
+
+Package: kmod-ipt-conntrack-extra
+Version: 4.1.38-1
+Depends: kernel, kmod-ipt-core, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 12366
+Filename: kmod-ipt-conntrack-extra_4.1.38-1_brcm63xx-tch.ipk
+Size: 13220
+MD5Sum: 7189237233eba3060ce092da99728a88
+SHA256sum: 01ff654907beb08ad73a2242ce4e0bbf9308d37d32bbc23d0586b06e1274bf15
+Description:  Netfilter (IPv4) extra kernel modules for connection tracking
+ Includes:
+ - connbytes
+ - connmark/CONNMARK
+ - conntrack
+ - helper
+ - recent
+
+Package: kmod-ipt-conntrack
+Version: 4.1.38-1
+Depends: kernel, kmod-ipt-core, kmod-nf-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 6034
+Filename: kmod-ipt-conntrack_4.1.38-1_brcm63xx-tch.ipk
+Size: 6886
+MD5Sum: 867bb4a11c15ff8b9adf971b7be9c69d
+SHA256sum: 5b77be44d1d2a44c2a9eed2ea131fbb2c7f366f26c90617ef13b794b8e07d62f
+Description:  Netfilter (IPv4) kernel modules for connection tracking
+ Includes:
+ - conntrack
+ - defrag
+ - iptables_raw
+ - NOTRACK
+ - state
+
+Package: kmod-ipt-core
+Version: 4.1.38-1
+Depends: kernel, kmod-nf-ipt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 17286
+Filename: kmod-ipt-core_4.1.38-1_brcm63xx-tch.ipk
+Size: 18175
+MD5Sum: ab0955bddc22f93181d1047dd6d53a85
+SHA256sum: 5b15c655813a0ebff00d8544c28d40db1507f5003d28975c09747ea71cc6e7c2
+Description:  Netfilter core kernel modules
+ Includes:
+ - comment
+ - limit
+ - LOG
+ - mac
+ - multiport
+ - REJECT
+ - TCPMSS
+
+Package: kmod-ipt-ipopt
+Version: 4.1.38-1
+Depends: kernel, kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 8242
+Filename: kmod-ipt-ipopt_4.1.38-1_brcm63xx-tch.ipk
+Size: 9202
+MD5Sum: fec114876ba9c4ac455ea7206d06a109
+SHA256sum: 0280fa6e964b5ef31f8bc536e03d9bcf3258519a3fcf442c888de082e22b8553
+Description:  Netfilter (IPv4) modules for matching/changing IP packet options
+ Includes:
+ - CLASSIFY
+ - dscp/DSCP
+ - ecn/ECN
+ - hl/HL
+ - length
+ - mark/MARK
+ - statistic
+ - tcpmss
+ - time
+ - ttl/TTL
+ - unclean
+
+Package: kmod-ipt-ipsec
+Version: 4.1.38-1
+Depends: kernel, kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 3370
+Filename: kmod-ipt-ipsec_4.1.38-1_brcm63xx-tch.ipk
+Size: 4201
+MD5Sum: 21f5ca2902952f2fbed3d411a0f28337
+SHA256sum: 87b33a1d1260f4edade0a726a7e4d0e5041c4725eb0f7946969a4e1e39a33000
+Description:  Netfilter (IPv4) modules for matching IPSec packets
+ Includes:
+ - ah
+ - esp
+ - policy
+
+Package: kmod-ipt-nat
+Version: 4.1.38-1
+Depends: kernel, kmod-ipt-core, kmod-nf-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 8021
+Filename: kmod-ipt-nat_4.1.38-1_brcm63xx-tch.ipk
+Size: 8915
+MD5Sum: 29f2aa7fe65cc89166e106eb6c10c9d5
+SHA256sum: 7aeb70219b509cfe3c6e76f51fdcd95a989ee4a97c4dd2e46b4954494e99763e
+Description:  Netfilter (IPv4) kernel modules for basic NAT targets
+ Includes:
+ - MASQUERADE
+
+Package: kmod-ipt-nfqueue
+Version: 4.1.38-1
+Depends: kernel, kmod-ipt-core, kmod-nfnetlink-queue
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 2704
+Filename: kmod-ipt-nfqueue_4.1.38-1_brcm63xx-tch.ipk
+Size: 3513
+MD5Sum: 200066114f5a512b3d30b61df2e4d9e4
+SHA256sum: eef0b4f3bf162ddd32eff2234f98e3ec4f9ec83d3ee610a0e58e274a37bde8d8
+Description:  Netfilter module for user-space packet queuing
+ Includes:
+ - NFQUEUE
+
+Package: kmod-iptunnel4
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 188
+Filename: kmod-iptunnel4_4.1.38-1_brcm63xx-tch.ipk
+Size: 947
+MD5Sum: b2e2774f50da760a3d30a4222f0ea93c
+SHA256sum: 2017f15566a9df7868cbace96fa95e70f01700227d6a3af24b8ae93c689b2ce5
+Description:  Kernel modules for IPv4 tunneling
+
+Package: kmod-iptunnel6
+Version: 4.1.38-1
+Depends: kernel, kmod-ipv6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 188
+Filename: kmod-iptunnel6_4.1.38-1_brcm63xx-tch.ipk
+Size: 957
+MD5Sum: dd55a3cd9fbf560245b9114a444f2274
+SHA256sum: ea838c3a1c305bfdc72d6bffa995f5a832766eb0e5f59ecb1fb6bb86d2be644f
+Description:  Kernel modules for IPv6 tunneling
+
+Package: kmod-ipv6
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 184
+Filename: kmod-ipv6_4.1.38-1_brcm63xx-tch.ipk
+Size: 937
+MD5Sum: 35c8ad6bdd38896b7d13885f6e91b264
+SHA256sum: 9d88339e9472038f0ff80514c35a651ff7b158dc2fb5e045ef5924afa49601b7
+Description:  Kernel modules for IPv6 support
+
+Package: kmod-lib-zlib
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 202
+Filename: kmod-lib-zlib_4.1.38-1_brcm63xx-tch.ipk
+Size: 960
+MD5Sum: 55aba24902e2150a825750436ee29c22
+SHA256sum: af0caed1b8da3cc17714fc75826f0c51bde9767306739cac447f45c09492ac67
+Description:  Zlib support
+
+Package: kmod-nf-conntrack6
+Version: 4.1.38-1
+Depends: kernel, kmod-ipv6, kmod-nf-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 10630
+Filename: kmod-nf-conntrack6_4.1.38-1_brcm63xx-tch.ipk
+Size: 11417
+MD5Sum: e44f5da3347a7c858161941cccc1f551
+SHA256sum: 20f9c0f491ddd10db4abd08cda37fd101183ef90e464814d9b9f88487d25d457
+Description:  Netfilter IPv6 connection tracking
+
+Package: kmod-nf-conntrack
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 47338
+Filename: kmod-nf-conntrack_4.1.38-1_brcm63xx-tch.ipk
+Size: 48104
+MD5Sum: 3f18c94c78d92dba3ac04a3a1182dba3
+SHA256sum: 48ae9157210c0d257b01d105cec60d106d8c7cf29a1d29c6fd2ba02d3bdc0b87
+Description:  Netfilter connection tracking
+
+Package: kmod-nf-ipt6
+Version: 4.1.38-1
+Depends: kernel, kmod-nf-ipt, kmod-nf-conntrack6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 8880
+Filename: kmod-nf-ipt6_4.1.38-1_brcm63xx-tch.ipk
+Size: 9669
+MD5Sum: 56716daba94602871e59263e21c460ab
+SHA256sum: f71216301a93a742d8f8bcb5f68b50afc0254f15129a0ddd3f1836e4845bfbed
+Description:  Ip6tables core
+
+Package: kmod-nf-ipt
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 8998
+Filename: kmod-nf-ipt_4.1.38-1_brcm63xx-tch.ipk
+Size: 9762
+MD5Sum: 6873f469c608519acdf0c8dc59c9c66c
+SHA256sum: d5337b136607b29c2a5c52cc24d2a83c5aaa931534056880a0e05e696808e645
+Description:  Iptables core
+
+Package: kmod-nf-nat
+Version: 4.1.38-1
+Depends: kernel, kmod-nf-conntrack, kmod-nf-ipt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 12120
+Filename: kmod-nf-nat_4.1.38-1_brcm63xx-tch.ipk
+Size: 12919
+MD5Sum: 195cf374493abedd61c8da0c630cf9d5
+SHA256sum: 7d68e0de95a2fa242de851ed595d66236f7e0dcb8d5e4901d0f0995350e3fb1f
+Description:  Netfilter NAT
+
+Package: kmod-nfnetlink-queue
+Version: 4.1.38-1
+Depends: kernel, kmod-nfnetlink
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 7755
+Filename: kmod-nfnetlink-queue_4.1.38-1_brcm63xx-tch.ipk
+Size: 8580
+MD5Sum: 0f00638658901f6e959c437b12206fc0
+SHA256sum: 31dbffba439748d345b43499fb135eae7c82c6aed7a87dca194bcdb191847417
+Description:  Kernel modules support for queueing packets via NFNETLINK
+ Includes:
+ - NFQUEUE
+
+Package: kmod-nfnetlink
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 4449
+Filename: kmod-nfnetlink_4.1.38-1_brcm63xx-tch.ipk
+Size: 5220
+MD5Sum: 792740af8ccf8338df4ef1c14c68401b
+SHA256sum: 0a48d9ba4a210726c62763417626cab28ef22d3166f81a3eb8220e51bc0bc1a0
+Description:  Kernel modules support for a netlink-based userspace interface
+
+Package: kmod-tun
+Version: 4.1.38-1
+Depends: kernel
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: brcm63xx-tch
+Installed-Size: 12717
+Filename: kmod-tun_4.1.38-1_brcm63xx-tch.ipk
+Size: 13483
+MD5Sum: f11659be00875d006edc85cce3350e92
+SHA256sum: ea13c6977150fd99f543c16dfc80fc799cc8ed6d3438bf0e51a0ce52c9f53fd7
+Description:  Kernel support for the TUN/TAP tunneling device
+
+Package: libblobmsg-json
+Version: 2017-06-17-1
+Depends: libc, librt, libpthread, libjson-c, libubox
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 3668
+Filename: libblobmsg-json_2017-06-17-1_brcm63xx-tch.ipk
+Size: 4426
+MD5Sum: 387f1d3e53676a80a4918c341572656d
+SHA256sum: 39d86475c9a668a679d286dc50ba7f1b598c48280066acbfdf4692483884adec
+Description:  blobmsg <-> json conversion library
+
+Package: libbz2
+Version: 1.0.6-2
+Depends: libc, librt, libpthread
+Source: package/utils/bzip2
+License: BZIP2
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 37844
+Filename: libbz2_1.0.6-2_brcm63xx-tch.ipk
+Size: 38596
+MD5Sum: 4ace72a6ffef689a4106f491217ec6e8
+SHA256sum: 354c6a7b55439067dd0a5dcdac5cdbe281544dc547df0263f265209978a5ee2f
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
+Package: libcurl
+Version: 7.54.0-1
+Depends: libc, librt, libpthread, libmbedtls
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 119064
+Filename: libcurl_7.54.0-1_brcm63xx-tch.ipk
+Size: 119738
+MD5Sum: b9fa636fa96e06526cae80a3a65af830
+SHA256sum: 343002ea25bec32b14480c1e7f0eeaa95bbede7e197babec1e9d86e988e8b6c7
+Description:  A client-side URL transfer library
+
+Package: libgcc
+Version: 4.8-linaro-1
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 22838
+Filename: libgcc_4.8-linaro-1_brcm63xx-tch.ipk
+Size: 23467
+MD5Sum: 43385ec98e93ff9505619cf8dbb5e52a
+SHA256sum: 0ccecef8fdbc883e65cb1322fa4238c43d5c4fbe872efbd24fdc74af7ccbf482
+Description:  GCC support library
+
+Package: libgmp
+Version: 6.0.0-1
+Depends: libc, librt, libpthread
+Source: package/libs/gmp
+License: GPL-2.0+
+Section: libs
+Architecture: brcm63xx-tch
+Installed-Size: 222511
+Filename: libgmp_6.0.0-1_brcm63xx-tch.ipk
+Size: 222523
+MD5Sum: b30b938e3753c8c1d994724e074b9cf2
+SHA256sum: 20a94e3128468dafd9e0604d63d33ef9c2dd2761f908bbd3703b3e8414d13685
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libiconv-full
+Version: 1.11.1-1
+Depends: libc, librt, libpthread
+Source: package/libs/libiconv-full
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 13289
+Filename: libiconv-full_1.11.1-1_brcm63xx-tch.ipk
+Size: 14038
+MD5Sum: 0a0a2a484cf71a375f3ec5d6b3673468
+SHA256sum: f6e3eee736efae645422351d98033eb6c00482ee8e11c69150268f0d3554c96e
+Description:  Character set conversion library
+
+Package: libip4tc
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, libxtables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: libs
+Architecture: brcm63xx-tch
+Installed-Size: 22193
+Filename: libip4tc_1.6.1-1_brcm63xx-tch.ipk
+Size: 22846
+MD5Sum: 4889152240bed436bc7efd153737a097
+SHA256sum: 569d50e907e58d1416ac74da323c8f0621d91bb4739aa400e73b62def96bbcfd
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, libxtables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: libs
+Architecture: brcm63xx-tch
+Installed-Size: 21572
+Filename: libip6tc_1.6.1-1_brcm63xx-tch.ipk
+Size: 22248
+MD5Sum: c67d6c0537d0a79842c159265890c376
+SHA256sum: eabe5bfc3921d0d448b45c36cdc4ee3ed54cea0a0cdc6170f9a6b72dd60b29d5
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiwinfo-lua
+Version: 2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc
+Depends: libc, librt, libpthread, libiwinfo, liblua
+Source: package/network/utils/iwinfo
+License: GPL-2.0
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6964
+Filename: libiwinfo-lua_2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc_brcm63xx-tch.ipk
+Size: 7828
+MD5Sum: 58a54e15e80a60d0cdb9bf96c2c5d6f3
+SHA256sum: ab978848ebcc56ea2ed4801440fdb94614cfe679b06155efd3c1cf4edf458464
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc
+Depends: libc, librt, libpthread, libuci, libubus
+Source: package/network/utils/iwinfo
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 13941
+Filename: libiwinfo_2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc_brcm63xx-tch.ipk
+Size: 14792
+MD5Sum: 8b1eb86786956cc897dc0d368f1adc86
+SHA256sum: 3deeba17ac6ae3247e355dbbd8e8aa4168a809fca3e0e84c190a723bda4f580e
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: libjson-c
+Version: 0.12.1-1
+Depends: libc, librt, libpthread
+Source: package/libs/libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 16717
+Filename: libjson-c_0.12.1-1_brcm63xx-tch.ipk
+Size: 17500
+MD5Sum: 1b9a4b42bd992f8d5d4c729ebf565b3a
+SHA256sum: 6079c5201d9f0db23271394c5cbe55e597d05633b59ff65788a9e6de98954610
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2017-06-17-1
+Depends: libc, librt, libpthread, libubox
+Source: package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 4891
+Filename: libjson-script_2017-06-17-1_brcm63xx-tch.ipk
+Size: 5605
+MD5Sum: 08d2a4606b0fa4fc26920947b0e3a787
+SHA256sum: 0bcd414dab29557c57f04e2cf941452524e8d120edd6bffdcbc435c8a55c4b62
+Description:  Minimalistic JSON based scripting engine
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc, librt, libpthread
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 86712
+Filename: liblua_5.1.5-1_brcm63xx-tch.ipk
+Size: 87361
+MD5Sum: fbc83f48a338c7619f1516b8cd6a8e84
+SHA256sum: 769df54af0c18a0d6ae951c821049ad8dbc1ce27df7d85ed966089aa876079c2
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libnl-tiny
+Version: 0.1-4
+Depends: libc, librt, libpthread
+Source: package/libs/libnl-tiny
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 12820
+Filename: libnl-tiny_0.1-4_brcm63xx-tch.ipk
+Size: 13590
+MD5Sum: ad93e43e768e81a62a23ede86425be15
+SHA256sum: 4eb64d4b96934494d33b8bbcd9e82606edcf8809e4ad450b0067cd8c6104fac5
+Description:  This package contains a stripped down version of libnl
+
+Package: libopenssl
+Version: 1.0.2n-1
+Depends: libc, librt, libpthread, zlib
+Source: package/libs/openssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: brcm63xx-tch
+Installed-Size: 760890
+Filename: libopenssl_1.0.2n-1_brcm63xx-tch.ipk
+Size: 754886
+MD5Sum: 239f19dc4df08ec8af1900e1fc715571
+SHA256sum: fe6b8a879fed1954671fc98a051e8fccf5ef5303d2413f16ae34400e07807f02
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpthread
+Version: 2.24-1
+Depends: libgcc
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 39833
+Filename: libpthread_2.24-1_brcm63xx-tch.ipk
+Size: 40627
+MD5Sum: 130b3d2ff7f86c0a2c7e6757a1ad2369
+SHA256sum: 6a5febd7c16b7e211457d3fe9073dd9acc35d8bf787c99e22c682812001295f4
+Description:  POSIX thread library
+
+Package: librt
+Version: 2.24-1
+Depends: libpthread
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 12203
+Filename: librt_2.24-1_brcm63xx-tch.ipk
+Size: 13009
+MD5Sum: bb384dded3f59a26c8e4513a6cce684c
+SHA256sum: b29bc15637f9ac1e34690a9fc6e537fff24b96c3f411383e107ba106eb631dd4
+Description:  POSIX.1b RealTime extension library
+
+Package: libubox
+Version: 2017-06-17-1
+Depends: libc, librt, libpthread
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 17861
+Filename: libubox_2017-06-17-1_brcm63xx-tch.ipk
+Size: 18544
+MD5Sum: 6fa09a312527dc4b03da7242a6f73409
+SHA256sum: ecf9926ec2bcce89d64b9394dd341b9bd18f36ff540e99ecba6646b1c9d6b52a
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2017-02-03-1
+Depends: libc, librt, libpthread, libubus, liblua
+Source: package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 6729
+Filename: libubus-lua_2017-02-03-1_brcm63xx-tch.ipk
+Size: 7522
+MD5Sum: 21b43c7e489618dc228617ed2f1cfdef
+SHA256sum: 7f556790f54508e2ee6795c2cca3193540de933d5b6dbf63f25d0f6921b0dfbf
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2017-02-03-1
+Depends: libc, librt, libpthread, libubox
+Source: package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 9525
+Filename: libubus_2017-02-03-1_brcm63xx-tch.ipk
+Size: 10250
+MD5Sum: e998ad1257857201d4e48cd437ab2485
+SHA256sum: e350f4173b13be4bd72351cc4524dc66272ac540cc373c94f8ac0715b052c019
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2017-04-12.1-1
+Depends: libc, librt, libpthread, libuci, liblua
+Source: package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 6175
+Filename: libuci-lua_2017-04-12.1-1_brcm63xx-tch.ipk
+Size: 6916
+MD5Sum: 75048181be94feae1c4adacdc412d1a3
+SHA256sum: f66b16ef349253d4ad37be50e85c2fd10c79fa7b7d010ae80264f1b206af1a5f
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2017-04-12.1-1
+Depends: libc, librt, libpthread, libubox
+Source: package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 15230
+Filename: libuci_2017-04-12.1-1_brcm63xx-tch.ipk
+Size: 15955
+MD5Sum: 1358332e1fff2e05a89f68b730ba6e5d
+SHA256sum: 46f81ddf197e81e30da82326f33607fe67ee3a44df8ab3e4b267de6c72b5baec
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libusb-1.0
+Version: 1.0.19-1
+Depends: libc, librt, libpthread, libpthread, librt
+Source: package/libs/libusb
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 30518
+Filename: libusb-1.0_1.0.19-1_brcm63xx-tch.ipk
+Size: 31143
+MD5Sum: 7cdf8e4fff20dd662b15777094e48a1b
+SHA256sum: 61bbf8210cb514923ba7ae0bf5a06e435c5bae5791e8b4e8b79808798d1c5b05
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libxtables
+Version: 1.6.1-1
+Depends: libc, librt, libpthread
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: libs
+Architecture: brcm63xx-tch
+Installed-Size: 48231
+Filename: libxtables_1.6.1-1_brcm63xx-tch.ipk
+Size: 48940
+MD5Sum: fad225ac3930f0afe256cb8d329ad8f6
+SHA256sum: b0cc1d50e2499ecc66e1fe81278bca627efc78715d0a22befbf79df58fc13076
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, librt, libpthread, liblua
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6529
+Filename: lua_5.1.5-1_brcm63xx-tch.ipk
+Size: 7424
+MD5Sum: c4fe05b8d10ac4070b85018f78bb50fe
+SHA256sum: 44ded26dd935cb5a791a856c40a1da3785e63bca825108ba6ec7f42e8dafebbb
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: netifd
+Version: 2017-05-27-1
+Depends: libc, librt, libpthread, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Source: package/network/config/netifd
+License: GPL-2.0
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 65182
+Filename: netifd_2017-05-27-1_brcm63xx-tch.ipk
+Size: 65996
+MD5Sum: ea14d7b6ea5f43fd97c587dd91cb5562
+SHA256sum: d83afa1664eb324964091f5ba13ae0f9a1f6ed59376056ce9395841b5b0e968c
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: opkg
+Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9
+Depends: libc, librt, libpthread
+Source: package/system/opkg
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: brcm63xx-tch
+Installed-Size: 72798
+Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9_brcm63xx-tch.ipk
+Size: 73670
+MD5Sum: 0dbb11291a6062aa27f7d344d3ae7fa7
+SHA256sum: 83edd6344c81f21931ff20da7d9c756bd31a24231d7f8fbee98bf92cd9421fb5
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: procd
+Version: 2017-07-20-1
+Depends: libc, librt, libpthread, ubusd, ubus, libjson-script, ubox, libubox, libubus
+Source: package/system/procd
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: brcm63xx-tch
+Installed-Size: 41243
+Filename: procd_2017-07-20-1_brcm63xx-tch.ipk
+Size: 41905
+MD5Sum: e60060a9ab469414e427892d3243061c
+SHA256sum: 5d18460eccf742a126e5ee9969ae0e0c130b63ecb0ab9fa6dc9986e60d7bdb6a
+Description:  OpenWrt system process manager
+
+Package: rpcd
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, librt, libpthread, libubus, libubox, libuci, libblobmsg-json
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 18120
+Filename: rpcd_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_brcm63xx-tch.ipk
+Size: 18968
+MD5Sum: e86555bd3bec030ff053a8323e166b95
+SHA256sum: 18ef0211843ebcd22c3600fcc2dc15add0b6c09f12203af9ab4c30475736a5f3
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: ubox
+Version: 2016-06-08-fd4bb41ee7ab136d25609c2a917beea5d52b723b
+Depends: libc, librt, libpthread, libubox, ubusd, ubus, libubus, libuci
+Source: package/system/ubox
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <john@phrozen.org>
+Architecture: brcm63xx-tch
+Installed-Size: 14285
+Filename: ubox_2016-06-08-fd4bb41ee7ab136d25609c2a917beea5d52b723b_brcm63xx-tch.ipk
+Size: 15086
+MD5Sum: fecd2a00988357bf77100da33dfd3916
+SHA256sum: b6ac14ef4e242b2862c78fb1b81d3698bfae83c448497fb46addd9b1d1085871
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2017-02-03-1
+Depends: libc, librt, libpthread, libubus, libblobmsg-json, ubusd
+Source: package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 5507
+Filename: ubus_2017-02-03-1_brcm63xx-tch.ipk
+Size: 6234
+MD5Sum: 1ed54c6a8018e5dd11467892f40033ae
+SHA256sum: 6aacd90c9e9a53a9249a9e96753f30578b397a4e7e0207cd4e2f4bf04221d45e
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2017-02-03-1
+Depends: libc, librt, libpthread, libubox, libblobmsg-json
+Source: package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: brcm63xx-tch
+Installed-Size: 10521
+Filename: ubusd_2017-02-03-1_brcm63xx-tch.ipk
+Size: 11257
+MD5Sum: 89d716b1a3ae0da9566eec1fe49e16f4
+SHA256sum: 1e5ede4d494bc39861f104b55c9ab8280bd60e4d409960af6e81fe41e74ef77f
+Description:  OpenWrt RPC daemon
+
+Package: uclibcxx
+Version: 0.2.4-1
+Depends: libc, librt, libpthread
+Source: package/libs/uclibc++
+License: LGPL-2.1+
+Section: libs
+Architecture: brcm63xx-tch
+Installed-Size: 65803
+Filename: uclibcxx_0.2.4-1_brcm63xx-tch.ipk
+Size: 66277
+MD5Sum: 1853903b7984dae454d8fe2cd849ee08
+SHA256sum: ca56eebcf039616437cb540526e2638d14022cae838aaabc111e5f234c1155de
+Description:  C++ library for embedded systems
+
+Package: uhttpd-mod-ubus
+Version: 2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7
+Depends: libc, librt, libpthread, uhttpd, libubus, libblobmsg-json
+Source: package/network/services/uhttpd
+License: ISC
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 6081
+Filename: uhttpd-mod-ubus_2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7_brcm63xx-tch.ipk
+Size: 6915
+MD5Sum: 3375ac9cdf4f9738536b70b9843b6aa5
+SHA256sum: 739679f83471b2aea9afe6826b173a62fcbf25edce568ca35041d295178fa691
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7
+Depends: libc, librt, libpthread, libubox, libblobmsg-json, libjson-script
+Source: package/network/services/uhttpd
+License: ISC
+Section: net
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 22482
+Filename: uhttpd_2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7_brcm63xx-tch.ipk
+Size: 23317
+MD5Sum: b3588ab3a8578cbc93ff337d05f56da0
+SHA256sum: 48b5293d428c67cdd53875f9888ad42982474cf15f790e5144719033fbc93cea
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: usign
+Version: 2015-05-08-cf8dcdb8a4e874c77f3e9a8e9b643e8c17b19131
+Depends: libc, librt, libpthread, libubox
+Source: package/system/usign
+License: ISC
+Section: base
+Maintainer: Felix Fietkau <nbd@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 10611
+Filename: usign_2015-05-08-cf8dcdb8a4e874c77f3e9a8e9b643e8c17b19131_brcm63xx-tch.ipk
+Size: 11381
+MD5Sum: 89119818f1fde2ddbaeb05fa211b5221
+SHA256sum: 25573135ea8921acb41556425858dab51b2e1a8edfaf9257d155a59b5f61a4e8
+Description:  OpenWrt signature verification utility
+
+Package: zlib
+Version: 1.2.11-1
+Depends: libc, librt, libpthread
+Source: package/libs/zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+Architecture: brcm63xx-tch
+Installed-Size: 53327
+Filename: zlib_1.2.11-1_brcm63xx-tch.ipk
+Size: 54076
+MD5Sum: cb66efbb2621602d89a12d0a1cb53094
+SHA256sum: 38c8ff7d860d5a7343664ac589b1dff3ff489ca46db771c76e8283e37f00c44d
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
