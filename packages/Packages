@@ -1,3 +1,62 @@
+Package: aria2
+Version: 1.34.0-6
+Depends: libc, librt, libpthread, zlib, libstdcpp, libopenssl, libxml2, libssh2, libcares, libsqlite3
+Source: feeds/packages/net/aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 928667
+Filename: aria2_1.34.0-6_brcm63xx-tch.ipk
+Size: 928433
+MD5Sum: 4c15f33507c3f6192e96b771f94d7dcf
+SHA256sum: c1941ebc8767b8b1ee1ccb3040c98a39a69acaa27580c3f8411b8c00d8398bb7
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: ariang
+Version: 1.1.1-1
+Depends: libc, librt, libpthread, aria2, uhttpd
+Source: feeds/packages/net/ariang
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 983943
+Filename: ariang_1.1.1-1_all.ipk
+Size: 984507
+MD5Sum: 726226ea886db933da6478c73c739740
+SHA256sum: a730ff21504288a4f9e506b4cbd8d7cc7e48a8193ded7e1c2630ed89c6e0a96a
+Description:  AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+
+Package: avahi-dbus-daemon
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 39189
+Filename: avahi-dbus-daemon_0.6.31-12_brcm63xx-tch.ipk
+Size: 40224
+MD5Sum: f211950fafbf65edca677f7bc15c6eca
+SHA256sum: d0664adc9a63c409294bd737ae05ec100c3087cec7fa1ec2490f5fa6303df2ef
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
 Package: dbus
 Version: 1.9.14-1
 Depends: libc, librt, libpthread, libexpat, libdbus
@@ -12,6 +71,86 @@ Size: 99524
 MD5Sum: ff293bc0c2b4d9ec6b9842c6b702016a
 SHA256sum: 0d5e782d72614308511359dc3ea307d0b7871c53f6a23a1a13acb4554d8db58b
 Description:  Simple interprocess messaging system (daemon)
+
+Package: libavahi-dbus-support
+Version: 0.6.31-12
+Depends: libc, librt, libpthread, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 73208
+Filename: libavahi-dbus-support_0.6.31-12_brcm63xx-tch.ipk
+Size: 74296
+MD5Sum: cd2ed775e213cae829f5f2bbf6d6602f
+SHA256sum: b34f7bd4a87b27be1d496e2b78717af7f9261d9b2a5fc67105a4648c9768f712
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcares
+Version: 1.10.0-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/c-ares
+License: MIT
+Section: libs
+Maintainer: Karl Palsson <karlp@remake.is>
+Architecture: brcm63xx-tch
+Installed-Size: 29555
+Filename: libcares_1.10.0-1_brcm63xx-tch.ipk
+Size: 30409
+MD5Sum: 553e63aaaaf7286ecf12bff981866087
+SHA256sum: fd8c12902ba664c79e16fc2a629bba86cc57c847e9d837c5efff704d50a4f331
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: brcm63xx-tch
+Installed-Size: 9005
+Filename: libdaemon_0.14-5_brcm63xx-tch.ipk
+Size: 9985
+MD5Sum: 9401277bce0c85ae9eff9b2c371a911f
+SHA256sum: cfeac4ce823e28c109e00ac4807519e2ca1782101e250e4ddca2e9177fc7b583
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
 
 Package: libdbus
 Version: 1.9.14-1
@@ -44,6 +183,82 @@ MD5Sum: 518d7af6ad4e2829e9604965ae541a59
 SHA256sum: fcb3cccc49bd36c9a8b967a9d6f7b071a529cb66daafab61d00ad0968f266051
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
+Package: libgcrypt
+Version: 1.6.1-1
+Depends: libc, librt, libpthread, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 390954
+Filename: libgcrypt_1.6.1-1_brcm63xx-tch.ipk
+Size: 390075
+MD5Sum: d9246f7426779ba8a1be98883dfe7c73
+SHA256sum: c5aab6cb28657f891c64eb45abadd3b94370dffb31b4ded79f860e49c832c57e
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgnutls
+Version: 3.4.15-1
+Depends: libc, librt, libpthread, libnettle, libgmp
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: brcm63xx-tch
+Installed-Size: 400838
+Filename: libgnutls_3.4.15-1_brcm63xx-tch.ipk
+Size: 399488
+MD5Sum: 7b4110e810a96839367b5d3640c891f7
+SHA256sum: 1515c4e7bfea0a5367c024c7eb7550313c12ad2cf5cc5b6fd27f3c00c4500935
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libgpg-error
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 5859
+Filename: libgpg-error_1.12-1_brcm63xx-tch.ipk
+Size: 6731
+MD5Sum: 00c3fba2ecf643187befda59adaa4caa
+SHA256sum: 612a722d5c433ce717c1b91c1888575fe401649b66fc6142b9d7a4c70f928fdd
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: brcm63xx-tch
+Installed-Size: 128607
+Filename: libjpeg_9a-1_brcm63xx-tch.ipk
+Size: 129304
+MD5Sum: 89cf5013d322f4b9937131c7e38a1ec9
+SHA256sum: e26030daaad0da4edcc600de92371c64ac08748193c034073c7a19d4c3cd139c
+Description:  The Independent JPEG Group's JPEG runtime library
+
 Package: libpcre
 Version: 8.41-2
 Depends: libc, librt, libpthread
@@ -60,19 +275,126 @@ MD5Sum: 3b7d18c119729c9aa41409ae4bafbe9e
 SHA256sum: 0b39f3c47ab31c3eb12f5893f27f93c8193a0edee6adaca04ad7200e06eca6de
 Description:  A Perl Compatible Regular Expression library
 
+Package: libsasl2
+Version: 2.1.26-3
+Depends: libc, librt, libpthread, libopenssl
+Source: feeds/packages/libs/cyrus-sasl
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: brcm63xx-tch
+Installed-Size: 94137
+Filename: libsasl2_2.1.26-3_brcm63xx-tch.ipk
+Size: 94860
+MD5Sum: d8ac7dc992e027d5fcac56bf3caead3c
+SHA256sum: 2649f79be217fbaf3d850bc9674cb2bb101cff91d91435aebda7d4106613e8ed
+Description:  A general purpose authentication library
+
+Package: libsqlite3
+Version: 3290000-1
+Depends: libc, librt, libpthread, libpthread, zlib
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: brcm63xx-tch
+Installed-Size: 474875
+Filename: libsqlite3_3290000-1_brcm63xx-tch.ipk
+Size: 475360
+MD5Sum: 9806bad75f9be9fa4d58b95d0367da0a
+SHA256sum: aa494326e78193fcdfa5aa7095d8149ba633017d1db60346394b3656dcff20a4
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libssh2
+Version: 1.6.0-2
+Depends: libc, librt, libpthread, libopenssl, zlib
+Source: feeds/packages/libs/libssh2
+License: BSD
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: brcm63xx-tch
+Installed-Size: 71502
+Filename: libssh2_1.6.0-2_brcm63xx-tch.ipk
+Size: 72224
+MD5Sum: 1d2b56cdcf5c355e954a0dd5a64ed12b
+SHA256sum: e4088d141519650af954205466c5ede0f1d560c6b9bf4a1fff900c73d506425c
+Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
+
+Package: libxml2
+Version: 2.9.2-3
+Depends: libc, librt, libpthread, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: brcm63xx-tch
+Installed-Size: 659821
+Filename: libxml2_2.9.2-3_brcm63xx-tch.ipk
+Size: 657665
+MD5Sum: f66b241f0d0b3399ad2e818b3becc5bc
+SHA256sum: b284a5cb25be00706671d8a0ee3035af9b1a5345de446fdfa7203db738032e6e
+Description:  A library for manipulating XML and HTML resources.
+
 Package: nginx
 Version: 1.12.1-1
-Depends: libc, librt, libpthread, libpcre, libopenssl, zlib, liblua, libpthread
+Depends: libc, librt, libpthread, libpcre, libopenssl, zlib, libpthread
 Source: feeds/packages/net/nginx
 License: 2-clause BSD-like license
 Section: net
 Maintainer: Thomas Heil <heil@terminal-consulting.de>
 Architecture: brcm63xx-tch
-Installed-Size: 558932
+Installed-Size: 379779
 Filename: nginx_1.12.1-1_brcm63xx-tch.ipk
-Size: 535855
-MD5Sum: 83ee0c4353a15de25f2cf012f369ba4c
-SHA256sum: b47e58925ec5729a309caa8d109da40451839212231f0a5e2469be085dc7de08
+Size: 359851
+MD5Sum: 857560b3201ac982b4705c9e8c8b1d24
+SHA256sum: 875d50d9b89226c29425d0a30eb3875371d4fd87c7e99a8be94d6f8b25dbba57
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server,
  written by Igor Sysoev.
+
+Package: unzip
+Version: 6.0-3
+Depends: libc, libssp, librt, libpthread
+Source: feeds/packages/utils/unzip
+License: BSD-4-Clause
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: brcm63xx-tch
+Installed-Size: 165283
+Filename: unzip_6.0-3_brcm63xx-tch.ipk
+Size: 166253
+MD5Sum: 1b868d2ad8d4da20c2f4b7ec485d607b
+SHA256sum: 56e1ef9369042e0c8b0240360ab8b176d5aebb7660248cafa22dfd2ec1bc2e72
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
+Package: wget
+Version: 1.20.3-1
+Depends: libc, libssp, librt, libpthread, libpcre, zlib, libopenssl, librt
+Source: feeds/packages/net/wget
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: brcm63xx-tch
+Installed-Size: 254628
+Filename: wget_1.20.3-1_brcm63xx-tch.ipk
+Size: 255180
+MD5Sum: 03c4ff1ebcff5887560d9951d1f096fc
+SHA256sum: 2a6a369b1dbde06904facf5b001c1f9e885c88f25848cb9e8753ccfbb29ef040
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
 

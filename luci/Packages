@@ -676,15 +676,15 @@ Description:  Translation for luci-app-firewall - 臺灣華語 (Taiwanese)
 
 Package: luci-lib-ip
 Version: git-18.097.75958-5537d68-1
-Depends: libc, librt, libpthread, liblua, libnl-tiny
+Depends: libc, libssp, librt, libpthread, liblua, libnl-tiny
 Source: feeds/luci/libs/luci-lib-ip
 Section: luci
 Architecture: brcm63xx-tch
-Installed-Size: 15435
+Installed-Size: 15438
 Filename: luci-lib-ip_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
-Size: 16167
-MD5Sum: 8eb95674dd486a03c6eeeedea0adade4
-SHA256sum: 4d106e28627ced80f43385c830475547315762ab2d9b04266b3336f1d608289b
+Size: 16177
+MD5Sum: bacf1a968160a504dd92ef5e8d5367db
+SHA256sum: 12e9750628e9e6c17ad83e59e656c6e394751d4ccc025a1e3faa75bdd4973477
 Description:  Lua library for IP calculation and routing information
 
 Package: luci-lib-nixio
@@ -695,9 +695,9 @@ Section: luci
 Architecture: brcm63xx-tch
 Installed-Size: 31551
 Filename: luci-lib-nixio_git-18.097.75958-5537d68-1_brcm63xx-tch.ipk
-Size: 31982
-MD5Sum: ecd84f53eada7eecb417846963dfe530
-SHA256sum: 36460bd7ea25045f0ab051190b9a250d5cc0bbb6958cc8e57f62748e95bb61eb
+Size: 31981
+MD5Sum: 1eac3de590dabc4f05cc8f72a392fb89
+SHA256sum: a7633228fcce3d3b018fa1aff50a18a6b36c475244643af95771b742db666c88
 Description:  NIXIO POSIX library
 
 Package: luci-mod-admin-full

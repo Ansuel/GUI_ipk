@@ -1,1 +1,37 @@
+Package: bcg729
+Version: 1.0.0-1
+Depends: libc, libssp, librt, libpthread
+Source: feeds/telephony/libs/bcg729
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: brcm63xx-tch
+Installed-Size: 36225
+Filename: bcg729_1.0.0-1_brcm63xx-tch.ipk
+Size: 37229
+MD5Sum: 7305ec80e445173074ca79cc0f4db801
+SHA256sum: 208183e7e37a71aef3ada6d52b5668835a8053deb38949b402729fe01eda6ab7
+Description:  Bcg729 is a software G729A encoder and decoder library written in C, developed
+ by Belledonne Communications, the company supporting the Linphone project.
+ It was written from scratch and is NOT a derivative work of ITU reference
+ source code in any kind.
+
+Package: libsrtp
+Version: 1.4.4-2
+Depends: libc, librt, libpthread
+Source: feeds/telephony/libs/libsrtp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: brcm63xx-tch
+Installed-Size: 41018
+Filename: libsrtp_1.4.4-2_brcm63xx-tch.ipk
+Size: 41218
+MD5Sum: cf599afb829ecd08cb4577c266e5891a
+SHA256sum: a7d5e0a155d8c4d15664ae018d2907beff4952ab1448cf7fde84072c7f86eff3
+Description:  Open-source implementation of the Secure Real-time Transport
+ Protocol (SRTP) originally authored by Cisco Systems, Inc.
+ It is available under a BSD-style license.
 
