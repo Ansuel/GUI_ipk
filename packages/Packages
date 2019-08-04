@@ -67,6 +67,42 @@ Description:  Common needed files for attendedsysupgrade tool
  
  [1]: https://github.com/aparcar/gsoc17-attended-sysupgrade
 
+Package: avahi-dbus-daemon
+Version: 0.6.32-3
+Depends: libc, librt, libpthread, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 39504
+Filename: avahi-dbus-daemon_0.6.32-3_arm_cortex-a9_neon.ipk
+Size: 40412
+SHA256sum: 57d196e52a588356f74fb1a0f8ad9f8d47cb09db23bd6e9f5d7f9e3fa2578005
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bash
+Version: 4.4.18-2
+Depends: libc, librt, libpthread, libncurses, libreadline
+License: GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 385650
+Filename: bash_4.4.18-2_arm_cortex-a9_neon.ipk
+Size: 386194
+SHA256sum: cbca391b1294f9c0a0cbea8d100922ba9d8a3a7dd635c5cd8606942c7a4705c0
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
 Package: bind-client
 Version: 9.11.2-P1-1
 Depends: libc, librt, libpthread, bind-libs
@@ -103,6 +139,21 @@ Size: 56005
 SHA256sum: 8455669f5b9a9c773090b172fe4eb8636519a5b3b7f110780d2ebe7ef4765104
 Description:  Bluetooth library
 
+Package: bsdtar
+Version: 3.3.2-1
+Depends: libc, librt, libpthread, libarchive-noopenssl
+License: BSD-2-Clause
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23045
+Filename: bsdtar_3.3.2-1_arm_cortex-a9_neon.ipk
+Size: 23774
+SHA256sum: 671bb915cdfa5feac58d07343032d47f8bf3d5d01190379e1d014e4afaaa8150
+Description:  Reads a variety of formats including tar, pax, zip, xar, lha, ar,
+ cab, mtree, rar, warc, 7z and ISO images. Writes tar, pax, zip,
+ xar, ar, ISO, mtree and shar archives. Automatically handles
+ archives compressed with gzip, bzip2, lzip, xz, lzma or compress.
+
 Package: cgi-io
 Version: 5
 Depends: libc, librt, libpthread, libubox, libubus
@@ -114,6 +165,1227 @@ Filename: cgi-io_5_arm_cortex-a9_neon.ipk
 Size: 7330
 SHA256sum: 947b2cfafe7555249a9637093211ed4b521f950369779983c526663de5720779
 Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-base64
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/base64:/usr/bin/gnu-base64
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22329
+Filename: coreutils-base64_8.23-4_arm_cortex-a9_neon.ipk
+Size: 23012
+SHA256sum: dc2f3c2c6a0d99c9032fb3aa9adc806d33b32b141b6dc772e999663108b04a8d
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-basename
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/basename:/usr/bin/gnu-basename
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18887
+Filename: coreutils-basename_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19603
+SHA256sum: 0031272d8e462031de70427fcc2973ee21fa49ebcde4c6c25d6d79a9361a238d
+Description:  Full version of standard GNU basename utility.
+
+Package: coreutils-cat
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/cat:/usr/bin/gnu-cat
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27776
+Filename: coreutils-cat_8.23-4_arm_cortex-a9_neon.ipk
+Size: 28509
+SHA256sum: 21b1cab1047b4060683cacdedf41e45c3f667d08c37ef5aa33162e7f6b1aafbf
+Description:  Full version of standard GNU cat utility.
+
+Package: coreutils-chcon
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33268
+Filename: coreutils-chcon_8.23-4_arm_cortex-a9_neon.ipk
+Size: 34014
+SHA256sum: 7ae4a52981f3b1c05ce8da5cecc73a217eaf354a40351e7dde1fb2ff3985d505
+Description:  Full version of standard GNU chcon utility.
+
+Package: coreutils-chgrp
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/chgrp:/usr/bin/gnu-chgrp
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 35391
+Filename: coreutils-chgrp_8.23-4_arm_cortex-a9_neon.ipk
+Size: 36120
+SHA256sum: c26000eb2fe2104cba3d770707562a9e34ef8ba9d7d0a76eda700db8e0dfce22
+Description:  Full version of standard GNU chgrp utility.
+
+Package: coreutils-chmod
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/chmod:/usr/bin/gnu-chmod
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32265
+Filename: coreutils-chmod_8.23-4_arm_cortex-a9_neon.ipk
+Size: 32966
+SHA256sum: e475ab8b71e4a4c7a90f87ffe571b117bf1fbb5b1723c6ff3090305807ede330
+Description:  Full version of standard GNU chmod utility.
+
+Package: coreutils-chown
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/chown:/usr/bin/gnu-chown
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36567
+Filename: coreutils-chown_8.23-4_arm_cortex-a9_neon.ipk
+Size: 37332
+SHA256sum: 54c6df640c59fb3cd6b46f43ab425147e637517bb961f7b7ef337d2af0522766
+Description:  Full version of standard GNU chown utility.
+
+Package: coreutils-chroot
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/sbin/chroot:/usr/bin/gnu-chroot
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22011
+Filename: coreutils-chroot_8.23-4_arm_cortex-a9_neon.ipk
+Size: 22793
+SHA256sum: c26f121d5127eb74ad5d2ec265943cb54c9aa00633e59721b71729e88be5fb6d
+Description:  Full version of standard GNU chroot utility.
+
+Package: coreutils-cksum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/cksum:/usr/bin/gnu-cksum
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20294
+Filename: coreutils-cksum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 21054
+SHA256sum: d8c3b4626e7f14bb6550036f08a9ab32333fe20c88cb23a455f3614560632d0e
+Description:  Full version of standard GNU cksum utility.
+
+Package: coreutils-comm
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/comm:/usr/bin/gnu-comm
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20978
+Filename: coreutils-comm_8.23-4_arm_cortex-a9_neon.ipk
+Size: 21736
+SHA256sum: 27d05a21fdb7670315578970fe0e383bc0c4d23219d42a883ccb0432ba9a8f9b
+Description:  Full version of standard GNU comm utility.
+
+Package: coreutils-cp
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libacl
+Alternatives: 300:/bin/cp:/usr/bin/gnu-cp
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 56518
+Filename: coreutils-cp_8.23-4_arm_cortex-a9_neon.ipk
+Size: 57158
+SHA256sum: a7fdde09b61c7e158a296cb42ce638cb2ad586013e2f33c339028e84a1a11f8b
+Description:  Full version of standard GNU cp utility.
+
+Package: coreutils-csplit
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 69433
+Filename: coreutils-csplit_8.23-4_arm_cortex-a9_neon.ipk
+Size: 70209
+SHA256sum: c9df78436f9e69ac6e11516e003359aec176c3670c874cecff8a59752913a8ac
+Description:  Full version of standard GNU csplit utility.
+
+Package: coreutils-cut
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/cut:/usr/bin/gnu-cut
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22864
+Filename: coreutils-cut_8.23-4_arm_cortex-a9_neon.ipk
+Size: 23571
+SHA256sum: eba1fed9216d998ad626d9e08c5f4852a0b6ed7fb65f64ace64892dfbaf6ca63
+Description:  Full version of standard GNU cut utility.
+
+Package: coreutils-date
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/date:/usr/bin/gnu-date
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36608
+Filename: coreutils-date_8.23-4_arm_cortex-a9_neon.ipk
+Size: 37416
+SHA256sum: 49b5c1f3c07e292e0f0db9845702937cb4b4bb216aa44f932251c9fc5814acaa
+Description:  Full version of standard GNU date utility.
+
+Package: coreutils-dd
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/dd:/usr/bin/gnu-dd
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 34124
+Filename: coreutils-dd_8.23-4_arm_cortex-a9_neon.ipk
+Size: 34897
+SHA256sum: 01917ce2a25287d0b112461b0dc137b00cf0049c04fb8a046bab0aae01b9671b
+Description:  Full version of standard GNU dd utility.
+
+Package: coreutils-dir
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libacl, libcap
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 68635
+Filename: coreutils-dir_8.23-4_arm_cortex-a9_neon.ipk
+Size: 69345
+SHA256sum: b898567421c5cec20944156f290869e124137ea62ab3ea0d252d8518484d9886
+Description:  Full version of standard GNU dir utility.
+
+Package: coreutils-dircolors
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23048
+Filename: coreutils-dircolors_8.23-4_arm_cortex-a9_neon.ipk
+Size: 23743
+SHA256sum: d1643020ef9bd8d053856d98ff0ac4dd2ee7407f9d217c984e374b9e4da0c87a
+Description:  Full version of standard GNU dircolors utility.
+
+Package: coreutils-dirname
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/dirname:/usr/bin/gnu-dirname
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18663
+Filename: coreutils-dirname_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19399
+SHA256sum: f40ee630a3c44bbe4ece816982e51c2e5ca60223200eb1c46f3aac01143eb8cf
+Description:  Full version of standard GNU dirname utility.
+
+Package: coreutils-du
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/du:/usr/bin/gnu-du
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 106196
+Filename: coreutils-du_8.23-4_arm_cortex-a9_neon.ipk
+Size: 106873
+SHA256sum: 82110e008a46adad05a7c630704b1b9cb2e53431de6734c8a7ea480ffd180a6d
+Description:  Full version of standard GNU du utility.
+
+Package: coreutils-echo
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/echo:/usr/bin/gnu-echo
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13917
+Filename: coreutils-echo_8.23-4_arm_cortex-a9_neon.ipk
+Size: 14675
+SHA256sum: 06a6cb0b7f8aaad2e13bb327181ce0d8e12fa5456ae947672f60b0cde950e18c
+Description:  Full version of standard GNU echo utility.
+
+Package: coreutils-env
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/env:/usr/bin/gnu-env
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18882
+Filename: coreutils-env_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19637
+SHA256sum: eb452ffaf06b263a001f212cb32ab16a57bd31681303ef5d8e185b1379a6c6a0
+Description:  Full version of standard GNU env utility.
+
+Package: coreutils-expand
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/expand:/usr/bin/gnu-expand
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19907
+Filename: coreutils-expand_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20657
+SHA256sum: 7454e4e93dce188783842d17dc37c784148f093c19b9b103892282e7c60706cb
+Description:  Full version of standard GNU expand utility.
+
+Package: coreutils-expr
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libgmp
+Alternatives: 300:/usr/bin/expr:/usr/bin/gnu-expr
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 65013
+Filename: coreutils-expr_8.23-4_arm_cortex-a9_neon.ipk
+Size: 65774
+SHA256sum: f36584c0955e161debc8c8daccfe75c9beab2bc83ace95bbc13063cff27f8ba1
+Description:  Full version of standard GNU expr utility.
+
+Package: coreutils-factor
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libgmp
+Alternatives: 300:/usr/bin/factor:/usr/bin/gnu-factor
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 61196
+Filename: coreutils-factor_8.23-4_arm_cortex-a9_neon.ipk
+Size: 61964
+SHA256sum: 5621100d0b7d79f8ad885d15e7ec9d04300a4636829e2e6c486334bcbc167013
+Description:  Full version of standard GNU factor utility.
+
+Package: coreutils-false
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/false:/usr/bin/gnu-false
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12818
+Filename: coreutils-false_8.23-4_arm_cortex-a9_neon.ipk
+Size: 13560
+SHA256sum: 44e75af59eb5045c42e7e321dffca52fe4a85e55e33c366a5a2f063b5f0183df
+Description:  Full version of standard GNU false utility.
+
+Package: coreutils-fmt
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23588
+Filename: coreutils-fmt_8.23-4_arm_cortex-a9_neon.ipk
+Size: 24233
+SHA256sum: 8a5fa43ef6a16e76d355d74a056967135bd9f0192633150b75f82ff7c88cb6ac
+Description:  Full version of standard GNU fmt utility.
+
+Package: coreutils-fold
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/fold:/usr/bin/gnu-fold
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20202
+Filename: coreutils-fold_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20937
+SHA256sum: 5a9d41f1727fa7b7226e373cad1ab1112b460f11101483b3fcf55759ce2879e3
+Description:  Full version of standard GNU fold utility.
+
+Package: coreutils-groups
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/groups:/usr/bin/gnu-groups
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19637
+Filename: coreutils-groups_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20370
+SHA256sum: 80cea12f9229766a24b6a4bbc805bf5b8093fce0fa59d4e189059fc56fc9dc9d
+Description:  Full version of standard GNU groups utility.
+
+Package: coreutils-head
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/head:/usr/bin/gnu-head
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23828
+Filename: coreutils-head_8.23-4_arm_cortex-a9_neon.ipk
+Size: 24546
+SHA256sum: 4baa8eb5b144a69de27443b970187ec1a9a2d5ecc7b5822c405edf3207b1fe5b
+Description:  Full version of standard GNU head utility.
+
+Package: coreutils-hostid
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/hostid:/usr/bin/gnu-hostid
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18262
+Filename: coreutils-hostid_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19003
+SHA256sum: dfac3cf53a28348146a8e22447d7fe602d29de0c621ed761c7c325003e11383b
+Description:  Full version of standard GNU hostid utility.
+
+Package: coreutils-id
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/id:/usr/bin/gnu-id
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22763
+Filename: coreutils-id_8.23-4_arm_cortex-a9_neon.ipk
+Size: 23483
+SHA256sum: d686636003e648cf1a6d073dc90d6874811c7e807248173c7775b7fd611fba8f
+Description:  Full version of standard GNU id utility.
+
+Package: coreutils-install
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libacl
+Alternatives: 300:/usr/bin/install:/usr/bin/gnu-install
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 53110
+Filename: coreutils-install_8.23-4_arm_cortex-a9_neon.ipk
+Size: 53748
+SHA256sum: 33b66fcaf01072c9ade29149fae8b3b46b2607e974beeb0ecd69cb40d62ef832
+Description:  Full version of standard GNU install utility.
+
+Package: coreutils-join
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26598
+Filename: coreutils-join_8.23-4_arm_cortex-a9_neon.ipk
+Size: 27230
+SHA256sum: 1fbfed8b96c54e8dee89e1da1b589d3d152484751193f7d257a5d9c28bfd8c87
+Description:  Full version of standard GNU join utility.
+
+Package: coreutils-kill
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/kill:/usr/bin/gnu-kill
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20341
+Filename: coreutils-kill_8.23-4_arm_cortex-a9_neon.ipk
+Size: 21094
+SHA256sum: 499c3d18786c388537ef8d6a976b5d0ccbb33ccc17fbf43a5d5d5cb37c9fc296
+Description:  Full version of standard GNU kill utility.
+
+Package: coreutils-link
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/link:/usr/bin/gnu-link
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18366
+Filename: coreutils-link_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19112
+SHA256sum: 92490e4eedaeb78a6e54188c0992aa5f2bb70e04232f0c8ac6792c2f7ca9cb4c
+Description:  Full version of standard GNU link utility.
+
+Package: coreutils-ln
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/ln:/usr/bin/gnu-ln
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31046
+Filename: coreutils-ln_8.23-4_arm_cortex-a9_neon.ipk
+Size: 31752
+SHA256sum: 35ce92f83f9e759d4b460d05892744634797d0b48918f80832733670d2cdcc63
+Description:  Full version of standard GNU ln utility.
+
+Package: coreutils-logname
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/logname:/usr/bin/gnu-logname
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18265
+Filename: coreutils-logname_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19021
+SHA256sum: 24a7f612a434d6c8df6aa24e9d66f7e19f71588c508eb9b6c36ab7d1b2fa17d1
+Description:  Full version of standard GNU logname utility.
+
+Package: coreutils-ls
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libacl, libcap
+Alternatives: 300:/bin/ls:/usr/bin/gnu-ls
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 68637
+Filename: coreutils-ls_8.23-4_arm_cortex-a9_neon.ipk
+Size: 69337
+SHA256sum: 3cd825f2e7f846088b4631e2d60017ba6a1ee3c0c0f1202f0d58f2ed3b8702cc
+Description:  Full version of standard GNU ls utility.
+
+Package: coreutils-md5sum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/md5sum:/usr/bin/gnu-md5sum
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25071
+Filename: coreutils-md5sum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 25775
+SHA256sum: 10a809f3b272896ebbf3ed364c7867354a09990689fe982f3ea52eeb63e2b8c1
+Description:  Full version of standard GNU md5sum utility.
+
+Package: coreutils-mkdir
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/mkdir:/usr/bin/gnu-mkdir
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22844
+Filename: coreutils-mkdir_8.23-4_arm_cortex-a9_neon.ipk
+Size: 23579
+SHA256sum: f47c8c82c2b29e76db7b9e454a77d22561c86bb6e083947f576cc9c485d61e8d
+Description:  Full version of standard GNU mkdir utility.
+
+Package: coreutils-mkfifo
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/mkfifo:/usr/bin/gnu-mkfifo
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19643
+Filename: coreutils-mkfifo_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20393
+SHA256sum: 3fe1a8a83069fffb5536bba6fb27b1672bb6f4a8ac9bf77a27eac53f451a9d4d
+Description:  Full version of standard GNU mkfifo utility.
+
+Package: coreutils-mknod
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/mknod:/usr/bin/gnu-mknod
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21515
+Filename: coreutils-mknod_8.23-4_arm_cortex-a9_neon.ipk
+Size: 22285
+SHA256sum: fbec9f7cd697a9e9afac289f54ec9008495790a0e3c0937351ef71b7f18266c8
+Description:  Full version of standard GNU mknod utility.
+
+Package: coreutils-mktemp
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/mktemp:/usr/bin/gnu-mktemp
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23445
+Filename: coreutils-mktemp_8.23-4_arm_cortex-a9_neon.ipk
+Size: 24142
+SHA256sum: a811630795d06c6956ad96ce5034029d3ff5e53c27491adb3dd3c9b90fcef10a
+Description:  Full version of standard GNU mktemp utility.
+
+Package: coreutils-mv
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libacl
+Alternatives: 300:/bin/mv:/usr/bin/gnu-mv
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 55652
+Filename: coreutils-mv_8.23-4_arm_cortex-a9_neon.ipk
+Size: 56382
+SHA256sum: bc2c7181f15cad9b25993390650e0a17ebb2d27f16e0e55bf8ca8456bf4931aa
+Description:  Full version of standard GNU mv utility.
+
+Package: coreutils-nice
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/nice:/usr/bin/gnu-nice
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19734
+Filename: coreutils-nice_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20483
+SHA256sum: 26c946a686cd2e3bbe9f4822b417f1c525bc98eec2abea00c144b3718d84aa03
+Description:  Full version of standard GNU nice utility.
+
+Package: coreutils-nl
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/nl:/usr/bin/gnu-nl
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 65290
+Filename: coreutils-nl_8.23-4_arm_cortex-a9_neon.ipk
+Size: 66030
+SHA256sum: 7e180a8fd6b7f6963ae793392b3badc83d86dfa5af7ac461ae787e6131d7581e
+Description:  Full version of standard GNU nl utility.
+
+Package: coreutils-nohup
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/nohup:/usr/bin/gnu-nohup
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19754
+Filename: coreutils-nohup_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20484
+SHA256sum: 29f38ffb0654efd86f6ae7519e8f95f9d4d6635cec2d687c8ee926700944111d
+Description:  Full version of standard GNU nohup utility.
+
+Package: coreutils-nproc
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/nproc:/usr/bin/gnu-nproc
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19566
+Filename: coreutils-nproc_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20270
+SHA256sum: 3fd6f4a6ff5ef5fb6674a0b33c397e3dc409dd8b4e88d44011a709533b1387ba
+Description:  Full version of standard GNU nproc utility.
+
+Package: coreutils-od
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/od:/usr/bin/gnu-od
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30942
+Filename: coreutils-od_8.23-4_arm_cortex-a9_neon.ipk
+Size: 31675
+SHA256sum: 487d8640aa06a714dba8d2f376861ab771128fbe180831da99c8ff12ec074aa4
+Description:  Full version of standard GNU od utility.
+
+Package: coreutils-paste
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/paste:/usr/bin/gnu-paste
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20078
+Filename: coreutils-paste_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20828
+SHA256sum: 0b4e9a4e35dba7f552bff6272ec917c3de759579cb692b544575d525c5ca6afe
+Description:  Full version of standard GNU paste utility.
+
+Package: coreutils-pathchk
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19203
+Filename: coreutils-pathchk_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19905
+SHA256sum: aa4a55caa6492f03c5e2f194549368d42c9693d00dbe2c98df82d7c1ea803249
+Description:  Full version of standard GNU pathchk utility.
+
+Package: coreutils-pinky
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21374
+Filename: coreutils-pinky_8.23-4_arm_cortex-a9_neon.ipk
+Size: 22076
+SHA256sum: 44dc67a72f9a95148cd452d8a9fe3184bd7ebe0792df7c5142ece1addd4feaae
+Description:  Full version of standard GNU pinky utility.
+
+Package: coreutils-pr
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 38104
+Filename: coreutils-pr_8.23-4_arm_cortex-a9_neon.ipk
+Size: 38862
+SHA256sum: 929af4a4a14ce1d35015ac26e5cf1e2ca88bb2a11f8aaedc83e5204ae25890ec
+Description:  Full version of standard GNU pr utility.
+
+Package: coreutils-printenv
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/printenv:/usr/bin/gnu-printenv
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18564
+Filename: coreutils-printenv_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19288
+SHA256sum: 6e9506e3ad6d59efc9f00fe00698cda01bfe49811db096e028f0aef904d55dd7
+Description:  Full version of standard GNU printenv utility.
+
+Package: coreutils-printf
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/printf:/usr/bin/gnu-printf
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17411
+Filename: coreutils-printf_8.23-4_arm_cortex-a9_neon.ipk
+Size: 18175
+SHA256sum: 9b782e5b0332a89ea17b77427fe027b9a1a8ef14125bfa6fa5a8f64b5537c892
+Description:  Full version of standard GNU printf utility.
+
+Package: coreutils-ptx
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 78087
+Filename: coreutils-ptx_8.23-4_arm_cortex-a9_neon.ipk
+Size: 78736
+SHA256sum: 8584165caf9243e54f244671011a7e1c9c8125f300e74a6bb54cd54ec33c993d
+Description:  Full version of standard GNU ptx utility.
+
+Package: coreutils-pwd
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/pwd:/usr/bin/gnu-pwd
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22183
+Filename: coreutils-pwd_8.23-4_arm_cortex-a9_neon.ipk
+Size: 22887
+SHA256sum: fddd26a2ae12f62d5f78545726cb4f2661714ac5fa6af34aca562f20b4c30690
+Description:  Full version of standard GNU pwd utility.
+
+Package: coreutils-readlink
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/readlink:/usr/bin/gnu-readlink
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25058
+Filename: coreutils-readlink_8.23-4_arm_cortex-a9_neon.ipk
+Size: 25779
+SHA256sum: 6e968a19cc6defa34be22fab36b75f4a3c84cabecaa002de030c9e2ee4f87a10
+Description:  Full version of standard GNU readlink utility.
+
+Package: coreutils-realpath
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/realpath:/usr/bin/gnu-realpath
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32982
+Filename: coreutils-realpath_8.23-4_arm_cortex-a9_neon.ipk
+Size: 33741
+SHA256sum: d7b3e5a864a6a54b88d68467a7ca22d188b65b80bd87c7cf3e8921d61caac7ea
+Description:  Full version of standard GNU realpath utility.
+
+Package: coreutils-rm
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/rm:/usr/bin/gnu-rm
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33721
+Filename: coreutils-rm_8.23-4_arm_cortex-a9_neon.ipk
+Size: 34433
+SHA256sum: 74d1f79d765747b40e36b538f730a2603fc3415ef01fd2916a9edfd46a3393a4
+Description:  Full version of standard GNU rm utility.
+
+Package: coreutils-rmdir
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/rmdir:/usr/bin/gnu-rmdir
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19075
+Filename: coreutils-rmdir_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19825
+SHA256sum: a995310b96e29cf60da1801ee20cf5b9bb8e4f8c2285f2dc14d55c4f62761a6a
+Description:  Full version of standard GNU rmdir utility.
+
+Package: coreutils-runcon
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19190
+Filename: coreutils-runcon_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19901
+SHA256sum: 39a719641f5b15509becec6215473c669499172286d2731bf416c55c846cb40e
+Description:  Full version of standard GNU runcon utility.
+
+Package: coreutils-seq
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/seq:/usr/bin/gnu-seq
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21514
+Filename: coreutils-seq_8.23-4_arm_cortex-a9_neon.ipk
+Size: 22267
+SHA256sum: 4512fa17ce5fc40a6a04d163fc01cf1fdbc6d0c02d6efd3584f4a3a73dd6c429
+Description:  Full version of standard GNU seq utility.
+
+Package: coreutils-sha1sum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/sha1sum:/usr/bin/gnu-sha1sum
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26928
+Filename: coreutils-sha1sum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 27669
+SHA256sum: 4e36d941c7b8b940aedb232bdacbc34c2252e4da839d6896e679a155198750a5
+Description:  Full version of standard GNU sha1sum utility.
+
+Package: coreutils-sha224sum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 29742
+Filename: coreutils-sha224sum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 30412
+SHA256sum: 6c9b4c1be272b5e24fb5b1407e7f412b35258fe0a5a099064dcd48db1f4030db
+Description:  Full version of standard GNU sha224sum utility.
+
+Package: coreutils-sha256sum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/sha256sum:/usr/bin/gnu-sha256sum
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 29747
+Filename: coreutils-sha256sum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 30434
+SHA256sum: fea6421bd1ee93d18823e69333d57750bfb2d93ae22d60a60c440363492e212b
+Description:  Full version of standard GNU sha256sum utility.
+
+Package: coreutils-sha384sum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 56769
+Filename: coreutils-sha384sum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 57502
+SHA256sum: 236b53b4d512173d0a6b8eaefa554f5ac6991cfe52ef09077c0303bd3cd3e3c6
+Description:  Full version of standard GNU sha384sum utility.
+
+Package: coreutils-sha512sum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/sha512sum:/usr/bin/gnu-sha512sum
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 56775
+Filename: coreutils-sha512sum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 57496
+SHA256sum: 99f54bc82c9f300d757e663d4917c7422b152c049fdfdac0bae1d387be63fe8f
+Description:  Full version of standard GNU sha512sum utility.
+
+Package: coreutils-shred
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/shred:/usr/bin/gnu-shred
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31548
+Filename: coreutils-shred_8.23-4_arm_cortex-a9_neon.ipk
+Size: 32209
+SHA256sum: 6cde34929ae963d2ac4e6f9c686ad8ae12f76ccbf486d7d5a45c4b8bb9504850
+Description:  Full version of standard GNU shred utility.
+
+Package: coreutils-shuf
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/shuf:/usr/bin/gnu-shuf
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 29380
+Filename: coreutils-shuf_8.23-4_arm_cortex-a9_neon.ipk
+Size: 30107
+SHA256sum: 6ef674aa88558d7ebf462a541c88ca5720200cf02bea9f23402c927c1a7c2657
+Description:  Full version of standard GNU shuf utility.
+
+Package: coreutils-sleep
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/sleep:/usr/bin/gnu-sleep
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19351
+Filename: coreutils-sleep_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20086
+SHA256sum: ec15e276f9404501ac6d8e14b711d1b72a77e7045083478d1eabb6120c3a7adb
+Description:  Full version of standard GNU sleep utility.
+
+Package: coreutils-sort
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libpthread
+Alternatives: 300:/usr/bin/sort:/usr/bin/gnu-sort
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 59269
+Filename: coreutils-sort_8.23-4_arm_cortex-a9_neon.ipk
+Size: 59958
+SHA256sum: 6ad013ac20815c1b06d9154b9c45878e225b618a37df5a5dcc00ec2e16c6df86
+Description:  Full version of standard GNU sort utility.
+
+Package: coreutils-split
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/split:/usr/bin/gnu-split
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 37294
+Filename: coreutils-split_8.23-4_arm_cortex-a9_neon.ipk
+Size: 38110
+SHA256sum: cfb8750c9ff9c07d6c65e86ef5d501b6cd8a7fb7b4cb7bb2495cf5f10e7dfd2c
+Description:  Full version of standard GNU split utility.
+
+Package: coreutils-stat
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/stat:/usr/bin/gnu-stat
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36823
+Filename: coreutils-stat_8.23-4_arm_cortex-a9_neon.ipk
+Size: 37552
+SHA256sum: 705b7a3fcceada790c9f71dd40c4344016072cc4d9bb9536f35cfb9db42a8899
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stdbuf
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30604
+Filename: coreutils-stdbuf_8.23-4_arm_cortex-a9_neon.ipk
+Size: 31301
+SHA256sum: 9c990aa3129076f5ad67c4603f310cfa361d7f741cd3819a257ade009309740f
+Description:  Full version of standard GNU stdbuf utility.
+
+Package: coreutils-stty
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/stty:/usr/bin/gnu-stty
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28922
+Filename: coreutils-stty_8.23-4_arm_cortex-a9_neon.ipk
+Size: 29661
+SHA256sum: d5942b0c49c84bde76e754a1c5af00f6f7a13833476f4729819de6dba481c469
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils-sum
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/sum:/usr/bin/gnu-sum
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23668
+Filename: coreutils-sum_8.23-4_arm_cortex-a9_neon.ipk
+Size: 24394
+SHA256sum: bd2d0d46d7c1779868c656cdef582be7b11f7938cdc5b8a50fc8b0ec761957a2
+Description:  Full version of standard GNU sum utility.
+
+Package: coreutils-sync
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/sync:/usr/bin/gnu-sync
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18190
+Filename: coreutils-sync_8.23-4_arm_cortex-a9_neon.ipk
+Size: 18882
+SHA256sum: 306e4a5f407211f1c7fec1dc1d8a224450c795770bbfd848a738e205de460d21
+Description:  Full version of standard GNU sync utility.
+
+Package: coreutils-tac
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/tac:/usr/bin/gnu-tac
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 62897
+Filename: coreutils-tac_8.23-4_arm_cortex-a9_neon.ipk
+Size: 63650
+SHA256sum: 21ba68b9587d22dc16023ffdeaedce1b1a32744dcbd0709f13a02c9f568a68c8
+Description:  Full version of standard GNU tac utility.
+
+Package: coreutils-tail
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/tail:/usr/bin/gnu-tail
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 37516
+Filename: coreutils-tail_8.23-4_arm_cortex-a9_neon.ipk
+Size: 38261
+SHA256sum: b31034baf9da0e59bf02f85738026033825a2b46c800d9140bbb867fea4acb1b
+Description:  Full version of standard GNU tail utility.
+
+Package: coreutils-tee
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/tee:/usr/bin/gnu-tee
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19242
+Filename: coreutils-tee_8.23-4_arm_cortex-a9_neon.ipk
+Size: 20006
+SHA256sum: d894c6451b50a9ed26ee3961af088ee0c1279ae274485543842e34ccb2d56ef1
+Description:  Full version of standard GNU tee utility.
+
+Package: coreutils-test
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/test:/usr/bin/gnu-test
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16083
+Filename: coreutils-test_8.23-4_arm_cortex-a9_neon.ipk
+Size: 16762
+SHA256sum: 2b796153b09e633becfaeb83f2a43efd1b237c1e6620dab5799bfc646dae677f
+Description:  Full version of standard GNU test utility.
+
+Package: coreutils-timeout
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, librt
+Alternatives: 300:/usr/bin/timeout:/usr/bin/gnu-timeout
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 29027
+Filename: coreutils-timeout_8.23-4_arm_cortex-a9_neon.ipk
+Size: 29738
+SHA256sum: 2c0861b794ccc522212a2955c061486c444ffb17cba72b2bb2e7a611a8463e30
+Description:  Full version of standard GNU timeout utility.
+
+Package: coreutils-touch
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/touch:/usr/bin/gnu-touch
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36368
+Filename: coreutils-touch_8.23-4_arm_cortex-a9_neon.ipk
+Size: 37140
+SHA256sum: 2704a39405bf3304f2baa8173d8feee938e4c38b961268cd377317201f0fccec
+Description:  Full version of standard GNU touch utility.
+
+Package: coreutils-tr
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/tr:/usr/bin/gnu-tr
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26660
+Filename: coreutils-tr_8.23-4_arm_cortex-a9_neon.ipk
+Size: 27380
+SHA256sum: 780d9c0f7367800228899e03d4695852dcf7c8a2c4679db247d323e920889533
+Description:  Full version of standard GNU tr utility.
+
+Package: coreutils-true
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/true:/usr/bin/gnu-true
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12808
+Filename: coreutils-true_8.23-4_arm_cortex-a9_neon.ipk
+Size: 13567
+SHA256sum: 8a3878b72b279b70ed02ecc657e921bf51ce764d0cabdcbfef1c5d6d7347adc4
+Description:  Full version of standard GNU true utility.
+
+Package: coreutils-truncate
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/truncate:/usr/bin/gnu-truncate
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28754
+Filename: coreutils-truncate_8.23-4_arm_cortex-a9_neon.ipk
+Size: 29490
+SHA256sum: 4653990cf279d25edf2d8f40d4a0392ccaac7ffef19a6cb3e7287f165f78974d
+Description:  Full version of standard GNU truncate utility.
+
+Package: coreutils-tsort
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22284
+Filename: coreutils-tsort_8.23-4_arm_cortex-a9_neon.ipk
+Size: 22957
+SHA256sum: fdf0f592da160f2f93c67d07781ddacca2785202250f722ca055f209ea53fa8b
+Description:  Full version of standard GNU tsort utility.
+
+Package: coreutils-tty
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/tty:/usr/bin/gnu-tty
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18317
+Filename: coreutils-tty_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19064
+SHA256sum: b2b5bcf972fe3c5438134af7fadab76db8c6c371c15a6604d6da0b11cbf9a32b
+Description:  Full version of standard GNU tty utility.
+
+Package: coreutils-uname
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/bin/uname:/usr/bin/gnu-uname
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19056
+Filename: coreutils-uname_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19756
+SHA256sum: 94211895d3c958c81de13b2acf9aa4d77c259a13fe15e7fe5aaebecb83c06fc3
+Description:  Full version of standard GNU uname utility.
+
+Package: coreutils-unexpand
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/unexpand:/usr/bin/gnu-unexpand
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20368
+Filename: coreutils-unexpand_8.23-4_arm_cortex-a9_neon.ipk
+Size: 21118
+SHA256sum: 2b89b5370e4767ff2866dae81afc77b43a2216b5a920debf25d888e44ba5747f
+Description:  Full version of standard GNU unexpand utility.
+
+Package: coreutils-uniq
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/uniq:/usr/bin/gnu-uniq
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 24263
+Filename: coreutils-uniq_8.23-4_arm_cortex-a9_neon.ipk
+Size: 24972
+SHA256sum: bf7a92f4c4dba9403fced1f5ff8bf5f6811405a10512616a390b899d7592b79e
+Description:  Full version of standard GNU uniq utility.
+
+Package: coreutils-unlink
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/unlink:/usr/bin/gnu-unlink
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18312
+Filename: coreutils-unlink_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19076
+SHA256sum: 00cdddffc102719c9ae4cd23cb9918bd5f6cfcd73085e7b3ba2ffc946b8c49bc
+Description:  Full version of standard GNU unlink utility.
+
+Package: coreutils-uptime
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/uptime:/usr/bin/gnu-uptime
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25689
+Filename: coreutils-uptime_8.23-4_arm_cortex-a9_neon.ipk
+Size: 26410
+SHA256sum: 27edb2bf540a2c1a496a6b841aa15a44bbb712aee6c05866a145d4446409ee39
+Description:  Full version of standard GNU uptime utility.
+
+Package: coreutils-users
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/users:/usr/bin/gnu-users
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19178
+Filename: coreutils-users_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19939
+SHA256sum: 9107d6e954c81926277bd7ec8681dc5e36c0ca01c2fa797d8d953fc622362af5
+Description:  Full version of standard GNU users utility.
+
+Package: coreutils-vdir
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils, libacl, libcap
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 68637
+Filename: coreutils-vdir_8.23-4_arm_cortex-a9_neon.ipk
+Size: 69313
+SHA256sum: 182a6c38a92c91a6a103c6b1202db8873221c92d9111a5b4e5bb77ac2684ddd3
+Description:  Full version of standard GNU vdir utility.
+
+Package: coreutils-wc
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/wc:/usr/bin/gnu-wc
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23639
+Filename: coreutils-wc_8.23-4_arm_cortex-a9_neon.ipk
+Size: 24328
+SHA256sum: e14fd9610c87731dbf830641ac7b0f0fba3e692c48b5658180a8bdcb273308c8
+Description:  Full version of standard GNU wc utility.
+
+Package: coreutils-who
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/who:/usr/bin/gnu-who
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22746
+Filename: coreutils-who_8.23-4_arm_cortex-a9_neon.ipk
+Size: 23457
+SHA256sum: 9bb79dc4a4445bef3b3f9d1bdf12070a49e138aa837a18fcd076f1dfd5b70372
+Description:  Full version of standard GNU who utility.
+
+Package: coreutils-whoami
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/whoami:/usr/bin/gnu-whoami
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18369
+Filename: coreutils-whoami_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19089
+SHA256sum: 7b88de7a3aaa6c4f8cec26b99d19005807636caca3b7b52da9b578278844818f
+Description:  Full version of standard GNU whoami utility.
+
+Package: coreutils-yes
+Version: 8.23-4
+Depends: libc, librt, libpthread, coreutils
+Alternatives: 300:/usr/bin/yes:/usr/bin/gnu-yes
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18388
+Filename: coreutils-yes_8.23-4_arm_cortex-a9_neon.ipk
+Size: 19122
+SHA256sum: 5247341151fde17fbc2fcb0ddecfeb022db72f50f05c75aa1c0752cf680f2dec
+Description:  Full version of standard GNU yes utility.
+
+Package: coreutils
+Version: 8.23-4
+Depends: libc, librt, libpthread
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: coreutils_8.23-4_arm_cortex-a9_neon.ipk
+Size: 933
+SHA256sum: 2dabfe6cd30da4978e88443a74e0432a990d18794bf85da9703c866e67fda75f
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: dbus-utils
+Version: 1.10.4-1
+Depends: libc, librt, libpthread, dbus
+License: AFL-2.1
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15783
+Filename: dbus-utils_1.10.4-1_arm_cortex-a9_neon.ipk
+Size: 16297
+SHA256sum: 604ae86731e793ed340b9da799bf3bcb220d61358fb6ddc6157bd9462dd72aa0
+Description:  Simple interprocess messaging system (utilities)
+
+Package: dbus
+Version: 1.10.4-1
+Depends: libc, librt, libpthread, libexpat, libdbus
+License: AFL-2.1
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 99724
+Filename: dbus_1.10.4-1_arm_cortex-a9_neon.ipk
+Size: 99843
+SHA256sum: a68a8acdc17e3eacf9e2260093d6d5af42c3a05ae2ed9f7c7503c890e50c7606
+Description:  Simple interprocess messaging system (daemon)
 
 Package: ddns-scripts
 Version: 2.7.8-1
@@ -203,6 +1475,21 @@ Description:  Dynamic DNS Client scripts extension for Amazon AWS Route53. Note:
  "option password" to be the matching AWS secret key id
  "option domain" to contain the hosted zone ID
 
+Package: debootstrap
+Version: 1.0.92-1
+Depends: libc, librt, libpthread, coreutils, coreutils-chroot, coreutils-sha1sum, ar, xz
+License: Unique
+Section: admin
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27133
+Filename: debootstrap_1.0.92-1_arm_cortex-a9_neon.ipk
+Size: 28113
+SHA256sum: ac9d843237d02f009b6aaf3e009ac890cde0ef59d98e59bfd81a7a77ffdbd373
+Description:  debootstrap is used to create a Debian base system from scratch, without
+ requiring the availability of dpkg or apt. It does this by downloading .deb
+ files from a mirror site, and carefully unpacking them into a directory which
+ can eventually be chrooted into.
+
 Package: etherwake
 Version: 1.09-4
 Depends: libc, librt, libpthread
@@ -217,6 +1504,18 @@ Description:  You can wake up WOL compliant Computers which have been powered do
  WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
  to turn on a computer from another location over a network connection.
  ether-wake also supports WOL passwords.
+
+Package: gzip
+Version: 1.7-1
+Depends: libc, librt, libpthread
+License: GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 58305
+Filename: gzip_1.7-1_arm_cortex-a9_neon.ipk
+Size: 59243
+SHA256sum: 8b77560556585b5a9279c8d164fa7070dad3385c3f64c31372a96a9ea84a3949
+Description:  gzip (GNU zip) is a compression utility designed to be a replacement for compress.
 
 Package: hd-idle
 Version: 1.05-1
@@ -241,6 +1540,79 @@ Filename: jansson_2.10-1_arm_cortex-a9_neon.ipk
 Size: 25438
 SHA256sum: a928b9f5ce44a60824b4f54c2f9d346ede35c64e7e74ee4d2089fc98cf20fd9c
 Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+
+Package: libacl
+Version: 20180121-1
+Depends: libc, librt, libpthread, libattr
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12464
+Filename: libacl_20180121-1_arm_cortex-a9_neon.ipk
+Size: 13268
+SHA256sum: 9f5de3d73bd6e3357fb2e48ff754a85721493d295b749a453f818f2168242d1f
+Description:  Access control list support
+ This package provides libacl
+
+Package: libarchive-noopenssl
+Version: 3.3.2-1
+Depends: libc, librt, libpthread, zlib, liblzma, libbz2, libexpat
+License: BSD-2-Clause
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 338166
+Filename: libarchive-noopenssl_3.3.2-1_arm_cortex-a9_neon.ipk
+Size: 337413
+SHA256sum: 0480e90ed0d2e48317d75217f0a53da8bb77392915de31426dc37a58da5bf036
+Description:  Multi-format archive and compression library (without OpenSSL dependency)
+
+Package: libattr
+Version: 20170915-1
+Depends: libc, librt, libpthread
+License: LGPL-2.1 GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7128
+Filename: libattr_20170915-1_arm_cortex-a9_neon.ipk
+Size: 7925
+SHA256sum: 33ff6727dc2d0f447c27af3d92cc0acc222cd778ee90e8e822776f2b0ad160e7
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-dbus-support
+Version: 0.6.32-3
+Depends: libc, librt, libpthread, dbus
+Provides: libavahi
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 73148
+Filename: libavahi-dbus-support_0.6.32-3_arm_cortex-a9_neon.ipk
+Size: 74085
+SHA256sum: 3cabc260444397f89b05cf06610a1e6672009c2f233f80b70faa06f9e71612f3
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
 
 Package: libcap
 Version: 2.25-2
@@ -269,6 +1641,38 @@ Description:  c-ares is a C library for asynchronous DNS requests (including nam
  C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
  Netware, Android and many more operating systems.
  
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc, librt, libpthread
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9059
+Filename: libdaemon_0.14-5_arm_cortex-a9_neon.ipk
+Size: 10128
+SHA256sum: 8d288560cd5a17096a3d4f51a43fad09312477a7a8f0240bd102622a0fd6ca8c
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.10.4-1
+Depends: libc, librt, libpthread, libpthread
+License: AFL-2.1
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 126572
+Filename: libdbus_1.10.4-1_arm_cortex-a9_neon.ipk
+Size: 126705
+SHA256sum: 510186b6292dd89117732852c294a39931b814b679be72a909d956a7c57056f0
+Description:  Simple interprocess messaging system (library)
 
 Package: libedit
 Version: 20170329-3.1-1
@@ -340,6 +1744,19 @@ Size: 171947
 SHA256sum: 053c18cad505ae1b2fd4ccd4ee8ffb347ecab1f32756b240564b172f5242b850
 Description:  Free Lossless Audio Codec library
 
+Package: libgd
+Version: 2.2.5-1
+Depends: libc, librt, libpthread, libjpeg, libpng
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 115888
+Filename: libgd_2.2.5-1_arm_cortex-a9_neon.ipk
+Size: 115100
+SHA256sum: 8b0ed4e9ec62d36e63e9342a7202530a6bbbfae08578efd0444cb738ab15ebfd
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
 Package: libgnutls
 Version: 3.5.19-1
 Depends: libc, librt, libpthread, libnettle, libgmp
@@ -396,6 +1813,18 @@ Filename: libjpeg_9a-1_arm_cortex-a9_neon.ipk
 Size: 129283
 SHA256sum: ce08bc4b01c61b72be39609bb084a419f144b176dddabd808eb6120d047159a6
 Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: liblzma
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, libpthread
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 67129
+Filename: liblzma_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 67909
+SHA256sum: 396945f3f4abb7990de435ca89b4eeef63f4436e977e02bad4cdd730641537fd
+Description:  liblzma library from XZ Utils
 
 Package: libmariadbclient
 Version: 10.1.41-1
@@ -678,6 +2107,30 @@ Size: 4986
 SHA256sum: f9a8c30889e400270b8faadc9daa8b7ddb0d68c5aca06c6e4c9ed61c005b42d1
 Description:  Luci interface for the SQM scripts queue management configuration package.
 
+Package: lzmadec
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, liblzma
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3793
+Filename: lzmadec_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 4549
+SHA256sum: b0cf3ce86ca9a83c64627a4c74df023884766b9853644b72b427837f83e7b65f
+Description:  Contains: lzmadec 
+
+Package: lzmainfo
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, liblzma
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3665
+Filename: lzmainfo_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 4422
+SHA256sum: 667ee4dc49c21a9668911a74d2e273d59de97f12da23f8a5bbf2c8a68f4e8b60
+Description:  Contains: lzmainfo 
+
 Package: minidlna
 Version: 1.2.1-3
 Depends: libc, librt, libpthread, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid
@@ -727,6 +2180,336 @@ Size: 539966
 SHA256sum: e6d75c707b5be18d03ff9a56dec6b8bc1b5d171e78fa1823c793f35a9e48b4f7
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server,
  written by Igor Sysoev.
+
+Package: nut-avahi-service
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, avahi-daemon
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 845
+Filename: nut-avahi-service_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 1709
+SHA256sum: 8e20ffa893b98f6494a487060453aca40595d958f0efe4c963166b86b5e55775
+Description:  This package contains the service definition for announcing the
+ attached UPS via mDNS/DNS-SD.
+
+Package: nut-common
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, libnetsnmp, libusb-compat, libopenssl
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19271
+Filename: nut-common_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 20155
+SHA256sum: 227f2c449fb8310cceefe270c7cf4321198292fb329886941f7c1f1eedcde5c2
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ This package contains the common files.
+
+Package: nut-driver-bcmxcp_usb
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42445
+Filename: nut-driver-bcmxcp_usb_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 43194
+SHA256sum: 209fe90c84053b15b02aaefd716259b8fc124745cefa786ea22995ea14f85390
+Description:  Experimental driver for UPSes supporting the BCM/XCP protocol over USB
+
+Package: nut-driver-blazer_usb
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 34804
+Filename: nut-driver-blazer_usb_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 35550
+SHA256sum: 5d70c542313edc059097e459579723d109e64b5ff790f33cdf44be7ffc8f9f4f
+Description:  Driver for Megatec/Q1 protocol USB based UPS equipment
+
+Package: nut-driver-nutdrv_atcl_usb
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23281
+Filename: nut-driver-nutdrv_atcl_usb_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 24021
+SHA256sum: 41b8120e8dce94bdcc0e91330bfb2aea1e2f5700e72011d7e405d4340a6e5dd8
+Description:  Driver for ATCL FOR UPS equipment
+
+Package: nut-driver-nutdrv_qx
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 69219
+Filename: nut-driver-nutdrv_qx_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 68005
+SHA256sum: bdeaade20e1879728142db0257a418440f80ab66a302c2a5699a053098d1a4c8
+Description:  Driver for Q* protocol serial and USB based UPS equipment
+
+Package: nut-driver-richcomm_usb
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23200
+Filename: nut-driver-richcomm_usb_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 23958
+SHA256sum: 20fd56c9c941d62f6c99dfdb89f74c569122ee921f5d3fee81c580be51d9aeb3
+Description:  Driver for UPS equipment using Richcomm dry-contact to USB solution
+
+Package: nut-driver-riello_usb
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 34235
+Filename: nut-driver-riello_usb_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 35023
+SHA256sum: 17859863969bf692308e0dfd930b9bd3ea05b072c5230c9157238d3661d0132a
+Description:  Driver for Riello UPS Protocol UPS equipment via USB
+
+Package: nut-driver-snmp-ups
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 47545
+Filename: nut-driver-snmp-ups_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 48238
+SHA256sum: 461e4dde930743fc30319235f602bbff5f27a5967cbd1fbc33938bc7bc20a6d3
+Description:  Multi-MIB Driver for SNMP UPS equipment
+
+Package: nut-driver-tripplite_usb
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32331
+Filename: nut-driver-tripplite_usb_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 33035
+SHA256sum: eab2a38a52696ef46a6d4706e049520f1daa0b34339d571d932a0800d81cca11
+Description:  Driver for older Tripp Lite USB UPSes (not PDC HID)
+
+Package: nut-driver-usbhid-ups
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-server
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 57347
+Filename: nut-driver-usbhid-ups_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 58002
+SHA256sum: 1a482184300246b1d039e537d4e47bdef4f22a3614960c26b1f92139e1ace8d0
+Description:  Driver for USB/HID UPS equipment
+
+Package: nut-server
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 53723
+Filename: nut-server_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 54891
+SHA256sum: fa932a85861fdb623dccf702d8c44d126d0149eda65e8ae374933008b6e31880
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upsd is responsible for serving the data from the drivers to the
+ clients. It connects to each driver and maintains a local cache of the
+ current state. Queries from the clients are served from this cache, so
+ delays are minimal. This program is essential, and must be running at
+ all times to actually make any use out of the drivers and clients.
+
+Package: nut-upsc
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7537
+Filename: nut-upsc_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 8572
+SHA256sum: 9be37e5be1c16f926ccd29eff3273baf92206fed5b6b5469e4be5120c68cb8bb
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upsc is provided as a quick way to poll the status of a UPS server. It
+ can be used inside shell scripts and other programs that need UPS data
+ but don not want to include the full interface.
+
+Package: nut-upscmd
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8225
+Filename: nut-upscmd_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 9333
+SHA256sum: 197dade0bfce93977ea796eb1918503ef1bdcebc5f6d6a2d347833b61a5bbc0d
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upscmd allows you to invoke "instant commands" in your UPS hardware. Not
+ all hardware supports this, so check the list with -l to see if anything
+ will work on your equipment. On hardware that supports it, you can use
+ this program to start and stop battery tests, invoke a front panel test
+ (beep!), turn the load on or off, and more.
+
+Package: nut-upslog
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9360
+Filename: nut-upslog_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 10314
+SHA256sum: 33800078a901bc23f072a9e226c4e9920572e81db80a8dbdc4950c0017a46e78
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upslog is a daemon that will poll a UPS at periodic intervals, fetch the
+ variables that interest you, format them, and write them to a file.
+
+Package: nut-upsmon-sendmail-notify
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-upsmon
+Conflicts: nut-upssched
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 666
+Filename: nut-upsmon-sendmail-notify_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 1639
+SHA256sum: 8e01b4509530a70b71b95b07689b8e4dbb06ce751876edd34001e3ee0d392d04
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upsmon with default notification via sendmail
+
+Package: nut-upsmon
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21458
+Filename: nut-upsmon_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 22625
+SHA256sum: ce60da44da5c88706faecb37a9be86afdc17d6e52ec43eacf95c3537d6c74fa7
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upsmon is the client process that is responsible for the most important
+ part of UPS monitoring--shutting down the system when the power goes
+ out. It can call out to other helper programs for notification purposes
+ during power events. upsmon can monitor multiple systems using a single
+ process. Every UPS that is defined in the upsmon.conf configuration file
+ is assigned a power value and a type (slave or master).
+
+Package: nut-upsrw
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12653
+Filename: nut-upsrw_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 13738
+SHA256sum: 9986774280d721b86df0709becca67a21ef2ef10d560875bb5f7fd0311b16a94
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upsrw allows you to view and change the read/write variables inside your
+ UPS. It sends commands via the upsd to your driver, which configures the
+ hardware for you. The list of variables that allow you to change their
+ values is based on the capabilities of your UPS equipment. Not all
+ models support this feature. Typically, cheaper hardware does not
+ support any of them.
+
+Package: nut-upssched
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common, nut-upsmon
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14936
+Filename: nut-upssched_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 16025
+SHA256sum: 473f130027669601b552c208af0e8662b6c48c846fd296aa6e2072786640daf8
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
+ upssched was created to allow users to execute programs at times relative
+ to events being monitored by upsmon. The original purpose was to allow
+ for a shutdown to occur after some fixed period on battery, but there are
+ other uses that are possible.
+ You can alternatively write your own script and save some space.
+
+Package: nut-web-cgi
+Version: 2.7.4-9
+Depends: libc, librt, libpthread, nut, nut-common, libgd
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 51549
+Filename: nut-web-cgi_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 52532
+SHA256sum: dbab0c627b4387373bdb827f499715eda185b398c0518526f49170caa085c447
+Description:  The CGI programs are clients that run through your web server.
+ They allow you to see UPS status and perform certain administrative
+ commands from any web browser. Javascript and cookies are not required.
+
+Package: nut
+Version: 2.7.4-9
+Depends: libc, librt, libpthread
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: nut_2.7.4-9_arm_cortex-a9_neon.ipk
+Size: 1010
+SHA256sum: 8d9293f794cd246df73949aab01e64d624b2de9eb81fa3dcb48c5f13757aac64
+Description:  Network UPS Tools (NUT) is a client/server monitoring system that
+ allows computers to share uninterruptible power supply (UPS) and
+ power distribution unit (PDU) hardware. Clients access the hardware
+ through the server, and are notified whenever the power status
+ changes.
 
 Package: openvswitch-base
 Version: 2.8.5-1
@@ -1112,6 +2895,34 @@ SHA256sum: 855d7322817246f997fe5d1c1ff326bbb1950652403613b8e9346ab2d220ca29
 Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
  Mac OSX, and UNIX.
 
+Package: unrar
+Version: 5.6.1-1
+Depends: libc, librt, libpthread, libstdcpp, libpthread
+License: UnRAR
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 180010
+Filename: unrar_5.6.1-1_arm_cortex-a9_neon.ipk
+Size: 180514
+SHA256sum: 28013e57a2a01364491587a54533292738dd52c577dcdad459ae0906375e699b
+Description:  UnRAR is an application that can decompress files and archives created using
+ the RAR compression scheme
+
+Package: unzip
+Version: 6.0-6
+Depends: libc, librt, libpthread
+License: BSD-4-Clause
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 106325
+Filename: unzip_6.0-6_arm_cortex-a9_neon.ipk
+Size: 107263
+SHA256sum: 06b0712b537d5664e43d8bcc2ead69198074f2ba335c3c61e5c2f8ef05567bbe
+Description:  InfoZIP's unzip program. With the exception of multi-volume archives
+ (ie, .ZIP files that are split across several disks using PKZIP's /& option),
+ this can handle any file produced either by PKZIP, or the corresponding
+ InfoZIP zip program.
+
 Package: wget
 Version: 1.19.5-1
 Depends: libc, librt, libpthread, libpcre, zlib, libopenssl, librt
@@ -1144,4 +2955,103 @@ Description:  xupnpd - eXtensible UPnP agent
  This program is a light DLNA Media Server which provides ContentDirectory:1 service for sharing IPTV unicast streams over local area network (with udpxy for multicast to HTTP unicast conversion).
  The program shares UTF8-encoded M3U playlists with links over local area network as content of the directory.
  You can watch HDTV broadcasts (multicast or unicast) and listen Internet Radio in IP network without transcoding and PC.
+
+Package: xz-utils
+Version: 5.2.4-1
+Depends: libc, librt, libpthread
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: xz-utils_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 860
+SHA256sum: d1725bc2685ee4ac6e06431886fbe878bbd2f3f710a1c6b1bca910904fb6981b
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, liblzma
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30122
+Filename: xz_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 30908
+SHA256sum: c96285498d357fa5dc05437098aa46697a0475308b76de11dab2090d8e14f9ab
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
+Package: xzdec
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, liblzma
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3792
+Filename: xzdec_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 4546
+SHA256sum: b14b81696c74e893a5466f9e41bce9ab93bafa1bb9f0f6cc1b6b97cdd4d604d3
+Description:  Contains: xzdec 
+
+Package: xzdiff
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, bash, xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2704
+Filename: xzdiff_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 3480
+SHA256sum: e609523a00495618a262f6363e23a57dcdc2e217ae0da544c11f00687a3a3d0e
+Description:  Contains: xzdiff  lzcmp lzdiff xzcmp
+
+Package: xzgrep
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, bash, xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2677
+Filename: xzgrep_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 3450
+SHA256sum: e029e0095a88e5573a155e101868eed6f3d72c5db2676ec28899ad59b3b0e9d7
+Description:  Contains: xzgrep  lzegrep lzfgrep lzgrep xzegrep xzfgrep
+
+Package: xzless
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, bash, xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1259
+Filename: xzless_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 2044
+SHA256sum: 00ef7e40a0ed7002fe7e6cad255271707c50faafff6c2cc7898549eb4a075ad9
+Description:  Contains: xzless  lzless
+
+Package: xzmore
+Version: 5.2.4-1
+Depends: libc, librt, libpthread, xz-utils, bash, xz
+License: Public-Domain LGPL-2.1+ GPL-2.0+ GPL-3.0+
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1346
+Filename: xzmore_5.2.4-1_arm_cortex-a9_neon.ipk
+Size: 2137
+SHA256sum: 665130885d8133b3186ff51d89655013c2b45a783ed94b56701e32da75edf148
+Description:  Contains: xzmore  lzmore
+
+Package: zip
+Version: 3.0-4
+Depends: libc, librt, libpthread
+License: BSD-4-Clause
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 220975
+Filename: zip_3.0-4_arm_cortex-a9_neon.ipk
+Size: 221826
+SHA256sum: 1576aead3e762239342b20f7cecd84c8c9458cbb35ce59872757b2a65c700ead
+Description:  This is InfoZIP's zip program. It produces files that are fully
+ compatible with the popular PKZIP program; however, the command line
+ options are not identical. In other words, the end result is the same,
+ but the methods differ.
 

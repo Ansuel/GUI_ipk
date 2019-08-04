@@ -1,3 +1,15 @@
+Package: ar
+Version: 2.27-1
+Depends: libc, librt, libpthread, zlib, libbfd
+License: GPL-3.0+
+Section: devel
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25713
+Filename: ar_2.27-1_arm_cortex-a9_neon.ipk
+Size: 26397
+SHA256sum: 78c711855f31c3a13204d73e98ccad6b33c5b47e36b32398aa6b59365835b0ff
+Description:  ar
+
 Package: busybox
 Version: 1.28.4-3
 Depends: libc, librt, libpthread
@@ -25,6 +37,19 @@ Size: 95706
 SHA256sum: 6783660bed75346da9ac234e82fdba195e37d9df00ae90af03081f17d92c5d8a
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
+
+Package: bzip2
+Version: 1.0.6-4
+Depends: libc, librt, libpthread, libbz2
+License: BZIP2
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16658
+Filename: bzip2_1.0.6-4_arm_cortex-a9_neon.ipk
+Size: 17451
+SHA256sum: 27589ef5305e41d6b97e02f24aa8e5bd8bf7e22e186a1bd842b0a91b37b138a5
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This package provides the binary.
 
 Package: ca-bundle
 Version: 20190110-1
@@ -144,6 +169,18 @@ Filename: jsonfilter_2018-02-04-c7e938d6-1_arm_cortex-a9_neon.ipk
 Size: 10357
 SHA256sum: a6817a54d0afdbd1d4b8918715b128131d39a73cd84db38927b370e78550faf9
 Description:  OpenWrt JSON filter utility
+
+Package: libbfd
+Version: 2.27-1
+Depends: libc, librt, libpthread, zlib
+License: GPL-3.0+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 383753
+Filename: libbfd_2.27-1_arm_cortex-a9_neon.ipk
+Size: 380246
+SHA256sum: 725ce2b751565cb75c349a14fa04ba684ade9f92755e800971404ad102b26f6c
+Description:  libbfd
 
 Package: libblobmsg-json
 Version: 2018-07-25-c83a84af-2
@@ -463,6 +500,19 @@ SHA256sum: d94a294cafb485b9e72eb45d118a68a7911571b2f802b1c3b1ba6aa26f518518
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
 
+Package: libusb-compat
+Version: 0.1.5-1
+Depends: libc, librt, libpthread, libusb-1.0
+License: LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7175
+Filename: libusb-compat_0.1.5-1_arm_cortex-a9_neon.ipk
+Size: 7978
+SHA256sum: 5a312eed06dabd7cee789f349f0787ed851f1340499d318db80534b2b6fa903f
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
 Package: libustream-openssl
 Version: 2018-07-30-23a3f283-1
 Depends: libc, librt, libpthread, libubox, libopenssl
@@ -598,10 +648,10 @@ License: GPL-2.0
 Section: base
 Essential: yes
 Architecture: arm_cortex-a9_neon
-Installed-Size: 62642
+Installed-Size: 62637
 Filename: opkg_2019-06-14-dcbc142e-1_arm_cortex-a9_neon.ipk
-Size: 63576
-SHA256sum: 015ea2e9414fde32730d1898080d0fad7a4caa8ac0caaa7a3dcc820ced58b432
+Size: 63573
+SHA256sum: 020806473909ca805c4a7334d1a3f2b60436c9a82f6896e0f35f7e5097c0e199
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
