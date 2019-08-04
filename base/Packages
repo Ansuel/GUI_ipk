@@ -1,1275 +1,388 @@
 Package: busybox
-Version: 1.23.2-1
+Version: 1.28.4-3
 Depends: libc, librt, libpthread
-Source: package/utils/busybox
 License: GPL-2.0
-LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
 Section: base
 Essential: yes
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 261245
-Filename: busybox_1.23.2-1_brcm63xx-tch.ipk
-Size: 261648
-MD5Sum: a14eaa04dc5eedd893d642992415d755
-SHA256sum: 2b3ad46ae946f8726b5e08bba9b5a65da3b2b15505c2887e46029daddcc9f434
+Architecture: arm_cortex-a9_neon
+Installed-Size: 280636
+Filename: busybox_1.28.4-3_arm_cortex-a9_neon.ipk
+Size: 281112
+SHA256sum: 3e9d8f980beca8477dbc96af24b95b408ce3699f8e8049480241b1958e308cb7
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
 Package: busybox_telnet
-Version: 1.23.2-1
+Version: 1.28.4-3
 Depends: libc, librt, libpthread
-Source: package/utils/busybox_telnet
 License: GPL-2.0
-LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
 Section: base
 Essential: yes
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 517448
-Filename: busybox_telnet_1.23.2-1_brcm63xx-tch.ipk
-Size: 517122
-MD5Sum: 2bc3db4fb1c69b40932c9c1ab4fe2d30
-SHA256sum: 2abf0ff3ca1b7d51fac10f287cfc004daff59abfd9ef0f0718b194fed948cc5b
+Architecture: arm_cortex-a9_neon
+Installed-Size: 95120
+Filename: busybox_telnet_1.28.4-3_arm_cortex-a9_neon.ipk
+Size: 95706
+SHA256sum: 6783660bed75346da9ac234e82fdba195e37d9df00ae90af03081f17d92c5d8a
 Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
+Package: ca-bundle
+Version: 20190110-1
+Depends: libc, librt, libpthread
+Section: base
+Architecture: all
+Installed-Size: 115236
+Filename: ca-bundle_20190110-1_all.ipk
+Size: 116037
+SHA256sum: 81a34eba0a1247ee55dacfc69849aad524df0db2f6cfd7a5bef5abec6ef4bca2
+Description:  System CA certificates as a bundle
+
 Package: curl
-Version: 7.54.0-1
+Version: 7.60.0-4
 Depends: libc, librt, libpthread, libcurl
-Source: package/network/utils/curl
 License: MIT
-LicenseFiles: COPYING
 Section: net
-Maintainer: Imre Kaloz <kaloz@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 43450
-Filename: curl_7.54.0-1_brcm63xx-tch.ipk
-Size: 44174
-MD5Sum: b0f6758b18bafaaa3a458a2937b254bb
-SHA256sum: 7e00ddd46e6baa5d40c236d7dbe16014b128974689239ac416b3603440d1e3ba
+Architecture: arm_cortex-a9_neon
+Installed-Size: 48559
+Filename: curl_7.60.0-4_arm_cortex-a9_neon.ipk
+Size: 49181
+SHA256sum: 04845c40fc3052adf08016ed820107ab9dec5a0fafa7ae7324776172fc84c813
 Description:  A client-side URL transfer utility
 
+Package: dnsmasq
+Version: 2.80-1.4
+Depends: libc, librt, libpthread, libubus
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 137909
+Filename: dnsmasq_2.80-1.4_arm_cortex-a9_neon.ipk
+Size: 138505
+SHA256sum: b8d671fa288ebd6662a3da382ad52f4a8bcd0a5ad8935f0a1c5337bb12dc3bf9
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2017.75-7.1
+Depends: libc, librt, libpthread
+Alternatives: 100:/usr/bin/ssh:/usr/sbin/dropbear, 100:/usr/bin/scp:/usr/sbin/dropbear
+License: MIT
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 108200
+Filename: dropbear_2017.75-7.1_arm_cortex-a9_neon.ipk
+Size: 108924
+SHA256sum: c3f56da94e003eb99e1de11a65b3dca81ec38336899082c1ab39374d3e09cd7e
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: edgeport-firmware
+Version: 2017-09-06-a61ac5cf-1
+Depends: libc, librt, libpthread
+Section: firmware
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18908
+Filename: edgeport-firmware_2017-09-06-a61ac5cf-1_arm_cortex-a9_neon.ipk
+Size: 19591
+SHA256sum: d2f925e1400d3be94778c1c7a23742bdeb742eea2e8e989b2a38b4f4636953f1
+Description:  USB Inside Out Edgeport Serial Driver firmware
+
 Package: firewall
-Version: 2017-05-27
-Depends: libc, librt, libpthread, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
-Source: package/network/config/firewall
+Version: 2018-08-13-1c4d5bcd-1
+Depends: libc, librt, libpthread, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-nf-conntrack6, kmod-ipt-nat
 License: ISC
 Section: net
-Maintainer: Jo-Philipp Wich <jo@mein.io>
-Architecture: brcm63xx-tch
-Installed-Size: 41757
-Filename: firewall_2017-05-27_brcm63xx-tch.ipk
-Size: 42505
-MD5Sum: e7beec3f97f3e81b318d6026b4e92120
-SHA256sum: e9e418a3eb4edb384324e3ab718c28b9a5e4da8992a1fa09e11cbee70495a8e7
+Architecture: arm_cortex-a9_neon
+Installed-Size: 61613
+Filename: firewall_2018-08-13-1c4d5bcd-1_arm_cortex-a9_neon.ipk
+Size: 62426
+SHA256sum: 253938c94f90e94d6ab4977e6948a1db03dc70dc646b1b69f29d0724cf76e017
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
-Package: ip6tables
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, kmod-ip6tables, iptables
-Source: package/network/utils/iptables
-License: GPL-2.0
+Package: hostapd-common
+Version: 2018-05-21-62566bc2-6
+Depends: libc, librt, libpthread
+License: BSD-3-Clause
 Section: net
-Architecture: brcm63xx-tch
-Installed-Size: 214
-Filename: ip6tables_1.6.1-1_brcm63xx-tch.ipk
-Size: 925
-MD5Sum: abf8ee4373881cf49869fd4bf07116a2
-SHA256sum: b261477b0f2b1f8f25728fff0d121235f55d3414711919bb0474737ebbd25935
-Description:  IPv6 firewall administration tool
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6129
+Filename: hostapd-common_2018-05-21-62566bc2-6_arm_cortex-a9_neon.ipk
+Size: 6888
+SHA256sum: f6ef68a0874f0f5858f6af1fd617c4d13bc93e92b1d9e38d7ff2172fbb84cd75
+Description:  hostapd/wpa_supplicant common support files
 
-Package: ip
-Version: 4.0.0-1
+Package: iw
+Version: 4.14-1
 Depends: libc, librt, libpthread, libnl-tiny
-Conflicts: ip-full
-Source: package/network/utils/iproute2
 License: GPL-2.0
 Section: net
-Maintainer: Russell Senior <russell@personaltelco.net>
-Architecture: brcm63xx-tch
-Installed-Size: 87860
-Filename: ip_4.0.0-1_brcm63xx-tch.ipk
-Size: 88609
-MD5Sum: 3c36161c6fa049917c01fe2540b74089
-SHA256sum: 637748b8b89910140b337009d484e4ebbc7ad0f6a89e498d64da8db25b47d74a
-Description:  Routing control utility (Minimal)
-
-Package: iptables-mod-conntrack-extra
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, iptables, kmod-ipt-conntrack-extra
-Source: package/network/utils/iptables
-License: GPL-2.0
-Section: net
-Architecture: brcm63xx-tch
-Installed-Size: 10728
-Filename: iptables-mod-conntrack-extra_1.6.1-1_brcm63xx-tch.ipk
-Size: 11492
-MD5Sum: e18a4fd667a44f2c49b925e6c877efe6
-SHA256sum: f1c3883b1ecfe204d7f5f94deb83a28c39d2bf7daeb9af1ae052d1c1041a069c
-Description:  Extra iptables extensions for connection tracking.
- 
- Matches:
- - connbytes
- - connlimit
- - connmark
- - recent
- - helper
- 
- Targets:
- - CONNMARK
- 
-
-Package: iptables-mod-ipopt
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, iptables, kmod-ipt-ipopt
-Source: package/network/utils/iptables
-License: GPL-2.0
-Section: net
-Architecture: brcm63xx-tch
-Installed-Size: 12293
-Filename: iptables-mod-ipopt_1.6.1-1_brcm63xx-tch.ipk
-Size: 13067
-MD5Sum: cca84b3931398324cdb9693866df2d50
-SHA256sum: 8dfca2087bf075a2f4fea8929eb1a3b1e5c84b29aafd27d66cef772b74764bda
-Description:  iptables extensions for matching/changing IP packet options.
- 
- Matches:
- - dscp
- - ecn
- - length
- - statistic
- - tcpmss
- - unclean
- - hl
- 
- Targets:
- - DSCP
- - CLASSIFY
- - ECN
- - HL
- 
-
-Package: iptables-mod-ipsec
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, iptables, kmod-ipt-ipsec
-Source: package/network/utils/iptables
-License: GPL-2.0
-Section: net
-Architecture: brcm63xx-tch
-Installed-Size: 7178
-Filename: iptables-mod-ipsec_1.6.1-1_brcm63xx-tch.ipk
-Size: 7974
-MD5Sum: bd9fb567d88ed4368240bfff1cc774c5
-SHA256sum: f516b55c0f31b55c833b09bb2701c776ac10d699890948a865acb897afe5be8f
-Description:  iptables extensions for matching ipsec traffic.
- 
- Matches:
- - ah
- - esp
- - policy
- 
-
-Package: iptables-mod-nfqueue
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, iptables, kmod-nfnetlink-queue, kmod-ipt-nfqueue
-Source: package/network/utils/iptables
-License: GPL-2.0
-Section: net
-Architecture: brcm63xx-tch
-Installed-Size: 3013
-Filename: iptables-mod-nfqueue_1.6.1-1_brcm63xx-tch.ipk
-Size: 3775
-MD5Sum: 4bb8e5f74ebc94dc0bf49a9730b25253
-SHA256sum: 7ba4d8d41996ce4679acac3269806d9d85f3f3e69b8d08ab2cb616e15d06d925
-Description:  iptables extension for user-space queuing via NFNETLINK.
- 
- Includes:
- - libxt_NFQUEUE
- 
-
-Package: iptables
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, kmod-ipt-core, libip4tc, libip6tc, libxtables
-Source: package/network/utils/iptables
-License: GPL-2.0
-Section: net
-Architecture: brcm63xx-tch
-Installed-Size: 32985
-Filename: iptables_1.6.1-1_brcm63xx-tch.ipk
-Size: 33915
-MD5Sum: 26239156a883a8fb7b50ae797402fe16
-SHA256sum: 01064368867a00016e421d3f3853b75b49de99f178966abc945b3cde325c1cbb
-Description:  IP firewall administration tool.
- 
- Matches:
- - icmp
- - tcp
- - udp
- - comment
- - conntrack
- - limit
- - mac
- - mark
- - multiport
- - set
- - state
- - time
- 
- Targets:
- - ACCEPT
- - CT
- - DNAT
- - DROP
- - REJECT
- - LOG
- - MARK
- - MASQUERADE
- - REDIRECT
- - SET
- - SNAT
- - TCPMSS
- 
- Tables:
- - filter
- - mangle
- - nat
- - raw
- 
+Architecture: arm_cortex-a9_neon
+Installed-Size: 38269
+Filename: iw_4.14-1_arm_cortex-a9_neon.ipk
+Size: 39149
+SHA256sum: cc0903af93c622033bd5efab59ec3d5178bb85f1164ba1848eda701940b883f8
+Description:  cfg80211 interface configuration utility
 
 Package: jshn
-Version: 2017-06-17-1
+Version: 2018-07-25-c83a84af-2
 Depends: libc, librt, libpthread, libjson-c, libubox, libblobmsg-json
-Source: package/libs/libubox
 License: ISC
 Section: utils
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 5983
-Filename: jshn_2017-06-17-1_brcm63xx-tch.ipk
-Size: 6764
-MD5Sum: e20e61584df54bdd85bb84c19f275207
-SHA256sum: ff0bdf938379bfa5b7c45f26a453c991306700856b9b72292305c0feb6ed7b80
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6549
+Filename: jshn_2018-07-25-c83a84af-2_arm_cortex-a9_neon.ipk
+Size: 7354
+SHA256sum: 74110ca785b090825fbc04bdac9a7854ef37f96cba3811775c4939bf77dfd1d0
 Description:  Library for parsing and generating JSON from shell scripts
 
 Package: jsonfilter
-Version: 2016-07-02-dea067ad67d977c247c300c06676a06adf21e0c7
+Version: 2018-02-04-c7e938d6-1
 Depends: libc, librt, libpthread, libubox, libjson-c
-Source: package/utils/jsonfilter
 License: ISC
 Section: base
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 8755
-Filename: jsonfilter_2016-07-02-dea067ad67d977c247c300c06676a06adf21e0c7_brcm63xx-tch.ipk
-Size: 9576
-MD5Sum: 13fdbbf22b1475fe04c605198bc0dca2
-SHA256sum: 7432e2f870f5edf65d80ae0af7da2898a82eb1618b23550c7e33001ffbffcc93
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9600
+Filename: jsonfilter_2018-02-04-c7e938d6-1_arm_cortex-a9_neon.ipk
+Size: 10357
+SHA256sum: a6817a54d0afdbd1d4b8918715b128131d39a73cd84db38927b370e78550faf9
 Description:  OpenWrt JSON filter utility
 
-Package: kmod-crypto-aead
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 235
-Filename: kmod-crypto-aead_4.1.38-1_brcm63xx-tch.ipk
-Size: 1006
-MD5Sum: eaa6084e751147a5f11cc9d1c0e3dac1
-SHA256sum: f417ce12c67abe1a2f0edf4a46eccc5f2ff37e49a03f1a80d0375dde71c210f5
-Description:  CryptoAPI AEAD support
-
-Package: kmod-crypto-authenc
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-manager, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 197
-Filename: kmod-crypto-authenc_4.1.38-1_brcm63xx-tch.ipk
-Size: 982
-MD5Sum: 5d39c9286a5ad0c47649b401c28ea7b2
-SHA256sum: 6b6de19548d17c7cee868e2f1e8d377f6bd7db049900a3f6fce8769cddbcfc73
-Description:  Combined mode wrapper for IPsec
-
-Package: kmod-crypto-cbc
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-manager, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 192
-Filename: kmod-crypto-cbc_4.1.38-1_brcm63xx-tch.ipk
-Size: 975
-MD5Sum: 091010d8a72d4e7ff2ffab1f64f42e48
-SHA256sum: 63fc9804fa049a8a8f3d36e5a91ad4ade8e4ce91d4969e8eb659231c58922343
-Description:  Cipher Block Chaining CryptoAPI module
-
-Package: kmod-crypto-core
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 104
-Filename: kmod-crypto-core_4.1.38-1_brcm63xx-tch.ipk
-Size: 801
-MD5Sum: 4a401c010210e4f0e322efda881b3e2a
-SHA256sum: 80073989cf2f21422237947f063bb5c25e81c10dc0879838f22a84287a08ac01
-Description:  Core CryptoAPI modules
-
-Package: kmod-crypto-deflate
-Version: 4.1.38-1
-Depends: kernel, kmod-lib-zlib, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 1742
-Filename: kmod-crypto-deflate_4.1.38-1_brcm63xx-tch.ipk
-Size: 2553
-MD5Sum: a2867c3063dabc43b811d5d5bafa2a3d
-SHA256sum: 1bddda03cf2310a25f252b25225239b6241139119ce20893c9a0d4b48937a3b4
-Description:  Deflate compression CryptoAPI module
-
-Package: kmod-crypto-des
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 201
-Filename: kmod-crypto-des_4.1.38-1_brcm63xx-tch.ipk
-Size: 977
-MD5Sum: bd41d678275ac249c97d1a0fd26b7154
-SHA256sum: 268bd036fa15d8383c2ef8a40e97e162e091422fdf0436b50b8e8a8eef828587
-Description:  DES/3DES cipher CryptoAPI module
-
-Package: kmod-crypto-hash
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 239
-Filename: kmod-crypto-hash_4.1.38-1_brcm63xx-tch.ipk
-Size: 1009
-MD5Sum: 78fb7a588b36b2d0819461af64e511e0
-SHA256sum: 8cf8c4ec0458082b9f056594f3e9b5ddd2c962a65b445441296ed6a61c3befb8
-Description:  CryptoAPI hash support
-
-Package: kmod-crypto-hmac
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-manager, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 195
-Filename: kmod-crypto-hmac_4.1.38-1_brcm63xx-tch.ipk
-Size: 980
-MD5Sum: 592cb9a7b805c694c53549e96ca25e95
-SHA256sum: b1624745fcbbffd4f542277652b3a4e2925a8954eab021f4cd3f99f4d1790d88
-Description:  HMAC digest CryptoAPI module
-
-Package: kmod-crypto-iv
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-manager, kmod-crypto-rng, kmod-crypto-wq, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 201
-Filename: kmod-crypto-iv_4.1.38-1_brcm63xx-tch.ipk
-Size: 994
-MD5Sum: c5833a171e9b9c58a59e1bbac54e36dc
-SHA256sum: 079006a1e3396605b7f5b000c04353857dfb69882f9953aea8377ad61f3cd282
-Description:  CryptoAPI initialization vectors
-
-Package: kmod-crypto-manager
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-aead, kmod-crypto-hash, kmod-crypto-pcompress, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 104
-Filename: kmod-crypto-manager_4.1.38-1_brcm63xx-tch.ipk
-Size: 836
-MD5Sum: 3dd9244601eebc2f2025ab31b5166bf1
-SHA256sum: 69c324deb020a3134e2799f6d441258dbf426a9d7d5669379e6f3036691309d7
-Description:  CryptoAPI algorithm manager
-
-Package: kmod-crypto-md5
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-hash, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 189
-Filename: kmod-crypto-md5_4.1.38-1_brcm63xx-tch.ipk
-Size: 966
-MD5Sum: a87f7d8cf10f3cdb83214062cf1dc9d6
-SHA256sum: 0243e95b080bfa81734bd1c17c18a7a4a6b57229f04e3b67fa56803738c5acab
-Description:  MD5 digest CryptoAPI module
-
-Package: kmod-crypto-pcompress
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 104
-Filename: kmod-crypto-pcompress_4.1.38-1_brcm63xx-tch.ipk
-Size: 826
-MD5Sum: f97c8a65b5ba432e7f078e93fee04a81
-SHA256sum: 5db1f40ca00634f59d298c19ebf0bdbc5598bf7b76101d348dd66d48a9c7a7aa
-Description:  CryptoAPI Partial (de)compression operations
-
-Package: kmod-crypto-rng
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 198
-Filename: kmod-crypto-rng_4.1.38-1_brcm63xx-tch.ipk
-Size: 972
-MD5Sum: 06986252b52965ca79ee177bc091f844
-SHA256sum: 05d7636bdd7c4af1d81657beae8f4f360dafb520ec8eda08647d18f9b0644f50
-Description:  CryptoAPI random number generation
-
-Package: kmod-crypto-sha1
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-hash, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 200
-Filename: kmod-crypto-sha1_4.1.38-1_brcm63xx-tch.ipk
-Size: 979
-MD5Sum: d60fdb608b9bff981a920e54244c7a16
-SHA256sum: 8744974833a1d1413d84d6cbe5966f224823d66e43dd83c343f95f7f7cd7e782
-Description:  SHA1 digest CryptoAPI module
-
-Package: kmod-crypto-user
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-hash, kmod-crypto-manager, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 12373
-Filename: kmod-crypto-user_4.1.38-1_brcm63xx-tch.ipk
-Size: 13180
-MD5Sum: a61410c08505b5a588d27afe363f3235
-SHA256sum: 2db732e6551b49c87b43dff197064ecb085e7b8c43c50c0b084385ea766355f0
-Description:  CryptoAPI userspace interface
-
-Package: kmod-crypto-wq
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 194
-Filename: kmod-crypto-wq_4.1.38-1_brcm63xx-tch.ipk
-Size: 971
-MD5Sum: a00b5ecd7238d50eaf22ed8314fcf3e0
-SHA256sum: 221dd137fd49cdbab8aa0a23dda7d8d406454a5ca2a509bfcf18bb2904c69aad
-Description:  CryptoAPI work queue handling
-
-Package: kmod-ip6tables
-Version: 4.1.38-1
-Depends: kernel, kmod-nf-ipt6, kmod-ipt-core, kmod-ipt-conntrack
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 9609
-Filename: kmod-ip6tables_4.1.38-1_brcm63xx-tch.ipk
-Size: 10436
-MD5Sum: 480bcfe5826d0bf7f83a2e580803f8c4
-SHA256sum: 1e40ab50160bae57e5d2bc0bf79b219b3ee30606818ddf4ff295628ce2de0a2c
-Description:  Netfilter IPv6 firewalling support
-
-Package: kmod-ipsec4
-Version: 4.1.38-1
-Depends: kernel, kmod-ipsec, kmod-iptunnel4
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 14199
-Filename: kmod-ipsec4_4.1.38-1_brcm63xx-tch.ipk
-Size: 15019
-MD5Sum: 0c36e97c5d58ce68fe5de0e2833aa1bc
-SHA256sum: 762ab3d1f2486cc22186452d16d462aabc3768bbd2398e6afba4214b0305a89a
-Description:  Kernel modules for IPsec support in IPv4.
- Includes:
- - ah4
- - esp4
- - ipcomp4
- - xfrm4_mode_beet
- - xfrm4_mode_transport
- - xfrm4_mode_tunnel
- - xfrm4_tunnel
-
-Package: kmod-ipsec6
-Version: 4.1.38-1
-Depends: kernel, kmod-ipsec, kmod-iptunnel6
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 15248
-Filename: kmod-ipsec6_4.1.38-1_brcm63xx-tch.ipk
-Size: 16039
-MD5Sum: f97c7f5f1aedfdd574d85ed65f16648f
-SHA256sum: a19034412554b36813f444c6fe215378fd9c4837dc1d55a5fc0927a77a53e768
-Description:  Kernel modules for IPsec support in IPv6.
- Includes:
- - ah6
- - esp6
- - ipcomp6
- - xfrm6_mode_beet
- - xfrm6_mode_transport
- - xfrm6_mode_tunnel
- - xfrm6_tunnel
-
-Package: kmod-ipsec
-Version: 4.1.38-1
-Depends: kernel, kmod-crypto-authenc, kmod-crypto-iv, kmod-crypto-des, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-sha1, kmod-crypto-deflate, kmod-crypto-cbc
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 36572
-Filename: kmod-ipsec_4.1.38-1_brcm63xx-tch.ipk
-Size: 37488
-MD5Sum: 720d2fe2c5e05c2fd4baca0509e220d8
-SHA256sum: 719312d4464892ad2ac3a8421e0b946aafaec9e9764cc51e3ff113e238f8f01e
-Description:  Kernel modules for IPsec support in both IPv4 and IPv6.
- Includes:
- - af_key
- - xfrm_ipcomp
- - xfrm_user
-
-Package: kmod-ipt-conntrack-extra
-Version: 4.1.38-1
-Depends: kernel, kmod-ipt-core, kmod-ipt-conntrack
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 12367
-Filename: kmod-ipt-conntrack-extra_4.1.38-1_brcm63xx-tch.ipk
-Size: 13225
-MD5Sum: f3c36cdbb3f3678f0624e6f62e6046a1
-SHA256sum: a48b37c4833d1a3bcd1bbd1bbfc7a196d9c90b12785ec66d13075f54bc6b8b70
-Description:  Netfilter (IPv4) extra kernel modules for connection tracking
- Includes:
- - connbytes
- - connmark/CONNMARK
- - conntrack
- - helper
- - recent
-
-Package: kmod-ipt-conntrack
-Version: 4.1.38-1
-Depends: kernel, kmod-ipt-core, kmod-nf-conntrack
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 6032
-Filename: kmod-ipt-conntrack_4.1.38-1_brcm63xx-tch.ipk
-Size: 6891
-MD5Sum: ad131a8e7a3be7375581a01716e1622b
-SHA256sum: 98c4b032020af2b8a2357c493d9a3c0c8cea18b94d5fd81767091eff0d0ad0f7
-Description:  Netfilter (IPv4) kernel modules for connection tracking
- Includes:
- - conntrack
- - defrag
- - iptables_raw
- - NOTRACK
- - state
-
-Package: kmod-ipt-core
-Version: 4.1.38-1
-Depends: kernel, kmod-nf-ipt
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 17284
-Filename: kmod-ipt-core_4.1.38-1_brcm63xx-tch.ipk
-Size: 18173
-MD5Sum: 0d319eda89c7bc7f1a0b8b5b9ee7e561
-SHA256sum: 71a87aef6b626d47fe01b3563be897764bc371d97b4ea20887e9b0f613401a76
-Description:  Netfilter core kernel modules
- Includes:
- - comment
- - limit
- - LOG
- - mac
- - multiport
- - REJECT
- - TCPMSS
-
-Package: kmod-ipt-ipopt
-Version: 4.1.38-1
-Depends: kernel, kmod-ipt-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 8244
-Filename: kmod-ipt-ipopt_4.1.38-1_brcm63xx-tch.ipk
-Size: 9199
-MD5Sum: 33d4cae5045debe53e808e088688ee0c
-SHA256sum: 58b8be88ec973b37218b30b2039049575e2822d23fdf71c5c2a1564b544b1823
-Description:  Netfilter (IPv4) modules for matching/changing IP packet options
- Includes:
- - CLASSIFY
- - dscp/DSCP
- - ecn/ECN
- - hl/HL
- - length
- - mark/MARK
- - statistic
- - tcpmss
- - time
- - ttl/TTL
- - unclean
-
-Package: kmod-ipt-ipsec
-Version: 4.1.38-1
-Depends: kernel, kmod-ipt-core
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 3369
-Filename: kmod-ipt-ipsec_4.1.38-1_brcm63xx-tch.ipk
-Size: 4202
-MD5Sum: 68c4f59805fb9a7fd63ea3e5db7fc36f
-SHA256sum: 3af026690575e1de8ae0ac628a0e18650eaec535af691f96c74464a3c7d290f8
-Description:  Netfilter (IPv4) modules for matching IPSec packets
- Includes:
- - ah
- - esp
- - policy
-
-Package: kmod-ipt-nat
-Version: 4.1.38-1
-Depends: kernel, kmod-ipt-core, kmod-nf-nat
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 8019
-Filename: kmod-ipt-nat_4.1.38-1_brcm63xx-tch.ipk
-Size: 8908
-MD5Sum: d2c6707e794dde8551f167beb22f070d
-SHA256sum: 796a34144a26b0b84e615afd14201857235424e1976498d8d3ca27a82727aaf5
-Description:  Netfilter (IPv4) kernel modules for basic NAT targets
- Includes:
- - MASQUERADE
-
-Package: kmod-ipt-nfqueue
-Version: 4.1.38-1
-Depends: kernel, kmod-ipt-core, kmod-nfnetlink-queue
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 2703
-Filename: kmod-ipt-nfqueue_4.1.38-1_brcm63xx-tch.ipk
-Size: 3508
-MD5Sum: d3f5b20557a70d9fd2901ad1b88ced59
-SHA256sum: e192117ee003312e705e0d45dda95e5d9eb595fcbce9e2845a0f4f085f7181bd
-Description:  Netfilter module for user-space packet queuing
- Includes:
- - NFQUEUE
-
-Package: kmod-iptunnel4
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 188
-Filename: kmod-iptunnel4_4.1.38-1_brcm63xx-tch.ipk
-Size: 947
-MD5Sum: b2e2774f50da760a3d30a4222f0ea93c
-SHA256sum: 2017f15566a9df7868cbace96fa95e70f01700227d6a3af24b8ae93c689b2ce5
-Description:  Kernel modules for IPv4 tunneling
-
-Package: kmod-iptunnel6
-Version: 4.1.38-1
-Depends: kernel, kmod-ipv6
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 188
-Filename: kmod-iptunnel6_4.1.38-1_brcm63xx-tch.ipk
-Size: 957
-MD5Sum: dd55a3cd9fbf560245b9114a444f2274
-SHA256sum: ea838c3a1c305bfdc72d6bffa995f5a832766eb0e5f59ecb1fb6bb86d2be644f
-Description:  Kernel modules for IPv6 tunneling
-
-Package: kmod-ipv6
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 184
-Filename: kmod-ipv6_4.1.38-1_brcm63xx-tch.ipk
-Size: 937
-MD5Sum: 35c8ad6bdd38896b7d13885f6e91b264
-SHA256sum: 9d88339e9472038f0ff80514c35a651ff7b158dc2fb5e045ef5924afa49601b7
-Description:  Kernel modules for IPv6 support
-
-Package: kmod-lib-crc-ccitt
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 190
-Filename: kmod-lib-crc-ccitt_4.1.38-1_brcm63xx-tch.ipk
-Size: 954
-MD5Sum: 2c488b550ba4e3ac3bcd99e929cb65af
-SHA256sum: 8da35c4faf2aa662c8836a0b1cf63e5e91a82875eb0385d556c1a252b18de6c1
-Description:  Kernel module for CRC-CCITT support
-
-Package: kmod-lib-zlib
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 202
-Filename: kmod-lib-zlib_4.1.38-1_brcm63xx-tch.ipk
-Size: 960
-MD5Sum: 55aba24902e2150a825750436ee29c22
-SHA256sum: af0caed1b8da3cc17714fc75826f0c51bde9767306739cac447f45c09492ac67
-Description:  Zlib support
-
-Package: kmod-nf-conntrack6
-Version: 4.1.38-1
-Depends: kernel, kmod-ipv6, kmod-nf-conntrack
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 10632
-Filename: kmod-nf-conntrack6_4.1.38-1_brcm63xx-tch.ipk
-Size: 11419
-MD5Sum: b71bfe23780141e38081323d82bc21d3
-SHA256sum: 172630f4b6dff81626221a6dec85bfd53f6fa4b1cccfc0ac6f28a0548f21affc
-Description:  Netfilter IPv6 connection tracking
-
-Package: kmod-nf-conntrack
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 47334
-Filename: kmod-nf-conntrack_4.1.38-1_brcm63xx-tch.ipk
-Size: 48092
-MD5Sum: 313685515510945f10be29af1cdf660a
-SHA256sum: 28105464db1fac5463eadacf3a973222dff43c0e8d95e7f99c4325c51d41d6b3
-Description:  Netfilter connection tracking
-
-Package: kmod-nf-ipt6
-Version: 4.1.38-1
-Depends: kernel, kmod-nf-ipt, kmod-nf-conntrack6
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 8881
-Filename: kmod-nf-ipt6_4.1.38-1_brcm63xx-tch.ipk
-Size: 9673
-MD5Sum: 721dcf73a0a8d1ec87ca73ae16d97762
-SHA256sum: 97b98a630b810bfca1da337d7c52ad3bc000cb13db3942e6861aa2bf6f29c648
-Description:  Ip6tables core
-
-Package: kmod-nf-ipt
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 8996
-Filename: kmod-nf-ipt_4.1.38-1_brcm63xx-tch.ipk
-Size: 9758
-MD5Sum: 3fa9ad2882e2e32615147cce3a3835d0
-SHA256sum: 389879f72046ec57eccdfff5cffa3685f0d0798490de08257189248125b49a51
-Description:  Iptables core
-
-Package: kmod-nf-nat
-Version: 4.1.38-1
-Depends: kernel, kmod-nf-conntrack, kmod-nf-ipt
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 12117
-Filename: kmod-nf-nat_4.1.38-1_brcm63xx-tch.ipk
-Size: 12913
-MD5Sum: 9e4cb19c235702c8aeea9a7157c01bc6
-SHA256sum: a0ec348a7026a98a4dc5a3ea99a3fb910cb54e7c45a5d9f5c7f475991745f80f
-Description:  Netfilter NAT
-
-Package: kmod-nfnetlink-queue
-Version: 4.1.38-1
-Depends: kernel, kmod-nfnetlink
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 7753
-Filename: kmod-nfnetlink-queue_4.1.38-1_brcm63xx-tch.ipk
-Size: 8578
-MD5Sum: 0524d553db1b6c5e1ed2c259d9f09f45
-SHA256sum: 6e6a47561029a2481feaaafd1faa064bc4263f1e7fd69a31c43554151f6a0123
-Description:  Kernel modules support for queueing packets via NFNETLINK
- Includes:
- - NFQUEUE
-
-Package: kmod-nfnetlink
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 4448
-Filename: kmod-nfnetlink_4.1.38-1_brcm63xx-tch.ipk
-Size: 5219
-MD5Sum: c61fb5b91e18ba25d66636f0f2e21ba9
-SHA256sum: a88ccfb136658e4ef4218dadcd5fbd0f147e822a77031f54b509896c5b843319
-Description:  Kernel modules support for a netlink-based userspace interface
-
-Package: kmod-tun
-Version: 4.1.38-1
-Depends: kernel
-Source: package/kernel/linux
-License: GPLv2
-Section: kernel
-Status: unknown hold not-installed
-Architecture: brcm63xx-tch
-Installed-Size: 12717
-Filename: kmod-tun_4.1.38-1_brcm63xx-tch.ipk
-Size: 13480
-MD5Sum: fd301a85925f8926fcef6c02f9a88b45
-SHA256sum: 3afdf34db855c44683870497909c7c31deb983fbb99f6ed866a848d4487cd0c6
-Description:  Kernel support for the TUN/TAP tunneling device
-
 Package: libblobmsg-json
-Version: 2017-06-17-1
+Version: 2018-07-25-c83a84af-2
 Depends: libc, librt, libpthread, libjson-c, libubox
-Source: package/libs/libubox
 License: ISC
 Section: libs
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 3668
-Filename: libblobmsg-json_2017-06-17-1_brcm63xx-tch.ipk
-Size: 4426
-MD5Sum: 387f1d3e53676a80a4918c341572656d
-SHA256sum: 39d86475c9a668a679d286dc50ba7f1b598c48280066acbfdf4692483884adec
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3823
+Filename: libblobmsg-json_2018-07-25-c83a84af-2_arm_cortex-a9_neon.ipk
+Size: 4562
+SHA256sum: a4a2e26a12e4fbc3297ad17e2d38532fc0b738cdf99bfc823519595c5112e28a
 Description:  blobmsg <-> json conversion library
 
 Package: libbz2
-Version: 1.0.6-2
+Version: 1.0.6-4
 Depends: libc, librt, libpthread
-Source: package/utils/bzip2
 License: BZIP2
-LicenseFiles: LICENSE
 Section: libs
-Maintainer: Steven Barth <cyrus@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 37844
-Filename: libbz2_1.0.6-2_brcm63xx-tch.ipk
-Size: 38596
-MD5Sum: 4ace72a6ffef689a4106f491217ec6e8
-SHA256sum: 354c6a7b55439067dd0a5dcdac5cdbe281544dc547df0263f265209978a5ee2f
+Architecture: arm_cortex-a9_neon
+Installed-Size: 37779
+Filename: libbz2_1.0.6-4_arm_cortex-a9_neon.ipk
+Size: 38572
+SHA256sum: 17e77cdd18bb7ca097dcb6b4b65a9ec0633a61ea656a675617231e3fa2879417
 Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This packages provides libbz2 library.
 
 Package: libcurl
-Version: 7.54.0-1
-Depends: libc, librt, libpthread, libmbedtls
-Source: package/network/utils/curl
+Version: 7.60.0-4
+Depends: libc, librt, libpthread, libmbedtls, ca-bundle
 License: MIT
-LicenseFiles: COPYING
 Section: libs
-Maintainer: Imre Kaloz <kaloz@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 119067
-Filename: libcurl_7.54.0-1_brcm63xx-tch.ipk
-Size: 119768
-MD5Sum: e18129ba36cd2c99db367d3ead5d07d3
-SHA256sum: 04b770ecfc5161c1d483a8adb1e14e0703fcd4eac0ea4bf78d2eaec183e04105
+Architecture: arm_cortex-a9_neon
+Installed-Size: 138777
+Filename: libcurl_7.60.0-4_arm_cortex-a9_neon.ipk
+Size: 139507
+SHA256sum: 3f94b5286c8fc9274d5c32f391a3841d2959adb88181adcbf816b6d1eb0373e0
 Description:  A client-side URL transfer library
 
-Package: libgcc
-Version: 4.8-linaro-1
-Source: package/libs/toolchain
-License: GPL-3.0-with-GCC-exception
+Package: libevent2
+Version: 2.0.22-1
+Depends: libc, librt, libpthread
+License: BSD-3-Clause
 Section: libs
-Status: unknown hold not-installed
-Essential: yes
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 22838
-Filename: libgcc_4.8-linaro-1_brcm63xx-tch.ipk
-Size: 23467
-MD5Sum: 43385ec98e93ff9505619cf8dbb5e52a
-SHA256sum: 0ccecef8fdbc883e65cb1322fa4238c43d5c4fbe872efbd24fdc74af7ccbf482
-Description:  GCC support library
+Architecture: arm_cortex-a9_neon
+Installed-Size: 117585
+Filename: libevent2_2.0.22-1_arm_cortex-a9_neon.ipk
+Size: 118159
+SHA256sum: e23a1b7e2058978960d8bc289f5a8ed8e5581cc74a5913b06b50819c5ce0d431
+Description:  The libevent API provides a mechanism to execute a callback function
+ when a specific event occurs on a file descriptor or after a timeout
+ has been reached. Furthermore, libevent also support callbacks due
+ to signals or regular timeouts.
+ 
+ libevent is meant to replace the event loop found in event driven
+ network servers. An application just needs to call event_dispatch()
+ and then add or remove events dynamically without having to change
+ the event loop.
+ 
+ This package contains the libevent shared library historically
+ containing both the core & extra libraries.
 
 Package: libgmp
-Version: 6.0.0-1
+Version: 6.1.2-1
 Depends: libc, librt, libpthread
-Source: package/libs/gmp
 License: GPL-2.0+
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 222511
-Filename: libgmp_6.0.0-1_brcm63xx-tch.ipk
-Size: 222523
-MD5Sum: b30b938e3753c8c1d994724e074b9cf2
-SHA256sum: 20a94e3128468dafd9e0604d63d33ef9c2dd2761f908bbd3703b3e8414d13685
+Architecture: arm_cortex-a9_neon
+Installed-Size: 221128
+Filename: libgmp_6.1.2-1_arm_cortex-a9_neon.ipk
+Size: 221032
+SHA256sum: 0e522e42d7bec2750f5701278a2721a769a586ecfa3d138759c2370913ed3264
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
 
-Package: libiconv-full
-Version: 1.11.1-1
-Depends: libc, librt, libpthread
-Source: package/libs/libiconv-full
-Section: libs
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 13289
-Filename: libiconv-full_1.11.1-1_brcm63xx-tch.ipk
-Size: 14038
-MD5Sum: 0a0a2a484cf71a375f3ec5d6b3673468
-SHA256sum: f6e3eee736efae645422351d98033eb6c00482ee8e11c69150268f0d3554c96e
-Description:  Character set conversion library
-
-Package: libintl-full
-Version: 0.19.6-2
-Depends: libc, libssp, librt, libpthread
-Source: package/libs/gettext-full
-License: GPL-3.0+
-Section: libs
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 18686
-Filename: libintl-full_0.19.6-2_brcm63xx-tch.ipk
-Size: 19399
-MD5Sum: cd662909563296c1d92e89faf684e71b
-SHA256sum: 5634bc4ef87761aff80a99009b905020f5e11c5cb180caa4625ec29fea9043bd
-Description:  GNU Internationalization library
-
-Package: libip4tc
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, libxtables
-Source: package/network/utils/iptables
-License: GPL-2.0
-Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 22193
-Filename: libip4tc_1.6.1-1_brcm63xx-tch.ipk
-Size: 22846
-MD5Sum: 4889152240bed436bc7efd153737a097
-SHA256sum: 569d50e907e58d1416ac74da323c8f0621d91bb4739aa400e73b62def96bbcfd
-Description:  IPv4 firewall - shared libiptc library
-
-Package: libip6tc
-Version: 1.6.1-1
-Depends: libc, librt, libpthread, libxtables
-Source: package/network/utils/iptables
-License: GPL-2.0
-Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 21572
-Filename: libip6tc_1.6.1-1_brcm63xx-tch.ipk
-Size: 22248
-MD5Sum: c67d6c0537d0a79842c159265890c376
-SHA256sum: eabe5bfc3921d0d448b45c36cdc4ee3ed54cea0a0cdc6170f9a6b72dd60b29d5
-Description:  IPv6 firewall - shared libiptc library
-
-Package: libiwinfo-lua
-Version: 2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc
-Depends: libc, librt, libpthread, libiwinfo, liblua
-Source: package/network/utils/iwinfo
-License: GPL-2.0
-Section: lang
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 6964
-Filename: libiwinfo-lua_2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc_brcm63xx-tch.ipk
-Size: 7828
-MD5Sum: 58a54e15e80a60d0cdb9bf96c2c5d6f3
-SHA256sum: ab978848ebcc56ea2ed4801440fdb94614cfe679b06155efd3c1cf4edf458464
-Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
- backends.
-
-Package: libiwinfo
-Version: 2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc
-Depends: libc, librt, libpthread, libuci, libubus
-Source: package/network/utils/iwinfo
-License: GPL-2.0
-Section: libs
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 13941
-Filename: libiwinfo_2018-12-25-dd508af481406bbbe42eaa20a54226645f0301cc_brcm63xx-tch.ipk
-Size: 14792
-MD5Sum: 8b1eb86786956cc897dc0d368f1adc86
-SHA256sum: 3deeba17ac6ae3247e355dbbd8e8aa4168a809fca3e0e84c190a723bda4f580e
-Description:  Wireless information library with consistent interface for proprietary Broadcom,
- madwifi, nl80211 and wext driver interfaces.
-
 Package: libjson-c
-Version: 0.12.1-1
+Version: 0.12.1-2
 Depends: libc, librt, libpthread
-Source: package/libs/libjson-c
 License: MIT
-LicenseFiles: COPYING
 Section: libs
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 16717
-Filename: libjson-c_0.12.1-1_brcm63xx-tch.ipk
-Size: 17500
-MD5Sum: 1b9a4b42bd992f8d5d4c729ebf565b3a
-SHA256sum: 6079c5201d9f0db23271394c5cbe55e597d05633b59ff65788a9e6de98954610
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16724
+Filename: libjson-c_0.12.1-2_arm_cortex-a9_neon.ipk
+Size: 17518
+SHA256sum: 2dbbd163d20d96262c99051fa5575de53c2d500a603407d8230116d4d44d11b1
 Description:  This package contains a library for javascript object notation backends.
 
 Package: libjson-script
-Version: 2017-06-17-1
+Version: 2018-07-25-c83a84af-2
 Depends: libc, librt, libpthread, libubox
-Source: package/libs/libubox
 License: ISC
 Section: utils
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 4891
-Filename: libjson-script_2017-06-17-1_brcm63xx-tch.ipk
-Size: 5605
-MD5Sum: 08d2a4606b0fa4fc26920947b0e3a787
-SHA256sum: 0bcd414dab29557c57f04e2cf941452524e8d120edd6bffdcbc435c8a55c4b62
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4913
+Filename: libjson-script_2018-07-25-c83a84af-2_arm_cortex-a9_neon.ipk
+Size: 5639
+SHA256sum: a12dfc06c3ff5664c3ecb17489d8dc9d9bed1fe48234c655909276ef90da3eaf
 Description:  Minimalistic JSON based scripting engine
 
 Package: libltdl
-Version: 2.4-1
+Version: 2.4.6-1
 Depends: libc, librt, libpthread
-Source: package/libs/libtool
 License: GPL-2.0+
-LicenseFiles: COPYING
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 18489
-Filename: libltdl_2.4-1_brcm63xx-tch.ipk
-Size: 19206
-MD5Sum: e4e55f5a83433b3a10b73d8cff515d29
-SHA256sum: c9a994f29b0d2151b9288ed9b2b4e801c045af5eb14beda3446b94ab6f99bb1c
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18303
+Filename: libltdl_2.4.6-1_arm_cortex-a9_neon.ipk
+Size: 18965
+SHA256sum: 936424157b596ea92f25c9821c3028adc94806ee688280fde3684ac41f58393b
 Description:  A generic dynamic object loading library
 
 Package: liblua
 Version: 5.1.5-1
 Depends: libc, librt, libpthread
-Source: package/utils/lua
 License: MIT
-LicenseFiles: COPYRIGHT
 Section: libs
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 86712
-Filename: liblua_5.1.5-1_brcm63xx-tch.ipk
-Size: 87361
-MD5Sum: fbc83f48a338c7619f1516b8cd6a8e84
-SHA256sum: 769df54af0c18a0d6ae951c821049ad8dbc1ce27df7d85ed966089aa876079c2
+Architecture: arm_cortex-a9_neon
+Installed-Size: 86894
+Filename: liblua_5.1.5-1_arm_cortex-a9_neon.ipk
+Size: 87533
+SHA256sum: 0d9da74b1461459bdf13a031c1aca35ca76fe143a0f0ea03d440db8150167b75
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua shared libraries, needed by other programs.
 
-Package: libncurses
-Version: 5.9-2
-Depends: libc, librt, libpthread, terminfo
-Source: package/libs/ncurses
-License: MIT
-LicenseFiles: README
+Package: libmbedtls
+Version: 2.16.1-1
+Depends: libc, librt, libpthread
+License: GPL-2.0+
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 147946
-Filename: libncurses_5.9-2_brcm63xx-tch.ipk
-Size: 146270
-MD5Sum: e6f9c99d2e7cd5304939e22794991f87
-SHA256sum: dc7e1ff59e8ae636b2818c0e3ae2362498ae2ee83c9baf8a02edb5dbde4806ad
-Description:  Terminal handling library
+Architecture: arm_cortex-a9_neon
+Installed-Size: 148468
+Filename: libmbedtls_2.16.1-1_arm_cortex-a9_neon.ipk
+Size: 148864
+SHA256sum: 0e013d3583381f23bfbe7bf697fcaf796eaf35d5020ba71d189023bea258601d
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libncurses-dev
+Version: 6.1-1
+Depends: libc, librt, libpthread, zlib
+License: MIT
+Section: devel
+Architecture: arm_cortex-a9_neon
+Installed-Size: 347324
+Filename: libncurses-dev_6.1-1_arm_cortex-a9_neon.ipk
+Size: 345849
+SHA256sum: 823612ab125bafe7f954439312e467198259fc867390b225a20171dfd81dfce4
+Description:  Development files for the ncurses library
+
+Package: libncurses
+Version: 6.1-1
+Depends: libc, librt, libpthread, terminfo
+Provides: libncursesw
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 197827
+Filename: libncurses_6.1-1_arm_cortex-a9_neon.ipk
+Size: 195376
+SHA256sum: c261e57f249efe4ce3f62fd241d118ecbe4187dee2e91aa3a8792bd751fbe9c3
+Description:  Terminal handling library (Unicode)
 
 Package: libnettle
-Version: 3.1.1-1
+Version: 3.4-1
 Depends: libc, librt, libpthread, libgmp
-Source: package/libs/nettle
 License: GPL-2.0+
-LicenseFiles: COPYING
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 265072
-Filename: libnettle_3.1.1-1_brcm63xx-tch.ipk
-Size: 264956
-MD5Sum: b5ef177bf9210e3dcf1e42b486bdeccd
-SHA256sum: 0bd3ce959e536a8aa5ad88f807ac3a03021a60c35ed4c98f3600620878e0dea2
+Architecture: arm_cortex-a9_neon
+Installed-Size: 276813
+Filename: libnettle_3.4-1_arm_cortex-a9_neon.ipk
+Size: 276166
+SHA256sum: ccae69fc6cc9b22f8603feaa41027abbab543f5a5c924c1593624069a4c6d2d1
 Description:  GNU crypto library
 
 Package: libnl-tiny
-Version: 0.1-4
+Version: 0.1-5
 Depends: libc, librt, libpthread
-Source: package/libs/libnl-tiny
 License: LGPL-2.1
 Section: libs
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 12820
-Filename: libnl-tiny_0.1-4_brcm63xx-tch.ipk
-Size: 13590
-MD5Sum: ad93e43e768e81a62a23ede86425be15
-SHA256sum: 4eb64d4b96934494d33b8bbcd9e82606edcf8809e4ad450b0067cd8c6104fac5
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13197
+Filename: libnl-tiny_0.1-5_arm_cortex-a9_neon.ipk
+Size: 13906
+SHA256sum: db198fd5354647e8544a974b783dcf7859d1953e915ffbbae0df640c48ff2b2e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl
 Version: 1.0.2s-1
-Depends: libc, libssp, librt, libpthread
-Source: package/libs/openssl
+Depends: libc, librt, libpthread, zlib
 License: OpenSSL
-LicenseFiles: LICENSE
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 752535
-Filename: libopenssl_1.0.2s-1_brcm63xx-tch.ipk
-Size: 746841
-MD5Sum: 174caa6d44a9a1d1fa6660423e31447e
-SHA256sum: 0316cec679e5f94b3b2a937010e26d3ad4f142f4228b93f433aa87e7d6f3cfd7
+Architecture: arm_cortex-a9_neon
+Installed-Size: 777520
+Filename: libopenssl_1.0.2s-1_arm_cortex-a9_neon.ipk
+Size: 771380
+SHA256sum: b1fd163e5e63f7ff28b6ef2f64fa07b68c9c564b16072fef9080a623c6349087
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
  as a full-strength general purpose cryptography library.
  This package contains the OpenSSL shared libraries, needed by other programs.
 
+Package: libpcap
+Version: 1.8.1-1
+Depends: libc, librt, libpthread
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 107459
+Filename: libpcap_1.8.1-1_arm_cortex-a9_neon.ipk
+Size: 107777
+SHA256sum: 49cb5c6cc644c782b43587b54bae46fac9045e0a013ad527ee45b6617a4b1436
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
 Package: libpopt
 Version: 1.16-1
 Depends: libc, librt, libpthread
-Source: package/libs/popt
 License: MIT
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 23662
-Filename: libpopt_1.16-1_brcm63xx-tch.ipk
-Size: 24355
-MD5Sum: ccf29b73fc645c610e710790069bfad6
-SHA256sum: c36913ac8bf29467d03902efa5ae08f16781298f77e8555dd3466898191946bd
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23038
+Filename: libpopt_1.16-1_arm_cortex-a9_neon.ipk
+Size: 23692
+SHA256sum: fd402d076deedd3ae945beb37dc3fb4da5ad5cc968b391f2c441e4ab8e9c4dba
 Description:  A command line option parsing library
 
-Package: libpthread
-Version: 2.24-1
-Depends: libgcc
-Source: package/libs/toolchain
-License: GPL-3.0-with-GCC-exception
-Section: libs
-Status: unknown hold not-installed
-Essential: yes
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 39833
-Filename: libpthread_2.24-1_brcm63xx-tch.ipk
-Size: 40627
-MD5Sum: 130b3d2ff7f86c0a2c7e6757a1ad2369
-SHA256sum: 6a5febd7c16b7e211457d3fe9073dd9acc35d8bf787c99e22c682812001295f4
-Description:  POSIX thread library
-
 Package: libreadline
-Version: 6.3-1
+Version: 7.0-1
 Depends: libc, librt, libpthread
-Source: package/libs/libreadline
 License: GPL-3.0
-LicenseFiles: COPYING
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 127364
-Filename: libreadline_6.3-1_brcm63xx-tch.ipk
-Size: 126987
-MD5Sum: e15cadfd12a87db39db28e17f581076d
-SHA256sum: d6cf60bae6dc59bbbc096168d258626a6746c72fe451923b92d0405545482384
+Architecture: arm_cortex-a9_neon
+Installed-Size: 136332
+Filename: libreadline_7.0-1_arm_cortex-a9_neon.ipk
+Size: 135571
+SHA256sum: 6061aeef71154ae806bed05e5376b9bddf0e0bbe34c3311ec47d4706f1dc2b7a
 Description:  The Readline library provides a set of functions for use by applications 
  that allow users to edit command lines as they are typed in. Both Emacs 
  and vi editing modes are available. The Readline library includes 
@@ -1277,227 +390,218 @@ Description:  The Readline library provides a set of functions for use by applic
  lines, to recall and perhaps reedit those lines, and perform csh-like 
  history expansion on previous commands.
 
-Package: librt
-Version: 2.24-1
-Depends: libpthread
-Source: package/libs/toolchain
-License: GPL-3.0-with-GCC-exception
-Section: libs
-Status: unknown hold not-installed
-Essential: yes
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 12203
-Filename: librt_2.24-1_brcm63xx-tch.ipk
-Size: 13009
-MD5Sum: bb384dded3f59a26c8e4513a6cce684c
-SHA256sum: b29bc15637f9ac1e34690a9fc6e537fff24b96c3f411383e107ba106eb631dd4
-Description:  POSIX.1b RealTime extension library
-
-Package: libssp
-Version: 4.8-linaro-1
-Source: package/libs/toolchain
-License: GPL-3.0-with-GCC-exception
-Section: libs
-Status: unknown hold not-installed
-Essential: yes
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 3090
-Filename: libssp_4.8-linaro-1_brcm63xx-tch.ipk
-Size: 3867
-MD5Sum: 3b3e0c29cd64e6dbc01294de0a894f63
-SHA256sum: 1cf4dbcf162dcd0cd64406a5cf005afae1b077bb29046c98640d53f705766f0c
-Description:  GCC support library
-
-Package: libstdcpp
-Version: 4.8-linaro-1
-Source: package/libs/toolchain
-License: GPL-3.0-with-GCC-exception
-Section: libs
-Status: unknown hold not-installed
-Essential: yes
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 269530
-Filename: libstdcpp_4.8-linaro-1_brcm63xx-tch.ipk
-Size: 268869
-MD5Sum: 676ce87a5191f3e73d1998b3db2d3820
-SHA256sum: 63c6af28115b8ef23f6b7acf3d9c9b50d79b4fe2226751047a0f964c4ed2f49e
-Description:  GNU Standard C++ Library v3
-
 Package: libubox
-Version: 2017-06-17-1
+Version: 2018-07-25-c83a84af-2
 Depends: libc, librt, libpthread
-Source: package/libs/libubox
 License: ISC
 Section: libs
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 17861
-Filename: libubox_2017-06-17-1_brcm63xx-tch.ipk
-Size: 18544
-MD5Sum: 6fa09a312527dc4b03da7242a6f73409
-SHA256sum: ecf9926ec2bcce89d64b9394dd341b9bd18f36ff540e99ecba6646b1c9d6b52a
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17883
+Filename: libubox_2018-07-25-c83a84af-2_arm_cortex-a9_neon.ipk
+Size: 18608
+SHA256sum: daeac852af269ce72235cca75cb2bda180aa8513970a68409bfec76587af10bf
 Description:  Basic utility library
 
 Package: libubus-lua
-Version: 2017-02-03-1
+Version: 2018-10-06-221ce7e7-1
 Depends: libc, librt, libpthread, libubus, liblua
-Source: package/system/ubus
 License: LGPL-2.1
 Section: libs
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 6729
-Filename: libubus-lua_2017-02-03-1_brcm63xx-tch.ipk
-Size: 7522
-MD5Sum: 21b43c7e489618dc228617ed2f1cfdef
-SHA256sum: 7f556790f54508e2ee6795c2cca3193540de933d5b6dbf63f25d0f6921b0dfbf
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6826
+Filename: libubus-lua_2018-10-06-221ce7e7-1_arm_cortex-a9_neon.ipk
+Size: 7623
+SHA256sum: cdab7f06ecc5a70482aca1787f6bcb6703295948bc18276de262ee2772777b2e
 Description:  Lua binding for the OpenWrt RPC client
 
 Package: libubus
-Version: 2017-02-03-1
+Version: 2018-10-06-221ce7e7-1
 Depends: libc, librt, libpthread, libubox
-Source: package/system/ubus
 License: LGPL-2.1
 Section: libs
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 9525
-Filename: libubus_2017-02-03-1_brcm63xx-tch.ipk
-Size: 10250
-MD5Sum: e998ad1257857201d4e48cd437ab2485
-SHA256sum: e350f4173b13be4bd72351cc4524dc66272ac540cc373c94f8ac0715b052c019
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9588
+Filename: libubus_2018-10-06-221ce7e7-1_arm_cortex-a9_neon.ipk
+Size: 10332
+SHA256sum: a829999601f20dec9a0294a817cbae18600d4f9c647af648a432a42976fa53a3
 Description:  OpenWrt RPC client library
 
-Package: libuci-lua
-Version: 2017-04-12.1-1
-Depends: libc, librt, libpthread, libuci, liblua
-Source: package/system/uci
-License: LGPL-2.1
-Section: libs
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 6175
-Filename: libuci-lua_2017-04-12.1-1_brcm63xx-tch.ipk
-Size: 6916
-MD5Sum: 75048181be94feae1c4adacdc412d1a3
-SHA256sum: f66b16ef349253d4ad37be50e85c2fd10c79fa7b7d010ae80264f1b206af1a5f
-Description:  Lua plugin for UCI
-
 Package: libuci
-Version: 2017-04-12.1-1
+Version: 2019-05-17-f199b961-1
 Depends: libc, librt, libpthread, libubox
-Source: package/system/uci
 License: LGPL-2.1
 Section: libs
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 15230
-Filename: libuci_2017-04-12.1-1_brcm63xx-tch.ipk
-Size: 15955
-MD5Sum: 1358332e1fff2e05a89f68b730ba6e5d
-SHA256sum: 46f81ddf197e81e30da82326f33607fe67ee3a44df8ab3e4b267de6c72b5baec
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15404
+Filename: libuci_2019-05-17-f199b961-1_arm_cortex-a9_neon.ipk
+Size: 16149
+SHA256sum: 3998ffa0c8db96cb9527f40fc62c7d1f1f3cc6705920392261694678be9fd09b
 Description:  C library for the Unified Configuration Interface (UCI)
 
+Package: libuclient
+Version: 2018-11-24-3ba74ebc-1
+Depends: libc, librt, libpthread, libubox
+License: ISC
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9301
+Filename: libuclient_2018-11-24-3ba74ebc-1_arm_cortex-a9_neon.ipk
+Size: 10010
+SHA256sum: 2f3953768b584c962715e59dc631e9dc700e358104444326e173dcbf16d9bce6
+Description:  HTTP/1.1 client library
+
 Package: libusb-1.0
-Version: 1.0.19-1
+Version: 1.0.22-1
 Depends: libc, librt, libpthread, libpthread, librt
-Source: package/libs/libusb
 License: LGPL-2.1
 Section: libs
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 30518
-Filename: libusb-1.0_1.0.19-1_brcm63xx-tch.ipk
-Size: 31143
-MD5Sum: 7cdf8e4fff20dd662b15777094e48a1b
-SHA256sum: 61bbf8210cb514923ba7ae0bf5a06e435c5bae5791e8b4e8b79808798d1c5b05
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31030
+Filename: libusb-1.0_1.0.22-1_arm_cortex-a9_neon.ipk
+Size: 31650
+SHA256sum: d94a294cafb485b9e72eb45d118a68a7911571b2f802b1c3b1ba6aa26f518518
 Description:  libusb is a C library that gives applications easy access to USB devices on
  many different operating systems.
 
-Package: libxtables
-Version: 1.6.1-1
-Depends: libc, librt, libpthread
-Source: package/network/utils/iptables
+Package: libustream-openssl
+Version: 2018-07-30-23a3f283-1
+Depends: libc, librt, libpthread, libubox, libopenssl
+License: ISC
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4084
+Filename: libustream-openssl_2018-07-30-23a3f283-1_arm_cortex-a9_neon.ipk
+Size: 4811
+SHA256sum: 8bbdd62c314d9c4eee6047c9d1a777f55279165c0624858de7d75598a2476007
+Description:  ustream SSL Library (openssl)
+
+Package: libuuid
+Version: 2.32-2
+Depends: libc, librt, libpthread, librt
 License: GPL-2.0
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 48231
-Filename: libxtables_1.6.1-1_brcm63xx-tch.ipk
-Size: 48940
-MD5Sum: fad225ac3930f0afe256cb8d329ad8f6
-SHA256sum: b0cc1d50e2499ecc66e1fe81278bca627efc78715d0a22befbf79df58fc13076
-Description:  IPv4/IPv6 firewall - shared xtables library
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12938
+Filename: libuuid_2.32-2_arm_cortex-a9_neon.ipk
+Size: 13873
+SHA256sum: f7d549b9a79fbf9ce52a25f49cea41c64b92bd368b5721688538a0930a06ac96
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: logd
+Version: 2018-02-14-128bc35f-2
+Depends: libc, librt, libpthread, libubox, libubus, libblobmsg-json
+License: GPL-2.0
+Section: base
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10367
+Filename: logd_2018-02-14-128bc35f-2_arm_cortex-a9_neon.ipk
+Size: 11140
+SHA256sum: 04d4997aa40c12c3ac90b2eb9f257af09b0f54533f63c818529c193303200892
+Description:  OpenWrt system log implementation
+
+Package: lua-examples
+Version: 5.1.5-1
+Depends: libc, librt, libpthread, lua
+License: MIT
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5298
+Filename: lua-examples_5.1.5-1_arm_cortex-a9_neon.ipk
+Size: 6167
+SHA256sum: 05f166c0cd8e8955bc985dee45fb7719698ca9da03a8f79d8b81d563988e14dc
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains Lua language examples.
 
 Package: lua
 Version: 5.1.5-1
 Depends: libc, librt, libpthread, liblua
-Source: package/utils/lua
 License: MIT
-LicenseFiles: COPYRIGHT
 Section: lang
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 6529
-Filename: lua_5.1.5-1_brcm63xx-tch.ipk
-Size: 7424
-MD5Sum: c4fe05b8d10ac4070b85018f78bb50fe
-SHA256sum: 44ded26dd935cb5a791a856c40a1da3785e63bca825108ba6ec7f42e8dafebbb
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6552
+Filename: lua_5.1.5-1_arm_cortex-a9_neon.ipk
+Size: 7456
+SHA256sum: 8c2b67f81757c63ec67688b8bcef735d142a427916b7413c173dded4cd753596
 Description:  Lua is a powerful light-weight programming language designed for extending 
  applications. Lua is also frequently used as a general-purpose, stand-alone 
  language. Lua is free software.
  This package contains the Lua language interpreter.
 
-Package: netifd
-Version: 2017-05-27-1
-Depends: libc, librt, libpthread, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
-Source: package/network/config/netifd
+Package: odhcp6c
+Version: 2018-07-14-67ae6a71-15
+Depends: libc, librt, libpthread, libubox
 License: GPL-2.0
-Section: base
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 65182
-Filename: netifd_2017-05-27-1_brcm63xx-tch.ipk
-Size: 65996
-MD5Sum: ea14d7b6ea5f43fd97c587dd91cb5562
-SHA256sum: d83afa1664eb324964091f5ba13ae0f9a1f6ed59376056ce9395841b5b0e968c
-Description:  OpenWrt Network Interface Configuration Daemon
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 29393
+Filename: odhcp6c_2018-07-14-67ae6a71-15_arm_cortex-a9_neon.ipk
+Size: 30133
+SHA256sum: 14beef04f7fd52f47cddc3328e5d5f20d87193212f7508c28469d0c1c9e4bdd2
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd-ipv6only
+Version: 1.15-3
+Depends: libc, librt, libpthread, libubox, libuci, libubus, libnl-tiny
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 39631
+Filename: odhcpd-ipv6only_1.15-3_arm_cortex-a9_neon.ipk
+Size: 40597
+SHA256sum: 19ca1d288293a7ff9a1549bfe6684c5e106b645f8627f6da7bdb1690412f60ef
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ This is a variant providing server services for RA, stateless and stateful
+ DHCPv6,  prefix delegation and can be used to relay RA, DHCPv6 and NDP between
+ routed (non-bridged) interfaces in case no delegated prefixes are available.
 
 Package: openssl-util
 Version: 1.0.2s-1
-Depends: libc, libssp, librt, libpthread, libopenssl
-Source: package/libs/openssl
+Depends: libc, librt, libpthread, libopenssl
 License: OpenSSL
-LicenseFiles: LICENSE
 Section: utils
-Architecture: brcm63xx-tch
-Installed-Size: 236968
-Filename: openssl-util_1.0.2s-1_brcm63xx-tch.ipk
-Size: 234869
-MD5Sum: f5bed7096a628f09d998897ac7abd20d
-SHA256sum: de885e22943624140dc38c157f790be0fbdb42143dd58a3d695582268c21d42f
+Architecture: arm_cortex-a9_neon
+Installed-Size: 237427
+Filename: openssl-util_1.0.2s-1_arm_cortex-a9_neon.ipk
+Size: 235215
+SHA256sum: 73f9d56cfd61a54b3ef3e9feecb18c7a2593c629c853160d2f9276ec90b60f37
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
  as a full-strength general purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
-Package: opkg
-Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9
+Package: openwrt-keyring
+Version: 2018-05-18-103a32e9-1
 Depends: libc, librt, libpthread
-Source: package/system/opkg
+Provides: lede-keyring
 License: GPL-2.0
-LicenseFiles: COPYING
 Section: base
-Maintainer: Jo-Philipp Wich <xm@subsignal.org>
-Architecture: brcm63xx-tch
-Installed-Size: 72798
-Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-9_brcm63xx-tch.ipk
-Size: 73670
-MD5Sum: 0dbb11291a6062aa27f7d344d3ae7fa7
-SHA256sum: 83edd6344c81f21931ff20da7d9c756bd31a24231d7f8fbee98bf92cd9421fb5
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1156
+Filename: openwrt-keyring_2018-05-18-103a32e9-1_arm_cortex-a9_neon.ipk
+Size: 1939
+SHA256sum: 230dbf8cbc0ee9226cd5fb357bc1a8d54fa7f4401ae42581a221c94a9335e19e
+Description:  The keyring of with the developer using and gpg public keys.
+
+Package: opkg
+Version: 2019-06-14-dcbc142e-1
+Depends: libc, librt, libpthread, uclient-fetch, libpthread, libubox
+License: GPL-2.0
+Section: base
+Essential: yes
+Architecture: arm_cortex-a9_neon
+Installed-Size: 62642
+Filename: opkg_2019-06-14-dcbc142e-1_arm_cortex-a9_neon.ipk
+Size: 63576
+SHA256sum: 015ea2e9414fde32730d1898080d0fad7a4caa8ac0caaa7a3dcc820ced58b432
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -1506,172 +610,326 @@ Description:  Lightweight package management system
  
  opkg knows how to install both .ipk and .deb packages.
 
+Package: ppp-mod-pppoe
+Version: 2.4.7-12
+Depends: libc, librt, libpthread, kmod-pppoe
+License: BSD-4-Clause
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11329
+Filename: ppp-mod-pppoe_2.4.7-12_arm_cortex-a9_neon.ipk
+Size: 12115
+SHA256sum: 12c228565d3f561052327df9cd5453f901fc40d5bae6075e73910253a2ba3eca
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.7-12
+Depends: libc, librt, libpthread, kmod-ppp
+License: BSD-4-Clause
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 121528
+Filename: ppp_2.4.7-12_arm_cortex-a9_neon.ipk
+Size: 122143
+SHA256sum: 63766888dfcbf617bd164e96b54b62dd60da6f57ea9850cf89e74f966571b8d6
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
 Package: procd
-Version: 2017-07-20-1
+Version: 2018-03-28-dfb68f85-1
 Depends: libc, librt, libpthread, ubusd, ubus, libjson-script, ubox, libubox, libubus
-Source: package/system/procd
 License: GPL-2.0
 Section: base
-Maintainer: John Crispin <john@phrozen.org>
-Architecture: brcm63xx-tch
-Installed-Size: 41246
-Filename: procd_2017-07-20-1_brcm63xx-tch.ipk
-Size: 41909
-MD5Sum: 77e86869332e48fa79dcdc993ac82d02
-SHA256sum: 4fa21caa08c7288d1e372fb7f683b80aa79fab52bab10f788edb229b73e96d8e
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42252
+Filename: procd_2018-03-28-dfb68f85-1_arm_cortex-a9_neon.ipk
+Size: 42801
+SHA256sum: beb379e2888904594cb9986e13332818eebdd63d6422ceff0acfe37c4a3c6827
 Description:  OpenWrt system process manager
 
-Package: rpcd
-Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
-Depends: libc, librt, libpthread, libubus, libubox, libuci, libblobmsg-json
-Source: package/system/rpcd
+Package: qos-scripts
+Version: 1.3.1-1
+Depends: libc, librt, libpthread, tc, kmod-sched-core, kmod-sched-connmark, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+License: GPL-2.0
+Section: utils
+Architecture: all
+Installed-Size: 6375
+Filename: qos-scripts_1.3.1-1_all.ipk
+Size: 7290
+SHA256sum: 3e7a8e9cc1b3f6ea916cb5bfc551f70fa68dccde4d38d12f7fcb92315e07ff5c
+Description:  A set of scripts that abstract QoS configuration into a simple 
+ configuration file supporting stanzas that specify any number of QoS 
+ entries.
+
+Package: rpcd-mod-file
+Version: 2018-11-28-3aa81d0d-2
+Depends: libc, librt, libpthread, libubus, libubox, rpcd
 License: ISC
 Section: utils
-Maintainer: Jo-Philipp Wich <jow@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 18120
-Filename: rpcd_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_brcm63xx-tch.ipk
-Size: 18968
-MD5Sum: e86555bd3bec030ff053a8323e166b95
-SHA256sum: 18ef0211843ebcd22c3600fcc2dc15add0b6c09f12203af9ab4c30475736a5f3
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5843
+Filename: rpcd-mod-file_2018-11-28-3aa81d0d-2_arm_cortex-a9_neon.ipk
+Size: 6583
+SHA256sum: f32ebabfeff0cace735442c727d301cb851575c5eabf4397b99aeb9f4171fcd8
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2018-11-28-3aa81d0d-2
+Depends: libc, librt, libpthread, libubus, libubox, rpcd, libiwinfo
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6129
+Filename: rpcd-mod-iwinfo_2018-11-28-3aa81d0d-2_arm_cortex-a9_neon.ipk
+Size: 6902
+SHA256sum: 2f268af8b7c85c47c26a3853133bedc01edc18392d3ce189951240845adb65db
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd-mod-rpcsys
+Version: 2018-11-28-3aa81d0d-2
+Depends: libc, librt, libpthread, libubus, libubox, rpcd
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3925
+Filename: rpcd-mod-rpcsys_2018-11-28-3aa81d0d-2_arm_cortex-a9_neon.ipk
+Size: 4692
+SHA256sum: 8191eebaeec04a3fb05bd55764e8a261864f39739469599cdb7ab3e01d11237c
+Description:  Provides ubus calls for sysupgrade and password changing.
+
+Package: rpcd
+Version: 2018-11-28-3aa81d0d-2
+Depends: libc, librt, libpthread, libubus, libubox, libuci, libblobmsg-json
+License: ISC
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19011
+Filename: rpcd_2018-11-28-3aa81d0d-2_arm_cortex-a9_neon.ipk
+Size: 19822
+SHA256sum: 082db13f3fb8ed88af8d1da6173e4f600e74c382e7c1f37bc82f2c0863848bac
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
 
-Package: terminfo
-Version: 5.9-2
+Package: samba36-server
+Version: 3.6.25-12
 Depends: libc, librt, libpthread
-Source: package/libs/ncurses
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1053208
+Filename: samba36-server_3.6.25-12_arm_cortex-a9_neon.ipk
+Size: 1039421
+SHA256sum: fe99b16bd9dd2f065e4e925b86710b2fbe74b3d2cd143da7e222e0e000210eb1
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: tc
+Version: 4.16.0-8
+Depends: libc, librt, libpthread, kmod-sched-core
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 161058
+Filename: tc_4.16.0-8_arm_cortex-a9_neon.ipk
+Size: 161648
+SHA256sum: 9400c48aca38b59ce17568989349e487f8503b121c3cfaa3e0f59c919c46809c
+Description:  Traffic control utility
+
+Package: terminfo
+Version: 6.1-1
+Depends: libc, librt, libpthread
 License: MIT
-LicenseFiles: README
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 5805
-Filename: terminfo_5.9-2_brcm63xx-tch.ipk
-Size: 6510
-MD5Sum: 8a30218fdc7ab13c98e346bd860336ef
-SHA256sum: ae4d1e77e4b974045d874d1ff254d4ce0638d4d12d2e0938b0eaf6404f520da4
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6236
+Filename: terminfo_6.1-1_arm_cortex-a9_neon.ipk
+Size: 6909
+SHA256sum: 9219a899e9abf9cfea503bc66ea96fbb101be1aefa7d03d81854f7b9811b59f3
 Description:  Terminal Info Database (ncurses)
 
 Package: ubox
-Version: 2016-06-08-fd4bb41ee7ab136d25609c2a917beea5d52b723b
+Version: 2018-02-14-128bc35f-2
 Depends: libc, librt, libpthread, libubox, ubusd, ubus, libubus, libuci
-Source: package/system/ubox
 License: GPL-2.0
 Section: base
-Maintainer: John Crispin <john@phrozen.org>
-Architecture: brcm63xx-tch
-Installed-Size: 14285
-Filename: ubox_2016-06-08-fd4bb41ee7ab136d25609c2a917beea5d52b723b_brcm63xx-tch.ipk
-Size: 15086
-MD5Sum: fecd2a00988357bf77100da33dfd3916
-SHA256sum: b6ac14ef4e242b2862c78fb1b81d3698bfae83c448497fb46addd9b1d1085871
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16011
+Filename: ubox_2018-02-14-128bc35f-2_arm_cortex-a9_neon.ipk
+Size: 16722
+SHA256sum: 2cc6ac2d00a59faacabffec2569be19a2502879a60d6dd804d698e348723cf01
 Description:  OpenWrt system helper toolbox
 
 Package: ubus
-Version: 2017-02-03-1
+Version: 2018-10-06-221ce7e7-1
 Depends: libc, librt, libpthread, libubus, libblobmsg-json, ubusd
-Source: package/system/ubus
 License: LGPL-2.1
 Section: base
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 5507
-Filename: ubus_2017-02-03-1_brcm63xx-tch.ipk
-Size: 6234
-MD5Sum: 1ed54c6a8018e5dd11467892f40033ae
-SHA256sum: 6aacd90c9e9a53a9249a9e96753f30578b397a4e7e0207cd4e2f4bf04221d45e
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5806
+Filename: ubus_2018-10-06-221ce7e7-1_arm_cortex-a9_neon.ipk
+Size: 6583
+SHA256sum: 75119489470fc3ecec3f85c464b8446a0f72ea773f44ba98580af9a543081a09
 Description:  OpenWrt RPC client utility
 
 Package: ubusd
-Version: 2017-02-03-1
+Version: 2018-10-06-221ce7e7-1
 Depends: libc, librt, libpthread, libubox, libblobmsg-json
-Source: package/system/ubus
 License: LGPL-2.1
 Section: base
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: brcm63xx-tch
-Installed-Size: 10521
-Filename: ubusd_2017-02-03-1_brcm63xx-tch.ipk
-Size: 11257
-MD5Sum: 89d716b1a3ae0da9566eec1fe49e16f4
-SHA256sum: 1e5ede4d494bc39861f104b55c9ab8280bd60e4d409960af6e81fe41e74ef77f
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10835
+Filename: ubusd_2018-10-06-221ce7e7-1_arm_cortex-a9_neon.ipk
+Size: 11579
+SHA256sum: c4e0c42876d44d92ec5d5a114ce1eb31b29fc7632769d1a7319b9b934d03790f
 Description:  OpenWrt RPC daemon
 
-Package: uclibcxx
-Version: 0.2.4-1
-Depends: libc, librt, libpthread
-Source: package/libs/uclibc++
-License: LGPL-2.1+
-Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 65803
-Filename: uclibcxx_0.2.4-1_brcm63xx-tch.ipk
-Size: 66277
-MD5Sum: 1853903b7984dae454d8fe2cd849ee08
-SHA256sum: ca56eebcf039616437cb540526e2638d14022cae838aaabc111e5f234c1155de
-Description:  C++ library for embedded systems
+Package: uci
+Version: 2019-05-17-f199b961-1
+Depends: libc, librt, libpthread, libuci
+License: LGPL-2.1
+Section: base
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7445
+Filename: uci_2019-05-17-f199b961-1_arm_cortex-a9_neon.ipk
+Size: 8243
+SHA256sum: 682e0cacd20802e6bf0c388178f619d7f62cd23cf1e6ace56bdc61c6b93f7b8d
+Description:  Utility for the Unified Configuration Interface (UCI)
 
-Package: uhttpd-mod-ubus
-Version: 2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7
-Depends: libc, librt, libpthread, uhttpd, libubus, libblobmsg-json
-Source: package/network/services/uhttpd
+Package: uclient-fetch
+Version: 2018-11-24-3ba74ebc-1
+Depends: libc, librt, libpthread, libuclient
 License: ISC
 Section: net
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 6081
-Filename: uhttpd-mod-ubus_2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7_brcm63xx-tch.ipk
-Size: 6915
-MD5Sum: 3375ac9cdf4f9738536b70b9843b6aa5
-SHA256sum: 739679f83471b2aea9afe6826b173a62fcbf25edce568ca35041d295178fa691
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7414
+Filename: uclient-fetch_2018-11-24-3ba74ebc-1_arm_cortex-a9_neon.ipk
+Size: 8125
+SHA256sum: b3da1cf8585add67510b7e68631488205d7abb9cd80279506d42f53495802db4
+Description:  Tiny wget replacement using libuclient
+
+Package: uhttpd-mod-lua
+Version: 2018-11-28-cdfc902a-3
+Depends: libc, librt, libpthread, uhttpd, liblua
+License: ISC
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4135
+Filename: uhttpd-mod-lua_2018-11-28-cdfc902a-3_arm_cortex-a9_neon.ipk
+Size: 4897
+SHA256sum: e03cb3a59f5e352c8b0fe9d48e8cb24e226bd3adb557275555a073ef5f5ce779
+Description:  The Lua plugin adds a CGI-like Lua runtime interface to uHTTPd.
+
+Package: uhttpd-mod-ubus
+Version: 2018-11-28-cdfc902a-3
+Depends: libc, librt, libpthread, uhttpd, libubus, libblobmsg-json
+License: ISC
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6086
+Filename: uhttpd-mod-ubus_2018-11-28-cdfc902a-3_arm_cortex-a9_neon.ipk
+Size: 6919
+SHA256sum: 424f44e0f56a373c78f95531db0b2475ba45372c9cddf59eee7e87721eadf6f4
 Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
  session.* namespace and procedures.
 
 Package: uhttpd
-Version: 2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7
+Version: 2018-11-28-cdfc902a-3
 Depends: libc, librt, libpthread, libubox, libblobmsg-json, libjson-script
-Source: package/network/services/uhttpd
 License: ISC
 Section: net
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 22482
-Filename: uhttpd_2015-11-08-fe01ef3f52adae9da38ef47926cd50974af5d6b7_brcm63xx-tch.ipk
-Size: 23317
-MD5Sum: b3588ab3a8578cbc93ff337d05f56da0
-SHA256sum: 48b5293d428c67cdd53875f9888ad42982474cf15f790e5144719033fbc93cea
+Architecture: arm_cortex-a9_neon
+Installed-Size: 24250
+Filename: uhttpd_2018-11-28-cdfc902a-3_arm_cortex-a9_neon.ipk
+Size: 25101
+SHA256sum: 023e5800a80d6e7b4a10003a5c1423f4f80907bccc266e496fc98b75a0c8299a
 Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
  support. It is intended as a drop-in replacement for the Busybox
  HTTP daemon.
 
+Package: usb-modeswitch
+Version: 2017-12-19-f40f84c2-1
+Depends: libc, librt, libpthread, libubox, libblobmsg-json, libusb-1.0
+License: GPL-2.0
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13028
+Filename: usb-modeswitch_2017-12-19-f40f84c2-1_arm_cortex-a9_neon.ipk
+Size: 13781
+SHA256sum: a4db3ac6d77d546f1d148ee2a32d4474692fe251f54ce85e45b6c89c88e1d9a8
+Description:  USB mode switching utility
+
 Package: usign
-Version: 2015-05-08-cf8dcdb8a4e874c77f3e9a8e9b643e8c17b19131
+Version: 2015-07-04-ef641914-1
 Depends: libc, librt, libpthread, libubox
-Source: package/system/usign
 License: ISC
 Section: base
-Maintainer: Felix Fietkau <nbd@openwrt.org>
-Architecture: brcm63xx-tch
-Installed-Size: 10611
-Filename: usign_2015-05-08-cf8dcdb8a4e874c77f3e9a8e9b643e8c17b19131_brcm63xx-tch.ipk
-Size: 11381
-MD5Sum: 89119818f1fde2ddbaeb05fa211b5221
-SHA256sum: 25573135ea8921acb41556425858dab51b2e1a8edfaf9257d155a59b5f61a4e8
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10649
+Filename: usign_2015-07-04-ef641914-1_arm_cortex-a9_neon.ipk
+Size: 11431
+SHA256sum: 92143cd898ec430e6a4a26384ae3e709b4c2d9bf6025c425963d8e4c828ba03d
 Description:  OpenWrt signature verification utility
 
-Package: zlib
-Version: 1.2.11-1
+Package: wireless-regdb
+Version: 2017-10-20-4343d359
 Depends: libc, librt, libpthread
-Source: package/libs/zlib
-License: Zlib
-LicenseFiles: README
+Section: firmware
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1828
+Filename: wireless-regdb_2017-10-20-4343d359_arm_cortex-a9_neon.ipk
+Size: 2572
+SHA256sum: fcbff9609cc2fe87fed6d5f0bb63a4fa629726e6832e2c1aebbdda436b6332cf
+Description:  Wireless Regulatory Database
+
+Package: wpad-mini
+Version: 2018-05-21-62566bc2-6
+Depends: libc, librt, libpthread, hostapd-common, libubus
+Conflicts: hostapd, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl
+Provides: hostapd, wpa-supplicant
+License: BSD-3-Clause
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 237438
+Filename: wpad-mini_2018-05-21-62566bc2-6_arm_cortex-a9_neon.ipk
+Size: 238157
+SHA256sum: 8894b5ed6d91bd8bc756eb03d0b2ab498498c9055c15e115031f34954a4efee7
+Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
+
+Package: wxbase
+Version: 2.8.1-1
+Depends: libc, librt, libpthread, libexpat, zlib, libstdcpp
 Section: libs
-Architecture: brcm63xx-tch
-Installed-Size: 53327
-Filename: zlib_1.2.11-1_brcm63xx-tch.ipk
-Size: 54076
-MD5Sum: cb66efbb2621602d89a12d0a1cb53094
-SHA256sum: 38c8ff7d860d5a7343664ac589b1dff3ff489ca46db771c76e8283e37f00c44d
+Architecture: arm_cortex-a9_neon
+Installed-Size: 517098
+Filename: wxbase_2.8.1-1_arm_cortex-a9_neon.ipk
+Size: 514043
+SHA256sum: 9ecbb8ef406875fe806f8839e2870e119ce84fe197b204d5fd38bf9662108d25
+Description:  wxBase is a collection of C++ classes providing basic data structures \ (strings, lists, arrays), powerful wxDateTime class for date manipulations, \ portable wrappers around many OS-specific functions allowing to build the \ same program under all supported folders, wxThread class for writing \ multithreaded programs using either Win32 or POSIX threads and much more. \ wxBase currently supports the following platforms: Generic Unix (Linux, \ FreeBSD, Solaris, HP-UX, ...), win32, and BeOS. \ \ This package is only useful for non-GUI apps.  It offers a subset of the \ classes in libwx_gtk2.8 for use in console apps and daemons.  You do not need \ this package to build or use wxWindows GUI apps.
+
+Package: zlib-dev
+Version: 1.2.11-2
+Depends: libc, librt, libpthread, zlib
+License: Zlib
+Section: devel
+Architecture: arm_cortex-a9_neon
+Installed-Size: 90210
+Filename: zlib-dev_1.2.11-2_arm_cortex-a9_neon.ipk
+Size: 90865
+SHA256sum: b90933f77e32a457b23ed9ece55855044037b609432c82c7ed12f3c5bcc4ef40
+Description:  zlib is a lossless data-compression library.
+ This package includes the development support files.
+
+Package: zlib
+Version: 1.2.11-2
+Depends: libc, librt, libpthread
+License: Zlib
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 53975
+Filename: zlib_1.2.11-2_arm_cortex-a9_neon.ipk
+Size: 54654
+SHA256sum: c9b500a2c19fb8e8eaaf34cd479cf9c12c0d45387e0497657a6732b4b110377a
 Description:  zlib is a lossless data-compression library.
  This package includes the shared library.
 

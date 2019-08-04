@@ -1,0 +1,4094 @@
+Package: asterisk13-app-adsiprog
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-adsi
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21116
+Filename: asterisk13-app-adsiprog_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 21976
+SHA256sum: 90d0d4a08bed2716439a7fd2d43b3b9ce8a29ea167452af5e15d58a353a61646
+Description:  This package provides support for 'program Asterisk ADSI scripts into phone' in Asterisk.
+
+Package: asterisk13-app-agent-pool
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21917
+Filename: asterisk13-app-agent-pool_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 22709
+SHA256sum: ea9b0de38d935a596d766294750ef5d4737b7cd3d5a7291bb20f15d6d09ccdb8
+Description:  This package provides support for 'call center agent pool' in Asterisk.
+
+Package: asterisk13-app-alarmreceiver
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10350
+Filename: asterisk13-app-alarmreceiver_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11135
+SHA256sum: ef568013a6c2e80e932f558764d182511d654b6a054692b31887d5a91dd495bc
+Description:  This package provides support for 'Central Station Alarm receiver for Ademco Contact ID' in Asterisk.
+
+Package: asterisk13-app-amd
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7553
+Filename: asterisk13-app-amd_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 8414
+SHA256sum: daeee4efdb96774384ee27057b246c9d8e07710ebe66ec04d2d37351eff52dbf
+Description:  This package provides support for 'answering machine detection' in Asterisk.
+
+Package: asterisk13-app-authenticate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3877
+Filename: asterisk13-app-authenticate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4685
+SHA256sum: 55e5d6ba02b6b4e532061b3cc58d87811f198a603ca57e799a0e5ad97f4132c7
+Description:  This package provides support for 'Execute arbitrary authenticate commands' in Asterisk.
+
+Package: asterisk13-app-bridgewait
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-bridge-holding
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5031
+Filename: asterisk13-app-bridgewait_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5831
+SHA256sum: 653701b97da45fbca318a3390da6f4812065f6c976b17328d48170e20be35e7e
+Description:  This package provides support for 'place a channel into a holding bridge' in Asterisk.
+
+Package: asterisk13-app-celgenuserevent
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2483
+Filename: asterisk13-app-celgenuserevent_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3311
+SHA256sum: 9c8a9da91e5da654ffac89d50e3c410af88326ee3705ee316286aca18d5bf3f1
+Description:  This package provides support for 'generate user-defined CEL event' in Asterisk.
+
+Package: asterisk13-app-chanisavail
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3477
+Filename: asterisk13-app-chanisavail_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4276
+SHA256sum: ee547f59d655fc7b1c97fc6c19542b2c8a4e45df894f142fd9f57c6df70c0d60
+Description:  This package provides support for 'support for checking if a channel is available' in Asterisk.
+
+Package: asterisk13-app-channelredirect
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2744
+Filename: asterisk13-app-channelredirect_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3569
+SHA256sum: 0956f366ceebed1a9e569e8a4f04d658b6107076a1a8caaf0d9e4d7e0e1710de
+Description:  This package provides support for 'ChannelRedirect application' in Asterisk.
+
+Package: asterisk13-app-chanspy
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17019
+Filename: asterisk13-app-chanspy_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 17759
+SHA256sum: 85d337e871d8d09fe457f8d826aa7c7fbb1feee9dd1d228cca9d4186ea7ae80e
+Description:  This package provides support for 'support for listening in on any channel' in Asterisk.
+
+Package: asterisk13-app-confbridge
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-bridge-builtin-features, asterisk13-bridge-simple, asterisk13-bridge-softmix
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 60680
+Filename: asterisk13-app-confbridge_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 61383
+SHA256sum: f3d35a32d4f49e9e9a7ddab1b780b61a09ba353ce8c0ab8f3776ba75f9556c77
+Description:  This package provides support for 'Software bridge for multi-party audio conferencing' in Asterisk.
+
+Package: asterisk13-app-controlplayback
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4091
+Filename: asterisk13-app-controlplayback_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4913
+SHA256sum: 34cd043946ca72b0441ff4933311ef948820e21b315df8c16c8494365f8faeb7
+Description:  This package provides support for 'trivial application to control playback of a sound file' in Asterisk.
+
+Package: asterisk13-app-dictate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4909
+Filename: asterisk13-app-dictate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5700
+SHA256sum: c9aa4f87a0987b18dfd13ef14c4e7e59bc75835bb8a179edc0bec9c3f37f4a00
+Description:  This package provides support for 'virtual dictation machine application' in Asterisk.
+
+Package: asterisk13-app-directed-pickup
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4379
+Filename: asterisk13-app-directed-pickup_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5175
+SHA256sum: 01d6e2a9a82a75e6e82e7377cb4f46585aa150ca1fe0c72812bdd8fcb4cc7293
+Description:  This package provides support for 'support for directed call pickup' in Asterisk.
+
+Package: asterisk13-app-directory
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10496
+Filename: asterisk13-app-directory_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11321
+SHA256sum: 575e8bb1288a0aacae78859e4e8e90009ac5b0f6d6ffe0493aa218184c5c9e91
+Description:  This package provides support for 'provide a directory of extensions' in Asterisk.
+
+Package: asterisk13-app-disa
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6398
+Filename: asterisk13-app-disa_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7238
+SHA256sum: fcb31023c17854209f819ee65d6ef7652a35ad4f25b5ac36404c24cd58935907
+Description:  This package provides support for 'Direct Inward System Access' in Asterisk.
+
+Package: asterisk13-app-dumpchan
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5437
+Filename: asterisk13-app-dumpchan_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6252
+SHA256sum: 5582a439d747a29742b6a259b5e50a7c137404743f39344797bf58a9ccfb8c17
+Description:  This package provides support for 'application to dump channel variables' in Asterisk.
+
+Package: asterisk13-app-exec
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3825
+Filename: asterisk13-app-exec_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4611
+SHA256sum: a9e4f7dc38b5bc293da3fbc0787cdc954b1d03951d7c610611b6a33a274c1dbb
+Description:  This package provides support for 'support for application execution' in Asterisk.
+
+Package: asterisk13-app-externalivr
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11793
+Filename: asterisk13-app-externalivr_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 12635
+SHA256sum: 3caa72057c628cff0faf4c6248c5f5ccc0ba295a6b30d66f25c6423696411406
+Description:  This package provides support for 'external IVR application interface' in Asterisk.
+
+Package: asterisk13-app-festival
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9650
+Filename: asterisk13-app-festival_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 10492
+SHA256sum: 24c458778099583e42d0b540651c30debb75fa62d3bd0318504387935c3e711a
+Description:  This package provides support for 'connect to festival' in Asterisk.
+
+Package: asterisk13-app-followme
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20564
+Filename: asterisk13-app-followme_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 21231
+SHA256sum: 39b170bbb199a526d8dc7e458b2c257504e4fd3d46d2cd0dc5d16f2ffa03c979
+Description:  This package provides support for 'find-me/follow-me application' in Asterisk.
+
+Package: asterisk13-app-getcpeid
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3301
+Filename: asterisk13-app-getcpeid_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4085
+SHA256sum: 3d181831b0fc41fdb921bf0fc671708e470340784c481c501f61fc4b11edcebc
+Description:  This package provides support for 'get ADSI CPE ID' in Asterisk.
+
+Package: asterisk13-app-ices
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4069
+Filename: asterisk13-app-ices_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4863
+SHA256sum: 36678e00392bc4c4d619f7f02b73b2834b37109dfbb7ef3960928741d1e96625
+Description:  This package provides support for 'stream to an icecast server via ICES' in Asterisk.
+
+Package: asterisk13-app-image
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2422
+Filename: asterisk13-app-image_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3248
+SHA256sum: c7ffcc0a0657c02fc26672037707284eb0e54c5f3f8574ab2a643060bf5097bf
+Description:  This package provides support for 'transmit an image' in Asterisk.
+
+Package: asterisk13-app-ivrdemo
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2770
+Filename: asterisk13-app-ivrdemo_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3595
+SHA256sum: 620d5f7088e33f5a2e92a022b3f0d8269cff9d8226cc585379def4557e464e42
+Description:  This package provides support for 'IVR demo application' in Asterisk.
+
+Package: asterisk13-app-milliwatt
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3399
+Filename: asterisk13-app-milliwatt_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4190
+SHA256sum: ba329fc2554a2d37413c4adf789c561545f70c3d9f5f2fc4a409143e274c78ff
+Description:  This package provides support for 'digital milliwatt test' in Asterisk.
+
+Package: asterisk13-app-minivm
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 45043
+Filename: asterisk13-app-minivm_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 46008
+SHA256sum: 2502662425b47be69efe54a23aa92333d894ee3a11ce7319696df842feb6dfd7
+Description:  This package provides support for 'a voicemail system in small building blocks working together based on the Comedian Mail voicemail' in Asterisk.
+
+Package: asterisk13-app-mixmonitor
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16985
+Filename: asterisk13-app-mixmonitor_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 17789
+SHA256sum: c5e6ad77b2673bc2deb5b6725fbffb3c0b3024bea77dfdf3b6fb96536310e21c
+Description:  This package provides support for 'record a call and mix the audio during the recording' in Asterisk.
+
+Package: asterisk13-app-morsecode
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3488
+Filename: asterisk13-app-morsecode_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4266
+SHA256sum: 2cd995afad810f04f739b3303c957507c95d34cb80ec07acfb4e6f21ffd5184f
+Description:  This package provides support for 'Morsecode application' in Asterisk.
+
+Package: asterisk13-app-mp3
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, mpg123
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5297
+Filename: asterisk13-app-mp3_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6120
+SHA256sum: f7da775587c038a8e3a3e9464e28fd58e7ad163fbf6d79d163319bccca162fb6
+Description:  This package provides support for 'silly application to play an MP3 file [uses mpg123]' in Asterisk.
+
+Package: asterisk13-app-originate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4194
+Filename: asterisk13-app-originate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5021
+SHA256sum: f296ef3b9146b34494d340da33e51c37d4e0c2ea5fc8ee056f7d6637bb65f0cc
+Description:  This package provides support for 'originating an outbound call and connecting it to a specified extension or application' in Asterisk.
+
+Package: asterisk13-app-page
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-app-confbridge
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4997
+Filename: asterisk13-app-page_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5795
+SHA256sum: 85f34e6deab88095d57a87dc441b2e998a53fd89011ecb719c1fc6a392a7364b
+Description:  This package provides support for 'paging application' in Asterisk.
+
+Package: asterisk13-app-playtones
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2484
+Filename: asterisk13-app-playtones_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3297
+SHA256sum: 8cb8199bcc68f4e27bb687b024b80e9b0d08b8540c9c901b9433322b5a4e57ce
+Description:  This package provides support for 'play a tone list' in Asterisk.
+
+Package: asterisk13-app-privacy
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3619
+Filename: asterisk13-app-privacy_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4429
+SHA256sum: 8a163197093327a14eb0a76e0908113201a8f3673dc13501fcbc8e9ed01bf90f
+Description:  This package provides support for 'require phone number to be entered if no CallerID sent' in Asterisk.
+
+Package: asterisk13-app-queue
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 107904
+Filename: asterisk13-app-queue_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 108295
+SHA256sum: 95c04e727c2f730fd99e77bb3787e77c68e8f589c90c512edaf3ef89f3713f11
+Description:  This package provides support for 'support for ACD' in Asterisk.
+
+Package: asterisk13-app-read
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4163
+Filename: asterisk13-app-read_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4973
+SHA256sum: ab88291ce03aa8439295b9711fdd546db239f2304864a5f54d77286c09cc1b45
+Description:  This package provides support for 'a trivial application to read a variable' in Asterisk.
+
+Package: asterisk13-app-readexten
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4310
+Filename: asterisk13-app-readexten_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5127
+SHA256sum: 0f95d217ece1b5d1ecb2509b50617e40650d8e994f37234d90656cfaf601d730
+Description:  This package provides support for 'a trivial application to read an extension into a variable' in Asterisk.
+
+Package: asterisk13-app-record
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6578
+Filename: asterisk13-app-record_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7406
+SHA256sum: d3ad4396ae69bf9ebc6d178d11094da76397024d4cd1017b58a4467566785f80
+Description:  This package provides support for 'to record a sound file' in Asterisk.
+
+Package: asterisk13-app-saycounted
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3065
+Filename: asterisk13-app-saycounted_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3875
+SHA256sum: 817fd79a15d158ae95fe3212d1c7b5883c574b48a1036b39336ed34afd349705
+Description:  This package provides support for 'applications to decline words according to current language' in Asterisk.
+
+Package: asterisk13-app-sayunixtime
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3011
+Filename: asterisk13-app-sayunixtime_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3808
+SHA256sum: 62271a89dc574448a1a3a117dcc81f91bf56d13fafcdb6a6d763adc34f8489fb
+Description:  This package provides support for 'an application to say Unix time' in Asterisk.
+
+Package: asterisk13-app-senddtmf
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3256
+Filename: asterisk13-app-senddtmf_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4044
+SHA256sum: c77cb8c70e2b5f5414830cfed1c14ff1414a2d813ac87e90b58bd18da9fb7269
+Description:  This package provides support for 'Sends arbitrary DTMF digits' in Asterisk.
+
+Package: asterisk13-app-sendtext
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2662
+Filename: asterisk13-app-sendtext_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3489
+SHA256sum: 73718c2777a36c704c364327f6755366d3b6f13449df6ae2dcd80372068009f1
+Description:  This package provides support for 'transmit a text message' in Asterisk.
+
+Package: asterisk13-app-skel
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7606
+Filename: asterisk13-app-skel_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 8481
+SHA256sum: f3748e86b8e950951491111c84caf7d55658574a7c145532cbaa56035d49c74c
+Description:  This package provides support for 'skeleton for development of an Asterisk application' in Asterisk.
+
+Package: asterisk13-app-sms
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20826
+Filename: asterisk13-app-sms_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 21621
+SHA256sum: c570adac4a1401a8c19ff16632c90cb00f7568524b6bae62f7717640c79d0f29
+Description:  This package provides support for 'SMS support (ETSI ES 201 912 protocol 1)' in Asterisk.
+
+Package: asterisk13-app-softhangup
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3182
+Filename: asterisk13-app-softhangup_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3976
+SHA256sum: 9c6121f026d6e3b3980d0c035cac8ff8f8667afcf944280d20def8a18f3d2245
+Description:  This package provides support for 'SoftHangup application' in Asterisk.
+
+Package: asterisk13-app-speech
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-speech
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8335
+Filename: asterisk13-app-speech_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 9172
+SHA256sum: 1721e8fad127cbdbc02569d4b14058ae7bddf1142b4bd860f26022932c35ee95
+Description:  This package provides support for 'Dialplan Speech Applications' in Asterisk.
+
+Package: asterisk13-app-stack
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-agi
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14273
+Filename: asterisk13-app-stack_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 15078
+SHA256sum: d29b315fed0d656d77aa2bf51ed14148ed78c5cfe0df7fe3e10e7fc2eb973d6a
+Description:  This package provides support for 'Stack applications Gosub Return etc.' in Asterisk.
+
+Package: asterisk13-app-stasis
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2608
+Filename: asterisk13-app-stasis_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3435
+SHA256sum: 635fdfd2b71d64fd153c865aac89447e7afd81765f8a5cb18797d6c14c189660
+Description:  This package provides support for 'Stasis dialplan application' in Asterisk.
+
+Package: asterisk13-app-system
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3698
+Filename: asterisk13-app-system_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4492
+SHA256sum: 6ca7716e8025106d61604b0ca658705f9773c8203875078f817d3f6a947f7d10
+Description:  This package provides support for 'support for executing system commands' in Asterisk.
+
+Package: asterisk13-app-talkdetect
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5019
+Filename: asterisk13-app-talkdetect_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5806
+SHA256sum: 08f60dccfd0f4034e4ceaef1939c9e4daa80efdf7b636b91fb13db3e5d4abe2b
+Description:  This package provides support for 'for file playback with audio detect' in Asterisk.
+
+Package: asterisk13-app-test
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8252
+Filename: asterisk13-app-test_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 9089
+SHA256sum: 9fa530203639b03beb709a606431fb446b2489e33128f960ba0645a51a90db93
+Description:  This package provides support for 'applications to test connection and produce report in text file' in Asterisk.
+
+Package: asterisk13-app-transfer
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2678
+Filename: asterisk13-app-transfer_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3494
+SHA256sum: 2af1f18ef21d073e349c6b23fcd6dbb29ed174c2b4a0ec7b1fe5d314cad2da1b
+Description:  This package provides support for 'transfer a caller' in Asterisk.
+
+Package: asterisk13-app-url
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2960
+Filename: asterisk13-app-url_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3748
+SHA256sum: a7b846fb3aaa6b0b734ac3f402bd1812b09ce9bd7be1f4383e3054c5827dc4b8
+Description:  This package provides support for 'app to transmit a URL' in Asterisk.
+
+Package: asterisk13-app-userevent
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2971
+Filename: asterisk13-app-userevent_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3767
+SHA256sum: 0a5d5849428e98dfff3bfb94066ab6cd1b9c5955c74be9c8ea477545b5cd0afd
+Description:  This package provides support for 'UserEvent application -- send manager event' in Asterisk.
+
+Package: asterisk13-app-verbose
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3153
+Filename: asterisk13-app-verbose_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3944
+SHA256sum: 34678441551eb1ae4dc3b2f6840779f35c956143875763d9dee647a70f55e3f2
+Description:  This package provides support for 'Verbose logging application' in Asterisk.
+
+Package: asterisk13-app-waitforring
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3105
+Filename: asterisk13-app-waitforring_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3892
+SHA256sum: fd9ba12e2dd19a882c1a72c71edc46c279dfbcfc339744ec836f2eb4a0844768
+Description:  This package provides support for 'wait for ring application' in Asterisk.
+
+Package: asterisk13-app-waitforsilence
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4650
+Filename: asterisk13-app-waitforsilence_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5432
+SHA256sum: bbe05d4fcdbdf1a297a5227d2db374ce094a31748d13cecfa886adb9f0bb70a9
+Description:  This package provides support for 'wait for silence' in Asterisk.
+
+Package: asterisk13-app-waituntil
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2774
+Filename: asterisk13-app-waituntil_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3602
+SHA256sum: 948568e83360a7b4b57abed7363e93278becb8a3de8352fff4ff22bf57324368
+Description:  This package provides support for 'support sleeping until the given epoch' in Asterisk.
+
+Package: asterisk13-app-while
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4843
+Filename: asterisk13-app-while_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5630
+SHA256sum: 5806a0144b2507b0bdd0d9d096097831ac3a10823e77d84e24aafe26c913bc18
+Description:  This package provides support for 'a while loop implementation' in Asterisk.
+
+Package: asterisk13-app-zapateller
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2945
+Filename: asterisk13-app-zapateller_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3770
+SHA256sum: 0a4ad1b50d835f302320f22514fac57b0cb3e8bfb8f8884f0f289c4203e306d6
+Description:  This package provides support for 'playback the special information tone to get rid of telemarketers' in Asterisk.
+
+Package: asterisk13-bridge-builtin-features
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6918
+Filename: asterisk13-bridge-builtin-features_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7753
+SHA256sum: 72b36fffb846689bac252979c6d8d62fd45812200451f299a4a43c927752fd3d
+Description:  This package provides support for 'built in bridging features' in Asterisk.
+
+Package: asterisk13-bridge-builtin-interval-features
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4019
+Filename: asterisk13-bridge-builtin-interval-features_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4818
+SHA256sum: 47b48f9e961d9f7b91dae1c4ef8cbb56b44ec4f3781460c151b88a74c61ea89d
+Description:  This package provides support for 'built in bridging interval features' in Asterisk.
+
+Package: asterisk13-bridge-holding
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4965
+Filename: asterisk13-bridge-holding_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5765
+SHA256sum: 4fc352caaecdc5b54a1742142887f08eb0a605142bf73130b268c3216f4e629e
+Description:  This package provides support for 'bridging technology for storing channels in a bridge' in Asterisk.
+
+Package: asterisk13-bridge-native-rtp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10376
+Filename: asterisk13-bridge-native-rtp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11187
+SHA256sum: 57f5cd55e58c5aeea0cf59ac8eb4c11cef787f5d575214cba0c157a3f51deb21
+Description:  This package provides support for 'native RTP bridging technology module' in Asterisk.
+
+Package: asterisk13-bridge-simple
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2278
+Filename: asterisk13-bridge-simple_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3104
+SHA256sum: 401703d9b5b2277aeb0f867f7db08f971663190f5a1ae7e137d15b73ef1dfb58
+Description:  This package provides support for 'simple two channel bridging module' in Asterisk.
+
+Package: asterisk13-bridge-softmix
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11115
+Filename: asterisk13-bridge-softmix_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11951
+SHA256sum: 3af4d50383bff460ac36c5d8299fa83ee8d2481be7d6382e28a857ce9f27c664
+Description:  This package provides support for 'multi-party software based channel mixing' in Asterisk.
+
+Package: asterisk13-cdr-csv
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6158
+Filename: asterisk13-cdr-csv_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6978
+SHA256sum: a6f3f6854a3f626e0409eb46948f4e2ae5e4d570c0fa0adf2eb4b4f0256613c8
+Description:  This package provides support for 'Call Detail Record with CSV support' in Asterisk.
+
+Package: asterisk13-cdr-sqlite3
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libsqlite3
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6491
+Filename: asterisk13-cdr-sqlite3_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7343
+SHA256sum: 5b62027626bacc1204f5d8a73384f9737e593bc48a83a5a0999bd2f160270c98
+Description:  This package provides support for 'Call Detail Record with SQLITE3 support' in Asterisk.
+
+Package: asterisk13-cdr
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 25887
+Filename: asterisk13-cdr_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 26568
+SHA256sum: 07147ab32e73af5309a061f36527f0c8b24ea9bfffbd98d548ae5e6fcdce881b
+Description:  This package provides support for 'Call Detail Record' in Asterisk.
+
+Package: asterisk13-cel-custom
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5800
+Filename: asterisk13-cel-custom_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6646
+SHA256sum: 502c592dcf6ea614d4fd4b6e5bea322bc79001c90fb3b1ce7553e425c68520c1
+Description:  This package provides support for 'custom Comma Separated Value CEL records' in Asterisk.
+
+Package: asterisk13-cel-manager
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3635
+Filename: asterisk13-cel-manager_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4434
+SHA256sum: 7b162f12b1ba4724a2432aad80c5726e0f0cbdbb7a5be405e8966dde83982fd3
+Description:  This package provides support for 'Asterisk channel event records' in Asterisk.
+
+Package: asterisk13-cel-sqlite3-custom
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7066
+Filename: asterisk13-cel-sqlite3-custom_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7935
+SHA256sum: e94b369eace4f9f160721f4653580eca56db98dc3e783125f278db435add3a60
+Description:  This package provides support for 'custom SQLite3 CEL records' in Asterisk.
+
+Package: asterisk13-chan-alsa
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, alsa-lib
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14457
+Filename: asterisk13-chan-alsa_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 15239
+SHA256sum: 7d9f630863499d65f443b59298c9a485e0c40d3ea3c026ffa7f62267aa15b22f
+Description:  This package provides support for 'the channel chan_alsa' in Asterisk.
+
+Package: asterisk13-chan-bridge-media
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3353
+Filename: asterisk13-chan-bridge-media_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4148
+SHA256sum: 6928928e6f28a233c9e8e2b3d8ff5348e28b5bdf57506e4916bc5888ff4fe62b
+Description:  This package provides support for 'bridge media channel driver' in Asterisk.
+
+Package: asterisk13-chan-console
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, portaudio
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19358
+Filename: asterisk13-chan-console_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 20237
+SHA256sum: ede89010eca9c10baf81f013498bc3e0d0e3e34c50d89c052fe0dfa4c01e7564
+Description:  This package provides support for 'cross-platform console channel driver' in Asterisk.
+
+Package: asterisk13-chan-dongle
+Version: 1.1-20180312-1
+Depends: libc, librt, libpthread, kmod-usb-acm, kmod-usb-serial, kmod-usb-serial-option, libusb-1.0, usb-modeswitch, asterisk13
+Source: feeds/telephony/net/asterisk-chan-dongle
+License: GPL-2.0
+LicenseFiles: COPYRIGHT.txt LICENSE.txt
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 86592
+Filename: asterisk13-chan-dongle_1.1-20180312-1_arm_cortex-a9_neon.ipk
+Size: 87150
+SHA256sum: f4f5fc098b5a57f321ca5306fbdad09391e8701affa733c6fe3f492f3a9dd5ee
+Description:  Asterisk channel driver for Huawei UMTS 3G dongle.
+
+Package: asterisk13-chan-iax2
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-timing-timerfd
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 193359
+Filename: asterisk13-chan-iax2_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 193514
+SHA256sum: a46f146987387e88365484c7717d71ff9020507fbc8ad88392468a7c54e194eb
+Description:  This package provides support for 'IAX support' in Asterisk.
+
+Package: asterisk13-chan-mgcp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 63046
+Filename: asterisk13-chan-mgcp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 63572
+SHA256sum: b7a789788666dc8d816aeefafbbcc26110f3acd9ec9dddca674f50c4b0c1df8e
+Description:  This package provides support for 'Media Gateway Control Protocol' in Asterisk.
+
+Package: asterisk13-chan-mobile
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, bluez-libs
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 44770
+Filename: asterisk13-chan-mobile_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 45439
+SHA256sum: f7c976229fce37e84b6dfc333b34758aa0f7372854d0460ec15f152f17765de5
+Description:  This package provides support for 'Bluetooth mobile device channel driver' in Asterisk.
+
+Package: asterisk13-chan-motif
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-xmpp
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26320
+Filename: asterisk13-chan-motif_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 27005
+SHA256sum: 82783a5b9bf55a1fa8e3088fea2f6e706bb64b8aca7429b87ea6f0e431a95a91
+Description:  This package provides support for 'Motif Jingle Channel Driver' in Asterisk.
+
+Package: asterisk13-chan-ooh323
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 383636
+Filename: asterisk13-chan-ooh323_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 383976
+SHA256sum: 4e775d97c0d881689035cdea618ea0a6204516b0b2de54a8e60cda31344d6f7d
+Description:  This package provides support for 'Objective Systems H.323 channel' in Asterisk.
+
+Package: asterisk13-chan-oss
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18878
+Filename: asterisk13-chan-oss_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 19735
+SHA256sum: 7eb85e3049d4b0c46db55e7059fabbfcab8e3d777c498577c4942c9349515726
+Description:  This package provides support for 'the channel chan_oss' in Asterisk.
+
+Package: asterisk13-chan-phone
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18903
+Filename: asterisk13-chan-phone_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 19706
+SHA256sum: 23bcd1e981179b07f40c19e01e4d91ff021b6a3344409908cb53e0d8014d1ccd
+Description:  This package provides support for 'generic Linux telephony interface driver' in Asterisk.
+
+Package: asterisk13-chan-rtp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5617
+Filename: asterisk13-chan-rtp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6413
+SHA256sum: 6d746a7b205f004bf89ad6ec49a61cae4784d0382e30c4a089293605fc337513
+Description:  This package provides support for 'RTP [Multicast and Unicast] media channel' in Asterisk.
+
+Package: asterisk13-chan-sccp
+Version: v4.3.0-20180322-1
+Depends: libc, librt, libpthread, libltdl, asterisk13
+Conflicts: asterisk13-chan-skinny
+Source: feeds/telephony/net/asterisk-chan-sccp
+License: GPL-1.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 520917
+Filename: asterisk13-chan-sccp_v4.3.0-20180322-1_arm_cortex-a9_neon.ipk
+Size: 518845
+SHA256sum: a4978e47e37564b80085050aafb397cdb125db874a8b31f0631834b8a433752d
+Description:  Replacement for the SCCP channel driver (chan_skinny) in Asterisk.
+ Extended features include shared lines, presence / BLF, customizable
+ feature buttons and custom device state.
+
+Package: asterisk13-chan-sip
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-app-confbridge
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 415441
+Filename: asterisk13-chan-sip_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 414605
+SHA256sum: 2d2aba1ad1a2ee2b868329e60b5cef9b39b9c91a37862b2cbbe021a3fafbe1f4
+Description:  This package provides support for 'the channel chan_sip' in Asterisk.
+
+Package: asterisk13-chan-skinny
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 73349
+Filename: asterisk13-chan-skinny_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 74126
+SHA256sum: d208fc9d4681fc66af273633870de52842b095c7c81d84127582e5e3aa32ea09
+Description:  This package provides support for 'the channel chan_skinny' in Asterisk.
+
+Package: asterisk13-chan-unistim
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 82344
+Filename: asterisk13-chan-unistim_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 83089
+SHA256sum: 3f4f897da3ace2c602cf9efae3b17fbed6867d9294e7a53a3867d31bbb83de7f
+Description:  This package provides support for 'channel driver for the UNISTIM (Unified Networks IP Stimulus) protocol' in Asterisk.
+
+Package: asterisk13-codec-a-mu
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2790
+Filename: asterisk13-codec-a-mu_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3594
+SHA256sum: eae94ed2d038f902ed3c6bbdd4befee3a6d0959d46d79ebf1b8ce572c84c516d
+Description:  This package provides support for 'translation between alaw and ulaw codecs' in Asterisk.
+
+Package: asterisk13-codec-adpcm
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3804
+Filename: asterisk13-codec-adpcm_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4588
+SHA256sum: 1be53744fb0e70c3b3dd87788bc8922913acc9dc27f2db380d4b224d9cb95b12
+Description:  This package provides support for 'ADPCM text ' in Asterisk.
+
+Package: asterisk13-codec-alaw
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3030
+Filename: asterisk13-codec-alaw_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3831
+SHA256sum: b75eddd23ac7dcbb13f22bd32e83a40ff979ac979b73b0273e8961497e3202da
+Description:  This package provides support for 'translation between signed linear and alaw codecs' in Asterisk.
+
+Package: asterisk13-codec-g722
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9217
+Filename: asterisk13-codec-g722_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 10048
+SHA256sum: d19496d2dded7649600494ff98b96b10787c99edca032d4552de65a3d9300f7b
+Description:  This package provides support for 'a high bit rate 48/56/64Kbps ITU standard codec' in Asterisk.
+
+Package: asterisk13-codec-g726
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5196
+Filename: asterisk13-codec-g726_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6036
+SHA256sum: 9350a98192793e4e72e2e851de65da86cdf40869e06848a5bd5a9360df3f98ea
+Description:  This package provides support for 'translation between signed linear and ITU G.726-32kbps codecs' in Asterisk.
+
+Package: asterisk13-codec-g729
+Version: 1.4.2-1
+Depends: libc, librt, libpthread, bcg729, asterisk13
+Source: feeds/telephony/net/asterisk-g72x
+License: GPL-3.0
+LicenseFiles: README.md
+Section: net
+Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4737
+Filename: asterisk13-codec-g729_1.4.2-1_arm_cortex-a9_neon.ipk
+Size: 5512
+SHA256sum: 10635255a3bee7c6c3ae6626ceba5c3e6d7a9ff8531cbabecd28f77ccc33be5c
+Description:  Asterisk G.729 codec based on bcg729 implementation.
+
+Package: asterisk13-codec-gsm
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 30874
+Filename: asterisk13-codec-gsm_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 31665
+SHA256sum: 30e169a2fb53582f80018c99fb28a8e210614a22425232ff209b8bf77d8874e8
+Description:  This package provides support for 'translate between signed linear and GSM' in Asterisk.
+
+Package: asterisk13-codec-ilbc
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 45266
+Filename: asterisk13-codec-ilbc_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 46071
+SHA256sum: 5cf909987521169e1f341a896719bda537545b2df582ac01dc748d4e6cff5b33
+Description:  This package provides support for 'translate between signed linear and ILBC' in Asterisk.
+
+Package: asterisk13-codec-lpc10
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27784
+Filename: asterisk13-codec-lpc10_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 28560
+SHA256sum: fa3567abff937e0ba286b6aa5b2e67976ef3b8e691052131db6dbcb44082e8fc
+Description:  This package provides support for 'translate between signed linear and LPC10' in Asterisk.
+
+Package: asterisk13-codec-resample
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13403
+Filename: asterisk13-codec-resample_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 14123
+SHA256sum: 0a4a353b1e7e9269017cc6bbde914f4a14ad9be4018858b99a601915dd323c87
+Description:  This package provides support for 'resample sLinear audio' in Asterisk.
+
+Package: asterisk13-codec-ulaw
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3159
+Filename: asterisk13-codec-ulaw_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3961
+SHA256sum: 5988a13388409991205e4aa3fb79d12fc2f0aa0d5588c146d9c0dc81f11ffd67
+Description:  This package provides support for 'translation between signed linear and ulaw codecs' in Asterisk.
+
+Package: asterisk13-curl
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libcurl
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17664
+Filename: asterisk13-curl_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 18462
+SHA256sum: 11a7d3386467b47e119288c1248de1cc1b0b67d9ab04cd812f6d0372a03dc23c
+Description:  This package provides support for 'CURL support' in Asterisk.
+
+Package: asterisk13-format-g719
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3365
+Filename: asterisk13-format-g719_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4158
+SHA256sum: 55c5f117c02cebf5d09ba2094fa2c9aa22b333ce0e9b3678cd454e7940d75b5f
+Description:  This package provides support for 'ITU G.719 64kbps-only' in Asterisk.
+
+Package: asterisk13-format-g723
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3253
+Filename: asterisk13-format-g723_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4051
+SHA256sum: 47175d4fb31c245e472c1cd24d653135159ab0c8f2188265e02e25783c2f0491
+Description:  This package provides support for 'old-style G.723.1 frame/timestamp format' in Asterisk.
+
+Package: asterisk13-format-g726
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3701
+Filename: asterisk13-format-g726_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4512
+SHA256sum: e9be8570fb37d35f2ee3be08569ddd479795e46d6dbb88ff3038c739aced70dc
+Description:  This package provides support for 'support for headerless G.726 16/24/32/40kbps data format' in Asterisk.
+
+Package: asterisk13-format-g729
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3285
+Filename: asterisk13-format-g729_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4079
+SHA256sum: ecff5f7f79a0e321ab5291fefb8dc3a33816a98dfba3ce6f79d46fceba824090
+Description:  This package provides support for 'support for raw headerless G729 data' in Asterisk.
+
+Package: asterisk13-format-gsm
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6397
+Filename: asterisk13-format-gsm_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7237
+SHA256sum: 17f0320df136a693158d92f6c103f3305a31add06d99467c24ba8b3d190ab9c4
+Description:  This package provides support for 'support for GSM format' in Asterisk.
+
+Package: asterisk13-format-h263
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3272
+Filename: asterisk13-format-h263_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4052
+SHA256sum: fa6872e1b0a53abe5788f3d6fe88f557d6065ded783c706a7c6626ddca63fefd
+Description:  This package provides support for 'support for H264 format' in Asterisk.
+
+Package: asterisk13-format-h264
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3352
+Filename: asterisk13-format-h264_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4138
+SHA256sum: 2edf9690360d1591a89aee03ac743158eb8fcfbf2d65d7bd4f10054ec04e8647
+Description:  This package provides support for 'support for H264 format' in Asterisk.
+
+Package: asterisk13-format-ilbc
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3265
+Filename: asterisk13-format-ilbc_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4051
+SHA256sum: 39d16eda1ee9a3618969d589dc8c9b19bb52e53785612c0209c46a5996663573
+Description:  This package provides support for 'support for ILBC format' in Asterisk.
+
+Package: asterisk13-format-jpeg
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2826
+Filename: asterisk13-format-jpeg_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3650
+SHA256sum: 1a3a6e1d6e88a14268ad74ce5697cb0c96ad0ab33952876853847882df76dc8a
+Description:  This package provides support for 'JPEG file format' in Asterisk.
+
+Package: asterisk13-format-ogg-vorbis
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libvorbis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5293
+Filename: asterisk13-format-ogg-vorbis_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6093
+SHA256sum: 9277bead17bbc25d424c95ddc9cfa967193921a31790e4c35e07b8f2f1be3ec3
+Description:  This package provides support for 'OGG/Vorbis streams' in Asterisk.
+
+Package: asterisk13-format-pcm
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5246
+Filename: asterisk13-format-pcm_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6027
+SHA256sum: e8147df77aeec119e5d2b4ad8428cd8c06d03d1efc090476f8dfe296bacd72d9
+Description:  This package provides support for 'support for PCM format' in Asterisk.
+
+Package: asterisk13-format-siren14
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3403
+Filename: asterisk13-format-siren14_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4210
+SHA256sum: 843680bf2388e748b7b5249346e88221682d0af5f453dff9da27cd97d99bb14d
+Description:  This package provides support for 'ITU G.722.1 Annex C Siren14 48kbps-only format' in Asterisk.
+
+Package: asterisk13-format-siren7
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3268
+Filename: asterisk13-format-siren7_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4066
+SHA256sum: cbd1f54befb6d571734977b79b7b02b03daa837d49d9f444868c742d9e82b614
+Description:  This package provides support for 'ITU G.722.1 Siren7 32kbps-only format' in Asterisk.
+
+Package: asterisk13-format-sln
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3873
+Filename: asterisk13-format-sln_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4670
+SHA256sum: faaf29a574f9ed202b14a9092a6051703e94a5811d69738f6ebf58d17ef26595
+Description:  This package provides support for 'support for raw slinear format' in Asterisk.
+
+Package: asterisk13-format-vox
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3131
+Filename: asterisk13-format-vox_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3921
+SHA256sum: f86c10fd98302e4b64cc894d89922b4238baaff43a67da1281f6a8863593b432
+Description:  This package provides support for 'support for ADPCM vox format' in Asterisk.
+
+Package: asterisk13-format-wav-gsm
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11826
+Filename: asterisk13-format-wav-gsm_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 12663
+SHA256sum: 7bd8ff51f9c4acb631bfc314512cc17c3e05f77429e3cf6c0bdd4c421e2a5766
+Description:  This package provides support for 'support for proprietary Microsoft WAV format (Proprietary GSM)' in Asterisk.
+
+Package: asterisk13-format-wav
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5864
+Filename: asterisk13-format-wav_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6695
+SHA256sum: ff004a41e89a84f0a5d7b6cbaa4409da242688923b5d22525d2135252fdb0d5a
+Description:  This package provides support for 'support for proprietary Microsoft WAV format (8000hz Signed Linear)' in Asterisk.
+
+Package: asterisk13-func-aes
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4225
+Filename: asterisk13-func-aes_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5017
+SHA256sum: 1496b6cb1c4e32ece1cb2d88747c9f247ef29036f0d074ce7ad028fd750bef0d
+Description:  This package provides support for 'AES encryption/decryption dialplan functions' in Asterisk.
+
+Package: asterisk13-func-base64
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3461
+Filename: asterisk13-func-base64_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4249
+SHA256sum: ce8e52869dccf7d3b1b28ef7c3fb839c4e5bd99dd049d2bae9b0d49d241d26a1
+Description:  This package provides support for 'support of base64 function' in Asterisk.
+
+Package: asterisk13-func-blacklist
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3078
+Filename: asterisk13-func-blacklist_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3884
+SHA256sum: f6c12b68b7ca669bd574e7d3ebc28d027eaeccb9f53e9a1e1d17eac375edcfe3
+Description:  This package provides support for 'looking up the callerid number and see if it is blacklisted' in Asterisk.
+
+Package: asterisk13-func-callcompletion
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2580
+Filename: asterisk13-func-callcompletion_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3414
+SHA256sum: ae18b1bbc34c42839ff9989307d24bcfef2b88dcc212131858dd377bab8f4a01
+Description:  This package provides support for 'call completion supplementary services implementation' in Asterisk.
+
+Package: asterisk13-func-channel
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12598
+Filename: asterisk13-func-channel_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 13378
+SHA256sum: 4101bed26b0b84fb8646205ba2003f711d95f44381c6c25cad121af89a5db943
+Description:  This package provides support for 'Channel info dialplan function' in Asterisk.
+
+Package: asterisk13-func-config
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4237
+Filename: asterisk13-func-config_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5041
+SHA256sum: bc1e7569a0035f270378053de292271b37a101bb45fd86fa72255ede449ced1c
+Description:  This package provides support for 'a function to retrieve variables from an Asterisk configuration file' in Asterisk.
+
+Package: asterisk13-func-cut
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4606
+Filename: asterisk13-func-cut_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5375
+SHA256sum: 1297f774c51249dc9e60a26d84495f1173cb185cefc316c64233b27f266bc06c
+Description:  This package provides support for 'CUT function' in Asterisk.
+
+Package: asterisk13-func-db
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6025
+Filename: asterisk13-func-db_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6818
+SHA256sum: 8deff5c9173016bc86c1e72a7429673a6b6649b95f78be099398c6fa3f454365
+Description:  This package provides support for 'functions for interaction with the database' in Asterisk.
+
+Package: asterisk13-func-devstate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4353
+Filename: asterisk13-func-devstate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5171
+SHA256sum: ce105158bc61a1cb406ef1552e5bf7728d69d2474ee0b8f2fc501292b67aff58
+Description:  This package provides support for 'functions for manually controlled blinky lights' in Asterisk.
+
+Package: asterisk13-func-dialgroup
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4680
+Filename: asterisk13-func-dialgroup_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5463
+SHA256sum: f920e0e2b843808255e1f990a5349a66ad2c6040626ec962db5be8e6398cd64a
+Description:  This package provides support for 'dialgroup dialplan function' in Asterisk.
+
+Package: asterisk13-func-dialplan
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3389
+Filename: asterisk13-func-dialplan_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4193
+SHA256sum: cf65ef2a78246ab7fe4d469f2fd285fe97c885a31afa69cb33c65b07b61c2413
+Description:  This package provides support for 'dialplan group functions check if a dialplan entry exists' in Asterisk.
+
+Package: asterisk13-func-enum
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5753
+Filename: asterisk13-func-enum_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6577
+SHA256sum: a48500dc566d4a3d78b81dcb7305b61bd252f867f5e5df8201024dedb198c7b2
+Description:  This package provides support for 'ENUM' in Asterisk.
+
+Package: asterisk13-func-env
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14917
+Filename: asterisk13-func-env_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 15703
+SHA256sum: 4912ad3f25d95a85ceb02c960406afbe9fa86c6904f6e70de0de7e4a5684a3d1
+Description:  This package provides support for 'Environment dialplan functions' in Asterisk.
+
+Package: asterisk13-func-extstate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2599
+Filename: asterisk13-func-extstate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3446
+SHA256sum: cc195b2ca08941b0739a6ac1869a5b3a64b6c69574b007e0495df7c0eca61a4d
+Description:  This package provides support for 'retrieving the state of a hinted extension for dialplan control' in Asterisk.
+
+Package: asterisk13-func-frame-trace
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6011
+Filename: asterisk13-func-frame-trace_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6825
+SHA256sum: c732ad61cc74d7e6fd217639ec8a2023c533c4cbb3e9bef4386174f3590e5158
+Description:  This package provides support for 'trace internal ast_frames on a channel' in Asterisk.
+
+Package: asterisk13-func-global
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4514
+Filename: asterisk13-func-global_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5297
+SHA256sum: e4ffe01e9c15112b6d618724b9ac43beb38d731a79d64361988dfead1f35bbb5
+Description:  This package provides support for 'global variable dialplan functions' in Asterisk.
+
+Package: asterisk13-func-groupcount
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3881
+Filename: asterisk13-func-groupcount_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4691
+SHA256sum: 29275fc44cc82529458064ea898a37a9dde4307f0e9f802f644cc57d560772b0
+Description:  This package provides support for 'for counting number of channels in the specified group' in Asterisk.
+
+Package: asterisk13-func-hangupcause
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3416
+Filename: asterisk13-func-hangupcause_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4231
+SHA256sum: 6aafd93b512d753522369cfac9ffaa0c0c6cdc4339ef950771848902fde1b269
+Description:  This package provides support for 'functions related to retreiving per-channel hangupcause information' in Asterisk.
+
+Package: asterisk13-func-holdintercept
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3638
+Filename: asterisk13-func-holdintercept_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4461
+SHA256sum: 7777d5ce3735900f0de07d3f5457ace4ab8ab47b930d068df348a8f9ceec3264
+Description:  This package provides support for 'function that intercepts HOLD frames from channels and raises events' in Asterisk.
+
+Package: asterisk13-func-iconv
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3171
+Filename: asterisk13-func-iconv_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3958
+SHA256sum: 1e515c78886a1d5377921acba4f0b4383d4e31bbfe8373351b6e50c9703f5bf4
+Description:  This package provides support for 'charset conversion' in Asterisk.
+
+Package: asterisk13-func-jitterbuffer
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3035
+Filename: asterisk13-func-jitterbuffer_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3840
+SHA256sum: e001bf1d459516a81a7c42b20fac34bc3215c14a888d0d00b025ad2224340df0
+Description:  This package provides support for 'put a jitterbuffer on the read side of a channel' in Asterisk.
+
+Package: asterisk13-func-lock
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6784
+Filename: asterisk13-func-lock_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7628
+SHA256sum: ddde0c00b610d431714a0775c63af33ceb7f504ad05aec0c70d3c5abf78bb873
+Description:  This package provides support for 'dialplan mutexes' in Asterisk.
+
+Package: asterisk13-func-math
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5118
+Filename: asterisk13-func-math_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5893
+SHA256sum: 2fe0d02c9d34f40ac05609315391f045637fd1ee5787500b0cb6913e5917dc07
+Description:  This package provides support for 'Math functions' in Asterisk.
+
+Package: asterisk13-func-md5
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2254
+Filename: asterisk13-func-md5_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3081
+SHA256sum: e8f7d47899b7ba7943c3d0b91cb666db1f566fdb02c48837f6b62e9a876b109a
+Description:  This package provides support for 'MD5 digest related dialplan functions' in Asterisk.
+
+Package: asterisk13-func-module
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2216
+Filename: asterisk13-func-module_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3037
+SHA256sum: c3b7b38294b9bbdb7d02ebc763273041b6f9bc4645c27f5bab0a6a3bd586c007
+Description:  This package provides support for 'Simple module check function' in Asterisk.
+
+Package: asterisk13-func-periodic-hook
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-app-chanspy, asterisk13-func-cut, asterisk13-func-groupcount, asterisk13-func-uri
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6877
+Filename: asterisk13-func-periodic-hook_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7767
+SHA256sum: 607b2b89f94a06071bbedc522946dba8e924d22d84281f727985f7fc75a99ee2
+Description:  This package provides support for 'Execute a periodic dialplan hook into the audio of a call' in Asterisk.
+
+Package: asterisk13-func-pitchshift
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7478
+Filename: asterisk13-func-pitchshift_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 8299
+SHA256sum: 4faee58941a612a7b5c29b5724e06f4dc12d165acfecb728813d222ceb614017
+Description:  This package provides support for 'pitch shift audio effect' in Asterisk.
+
+Package: asterisk13-func-presencestate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6260
+Filename: asterisk13-func-presencestate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7114
+SHA256sum: cfe8a62c5c3b9d0ed1b5449fe23b6276f592f4ed3bee3f75abd1449bf340265d
+Description:  This package provides support for 'Gets or sets a presence state in the dialplan' in Asterisk.
+
+Package: asterisk13-func-rand
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2789
+Filename: asterisk13-func-rand_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3610
+SHA256sum: 9184a99baf4cd98a68539bc25ea7824e198b9f3a4c1dc9b4996a9b5420cb1243
+Description:  This package provides support for 'RAND dialplan function' in Asterisk.
+
+Package: asterisk13-func-realtime
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6583
+Filename: asterisk13-func-realtime_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7434
+SHA256sum: 0e09f8ef823ed7b3f5a0d6fc00a36168f73e8467bf2963dbab4997368dad2a6f
+Description:  This package provides support for 'REALTIME dialplan function' in Asterisk.
+
+Package: asterisk13-func-sha1
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2339
+Filename: asterisk13-func-sha1_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3175
+SHA256sum: c3bda523a0f3ff354657fdfb74e8747e72ce1d8aef4a79c300835b495b1917af
+Description:  This package provides support for 'SHA1 digest related dialplan functions' in Asterisk.
+
+Package: asterisk13-func-shell
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2602
+Filename: asterisk13-func-shell_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3418
+SHA256sum: e8cc5ebf1090a60fd646ed1a80d70c4d798212ee4aa8a929d6371d5c5a55d3e4
+Description:  This package provides support for 'support for shell execution' in Asterisk.
+
+Package: asterisk13-func-sorcery
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3495
+Filename: asterisk13-func-sorcery_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4293
+SHA256sum: d98090da1c7f13792f23415ebce743c0c00dafc375072b1d395a2b9d6d867b9f
+Description:  This package provides support for 'get a field from a sorcery object' in Asterisk.
+
+Package: asterisk13-func-sprintf
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3537
+Filename: asterisk13-func-sprintf_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4330
+SHA256sum: 075f57e573348c46bc62b8107445d80f4abd7d45b9a37d22262d414d3075093c
+Description:  This package provides support for 'string manipulation dialplan functions' in Asterisk.
+
+Package: asterisk13-func-srv
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4349
+Filename: asterisk13-func-srv_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5134
+SHA256sum: d4871103fbbdb5c407f265b163959fd4b492e979c61bec4f2e8dfe05c6852ca2
+Description:  This package provides support for 'SRV related dialplan functions' in Asterisk.
+
+Package: asterisk13-func-sysinfo
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2886
+Filename: asterisk13-func-sysinfo_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3687
+SHA256sum: fd3b6c644bf8855c48915e367067c4b30a4dd47820024340a8f60ff4e0c75632
+Description:  This package provides support for 'SYSINFO function to return various system data' in Asterisk.
+
+Package: asterisk13-func-talkdetect
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4859
+Filename: asterisk13-func-talkdetect_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5677
+SHA256sum: 15e23e621baaaaf121f05be06d052e60df5a85ab96c0c7f0f0c1d6f96db12739
+Description:  This package provides support for 'function that raises events when talking is detected on a channel' in Asterisk.
+
+Package: asterisk13-func-uri
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2375
+Filename: asterisk13-func-uri_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3206
+SHA256sum: 080fd0fe65ce14f5b4da8a83a1eae526e8d10704fc1d7dc439f90462ed34b3e8
+Description:  This package provides support for 'Encodes and decodes URI-safe strings' in Asterisk.
+
+Package: asterisk13-func-version
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2818
+Filename: asterisk13-func-version_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3645
+SHA256sum: 8ebeb432362df4b97a3cd65ce00be89761453852deb98cfed47be7722ba21028
+Description:  This package provides support for 'return the current version strings' in Asterisk.
+
+Package: asterisk13-func-vmcount
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2361
+Filename: asterisk13-func-vmcount_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3185
+SHA256sum: 982d016d21835fd5e0681672a334887f2b5d1b5b6ed91e8ad3503ec3ce75f8ec
+Description:  This package provides support for 'a vmcount dialplan function' in Asterisk.
+
+Package: asterisk13-func-volume
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3760
+Filename: asterisk13-func-volume_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4561
+SHA256sum: 164d428e11e58c58e85a0ab78b91defc28001f0ff6140fb85bbbf87ef49e28f4
+Description:  This package provides support for 'technology independent volume control' in Asterisk.
+
+Package: asterisk13-odbc
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libpthread, libc, unixodbc
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 92377
+Filename: asterisk13-odbc_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 93066
+SHA256sum: 1e9165a1456048b0bba5cf1a1a9c2ce71d541599276dc8fe59ce0acab9f40982
+Description:  This package provides support for 'ODBC support' in Asterisk.
+
+Package: asterisk13-pbx-ael
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ael-share
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9446
+Filename: asterisk13-pbx-ael_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 10343
+SHA256sum: 380a51054d6a870e2c6e24b28355607b6f21e8168be4196f89c0a19505d967a2
+Description:  This package provides support for 'support for symbolic Asterisk Extension Logic' in Asterisk.
+
+Package: asterisk13-pbx-dundi
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 74804
+Filename: asterisk13-pbx-dundi_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 75513
+SHA256sum: 067366b54e6b56eb1341734ef81bad3c71946bfec327f2caa8bce10825f972d9
+Description:  This package provides support for 'provides Dundi Lookup service for Asterisk' in Asterisk.
+
+Package: asterisk13-pbx-loopback
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3546
+Filename: asterisk13-pbx-loopback_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4330
+SHA256sum: add4b2279168d607371c42ed3a4de75802fbc85bb583a4a7c8937a7d166eb44d
+Description:  This package provides support for 'loopback PBX module' in Asterisk.
+
+Package: asterisk13-pbx-realtime
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6634
+Filename: asterisk13-pbx-realtime_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7385
+SHA256sum: f080206ca1ba9291e88114405f5f67e48cbbe9f3cfc25878de0732a3e9d1e158
+Description:  This package provides support for 'realtime switch support' in Asterisk.
+
+Package: asterisk13-pbx-spool
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11532
+Filename: asterisk13-pbx-spool_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 12363
+SHA256sum: 641d96f0e973ab733c45de9cc13a75149109af85f22f0462aed749b62b8e5505
+Description:  This package provides support for 'outgoing call spool support' in Asterisk.
+
+Package: asterisk13-pgsql
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libpq
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 58601
+Filename: asterisk13-pgsql_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 59465
+SHA256sum: 8b1e4a1bfb5a53ec29fe971d1d30683709b8f80bb04c194a233ce6977a83ecc4
+Description:  This package provides support for 'PostgreSQL support' in Asterisk.
+
+Package: asterisk13-pjsip
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-sorcery, asterisk13-res-pjproject, libpjsip, libpjmedia, libpjnath, libpjsip-simple, libpjsip-ua, libpjsua, libpjsua2
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 444614
+Filename: asterisk13-pjsip_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 442421
+SHA256sum: fa5c1aab2d32954e4bbd10f7d94d67d73c1d1275564f223736d170a102fef7a4
+Description:  This package provides support for 'the channel pjsip' in Asterisk.
+
+Package: asterisk13-res-adsi
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14581
+Filename: asterisk13-res-adsi_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 15363
+SHA256sum: bf946cd5bc92334696be59301dbce3b43e22b6573e119988cc41953d58df10db
+Description:  This package provides support for 'Analog Display Services Interface capability' in Asterisk.
+
+Package: asterisk13-res-ael-share
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 54504
+Filename: asterisk13-res-ael-share_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 55267
+SHA256sum: 5569c9be86dc67e8f221667ec949addf5611927f5e39d472c1976620c8c92dd1
+Description:  This package provides support for 'support for shareable AEL code mainly between internal and external modules' in Asterisk.
+
+Package: asterisk13-res-agi
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-speech
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33893
+Filename: asterisk13-res-agi_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 34527
+SHA256sum: 1c715d92c9667819b3321aa4cce947b5713708f9589e9713d723bd1ff09a8329
+Description:  This package provides support for 'Support for the Asterisk Gateway Interface extension' in Asterisk.
+
+Package: asterisk13-res-ari-applications
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4831
+Filename: asterisk13-res-ari-applications_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5662
+SHA256sum: c4022180886f87dbbd9ca2b6815d9d4c9742403a2012a724b19106cc0a60cd40
+Description:  This package provides support for 'RESTful API module - Stasis application resources' in Asterisk.
+
+Package: asterisk13-res-ari-asterisk
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9407
+Filename: asterisk13-res-ari-asterisk_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 10247
+SHA256sum: 38f084507efbb6d2ba2600663b8919666e608c4521280fc1e98aff1588cc61cc
+Description:  This package provides support for 'RESTful API module - Asterisk resources' in Asterisk.
+
+Package: asterisk13-res-ari-bridges
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis-playback
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13077
+Filename: asterisk13-res-ari-bridges_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 13867
+SHA256sum: 6ee8ddceae6f3a47cb07c0e974b876fa7adc107cef93767aa5477b27dd82d981
+Description:  This package provides support for 'RESTful API module - bridge resources' in Asterisk.
+
+Package: asterisk13-res-ari-channels
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis-answer, asterisk13-res-stasis-playback, asterisk13-res-stasis-snoop
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17169
+Filename: asterisk13-res-ari-channels_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 17962
+SHA256sum: 83983748ee4ba5ef3b4ac1fe7f677ee717c7b9975623dbce9ad11d3060c5b580
+Description:  This package provides support for 'RESTful API module - channel resources' in Asterisk.
+
+Package: asterisk13-res-ari-device-states
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis-device-state
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3251
+Filename: asterisk13-res-ari-device-states_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4076
+SHA256sum: 2fa286bfad75a0986468cddb2c7dc8713ae2b693343e5e4acf684e6082226508
+Description:  This package provides support for 'RESTful API module - device state resources' in Asterisk.
+
+Package: asterisk13-res-ari-endpoints
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5174
+Filename: asterisk13-res-ari-endpoints_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5997
+SHA256sum: 105a548ccb3cc503dfcd40f62f755e740598298e9903c531c7fdbfe2e6e6fafc
+Description:  This package provides support for 'RESTful API module - endpoint resources' in Asterisk.
+
+Package: asterisk13-res-ari-events
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8731
+Filename: asterisk13-res-ari-events_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 9590
+SHA256sum: b8b2e93fcbe8d6cb62c3406c24b22c7757d6af62a57c1fb50d38655e93fec37d
+Description:  This package provides support for 'RESTful API module - WebSocket resource' in Asterisk.
+
+Package: asterisk13-res-ari-mailboxes
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis-mailbox
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3278
+Filename: asterisk13-res-ari-mailboxes_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4098
+SHA256sum: 52ea3c7976513db08e62f03bdeab6acd013e7cb43eac599b9f0c8523c5a80a33
+Description:  This package provides support for 'RESTful API module - mailboxes resources' in Asterisk.
+
+Package: asterisk13-res-ari-model
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 40095
+Filename: asterisk13-res-ari-model_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 40769
+SHA256sum: be9bc28fb49238967bef3ba373b204855e7f23910ba62ac81903b608fae23274
+Description:  This package provides support for 'ARI model validators' in Asterisk.
+
+Package: asterisk13-res-ari-playbacks
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis-playback
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3483
+Filename: asterisk13-res-ari-playbacks_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4306
+SHA256sum: 290bd3ffe12bbee27f4f4fc8a27b684963a23587b0890307aa36151473e84c3f
+Description:  This package provides support for 'RESTful API module - playback control resources' in Asterisk.
+
+Package: asterisk13-res-ari-recordings
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis-recording
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4721
+Filename: asterisk13-res-ari-recordings_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5549
+SHA256sum: 7a5faa6e55e8e8496849d854f9e2b72bd8d025b9f9174b8754c59319c66cb549
+Description:  This package provides support for 'RESTful API module - recording resources' in Asterisk.
+
+Package: asterisk13-res-ari-sounds
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res-ari-model, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4087
+Filename: asterisk13-res-ari-sounds_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4901
+SHA256sum: 9e556ebf0c465a63511ebff893d48ce906294534402013e14a07fd74d8a86f37
+Description:  This package provides support for 'RESTful API module - sound resources' in Asterisk.
+
+Package: asterisk13-res-ari
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-http-websocket
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19998
+Filename: asterisk13-res-ari_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 20654
+SHA256sum: d91d7178aee92e38698ea2402be265ece87c433dcd740ee64d7e470cfc905ab8
+Description:  This package provides support for 'HTTP binding for the Stasis API' in Asterisk.
+
+Package: asterisk13-res-calendar-caldav
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-calendar, libical, libneon, libxml2
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11253
+Filename: asterisk13-res-calendar-caldav_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 12014
+SHA256sum: 63a6c0c61cdac7cf6741513522bfd602fd3092e7cf9ea1d88fb6deae03693cda
+Description:  This package provides support for 'CalDAV calendar integration' in Asterisk.
+
+Package: asterisk13-res-calendar-ews
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-calendar, libneon
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14400
+Filename: asterisk13-res-calendar-ews_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 15221
+SHA256sum: 63b5f4010bb6bcfedaee3748dfacf3cc6bd2ce83a2a532a8e626896a5e2b7fdb
+Description:  This package provides support for 'MS Exchange Web Service calendar integration' in Asterisk.
+
+Package: asterisk13-res-calendar-exchange
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-calendar, libical, libiksemel, libneon
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10989
+Filename: asterisk13-res-calendar-exchange_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11847
+SHA256sum: 3e7aa9943fda8f463523e3099422b7b744cc3f292d38aeee3c314bcdee999437
+Description:  This package provides support for 'MS Exchange calendar integration' in Asterisk.
+
+Package: asterisk13-res-calendar-icalendar
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-calendar, libical, libneon
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9324
+Filename: asterisk13-res-calendar-icalendar_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 10032
+SHA256sum: 445b82f60ed299a28d9dd1f1aa189f2cf33fbb87214ecb80d1ccea0fcfcd0f72
+Description:  This package provides support for 'iCalendar calendar integration' in Asterisk.
+
+Package: asterisk13-res-calendar
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23184
+Filename: asterisk13-res-calendar_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 24024
+SHA256sum: 005a26c0ff9dfaab0e2e8b028fd84c1d9229c72089aa337ed74418f2a772acfc
+Description:  This package provides support for 'the calendar API' in Asterisk.
+
+Package: asterisk13-res-chan-stats
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-statsd
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3574
+Filename: asterisk13-res-chan-stats_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4389
+SHA256sum: d76fe9b6103565e95e1580a2c138f447e6f3fa1857964bac98a69e75e1446e39
+Description:  This package provides support for 'example of how to subscribe to Stasis events' in Asterisk.
+
+Package: asterisk13-res-clialiases
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6833
+Filename: asterisk13-res-clialiases_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7691
+SHA256sum: 2a1fe691e4539e3625d8d53d7c2e1334fe86afe7059ebae1ca7c7ed99b0e05a1
+Description:  This package provides support for 'CLI aliases' in Asterisk.
+
+Package: asterisk13-res-clioriginate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4144
+Filename: asterisk13-res-clioriginate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4940
+SHA256sum: 0f053f362f2678a8cc23f4e57efe9d5d4d364b499fca4a13dc4e844f74603ce5
+Description:  This package provides support for 'Originate calls via the CLI' in Asterisk.
+
+Package: asterisk13-res-config-ldap
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libopenldap
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20738
+Filename: asterisk13-res-config-ldap_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 21646
+SHA256sum: 3039329cd82e7cacc7a679984f2fb21b2c819fcaaee5091408922ac95e0c709a
+Description:  This package provides support for 'LDAP plugin for portable configuration engine' in Asterisk.
+
+Package: asterisk13-res-config-mysql
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libmysqlclient
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27668
+Filename: asterisk13-res-config-mysql_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 28482
+SHA256sum: 730c719ac54473ebb26b87409655cfb8573d8a7fef3e59784648ce0895ffd97f
+Description:  This package provides support for 'MySQL CDR backend' in Asterisk.
+
+Package: asterisk13-res-config-sqlite3
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18878
+Filename: asterisk13-res-config-sqlite3_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 19724
+SHA256sum: bbe42db348d9a4edf8a9bb403472bef1b9ce2913d78a5f73e4c212820dfbe707
+Description:  This package provides support for 'SQLite 3 configuration engine' in Asterisk.
+
+Package: asterisk13-res-convert
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3296
+Filename: asterisk13-res-convert_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4108
+SHA256sum: 90b8283a8215038a9f2486dec3dc2afb702f524249e0642b485f6f3c5b1b569d
+Description:  This package provides support for 'file format conversion CLI command using Asterisk formats and translators' in Asterisk.
+
+Package: asterisk13-res-endpoint-stats
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-statsd
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3533
+Filename: asterisk13-res-endpoint-stats_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4323
+SHA256sum: 84bf6616856178977a67d19fc32460a5c8e1a120a325d69b3e0bd2a2ab9f175e
+Description:  This package provides support for 'statsd endpoint stats' in Asterisk.
+
+Package: asterisk13-res-fax-spandsp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-fax, libspandsp, libtiff
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12047
+Filename: asterisk13-res-fax-spandsp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 12885
+SHA256sum: 0ac50510e29c33ea65abcc22bef89e7db1f74d2caa7c8154f4338f6a0e102bfc
+Description:  This package provides support for 'Spandsp T.38 and G.711 FAX Resource' in Asterisk.
+
+Package: asterisk13-res-fax
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-timing-pthread
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 48544
+Filename: asterisk13-res-fax_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 49448
+SHA256sum: 97211522c73a0daeab106f87b56f859202a2e5756f89263b6b5fe29f152890c8
+Description:  This package provides support for 'Generic FAX resource for FAX technology resource modules' in Asterisk.
+
+Package: asterisk13-res-format-attr-celt
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3136
+Filename: asterisk13-res-format-attr-celt_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3934
+SHA256sum: 9006500b460bb5fbd21fedd9690586b8b0175a1efba28ceffbc23d863ca02bff
+Description:  This package provides support for 'CELT format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-g729
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2145
+Filename: asterisk13-res-format-attr-g729_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 2975
+SHA256sum: 3e53fa832954535eb4681bd519cd78bf529ef217b8491c32f62366abe7098f04
+Description:  This package provides support for 'G.729 format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-h263
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4143
+Filename: asterisk13-res-format-attr-h263_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4940
+SHA256sum: b1861de958cfd5a606a9560c75f64be9e8a44fdf7a172a06d5d2a5c53fc08ecd
+Description:  This package provides support for 'H.263 format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-h264
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5417
+Filename: asterisk13-res-format-attr-h264_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6188
+SHA256sum: 60f4fce90a52d7443cfbee23f13358fd6b60eea0ae6245ad68ec80fc5100812b
+Description:  This package provides support for 'H.264 format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-opus
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4390
+Filename: asterisk13-res-format-attr-opus_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5182
+SHA256sum: 19b903f97df3ad00ca09fb8b9106c2f0ca234c86e9803bf0925a6e3c6273d82f
+Description:  This package provides support for 'Opus format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-silk
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3475
+Filename: asterisk13-res-format-attr-silk_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4276
+SHA256sum: 3870764fff936bb86dc29e99692af56da1245e488c3f786d05869ae788073b63
+Description:  This package provides support for 'SILK format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-siren14
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2402
+Filename: asterisk13-res-format-attr-siren14_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3238
+SHA256sum: 21b11ceb71135abda83c399d2e91ac0aa6b52b995ea022a14f5d8b1a7bbec1c9
+Description:  This package provides support for 'Siren14 format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-siren7
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2399
+Filename: asterisk13-res-format-attr-siren7_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3234
+SHA256sum: ebaff67bb7d5bca11ceac03f1e8e59d8ee1f11a3d3b3ef9b6bb74ff0dc968d28
+Description:  This package provides support for 'Siren7 format attribute interface' in Asterisk.
+
+Package: asterisk13-res-format-attr-vp8
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3270
+Filename: asterisk13-res-format-attr-vp8_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4058
+SHA256sum: d18c5a965ec173c47ea6990dadb269bbaa3d162cf879ce0b706183778fbd7979
+Description:  This package provides support for 'VP8 format attribute interface' in Asterisk.
+
+Package: asterisk13-res-hep-pjsip
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-hep, asterisk13-pjsip
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4077
+Filename: asterisk13-res-hep-pjsip_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4880
+SHA256sum: 28d2c4d6fcaa5c07dc72391df629343b087ec127ae12ee6efd8a8fa06bff54d9
+Description:  This package provides support for 'PJSIP logging with Homer' in Asterisk.
+
+Package: asterisk13-res-hep-rtcp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-hep
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3659
+Filename: asterisk13-res-hep-rtcp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4460
+SHA256sum: a280e53ca7cbe22ee987f57b627cb553f25e20d58b610cd0007ed57f6a4b9856
+Description:  This package provides support for 'RTCP logging with Homer' in Asterisk.
+
+Package: asterisk13-res-hep
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6801
+Filename: asterisk13-res-hep_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7671
+SHA256sum: 3c1ad83ec108fc71cbd2fd243d43fdc43807d2182bb0b78153e96ce9c20ff3fc
+Description:  This package provides support for 'Routines for integration with Homer using HEPv3' in Asterisk.
+
+Package: asterisk13-res-http-websocket
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15670
+Filename: asterisk13-res-http-websocket_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 16429
+SHA256sum: 8fc7639737285662c415537f16e08fa166ce2a8bbb987ff044de68738da7b666
+Description:  This package provides support for 'WebSocket support for the Asterisk internal HTTP server' in Asterisk.
+
+Package: asterisk13-res-limit
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4765
+Filename: asterisk13-res-limit_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5551
+SHA256sum: 227f34b697df38aad265fe63c6d753a2b2442681df48fa930a32a4f2da0dd47a
+Description:  This package provides support for 'resource limits' in Asterisk.
+
+Package: asterisk13-res-manager-devicestate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3006
+Filename: asterisk13-res-manager-devicestate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3803
+SHA256sum: 6649db214e9597ce34b915b9daf8144356ab7116d268d992aa7858415bd91e8b
+Description:  This package provides support for 'list the current known device states' in Asterisk.
+
+Package: asterisk13-res-manager-presencestate
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2997
+Filename: asterisk13-res-manager-presencestate_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3787
+SHA256sum: 7df4d31a1a9e968a09d14f2c527b18db9b8482bdcbb56fbd49b9fb9aeedbfa1a
+Description:  This package provides support for 'list the current known presence states' in Asterisk.
+
+Package: asterisk13-res-monitor
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-func-periodic-hook
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10310
+Filename: asterisk13-res-monitor_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11149
+SHA256sum: d43ca2760e0afe836a1550a54d36b65a3bc7504f85755c59f89947adbceaa075
+Description:  This package provides support for 'call monitoring resource' in Asterisk.
+
+Package: asterisk13-res-musiconhold
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22687
+Filename: asterisk13-res-musiconhold_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 23431
+SHA256sum: c637ef8bfd135b619a0af37a7576d16683abb0965df25df4b518c49e54014f39
+Description:  This package provides support for 'Music On Hold support' in Asterisk.
+
+Package: asterisk13-res-mutestream
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3308
+Filename: asterisk13-res-mutestream_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4098
+SHA256sum: 26e09926c6c8088aa94bcaff251b966acf1370cba540b0a66a612586a2a084b3
+Description:  This package provides support for 'MUTESTREAM audiohooks' in Asterisk.
+
+Package: asterisk13-res-mwi-external-ami
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-mwi-external
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4256
+Filename: asterisk13-res-mwi-external-ami_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5045
+SHA256sum: 0047ac61dcbd821b18f42f4971f0090448ee2acd114ba2d9e0414a7fa4f4b203
+Description:  This package provides support for 'AMI wrapper for external MWI' in Asterisk.
+
+Package: asterisk13-res-mwi-external
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4758
+Filename: asterisk13-res-mwi-external_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5551
+SHA256sum: 2b60015827a0495e3f675c397eaf8924b641926c9c6b735fa2525d3b9336b91f
+Description:  This package provides support for 'core external MWI resource' in Asterisk.
+
+Package: asterisk13-res-parking
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-bridge-holding
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33848
+Filename: asterisk13-res-parking_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 34553
+SHA256sum: e1e5f3b57251f3a88f7268076bdd8745d8e7f03cf3f5ec397b9ecb12a5d1b285
+Description:  This package provides support for 'Phone Parking application' in Asterisk.
+
+Package: asterisk13-res-phoneprov
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19079
+Filename: asterisk13-res-phoneprov_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 19898
+SHA256sum: 63b3d6415b4a100f504190b5d99a520d13248868bbb835de2acf697ffecf195b
+Description:  This package provides support for 'Phone provisioning application for the asterisk internal http server' in Asterisk.
+
+Package: asterisk13-res-pjproject
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libpj, libpjlib-util, libpjmedia, libpjmedia, libpjnath, libpjsip-simple, libpjsip-ua, libpjsip, libpjsua, libpjsua2, libsrtp2
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8450
+Filename: asterisk13-res-pjproject_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 9352
+SHA256sum: 3d1cd009b20d72d420f0a7ed8f8816d3dcf0aa1d16b4baeda9c38eb319812e24
+Description:  This package provides support for '' in Asterisk.
+
+Package: asterisk13-res-pjsip-phoneprov
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-pjsip, asterisk13-res-phoneprov
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4983
+Filename: asterisk13-res-pjsip-phoneprov_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5795
+SHA256sum: d4ec9e8b64cf719e9c1aee541e66189d219a7c1747f8f728e72ba8febe925c69
+Description:  This package provides support for 'PJSIP Phone Provisioning' in Asterisk.
+
+Package: asterisk13-res-pktccops
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20855
+Filename: asterisk13-res-pktccops_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 21731
+SHA256sum: 5ace92776759eef16ec45a2972aecaf8f2f94eed15012320c0ab38b4d71030ec
+Description:  This package provides support for 'PacketCable MGCP variation / NCS' in Asterisk.
+
+Package: asterisk13-res-realtime
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3941
+Filename: asterisk13-res-realtime_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4731
+SHA256sum: da1bf648c6f1270b2eb7f51a1b8aecdfe1b78cced80c7c1bef6cf3f0ce958043
+Description:  This package provides support for 'RealTime CLI' in Asterisk.
+
+Package: asterisk13-res-rtp-asterisk
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libpjsip, libpjmedia, libpjnath, libpjsip-simple, libpjsip-ua, libpjsua, libpjsua2
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 63092
+Filename: asterisk13-res-rtp-asterisk_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 63910
+SHA256sum: 3f710821d5ae175ce9e2de9c38ec99c799500f68f25171df414182c3e2aa6fd1
+Description:  This package provides support for 'Supports RTP and RTCP with Symmetric RTP support for NAT traversal' in Asterisk.
+
+Package: asterisk13-res-rtp-multicast
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6333
+Filename: asterisk13-res-rtp-multicast_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7114
+SHA256sum: b93a417dbc58e39dfaf836e047178ed3a7627106b107445a4b2ac8e596d1c0aa
+Description:  This package provides support for 'Multicast RTP Engine' in Asterisk.
+
+Package: asterisk13-res-security-log
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3577
+Filename: asterisk13-res-security-log_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4370
+SHA256sum: 9cd21934ed584f53b36f5fb072576a4b09277715c969adf1f56b7587a15a0fc5
+Description:  This package provides support for 'security event logging' in Asterisk.
+
+Package: asterisk13-res-smdi
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17762
+Filename: asterisk13-res-smdi_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 18639
+SHA256sum: e3e211ec47a124fdb89675aa755a65c3f0fc075270384e24703d9f85e9ae2373
+Description:  This package provides support for 'Simple Message Desk Interface capability' in Asterisk.
+
+Package: asterisk13-res-snmp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libnetsnmp
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10267
+Filename: asterisk13-res-snmp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11059
+SHA256sum: 28968f80a87eb7a2db011f3585d7bb1290a3faf516ad8311a4a407da0425bcc6
+Description:  This package provides support for 'SNMP Agent / SubAgent' in Asterisk.
+
+Package: asterisk13-res-sorcery-memory-cache
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16151
+Filename: asterisk13-res-sorcery-memory-cache_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 16878
+SHA256sum: 15a0f256461e416150d709d329270c6cf80b93df18b3c268e2495b52b101ca83
+Description:  This package provides support for 'sorcery memory cache object wizard' in Asterisk.
+
+Package: asterisk13-res-sorcery
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15698
+Filename: asterisk13-res-sorcery_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 16537
+SHA256sum: 484f536a4610fa540a53632c4dc661f50a0396d69c4ba3e664ed19a66e6cf453
+Description:  This package provides support for 'Sorcery backend modules for data access intended for using realtime as backend' in Asterisk.
+
+Package: asterisk13-res-speech
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4441
+Filename: asterisk13-res-speech_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5231
+SHA256sum: f98eb191ad5937f9188b53e81c6702d28613291ba07b83e0f27e459b2b833599
+Description:  This package provides support for 'Support for the Asterisk Generic Speech Recognition API' in Asterisk.
+
+Package: asterisk13-res-srtp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libsrtp2
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7544
+Filename: asterisk13-res-srtp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 8358
+SHA256sum: e43c0ca3d68d805abbbaf00c81e3b74533c958eda0eed4bacc66db3f65d6ea69
+Description:  This package provides support for 'Secure RTP connection' in Asterisk.
+
+Package: asterisk13-res-stasis-answer
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2538
+Filename: asterisk13-res-stasis-answer_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3373
+SHA256sum: f185e3ef0ad64082449906b4448533d689d4914f78e6930ab8d26d6428f135b1
+Description:  This package provides support for 'Stasis application control' in Asterisk.
+
+Package: asterisk13-res-stasis-device-state
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6368
+Filename: asterisk13-res-stasis-device-state_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7226
+SHA256sum: 5eda0d7e43e18494a769e2e294f584711e2a3edc7934f8199ccd4f1842964326
+Description:  This package provides support for 'Stasis application control' in Asterisk.
+
+Package: asterisk13-res-stasis-mailbox
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis, asterisk13-res-mwi-external
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3008
+Filename: asterisk13-res-stasis-mailbox_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3815
+SHA256sum: 8953bc39184a88e8a64017f46b581dd3f826e23fe2465206b6d1ef68cc71592d
+Description:  This package provides support for 'Stasis application control' in Asterisk.
+
+Package: asterisk13-res-stasis-playback
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis-recording
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7351
+Filename: asterisk13-res-stasis-playback_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 8177
+SHA256sum: 07075ac252cb60b8075884543437a70cbb039c5905cbfbf27412a2c9f596aa63
+Description:  This package provides support for 'res_stasis playback' in Asterisk.
+
+Package: asterisk13-res-stasis-recording
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9782
+Filename: asterisk13-res-stasis-recording_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 10603
+SHA256sum: 513cb09902a3866ca958ecc712f7d78b5bda7d4569387490fe178af01b8ed339
+Description:  This package provides support for 'res_stasis recording' in Asterisk.
+
+Package: asterisk13-res-stasis-snoop
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis-recording
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5771
+Filename: asterisk13-res-stasis-snoop_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 6586
+SHA256sum: 54029e110df03e0f07987dcd39e75e3371fecc886262d2bff56f451a9da988e5
+Description:  This package provides support for 'Stasis application snoop control' in Asterisk.
+
+Package: asterisk13-res-stasis
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 41510
+Filename: asterisk13-res-stasis_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 42005
+SHA256sum: 451587af6968fdbdcef5c66204e6eddb8d6cc5309b9a89a88e0bc8d0c12dd94c
+Description:  This package provides support for 'Stasis application' in Asterisk.
+
+Package: asterisk13-res-statsd
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6388
+Filename: asterisk13-res-statsd_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7252
+SHA256sum: 87a13a1b9c94d289480e030bd06b8bda8d31b16fea15250e340ce2766116f10e
+Description:  This package provides support for 'publishing to a statsd server' in Asterisk.
+
+Package: asterisk13-res-stun-monitor
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6759
+Filename: asterisk13-res-stun-monitor_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7602
+SHA256sum: d50987925cc9061c80c21a38c262611620da1ad52895c7139b91ff06b8b6a5a6
+Description:  This package provides support for 'resource STUN Monitor' in Asterisk.
+
+Package: asterisk13-res-timing-pthread
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5222
+Filename: asterisk13-res-timing-pthread_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 5998
+SHA256sum: 0e9053edf6dcd1de68cefa3c3a1a77639b85603db82b2c3beaeda19dc9a4ca32
+Description:  This package provides support for 'POSIX pthreads Timing Interface' in Asterisk.
+
+Package: asterisk13-res-timing-timerfd
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3955
+Filename: asterisk13-res-timing-timerfd_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 4757
+SHA256sum: c0cf756d7eb868be014f3e9ea6e0016c7b0746aaceefdd2eb8eac4cc5f183e8d
+Description:  This package provides support for 'Timing interface provided by Linux kernel' in Asterisk.
+
+Package: asterisk13-res-xmpp
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libiksemel, libopenssl
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 44812
+Filename: asterisk13-res-xmpp_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 45540
+SHA256sum: d552a925418313efccce139bdac6e079a6ec631798d700dc1413c2aeba04d9ad
+Description:  This package provides support for 'reference module for interfacting Asterisk directly as a client or component with XMPP server' in Asterisk.
+
+Package: asterisk13-sounds
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1923813
+Filename: asterisk13-sounds_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 1925025
+SHA256sum: 40a7c07199efcf4b230803651d8b662af228efe72d5ac37a7f78f1e188e3bd71
+Description:  This package provides the sound-files for Asterisk-13.
+
+Package: asterisk13-util-aelparse
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-pbx-ael
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 91100
+Filename: asterisk13-util-aelparse_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 91871
+SHA256sum: 0bca764fce069cdc3f546a2cf7ace5228e012aa155633aab95a0c6166c2b7181
+Description:  Check extensions.ael file.
+
+Package: asterisk13-util-astcanary
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2567
+Filename: asterisk13-util-astcanary_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3370
+SHA256sum: eee9165a5ab54c4a9b72e8d705a4595f4147e7545051afec41d30f1fed563315
+Description:  Assures Asterisk no threads have gone missing.
+
+Package: asterisk13-util-astdb2bdb
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32008
+Filename: asterisk13-util-astdb2bdb_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 32694
+SHA256sum: 361fae8ee183d0d8576405bd36d52d3949eacc2d6876cf7f1219ed86ddf58dc2
+Description:  Convert astdb back to Berkeley DB 1.86.
+
+Package: asterisk13-util-astdb2sqlite3
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32454
+Filename: asterisk13-util-astdb2sqlite3_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 33147
+SHA256sum: c798ccac97774182d0616702f76abe7602e2a6259ebf5a9f05f345409ee7dd99
+Description:  Convert astdb to SQLite 3.
+
+Package: asterisk13-util-check-expr2
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16444
+Filename: asterisk13-util-check-expr2_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 17212
+SHA256sum: d283647297db0cc74ecdc1369274d0c6e42d5a2f23687c6a53f3bd7e111cd0b3
+Description:  Expression checker [newer version].
+
+Package: asterisk13-util-check-expr
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21552
+Filename: asterisk13-util-check-expr_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 22258
+SHA256sum: 009a67950ad7b0d56c2a40a71521c609ef33ece7152ed0252a8c6c5f1f75551f
+Description:  Expression checker [older version].
+
+Package: asterisk13-util-conf2ael
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-pbx-ael
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 91454
+Filename: asterisk13-util-conf2ael_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 92201
+SHA256sum: e26eda5f2f9fe4d42a45b3e84ecb20340b3f12d1468f6092a4e1d67d1830de43
+Description:  Convert .conf to .ael.
+
+Package: asterisk13-util-muted
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7032
+Filename: asterisk13-util-muted_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 7909
+SHA256sum: 64b9a0a316ae19133be3c1ea6ecbde4db3b37dc4008c9b81715126600865e1ec
+Description:  Listens for AMI events. Mutes soundcard during call.
+
+Package: asterisk13-util-smsq
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, libpopt
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11069
+Filename: asterisk13-util-smsq_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 11847
+SHA256sum: 10fd6c6e82f80a15bc79fd2323d15bfa5c38ff469aebcd6087344828a3bdd652
+Description:  Send messages from command line.
+
+Package: asterisk13-util-stereorize
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9727
+Filename: asterisk13-util-stereorize_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 10521
+SHA256sum: 6956865143130cc98c5f5296b87811176eb59d64876eebba4415100c06412c3c
+Description:  Merge two mono WAV-files to one stereo WAV-file.
+
+Package: asterisk13-util-streamplayer
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2551
+Filename: asterisk13-util-streamplayer_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 3368
+SHA256sum: b5d1b0b42a17afaae67a0b4b10e10d08a980ab60a2061332e84417e196e5d06a
+Description:  A utility for reading from a raw TCP stream [MOH source].
+
+Package: asterisk13-voicemail
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, asterisk13, asterisk13-res-adsi, asterisk13-res-smdi
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 667807
+Filename: asterisk13-voicemail_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 668501
+SHA256sum: 0224c82214cbeff8a91ec78caadfba4fed3874c5723ff98deade020b5c96cc68
+Description:  This package provides support for 'voicemail related modules' in Asterisk.
+
+Package: asterisk13
+Version: 13.20.0-4
+Depends: libc, librt, libpthread, libstdcpp, jansson, libcap, libedit, libncurses, libopenssl, libsqlite3, libuuid, libxml2, zlib
+Source: feeds/telephony/net/asterisk-13.x
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1153222
+Filename: asterisk13_13.20.0-4_arm_cortex-a9_neon.ipk
+Size: 1152457
+SHA256sum: 7d063ec1ed470faecf2021170bbc858d92a993a1e6ad389484e84c50f2bbc6e2
+Description:  Asterisk is a complete PBX in software. It provides all of the features
+ you would expect from a PBX and more. Asterisk does voice over IP in three
+ protocols, and can interoperate with almost all standards-based telephony
+ equipment using relatively inexpensive hardware.
+
+Package: bcg729
+Version: 1.0.4-3
+Depends: libc, librt, libpthread
+Source: feeds/telephony/libs/bcg729
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Alex Samorukov <samm@os2.kiev.ua>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 52789
+Filename: bcg729_1.0.4-3_arm_cortex-a9_neon.ipk
+Size: 53774
+SHA256sum: aa53ba548bba3dd2dd880655f42191e133f4e3668c317e0f9bff27b34e4d3ee5
+Description:  Bcg729 is a software G729A encoder and decoder library written in C, developed
+ by Belledonne Communications, the company supporting the Linphone project.
+ It was written from scratch and is NOT a derivative work of ITU reference
+ source code in any kind.
+
+Package: libiksemel
+Version: 1.4-2
+Depends: libc, librt, libpthread, libgnutls
+Source: feeds/telephony/libs/iksemel
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22606
+Filename: libiksemel_1.4-2_arm_cortex-a9_neon.ipk
+Size: 23417
+SHA256sum: c485145bf1f80950c96cebee74fb2fec76d04520e891fdeaa5056099910b4dd0
+Description:  Iksemel is an XML parser library mainly designed for Jabber applications.
+ It provides SAX, DOM, and special Jabber stream APIs. Library is coded
+ in ANSI C except the network code (which is POSIX compatible), thus
+ highly portable.
+
+Package: libpj
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, librt
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 67343
+Filename: libpj_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 67732
+SHA256sum: a8294cc1a5f483448ce3a737d2716a3f5cabb4a57306319b346b7f7bb2620d75
+Description:  libpj library
+
+Package: libpjlib-util
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, librt
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 77007
+Filename: libpjlib-util_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 77228
+SHA256sum: 665fa4fc4297a3c2c3c6ddb33335ff0d5cbf789e1e31908e9af4a69faa1ee532
+Description:  libpjlib-util library
+
+Package: libpjmedia
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, libpjlib-util, libpjnath, librt, libsrtp2
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 125331
+Filename: libpjmedia_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 125080
+SHA256sum: 3edbad22e7a239db6601f9c5443a71d8e4d1dbc704e248c582729127d56d60e4
+Description:  libpjmedia library
+
+Package: libpjnath
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, libpjlib-util, librt
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 63026
+Filename: libpjnath_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 63534
+SHA256sum: fcc769d1df9f206cef9b5ddf8960aeb05f17afe03285320f69ddefcf6e73a421
+Description:  libpjnath library
+
+Package: libpjsip-simple
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, libpjlib-util, libpjsip, librt
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26902
+Filename: libpjsip-simple_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 27539
+SHA256sum: ce6bde957f33cae9b42e71ef0741f7aa58a10ae93e610cc27796eb109885d31f
+Description:  libpjsip-simple library
+
+Package: libpjsip-ua
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, libpjlib-util, libpjmedia, libpjsip-simple, libpjsip, librt
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 38372
+Filename: libpjsip-ua_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 39052
+SHA256sum: 37784056fb1e34232f0663c83a391c8ef120ebb1a4973358038a5e32f6b2cc2f
+Description:  libpjsip-ua library
+
+Package: libpjsip
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, libpjlib-util, librt, libsrtp2
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 110211
+Filename: libpjsip_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 109927
+SHA256sum: 56ac78bf1ec4ae212a1e756f2c8206b02f18db0b4763920d4388c04ec35b4387
+Description:  libpjsip library
+
+Package: libpjsua2
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, libpjlib-util, libpjmedia, libpjnath, libpjsip-simple, libpjsip-ua, libpjsip, librt, libpjsua
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 157610
+Filename: libpjsua2_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 157497
+SHA256sum: 8e2465f1cfc7c93c6f654abde210a96d324c1ad85ad05aa02b04a3eb51d90b19
+Description:  libpjsua2 library
+
+Package: libpjsua
+Version: 2.7.2-2
+Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, libpj, libpjlib-util, libpjmedia, libpjnath, libpjsip-simple, libpjsip-ua, libpjsip, librt
+Source: feeds/telephony/libs/pjproject
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: lib
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 112999
+Filename: libpjsua_2.7.2-2_arm_cortex-a9_neon.ipk
+Size: 112908
+SHA256sum: 6e6de5ee70786c2931c72b987d4e03a223c00f4f3f80cff0bf48c892e892fa5c
+Description:  libpjsua library
+
+Package: libspandsp
+Version: 0.0.6-4
+Depends: libc, librt, libpthread, libtiff
+Source: feeds/telephony/libs/spandsp
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 366896
+Filename: libspandsp_0.0.6-4_arm_cortex-a9_neon.ipk
+Size: 365679
+SHA256sum: da97342a4591fb216663969ee7ca7624dc4e55ebba23391eba63df08e0a0861e
+Description:  spandsp library
+
+Package: libsrtp2
+Version: 2.1.0-1
+Depends: libc, librt, libpthread, libpcap
+Source: feeds/telephony/libs/libsrtp2
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 49870
+Filename: libsrtp2_2.1.0-1_arm_cortex-a9_neon.ipk
+Size: 50175
+SHA256sum: 711ddad1e03757bf0370309a98a50589667169ace945edd7dab8ca27e805ae85
+Description:  Open-source implementation of the Secure Real-time Transport
+ Protocol (SRTP) originally authored by Cisco Systems, Inc.
+ It is available under a BSD-style license.
+

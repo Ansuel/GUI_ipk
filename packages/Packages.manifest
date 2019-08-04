@@ -1,0 +1,1368 @@
+Package: alsa-lib
+Version: 1.1.6-1
+Depends: libc, librt, libpthread, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+License: LGPLv2.1 GPLv2
+LicenseFiles: COPYING aserver/COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>, Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 345607
+Filename: alsa-lib_1.1.6-1_arm_cortex-a9_neon.ipk
+Size: 342047
+SHA256sum: 8e1dd4b538b0a3b74bf791219a72d1e08df1f425152b5a5d1772a2b685edb92f
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: aria2
+Version: 1.33.0-1
+Depends: libc, librt, libpthread, zlib, libstdcpp, libopenssl, libxml2, libssh2, libcares, libsqlite3
+Source: feeds/packages/net/aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1172686
+Filename: aria2_1.33.0-1_arm_cortex-a9_neon.ipk
+Size: 1172550
+SHA256sum: 0a69c7ead5bf374b3f766de4e08c7041e2717cd4def2a4b7130268800b3e0232
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: ariang
+Version: 2018-02-21-f71a67cb-1
+Depends: libc, librt, libpthread, uhttpd, aria2
+Source: feeds/packages/net/ariang
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+Maintainer: Ansuel Smith <ansuelsmth@gmail.com>
+Architecture: all
+Installed-Size: 968908
+Filename: ariang_2018-02-21-f71a67cb-1_all.ipk
+Size: 969262
+SHA256sum: 0aa254d6e95d177575a61e993dbca6abd4a634dbee01d32eb0cd20e29c719560
+Description:  AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+
+Package: attendedsysupgrade-common
+Version: 0.1-2
+Depends: libc, librt, libpthread, rpcd, rpcd-mod-rpcsys
+Source: feeds/packages/utils/attendedsysupgrade-common
+License: GPL-2.0
+Section: utils
+Maintainer: Paul Spooren <paul@spooren.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 356
+Filename: attendedsysupgrade-common_0.1-2_arm_cortex-a9_neon.ipk
+Size: 1440
+SHA256sum: 9ae193b1a66a20ac33e059e9a7a86db6cfe336c2c1d8914f61270726a238b29c
+Description:  Common needed files for attendedsysupgrade tool
+ 
+ Manages dependencies and brings settings used by clients.
+ 
+ UCI options:
+ 
+ attendedsysupgrade.server.url
+ URL of compatible upgrade server [1]
+ 
+ attendedsysupgrade.client.upgrade_packages
+ Client should request image also if no new release but new packages upgrade are available.
+ 
+ attendedsysupgrade.client.advanced_mode
+ Offer advanced options like editing packages before request and show additional information.
+ 
+ attendedsysupgrade.client.auto_search
+ Tells the client to automattically search for upgrades
+ This can be done when opening luci or login in to console - depends on client.
+ 
+ [1]: https://github.com/aparcar/gsoc17-attended-sysupgrade
+
+Package: bind-client
+Version: 9.11.2-P1-1
+Depends: libc, librt, libpthread, bind-libs
+Source: feeds/packages/net/bind
+License: BSD-3-Clause
+Section: net
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23729
+Filename: bind-client_9.11.2-P1-1_arm_cortex-a9_neon.ipk
+Size: 24395
+SHA256sum: 78b4d1c960eeb7f50212b7683891d0bc1bed5a4adbd9f00ff3889ea0ac49a1b9
+Description:  bind dynamic DNS client
+
+Package: bind-libs
+Version: 9.11.2-P1-1
+Depends: libc, librt, libpthread, libopenssl, zlib
+Source: feeds/packages/net/bind
+License: BSD-3-Clause
+Section: libs
+Maintainer: Noah Meyerhans <frodo@morgul.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1250635
+Filename: bind-libs_9.11.2-P1-1_arm_cortex-a9_neon.ipk
+Size: 1245029
+SHA256sum: 2f2ec5292f57f0fdd80504f0d4c1db27ad4752c837656cdf24f8d38ad1997461
+Description:  bind shared libraries
+
+Package: bluez-libs
+Version: 5.49-1
+Depends: libc, librt, libpthread, libpthread, kmod-bluetooth
+Source: feeds/packages/utils/bluez
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 55664
+Filename: bluez-libs_5.49-1_arm_cortex-a9_neon.ipk
+Size: 56005
+SHA256sum: 8455669f5b9a9c773090b172fe4eb8636519a5b3b7f110780d2ebe7ef4765104
+Description:  Bluetooth library
+
+Package: cgi-io
+Version: 5
+Depends: libc, librt, libpthread, libubox, libubus
+Source: feeds/packages/net/cgi-io
+License: GPL-2.0+
+Section: net
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6522
+Filename: cgi-io_5_arm_cortex-a9_neon.ipk
+Size: 7330
+SHA256sum: 947b2cfafe7555249a9637093211ed4b521f950369779983c526663de5720779
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: ddns-scripts
+Version: 2.7.8-1
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 14651
+Filename: ddns-scripts_2.7.8-1_all.ipk
+Size: 15706
+SHA256sum: 12398c868c983731a50d70603d4fd4399eb3159d6e5b914b48d02694fd9f7265
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: ddns-scripts_cloudflare.com-v4
+Version: 2.7.8-1
+Depends: ddns-scripts, curl
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2971
+Filename: ddns-scripts_cloudflare.com-v4_2.7.8-1_all.ipk
+Size: 4063
+SHA256sum: 9d87f0166df8d761365eed9fcb77d12e6e4d263298ba6f588accfc867e8f7d9a
+Description:  Dynamic DNS Client scripts extension for CloudFlare.com API-v4 (require/install cURL)
+
+Package: ddns-scripts_freedns_42_pl
+Version: 2.7.8-1
+Depends: ddns-scripts, curl
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1997
+Filename: ddns-scripts_freedns_42_pl_2.7.8-1_all.ipk
+Size: 3039
+SHA256sum: 0bc8750d87f3eec58927127f8ee41902412b366db89d6ce079ff059a2215b791
+Description:  Dynamic DNS Client scripts extension for freedns.42.pl
+
+Package: ddns-scripts_godaddy.com-v1
+Version: 2.7.8-1
+Depends: ddns-scripts, curl
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2769
+Filename: ddns-scripts_godaddy.com-v1_2.7.8-1_all.ipk
+Size: 3855
+SHA256sum: 3f17f9b31b140d0c03320258e95265872310f2e6668aeeb3960d8eec51ecc61b
+Description:  Dynamic DNS Client scripts extension for GoDaddy.com (require/install cURL)
+
+Package: ddns-scripts_no-ip_com
+Version: 2.7.8-1
+Depends: ddns-scripts
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1800
+Filename: ddns-scripts_no-ip_com_2.7.8-1_all.ipk
+Size: 2865
+SHA256sum: 9518cda413990bbd4b2807e20dedf2f51687e9f0de528b6fb95cf7249d1119b6
+Description:  Dynamic DNS Client scripts extension for No-IP.com
+
+Package: ddns-scripts_nsupdate
+Version: 2.7.8-1
+Depends: ddns-scripts, bind-client
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 1796
+Filename: ddns-scripts_nsupdate_2.7.8-1_all.ipk
+Size: 2896
+SHA256sum: a02f00410e79b1ad06a170a87be043d00b9a227dddce6699295d02ff023a3f54
+Description:  Dynamic DNS Client scripts extension for direct updates using Bind nsupdate
+
+Package: ddns-scripts_route53-v1
+Version: 2.7.8-1
+Depends: ddns-scripts, curl, openssl-util
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Architecture: all
+Installed-Size: 2631
+Filename: ddns-scripts_route53-v1_2.7.8-1_all.ipk
+Size: 3851
+SHA256sum: b236cd2cdb1350babac974193530079cc4dd1396ca8913c35f0a93c6f360a388
+Description:  Dynamic DNS Client scripts extension for Amazon AWS Route53. Note: You
+ must also install ca-certificate or ca-bundle.
+ It requires:
+ "option username" to be a valid AWS access key id
+ "option password" to be the matching AWS secret key id
+ "option domain" to contain the hosted zone ID
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc, librt, libpthread
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5729
+Filename: etherwake_1.09-4_arm_cortex-a9_neon.ipk
+Size: 6662
+SHA256sum: e421baa833b267f659bae4fa2cd85880a07f620139793321267eff285e897e7d
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: hd-idle
+Version: 1.05-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/utils/hd-idle
+License: GPL-2.0
+Section: utils
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5302
+Filename: hd-idle_1.05-1_arm_cortex-a9_neon.ipk
+Size: 6118
+SHA256sum: f2b2000dc5ef26887d506866894ab1d4cd3ec4aa66de5187c7eeea5f15c2b3a7
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: jansson
+Version: 2.10-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/jansson
+License: MIT
+Section: libs
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 24725
+Filename: jansson_2.10-1_arm_cortex-a9_neon.ipk
+Size: 25438
+SHA256sum: a928b9f5ce44a60824b4f54c2f9d346ede35c64e7e74ee4d2089fc98cf20fd9c
+Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
+
+Package: libcap
+Version: 2.25-2
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libcap
+License: GPL-2.0
+LicenseFiles: License
+Section: libs
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7009
+Filename: libcap_2.25-2_arm_cortex-a9_neon.ipk
+Size: 7757
+SHA256sum: 6bbbe7123c7ba7ff1cdb1423bb310389ebb6528ea886a19fc1e3adc9a88a6cc5
+Description:  Linux capabilities library
+
+Package: libcares
+Version: 1.14.0-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/c-ares
+License: MIT
+Section: libs
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33475
+Filename: libcares_1.14.0-1_arm_cortex-a9_neon.ipk
+Size: 34373
+SHA256sum: aceee08f6a5be036f776988a19ef82c9d067dd4bb7b33db677fe503210cb2e54
+Description:  c-ares is a C library for asynchronous DNS requests (including name resolves)
+ 
+ C89 compatibility, MIT licensed, builds for and runs on POSIX, Windows,
+ Netware, Android and many more operating systems.
+ 
+
+Package: libedit
+Version: 20170329-3.1-1
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/libs/libedit
+License: BSD-3-Clause
+Section: libs
+Maintainer: Daniel Salzman <daniel.salzman@nic.cz>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 76335
+Filename: libedit_20170329-3.1-1_arm_cortex-a9_neon.ipk
+Size: 76835
+SHA256sum: f1902c2332092518631243559528857ca1467cb24402d36a1210bd490ddbcfa3
+Description:  Generic line editing, history, and tokenization functions similar to GNU Readline.
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libexif
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 68158
+Filename: libexif_0.6.21-1_arm_cortex-a9_neon.ipk
+Size: 68172
+SHA256sum: e30fe66436b4431d0f8505d4f6b6492d5d5bb07b2485ada8824162694f0f20e1
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.2.5-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>, Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 62642
+Filename: libexpat_2.2.5-1_arm_cortex-a9_neon.ipk
+Size: 63450
+SHA256sum: b627691f2d019003eb755becdf01837be9bb12aa579aad4b13db3c4fcfb05005
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffmpeg-audio-dec
+Version: 3.2.12-3
+Depends: libc, librt, libpthread, libpthread, libpthread, zlib, libbz2
+Provides: libffmpeg
+Source: feeds/packages/multimedia/ffmpeg
+License: LGPL-2.1+ GPL-2+ LGPL-3
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>, Ian Leonard <antonlacon@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 708402
+Filename: libffmpeg-audio-dec_3.2.12-3_arm_cortex-a9_neon.ipk
+Size: 707336
+SHA256sum: dd96a6f9c2de0078886787f34d5b4e17000a1237128dbac1c71c3316f0433691
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ 
+ FFmpeg licensing / patent issues are complex. It is the reponsibility of the
+ user to understand any requirements in this regard with its usage. See:
+ https://ffmpeg.org/legal.html for further information.
+ .
+ This package contains FFmpeg shared libraries for audio decoding
+
+Package: libflac
+Version: 1.3.2-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/flac
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+LicenseFiles: README COPYING.FDL COPYING.GPL COPYING.LGPL COPYING.Xiph
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 171740
+Filename: libflac_1.3.2-1_arm_cortex-a9_neon.ipk
+Size: 171947
+SHA256sum: 053c18cad505ae1b2fd4ccd4ee8ffb347ecab1f32756b240564b172f5242b850
+Description:  Free Lossless Audio Codec library
+
+Package: libgnutls
+Version: 3.5.19-1
+Depends: libc, librt, libpthread, libnettle, libgmp
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 554644
+Filename: libgnutls_3.5.19-1_arm_cortex-a9_neon.ipk
+Size: 552904
+SHA256sum: 84eedf6dc3087bee2ed98f5f8d7d193c4740020a8ab600f346bf4626e54d700b
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libical
+Version: 1.0-1
+Depends: libc, librt, libpthread, libpthread
+Source: feeds/packages/libs/libical
+License: LGPL-2.1 MPL-1.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 160583
+Filename: libical_1.0-1_arm_cortex-a9_neon.ipk
+Size: 158163
+SHA256sum: 2f9b2bdf04fded1741498f73b90ea1fb1b00116ca5d17ee50e5932a3c23889fd
+Description:  This package provides a a read/write library of classes for object oriented
+ languages (Initial goals of PHP and Python) that implement and enforce the iCal
+ standard (RFC 2445).
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, librt, libpthread, zlib
+Source: feeds/packages/libs/libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 24556
+Filename: libid3tag_0.15.1b-4_arm_cortex-a9_neon.ipk
+Size: 25163
+SHA256sum: 97e2d7cba13fd7a82fa71b01f8edc2194f26003df298401dddf06dbf98dabb62
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 128658
+Filename: libjpeg_9a-1_arm_cortex-a9_neon.ipk
+Size: 129283
+SHA256sum: ce08bc4b01c61b72be39609bb084a419f144b176dddabd808eb6120d047159a6
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libmariadbclient
+Version: 10.1.41-1
+Depends: libc, librt, libpthread, libatomic, libopenssl, libstdcpp, zlib
+Provides: libmysqlclient, libmysqlclient-r
+Source: feeds/packages/utils/mariadb
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 324658
+Filename: libmariadbclient_10.1.41-1_arm_cortex-a9_neon.ipk
+Size: 295757
+SHA256sum: 4b5058a918e7ab9e27f069dd624ff5b8b286ef45bc0cab75f66dd5d5e6cba489
+Description:  MariaDB is a fast, stable and true multi-user, multi-threaded SQL
+ database server. SQL (Structured Query Language) is the most popular
+ database query language in the world. The main goals of MariaDB are
+ speed, robustness and ease of use.
+ 
+ This package includes the client library.
+ 
+
+Package: libminiupnpc
+Version: 2.0.20170509-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/net/miniupnpc
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19994
+Filename: libminiupnpc_2.0.20170509-1_arm_cortex-a9_neon.ipk
+Size: 20733
+SHA256sum: e9dc7e50c0b05bbab599b88905a675a1f2c4534cfc48a3470b2a8191299d651e
+Description:  Lightweight UPnP library
+
+Package: libmpg123
+Version: 1.25.10-1
+Depends: libc, librt, libpthread, libltdl
+Source: feeds/packages/sound/mpg123
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 149853
+Filename: libmpg123_1.25.10-1_arm_cortex-a9_neon.ipk
+Size: 150110
+SHA256sum: 060204ed3d0be963a258db250e42d34ad04ff3b4a8d5b8c260ec3dba708f4a6d
+Description:  fast console mpeg audio decoder library
+
+Package: libnatpmp
+Version: 20150609-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libnatpmp
+License: BSD-3c
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Hauke Mehrtens <hauke@hauke-m.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3672
+Filename: libnatpmp_20150609-1_arm_cortex-a9_neon.ipk
+Size: 4616
+SHA256sum: 9d9298ae1beeed922d2b485f2a9ccf3d6c3aecb55cfc81f94576a9026a2b4845
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libneon
+Version: 0.30.2-2
+Depends: libc, librt, libpthread, libopenssl, libexpat, zlib
+Source: feeds/packages/libs/neon
+Section: libs
+Maintainer: Federico Di Marco <fededim@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 63417
+Filename: libneon_0.30.2-2_arm_cortex-a9_neon.ipk
+Size: 64370
+SHA256sum: e93aaeeca65f530900d1cbf183a4d08f29ce101346850e07c1f674966393fcb3
+Description:  neon is an HTTP and WebDAV client library, with a C interface. Features:
+ 
+ - High-level wrappers for common HTTP and WebDAV operations (GET, MOVE, DELETE, etc)
+ - Low-level interface to the HTTP request/response engine, allowing the use of arbitrary HTTP methods, headers, etc.
+ - Authentication support including Basic and Digest support, along with GSSAPI-based Negotiate on Unix, and
+ SSPI-based Negotiate/NTLM on Win32
+ - SSL/TLS support using OpenSSL or GnuTLS; exposing an abstraction layer for verifying server certificates, handling client
+ certificates, and examining certificate properties. Smartcard-based client certificates are also supported via a
+ PKCS11 wrapper interface.
+ - Abstract interface to parsing XML using libxml2 or expat, and wrappers for simplifying handling XML HTTP response bodies
+ - WebDAV metadata support; wrappers for PROPFIND and PROPPATCH to simplify property manipulation.
+
+Package: libnetsnmp
+Version: 5.7.3-10
+Depends: libc, librt, libpthread, libnl-tiny
+Source: feeds/packages/net/net-snmp
+License: MIT BSD-3-Clause-Clear
+Section: libs
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 420439
+Filename: libnetsnmp_5.7.3-10_arm_cortex-a9_neon.ipk
+Size: 417931
+SHA256sum: e8fca304b02c64391f4f87c1eaf7ba23438fbdd54d34e8a159ded16efcb5be73
+Description:  Simple Network Management Protocol (SNMP) is a widely used protocol for
+ monitoring the health and welfare of network equipment (eg. routers),
+ computer equipment and even devices like UPSs. Net-SNMP is a suite of
+ applications used to implement SNMP v1, SNMP v2c and SNMP v3 using both
+ IPv4 and IPv6.
+ .
+ This package contains shared libraries, needed by other programs.
+
+Package: libogg
+Version: 1.3.2-2
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libogg
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11624
+Filename: libogg_1.3.2-2_arm_cortex-a9_neon.ipk
+Size: 12520
+SHA256sum: 8500b7817449390cdb7e79db496882f7daa782741771b86d62e49e70a7f4dd7c
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libopenldap
+Version: 2.4.45-2
+Depends: libc, librt, libpthread, libopenssl, libsasl2, libpthread
+Source: feeds/packages/libs/openldap
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 219809
+Filename: libopenldap_2.4.45-2_arm_cortex-a9_neon.ipk
+Size: 219187
+SHA256sum: a1067f139504f1bcbf70efa0ca74c9029f732310936903f30e629fbe743d27d4
+Description:  OpenLDAP Software is an open source implementation of the
+ Lightweight Directory Access Protocol (LDAP).
+ This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libout123
+Version: 1.25.10-1
+Depends: libc, librt, libpthread, libltdl
+Source: feeds/packages/sound/mpg123
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 21080
+Filename: libout123_1.25.10-1_arm_cortex-a9_neon.ipk
+Size: 21890
+SHA256sum: 4a1678b8a35f1242951f7962093bf27f757d72ef977794964e47f2fe27bfcea0
+Description:  Library for continuous playback of audio streams via various platform-specific output methods
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 102224
+Filename: libpcre_8.41-2_arm_cortex-a9_neon.ipk
+Size: 103057
+SHA256sum: bac6d96e73bc9de894547032de076077896d8a56b8c72f63c06404d0aad50b61
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.34-1
+Depends: libc, librt, libpthread, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 106444
+Filename: libpng_1.6.34-1_arm_cortex-a9_neon.ipk
+Size: 107213
+SHA256sum: 6d357f451cc2985e465e32736321da6ea75c00fc54c8f7c01287201868cd4b68
+Description:  A PNG format files handling library
+
+Package: libpq
+Version: 9.6.12-1
+Depends: libc, librt, libpthread, libpthread
+Source: feeds/packages/libs/postgresql
+License: PostgreSQL
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 69081
+Filename: libpq_9.6.12-1_arm_cortex-a9_neon.ipk
+Size: 69665
+SHA256sum: ddaac9d20921717fc30847f2150cdf0f22c00c723699bceddf0d00c2784c651e
+Description:  PostgreSQL client library.
+
+Package: libsasl2
+Version: 2.1.27-rc7-1
+Depends: libc, librt, libpthread, libopenssl
+Source: feeds/packages/libs/cyrus-sasl
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 94544
+Filename: libsasl2_2.1.27-rc7-1_arm_cortex-a9_neon.ipk
+Size: 95286
+SHA256sum: f227e9d38fcdb215e00c6e46e45bdfbd9e0315b61908bea7870856a4c6e2e58a
+Description:  A general purpose authentication library
+
+Package: libsqlite3
+Version: 3260000-4
+Depends: libc, librt, libpthread, libpthread, zlib
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 687283
+Filename: libsqlite3_3260000-4_arm_cortex-a9_neon.ipk
+Size: 686755
+SHA256sum: 67300743124e832463ed4aca1624bc41609277fddf7c2a053e35cd55d1b436df
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libssh2
+Version: 1.8.1-1
+Depends: libc, librt, libpthread, libmbedtls, zlib
+Source: feeds/packages/libs/libssh2
+License: BSD
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 73656
+Filename: libssh2_1.8.1-1_arm_cortex-a9_neon.ipk
+Size: 74315
+SHA256sum: 3bdcd86646d81912126d8bddac56e4361e920fbdd3b78c973083ff2f8a779754
+Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
+
+Package: libtiff
+Version: 4.0.10-1
+Depends: libc, librt, libpthread, zlib, libjpeg
+Source: feeds/packages/libs/tiff
+License: BSD
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 173305
+Filename: libtiff_4.0.10-1_arm_cortex-a9_neon.ipk
+Size: 173468
+SHA256sum: ef0032a86269b905665a8c03f1e862b6ae32dc393ecf969e837ad756bcd368e6
+Description:  TIFF library
+
+Package: libunbound
+Version: 1.9.2-1
+Depends: libc, librt, libpthread, libopenssl, libpthread
+Source: feeds/packages/net/unbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 425694
+Filename: libunbound_1.9.2-1_arm_cortex-a9_neon.ipk
+Size: 421041
+SHA256sum: 733ac0eae23275fbcaadcfa7372cc3a628cbac35bfff557974732750818fc2a0
+Description:  This package contains the Unbound shared library.
+
+Package: libvorbis
+Version: 1.3.6-1
+Depends: libc, librt, libpthread, libogg
+Source: feeds/packages/libs/libvorbis
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 230442
+Filename: libvorbis_1.3.6-1_arm_cortex-a9_neon.ipk
+Size: 228398
+SHA256sum: 18b2337dd080768234c3babdd923015bd4dab90dd26e4a1b4992da65abd6d243
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: libxml2
+Version: 2.9.9-1
+Depends: libc, librt, libpthread, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 654930
+Filename: libxml2_2.9.9-1_arm_cortex-a9_neon.ipk
+Size: 652756
+SHA256sum: 779d22b4ba6d2752605026f0e3e4b3f1809686a141fc8070b83ec450265835d6
+Description:  A library for manipulating XML and HTML resources.
+
+Package: luci-app-sqm
+Version: 1.2.4-1
+Depends: libc, librt, libpthread, lua, luci-base, sqm-scripts
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 4018
+Filename: luci-app-sqm_1.2.4-1_all.ipk
+Size: 4986
+SHA256sum: f9a8c30889e400270b8faadc9daa8b7ddb0d68c5aca06c6e4c9ed61c005b42d1
+Description:  Luci interface for the SQM scripts queue management configuration package.
+
+Package: minidlna
+Version: 1.2.1-3
+Depends: libc, librt, libpthread, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid
+Source: feeds/packages/multimedia/minidlna
+License: GPL-2.0 BSD-3-Clause
+LicenseFiles: COPYING LICENCE.miniupnpd
+Section: multimedia
+Maintainer: Knyazkov Dmitry <medavedik@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 138730
+Filename: minidlna_1.2.1-3_arm_cortex-a9_neon.ipk
+Size: 139266
+SHA256sum: 0a4f918bab3148f735248d5cadfb5a750267fb4a3effe5f2f3ace13fd33ae8c9
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpd
+Version: 2.1-1
+Depends: libc, librt, libpthread, iptables, libip4tc, libip6tc, ip6tables, libuuid
+Source: feeds/packages/net/miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Kevin Darbyshire-Bryant <ldir@darbyshire-bryant.me.uk>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 64845
+Filename: miniupnpd_2.1-1_arm_cortex-a9_neon.ipk
+Size: 65609
+SHA256sum: 79d37c31ec545c4254042cd178281e08e813b2f57fe412eace2d4fda634335e0
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: mpg123
+Version: 1.25.10-1
+Depends: libc, librt, libpthread, libmpg123, alsa-lib, libout123
+Source: feeds/packages/sound/mpg123
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: COPYING
+Section: sound
+Maintainer: Zoltan HERPAI <wigyori@uid0.hu>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 89494
+Filename: mpg123_1.25.10-1_arm_cortex-a9_neon.ipk
+Size: 90164
+SHA256sum: cc090faf1a0303a70928a25d6930dc6326a74da3d80d3efc3a567098938c1f27
+Description:  fast console mpeg audio player
+
+Package: nginx
+Version: 1.12.2-1
+Depends: libc, librt, libpthread, libpcre, libopenssl, zlib, liblua, libpthread
+Source: feeds/packages/net/nginx
+License: 2-clause BSD-like license
+Section: net
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 562625
+Filename: nginx_1.12.2-1_arm_cortex-a9_neon.ipk
+Size: 539966
+SHA256sum: e6d75c707b5be18d03ff9a56dec6b8bc1b5d171e78fa1823c793f35a9e48b4f7
+Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server,
+ written by Igor Sysoev.
+
+Package: openvswitch-base
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, libpcap, libopenssl, librt, kmod-openvswitch
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1330859
+Filename: openvswitch-base_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 1316459
+SHA256sum: af973b1aa7ef9e8a5796c64d927a8595ebd1250e0cb6227a689ae6af27c9c0d6
+Description:  Provides the main userspace components required for Open vSwitch to function.
+ The main OVS tools (ovs-vsctl, ovs-ofctl, etc) are packaged separately
+ to conserve some room and allow more configurability.
+
+Package: openvswitch-ovn-base
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 160017
+Filename: openvswitch-ovn-base_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 160058
+SHA256sum: a60329eec60b7ffad08f9dacc0f5b98ae6abdd18d0a1fa8cd5540b48e0294003
+Description:  Provides the main userspace components required for Open Virtual Networking
+ over Open vSwitch.
+
+Package: openvswitch-ovn-controller-vtep
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base, openvswitch-vtep
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10905
+Filename: openvswitch-ovn-controller-vtep_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 11664
+SHA256sum: 12f4aa86226722a323209c4063021a43b3f8569f4dccee750e4d6667f4cac955
+Description:  Open Virtual Network local controller for vtep enabled physical switches
+
+Package: openvswitch-ovn-controller
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 52752
+Filename: openvswitch-ovn-controller_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 53108
+SHA256sum: 9baded0efb3ab0cc9e09bac7b31e2c6ff76e09a5129ab44298c47d6ff4e0832f
+Description:  Open Virtual Network local controller
+
+Package: openvswitch-ovn-detrace
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2642
+Filename: openvswitch-ovn-detrace_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 3476
+SHA256sum: 34724496e6b5466be276ba0815b6734019c2d2f8991ba03927a8b30381f505ea
+Description:  Convert ``ovs-appctl ofproto/trace`` output to combine OVN logical flow information
+
+Package: openvswitch-ovn-docker-overlay-driver
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3220
+Filename: openvswitch-ovn-docker-overlay-driver_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 4001
+SHA256sum: 9ad8ab1b3774a1f7af163877fe81ade2d9cac5953604b0ad1b41f468be6cf07b
+Description:  OVN Docker overlay driver utility
+
+Package: openvswitch-ovn-docker-underlay-driver
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4310
+Filename: openvswitch-ovn-docker-underlay-driver_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 5082
+SHA256sum: eef63bbc0539a16c92a26596bc5913df6123efa5fd16024577fd1e31e7ff1f13
+Description:  OVN Docker underlay driver utility
+
+Package: openvswitch-ovn-nbctl
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28951
+Filename: openvswitch-ovn-nbctl_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 29591
+SHA256sum: 2700430a1d8858827fc0a899ec7403011f7506b5c1fb372d9e33285da232957c
+Description:  Open Virtual Network northbound db management utility
+
+Package: openvswitch-ovn-sbctl
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13062
+Filename: openvswitch-ovn-sbctl_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 13698
+SHA256sum: 0cd74a1615c53b2e8b984a8ab948be3241a65f8ed1647acce361f93bd145709d
+Description:  Utility for querying and configuring OVN_Southbound data‐base
+
+Package: openvswitch-ovn-trace
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17690
+Filename: openvswitch-ovn-trace_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 18321
+SHA256sum: 29d3c7457eed68ca6414c26f4feaed5710b19c3128cfb129da3b07cd63aaaee3
+Description:  Open Virtual Network logical network tracing utility
+
+Package: openvswitch-ovn
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-ovn-base, openvswitch-ovn-controller, openvswitch-ovn-controller-vtep, openvswitch-ovn-detrace, openvswitch-ovn-docker-overlay-driver, openvswitch-ovn-docker-underlay-driver, openvswitch-ovn-nbctl, openvswitch-ovn-sbctl, openvswitch-ovn-trace
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: openvswitch-ovn_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 967
+SHA256sum: 4a9815ef8792288f30524edd42aba966aa4496a6875e8fdd748146057cc53570
+Description:  Provides all the components required for Open Virtual Networking
+ (including the tools)
+
+Package: openvswitch-ovs-dpctl-top
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14430
+Filename: openvswitch-ovs-dpctl-top_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 15203
+SHA256sum: 34206615e4d873697865d41b30d8710726b1a8c6497b83ea7a75a0c29a4de1d4
+Description:  Top like behavior for ovs-dpctl dump-flows
+
+Package: openvswitch-ovs-l3ping
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1359
+Filename: openvswitch-ovs-l3ping_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 2160
+SHA256sum: 5d4f74ae0c43fc7052379c84e5a658914410c3cc001daefdafba464a1a056a5e
+Description:  Check network deployment for L3 tunneling problems
+
+Package: openvswitch-ovs-parse-backtrace
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1432
+Filename: openvswitch-ovs-parse-backtrace_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 2217
+SHA256sum: 1680e676ba292eaf2c7da8c3a4427af27fd3894efa5940b0fdebbca449d0f137
+Description:  parses ovs-appctl backtrace output
+
+Package: openvswitch-ovs-pcap
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1551
+Filename: openvswitch-ovs-pcap_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 2336
+SHA256sum: ef74a1ed83175431b0034f2776ed1403601def7f0c5176ab37784d7a3c764b37
+Description:  Print packets from a pcap file as hex
+
+Package: openvswitch-ovs-tcpdump
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4439
+Filename: openvswitch-ovs-tcpdump_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 5239
+SHA256sum: 6b5c54b24771d2a6055f7cd7ec418d08231ce0ead854a1f62d6b5e6e71c43a1d
+Description:  Dump traffic from an Open vSwitch port using tcpdump
+
+Package: openvswitch-ovs-tcpundump
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1243
+Filename: openvswitch-ovs-tcpundump_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 2049
+SHA256sum: a09ca74b6deea38c7305665c2911433bda334d03e13abbae435fd8ff0c30b9de
+Description:  Convert ``tcpdump -xx`` output to hex strings
+
+Package: openvswitch-ovsdb-client
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14223
+Filename: openvswitch-ovsdb-client_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 14904
+SHA256sum: ba3ab98a70f06af5eff76cc78d9f58bc716fd697bb1edbc83ee68d22e1d37c80
+Description:  Open vSwitch database JSON-RPC client
+
+Package: openvswitch-vtep
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 54613
+Filename: openvswitch-vtep_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 55202
+SHA256sum: 322ca9f3dfd7424d2e04fa8685148dbb396bc5cb3456ce6ec9ea92ea658ec4bf
+Description:  This schema specifies relations that a VTEP can use to integrate physi‐
+ cal ports into logical switches maintained by a network  virtualization
+ controller such as NSX.
+
+Package: openvswitch
+Version: 2.8.5-1
+Depends: libc, librt, libpthread, openvswitch-base, openvswitch-ovsdb-client, openvswitch-ovs-l3ping, openvswitch-ovs-dpctl-top, openvswitch-ovs-tcpdump, openvswitch-ovs-tcpundump, openvswitch-ovs-pcap, openvswitch-ovs-parse-backtrace
+Source: feeds/packages/net/openvswitch
+License: Apache-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: openvswitch_2.8.5-1_arm_cortex-a9_neon.ipk
+Size: 976
+SHA256sum: 3f7a132c0ff82ecc6ca976c4c477e355a2c14ae9b39a8a09399d94a6b1029c1f
+Description:  Provides the main userspace components required for Open vSwitch to function.
+ Includes also most of  OVS utilities.
+
+Package: p910nd
+Version: 0.97-5
+Depends: libc, librt, libpthread
+Source: feeds/packages/net/p910nd
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Philipp Kerling <pkerling@casix.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6890
+Filename: p910nd_0.97-5_arm_cortex-a9_neon.ipk
+Size: 7879
+SHA256sum: feb79b67494403dd7305884047212cfc4e23aa662f6590eafdaadd25d59669b1
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: polipo
+Version: 1.1.1-2
+Depends: libc, librt, libpthread
+Source: feeds/packages/net/polipo
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 122529
+Filename: polipo_1.1.1-2_arm_cortex-a9_neon.ipk
+Size: 123417
+SHA256sum: 28b037140fce305d3d2bc2cf93ada9bfd92fef0067dc65a4fdad8aa8449a4c4f
+Description:  Polipo is a small and fast caching web proxy (a web cache, an HTTP proxy,
+ a proxy server). While Polipo was designed to be used by one person or a
+ small group of people, there is nothing that prevents it from being used
+ by a larger group.
+
+Package: portaudio
+Version: 19_20140130-2
+Depends: libc, librt, libpthread, alsa-lib, libpthread, librt
+Source: feeds/packages/sound/portaudio
+License: MIT
+LicenseFiles: LICENSE.txt
+Section: sound
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 56999
+Filename: portaudio_19_20140130-2_arm_cortex-a9_neon.ipk
+Size: 57907
+SHA256sum: 8d0999c79538f9db0e30ffe9c825ba85d786ccbe1d9e76f6fbf1f48144631ed4
+Description:  PortAudio is a free, cross-platform, open-source, audio I/O library.  It lets
+ you write simple audio programs in 'C' or C++ that will compile and run on many
+ platforms including Windows, Macintosh OS X, and Unix (OSS/ALSA). It is
+ intended to promote the exchange of audio software between developers on
+ different platforms. Many applications use PortAudio for Audio I/O.
+
+Package: sqm-scripts-extra
+Version: 2016-06-08-1
+Depends: libc, librt, libpthread, sqm-scripts
+Source: feeds/packages/net/sqm-scripts-extra
+License: GPLv2
+Section: net
+Maintainer: Kevin Darbyshire-Bryant <kevin@darbyshire-bryant.me.uk>, Sebastian Moeller <moeller0@gmx.de>
+Architecture: all
+Installed-Size: 2257
+Filename: sqm-scripts-extra_2016-06-08-1_all.ipk
+Size: 3126
+SHA256sum: 01a2740db30fd305362b314fcac007f2bc1f12058c13fa72a14e579c87525521
+Description:  A set of experimental scripts for sqm-scripts QoS package. The contents of this package may
+ change as new qdiscs like 'cake' are developed and tested.
+
+Package: sqm-scripts
+Version: 1.2.4-1
+Depends: libc, librt, libpthread, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 15136
+Filename: sqm-scripts_1.2.4-1_all.ipk
+Size: 15993
+SHA256sum: 48e2a180d8df47d1bd482b434b47bae666d52d647968a6bcc1271ff5ca7f59c8
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: transmission-daemon-openssl
+Version: 2.94-4
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libopenssl
+Source: feeds/packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Require-User: transmission=224:transmission=224
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 254173
+Filename: transmission-daemon-openssl_2.94-4_arm_cortex-a9_neon.ipk
+Size: 254677
+SHA256sum: b514ffc825aedc5370c00f0e77323002ce229de46e9feb676daf7bb0d4cb2087
+Description:  Transmission is a simple BitTorrent client.
+ It features a very simple, intuitive interface
+ on top on an efficient, cross-platform back-end.
+ This package contains the daemon itself.
+
+Package: transmission-remote-openssl
+Version: 2.94-4
+Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, libpthread, librt, zlib, libopenssl
+Source: feeds/packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 43623
+Filename: transmission-remote-openssl_2.94-4_arm_cortex-a9_neon.ipk
+Size: 44449
+SHA256sum: fabcfd6ca69c9312bb402b93be4fd2e1cda9f924923ba37043389b0a4e8aea12
+Description:  CLI remote interface for transmission.
+
+Package: transmission-web
+Version: 2.94-4
+Depends: libc, librt, libpthread
+Source: feeds/packages/net/transmission
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Rosen Penev <rosenp@gmail.com>
+Architecture: all
+Installed-Size: 241584
+Filename: transmission-web_2.94-4_all.ipk
+Size: 242445
+SHA256sum: d6b4429484ec4b99d85ac0c159004e75dc125b7eb59207fa05199abc14bc88b1
+Description:  Webinterface resources for transmission.
+
+Package: unbound
+Version: 1.9.2-1
+Depends: libc, librt, libpthread, libopenssl, libunbound
+Source: feeds/packages/net/unbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound=553:unbound=553
+Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 187522
+Filename: unbound_1.9.2-1_arm_cortex-a9_neon.ipk
+Size: 186773
+SHA256sum: 67892f0af8a8191fd147f91ba79819422603ef0bed8e1daf8c787e068f163320
+Description:  This package contains the Unbound daemon.
+
+Package: unixodbc
+Version: 2.3.4-5
+Depends: libc, librt, libpthread, libltdl, libpthread
+Source: feeds/packages/libs/unixodbc
+License: prog GPL libs LGPL
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 226813
+Filename: unixodbc_2.3.4-5_arm_cortex-a9_neon.ipk
+Size: 227089
+SHA256sum: 855d7322817246f997fe5d1c1ff326bbb1950652403613b8e9346ab2d220ca29
+Description:  unixODBC is an Open Source ODBC sub-system and an ODBC SDK for Linux,
+ Mac OSX, and UNIX.
+
+Package: wget
+Version: 1.19.5-1
+Depends: libc, librt, libpthread, libpcre, zlib, libopenssl, librt
+Source: feeds/packages/net/wget
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 252254
+Filename: wget_1.19.5-1_arm_cortex-a9_neon.ipk
+Size: 252718
+SHA256sum: 4020045b01e2f4852406fc48578192389865578312561446b263dff609502d02
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: xupnpd
+Version: 2017-10-31-1
+Depends: libc, librt, libpthread, liblua, libopenssl
+Source: feeds/packages/multimedia/xupnpd
+License: GPLv2
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 719121
+Filename: xupnpd_2017-10-31-1_arm_cortex-a9_neon.ipk
+Size: 719774
+SHA256sum: 8770fc29e893f684781328d96b0274351b984dd8eeb9fb9b76a13f0647d804d1
+Description:  xupnpd - eXtensible UPnP agent
+ This program is a light DLNA Media Server which provides ContentDirectory:1 service for sharing IPTV unicast streams over local area network (with udpxy for multicast to HTTP unicast conversion).
+ The program shares UTF8-encoded M3U playlists with links over local area network as content of the directory.
+ You can watch HDTV broadcasts (multicast or unicast) and listen Internet Radio in IP network without transcoding and PC.
+
