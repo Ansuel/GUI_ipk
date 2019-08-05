@@ -134,6 +134,20 @@ Size: 6888
 SHA256sum: f6ef68a0874f0f5858f6af1fd617c4d13bc93e92b1d9e38d7ff2172fbb84cd75
 Description:  hostapd/wpa_supplicant common support files
 
+Package: ip-tiny
+Version: 4.16.0-8
+Depends: libc, librt, libpthread, libnl-tiny
+Provides: ip
+Alternatives: 200:/sbin/ip:/sbin/ip-tiny
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 143430
+Filename: ip-tiny_4.16.0-8_arm_cortex-a9_neon.ipk
+Size: 144110
+SHA256sum: ef279b2bac2081c82f12940da64a42f3424e1e0078a14814a7365622e2e9e39b
+Description:  Routing control utility (Minimal)
+
 Package: iw
 Version: 4.14-1
 Depends: libc, librt, libpthread, libnl-tiny
@@ -306,6 +320,19 @@ Description:  Lua is a powerful light-weight programming language designed for e
  language. Lua is free software.
  This package contains the Lua shared libraries, needed by other programs.
 
+Package: liblzo
+Version: 2.10-1
+Depends: libc, librt, libpthread
+License: GPL-2.0+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 71314
+Filename: liblzo_2.10-1_arm_cortex-a9_neon.ipk
+Size: 71483
+SHA256sum: fcdc395d7b9685be3ff6246d7c1ed14304458560bfb6ccd0a230d83d87e3b0a9
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
 Package: libmbedtls
 Version: 2.16.1-1
 Depends: libc, librt, libpthread
@@ -319,6 +346,38 @@ SHA256sum: 0e013d3583381f23bfbe7bf697fcaf796eaf35d5020ba71d189023bea258601d
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
+
+Package: libmnl
+Version: 1.0.4-1
+Depends: libc, librt, libpthread
+License: LGPL-2.1+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5933
+Filename: libmnl_1.0.4-1_arm_cortex-a9_neon.ipk
+Size: 7162
+SHA256sum: dd4fb4410a3fb731a4731c71e9d60c7b98267429a523d87d7764b4c406fedff9
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
 
 Package: libncurses-dev
 Version: 6.1-1
@@ -628,6 +687,57 @@ Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  as a full-strength general purpose cryptography library.
  This package contains the OpenSSL command-line utility.
 
+Package: openvpn-easy-rsa
+Version: 3.0.4-1
+Depends: libc, librt, libpthread, openssl-util
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 17293
+Filename: openvpn-easy-rsa_3.0.4-1_arm_cortex-a9_neon.ipk
+Size: 18100
+SHA256sum: 6ba892ad467be4e74dd2ac2d6222799bc2353810b7ad786c17a6fa18ad98283d
+Description:  CLI utility to build and manage a PKI CA.
+
+Package: openvpn-mbedtls
+Version: 2.4.5-4.2
+Depends: libc, librt, libpthread, kmod-tun, liblzo, libmbedtls
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 215717
+Filename: openvpn-mbedtls_2.4.5-4.2_arm_cortex-a9_neon.ipk
+Size: 216074
+SHA256sum: 796a9cae0aab7350fa4f8c2c9eb31c2e09ff2fb4e6640ba8bdea2299486fb79e
+Description:  Open source VPN solution using mbedTLS
+
+Package: openvpn-nossl
+Version: 2.4.5-4.2
+Depends: libc, librt, libpthread, kmod-tun, liblzo
+Provides: openvpn
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 104064
+Filename: openvpn-nossl_2.4.5-4.2_arm_cortex-a9_neon.ipk
+Size: 104649
+SHA256sum: 398103c611ee7c9d21939fd54a3f2c09769b7d831d2cb0512c61baf3d7c9ceb0
+Description:  Open source VPN solution using plaintext (no SSL)
+
+Package: openvpn-openssl
+Version: 2.4.5-4.2
+Depends: libc, librt, libpthread, kmod-tun, liblzo, libopenssl
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 220739
+Filename: openvpn-openssl_2.4.5-4.2_arm_cortex-a9_neon.ipk
+Size: 221003
+SHA256sum: d8b7916124419044cab65e86e8a7b84bf7b52b321c568640180f273021303543
+Description:  Open source VPN solution using OpenSSL
+
 Package: openwrt-keyring
 Version: 2018-05-18-103a32e9-1
 Depends: libc, librt, libpthread
@@ -920,6 +1030,43 @@ Filename: usign_2015-07-04-ef641914-1_arm_cortex-a9_neon.ipk
 Size: 11431
 SHA256sum: 92143cd898ec430e6a4a26384ae3e709b4c2d9bf6025c425963d8e4c828ba03d
 Description:  OpenWrt signature verification utility
+
+Package: wireguard-tools
+Version: 0.0.20190601-1
+Depends: libc, librt, libpthread, libmnl, ip
+License: GPL-2.0 Apache-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33232
+Filename: wireguard-tools_0.0.20190601-1_arm_cortex-a9_neon.ipk
+Size: 34332
+SHA256sum: 23f190b69e03b89ce5cccc65387b5d931cbf1dfe90cf642a3e68cbb4a7b2c112
+Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
+ state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
+ more useful than IPSec, while avoiding the massive headache. It intends to
+ be considerably more performant than OpenVPN.  WireGuard is designed as a
+ general purpose VPN for running on embedded interfaces and super computers
+ alike, fit for many different circumstances. It uses UDP.
+ 
+ This package provides the userspace control program for WireGuard,
+ `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
+
+Package: wireguard
+Version: 0.0.20190601-1
+Depends: libc, librt, libpthread, wireguard-tools, kmod-wireguard
+License: GPL-2.0 Apache-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: wireguard_0.0.20190601-1_arm_cortex-a9_neon.ipk
+Size: 1180
+SHA256sum: 8440ebadcc979aa8bd0224243afa154ecd385f7f17a832b0d47d3957232ce018
+Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
+ state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
+ more useful than IPSec, while avoiding the massive headache. It intends to
+ be considerably more performant than OpenVPN.  WireGuard is designed as a
+ general purpose VPN for running on embedded interfaces and super computers
+ alike, fit for many different circumstances. It uses UDP.
 
 Package: wireless-regdb
 Version: 2017-10-20-4343d359

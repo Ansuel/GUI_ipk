@@ -2029,6 +2029,28 @@ Size: 171947
 SHA256sum: 053c18cad505ae1b2fd4ccd4ee8ffb347ecab1f32756b240564b172f5242b850
 Description:  Free Lossless Audio Codec library
 
+Package: libgcrypt
+Version: 1.6.6-2
+Depends: libc, librt, libpthread, libgpg-error
+Source: feeds/packages/libs/libgcrypt
+License: LGPL-2.1+ GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 392052
+Filename: libgcrypt_1.6.6-2_arm_cortex-a9_neon.ipk
+Size: 391134
+SHA256sum: 63746a60259e2d8fb2ceeb433603072060975e54962731a1c88c8e4b8db828f6
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
 Package: libgd
 Version: 2.2.5-1
 Depends: libc, librt, libpthread, libjpeg, libpng
@@ -2063,6 +2085,25 @@ Description:  GnuTLS is a secure communications library implementing the SSL, TL
  OpenPGP and other required structures. It is aimed to be portable and
  efficient with focus on security and interoperability.
  This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libgpg-error
+Version: 1.12-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libgpg-error
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5790
+Filename: libgpg-error_1.12-1_arm_cortex-a9_neon.ipk
+Size: 6687
+SHA256sum: 0a76be129551816be8c5d63ee9874356828a3d6c458d1366d26e7a004e07ff5d
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
 
 Package: libical
 Version: 1.0-1
@@ -3337,6 +3378,1182 @@ Filename: sqm-scripts_1.2.4-1_all.ipk
 Size: 15993
 SHA256sum: 48e2a180d8df47d1bd482b434b47bae666d52d647968a6bcc1271ff5ca7f59c8
 Description:  A set of scripts that does simple SQM configuration.
+
+Package: strongswan-charon-cmd
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-charon
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8406
+Filename: strongswan-charon-cmd_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 9221
+SHA256sum: 56a230866b263cdd0e823edb882525b4f097384fd2c39fce68dfed1461aa9fa8
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the charon-cmd utility.
+
+Package: strongswan-charon
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 237426
+Filename: strongswan-charon_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 237646
+SHA256sum: 432b68c8c1112528531602416eb105c4ad9db892eae761c97e15e317e7484ac3
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains charon, an IKEv2 keying daemon.
+
+Package: strongswan-default
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-charon, strongswan-ipsec, strongswan-mod-aes, strongswan-mod-attr, strongswan-mod-connmark, strongswan-mod-constraints, strongswan-mod-des, strongswan-mod-dnskey, strongswan-mod-fips-prf, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-md5, strongswan-mod-nonce, strongswan-mod-pem, strongswan-mod-pgp, strongswan-mod-pkcs1, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-rc2, strongswan-mod-resolve, strongswan-mod-revocation, strongswan-mod-sha1, strongswan-mod-sha2, strongswan-mod-socket-default, strongswan-mod-sshkey, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xauth-generic, strongswan-mod-xcbc
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: strongswan-default_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 1107
+SHA256sum: 68041f7420ddb51e33623a2d9401d33accec9ab5eb0ee39b3e9317095c8e0262
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies to match upstream defaults.
+
+Package: strongswan-ipsec
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2865
+Filename: strongswan-ipsec_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3650
+SHA256sum: 213d803a17d63e185b1060854538ed1054e98e8339b0b5b6a60144f66074e695
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the ipsec utility.
+
+Package: strongswan-isakmp
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-charon, strongswan-ipsec, strongswan-mod-aes, strongswan-mod-des, strongswan-mod-gmpdh, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-md5, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-uci, strongswan-mod-updown
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: strongswan-isakmp_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 1124
+SHA256sum: b0a98ffe625fc4cef0db103a5fed29d47e1356fbc1c36f88f2591aaafe65eac3
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies to establish  ISAKMP /
+ IKE PSK connections, dropping other capabilities in favor of small size 
+ Can fit most routers even with 4Mb flash (after removing IPv6 support).
+
+Package: strongswan-libtls
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36897
+Filename: strongswan-libtls_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 37656
+SHA256sum: bda3bdcab4c3d0b231f12194a43e758b43e5bd65d1f174dde472111ef7de8cff
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains libtls for strongSwan plugins eap-tls, eap-ttls,
+ eap-peap, tnc-tnccs
+
+Package: strongswan-minimal
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-charon, strongswan-mod-aes, strongswan-mod-gmp, strongswan-mod-hmac, strongswan-mod-kernel-netlink, strongswan-mod-nonce, strongswan-mod-pubkey, strongswan-mod-random, strongswan-mod-sha1, strongswan-mod-socket-default, strongswan-mod-stroke, strongswan-mod-updown, strongswan-mod-x509, strongswan-mod-xcbc
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: strongswan-minimal_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 1020
+SHA256sum: 82a2e9cd8b063e57e4c0e16ebe2b60ffa74bcf7ef699af0edb3418f8a74e37f3
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This meta-package contains only dependencies for a minimal IKEv2 setup.
+
+Package: strongswan-mod-addrblock
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3161
+Filename: strongswan-mod-addrblock_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3934
+SHA256sum: f0c79ebcaacf46043cf07f68d9980bb2d0a1275b71e2707865057e1914e43d85
+Description:  StrongSwan RFC 3779 address block constraint support plugin
+
+Package: strongswan-mod-aes
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18864
+Filename: strongswan-mod-aes_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 18965
+SHA256sum: 774e6ca6a0174573ef9458025855f146157d6092c799ef02dfd4bc850b5da453
+Description:  StrongSwan AES crypto plugin
+
+Package: strongswan-mod-af-alg
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, kmod-crypto-user
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6181
+Filename: strongswan-mod-af-alg_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 7026
+SHA256sum: 93b84c87b769032dd5a1f3e879be53d437321d928eee4db65220da79cc903036
+Description:  StrongSwan AF_ALG crypto interface to Linux Crypto API plugin
+
+Package: strongswan-mod-agent
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4507
+Filename: strongswan-mod-agent_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5257
+SHA256sum: 5ff4b4da221a909f95353c6d186bd01d3468cb641a77510362c598229c0bef0e
+Description:  StrongSwan SSH agent signing plugin
+
+Package: strongswan-mod-attr-sql
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-charon
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19525
+Filename: strongswan-mod-attr-sql_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 20321
+SHA256sum: a0086cd6d0620802bf5b8a7ee47fdcb71d7386cf28ce7d2ee3b5ddd1995b34be
+Description:  StrongSwan SQL based config plugin
+
+Package: strongswan-mod-attr
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4471
+Filename: strongswan-mod-attr_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5228
+SHA256sum: b7ee76465006976fc1b6981ef4a1f11fa287b4e346267553a2d7fa132fa1d89a
+Description:  StrongSwan file based config plugin
+
+Package: strongswan-mod-ccm
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3949
+Filename: strongswan-mod-ccm_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4714
+SHA256sum: 254e70fcd7f791c1084a8939840b4b6d43ba44d74c188f9cd8d087bfeaa11408
+Description:  StrongSwan CCM AEAD wrapper crypto plugin
+
+Package: strongswan-mod-cmac
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3675
+Filename: strongswan-mod-cmac_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4434
+SHA256sum: b7660928166b30df23fd64b57e6545f09dc8c343cc10a5b487bb65f71b618afc
+Description:  StrongSwan CMAC crypto plugin
+
+Package: strongswan-mod-connmark
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4804
+Filename: strongswan-mod-connmark_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5553
+SHA256sum: a2771063fc025a01637c4f31b2d5cbae2c8463d69d6f5143ab58e4948393f2d6
+Description:  StrongSwan netfilter connection marking plugin
+
+Package: strongswan-mod-constraints
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4940
+Filename: strongswan-mod-constraints_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5700
+SHA256sum: 30bea290a76723497dab4c9f08d2849a1a0bcc282dedd816e35f7aaa41337816
+Description:  StrongSwan advanced X509 constraint checking plugin
+
+Package: strongswan-mod-coupling
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3579
+Filename: strongswan-mod-coupling_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4366
+SHA256sum: 0e0ab2ef3378e009daebc90e290a32c76f793f29dfa684a936d7c18c9c7f9863
+Description:  StrongSwan IKEv2 plugin to couple peer certificates permanently to authentication plugin
+
+Package: strongswan-mod-curl
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, libcurl
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4547
+Filename: strongswan-mod-curl_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5299
+SHA256sum: 63c9abe6cecb0f4260280f5e1f4386193d2a7c5e667dd79758d42340161a94a0
+Description:  StrongSwan cURL fetcher plugin plugin
+
+Package: strongswan-mod-curve25519
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 101580
+Filename: strongswan-mod-curve25519_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 102387
+SHA256sum: 9138d131c2dec8cf310209e92663b394a9d4fdfd296d431e398df988db5b219e
+Description:  StrongSwan Curve25519 Diffie-Hellman plugin
+
+Package: strongswan-mod-des
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10339
+Filename: strongswan-mod-des_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 11075
+SHA256sum: 608b5727f1beac4c7fc7cb36f94206a7c3d4a80fa8b3cc9c78e806211e58c046
+Description:  StrongSwan DES crypto plugin
+
+Package: strongswan-mod-dhcp
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7843
+Filename: strongswan-mod-dhcp_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 8638
+SHA256sum: 49aac724c13e7eb5fcb3f8d346f43c254e18959fc436db1f84c0a78185890f83
+Description:  StrongSwan DHCP based attribute provider plugin
+
+Package: strongswan-mod-dnskey
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3043
+Filename: strongswan-mod-dnskey_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3793
+SHA256sum: ffd90d8305fc1c87cbbc527cc9434af50a7893a8237832bd29af04639ec05c96
+Description:  StrongSwan DNS RR key decoding plugin
+
+Package: strongswan-mod-duplicheck
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6063
+Filename: strongswan-mod-duplicheck_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 6824
+SHA256sum: 938b585ec2fd84a9379979ec069d812335787e1785eaad5c9ce573a912231187
+Description:  StrongSwan advanced duplicate checking plugin
+
+Package: strongswan-mod-eap-identity
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2668
+Filename: strongswan-mod-eap-identity_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3430
+SHA256sum: 256089d10f08c6b4812275bcb430e96ee9d37876d684c61a5671539b4680b4bd
+Description:  StrongSwan EAP identity helper plugin
+
+Package: strongswan-mod-eap-md5
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3585
+Filename: strongswan-mod-eap-md5_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4353
+SHA256sum: 520ef5f179e099ecf6d355a5548fc7002d3329c5f6a0762f28742e6052ab3bb2
+Description:  StrongSwan EAP MD5 (CHAP) EAP auth plugin
+
+Package: strongswan-mod-eap-mschapv2
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-mod-md4, strongswan-mod-des
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10081
+Filename: strongswan-mod-eap-mschapv2_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 10880
+SHA256sum: f1e73298c1da45fdd309a39a7f1fb074e0cd0f1eac8f4f7c273ebbaf439d1519
+Description:  StrongSwan EAP MS-CHAPv2 EAP auth plugin
+
+Package: strongswan-mod-eap-radius
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31654
+Filename: strongswan-mod-eap-radius_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 32412
+SHA256sum: 32c742034ce89501e6fbf0347993ff6a5fb8d471302df3d61faf1d9c30675ced
+Description:  StrongSwan EAP RADIUS auth plugin
+
+Package: strongswan-mod-eap-tls
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-libtls
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2770
+Filename: strongswan-mod-eap-tls_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3523
+SHA256sum: 6b5756007a6747dd7ad813e6fad4986c822597f34dfb2c942319c273c33f3808
+Description:  StrongSwan EAP TLS auth plugin
+
+Package: strongswan-mod-farp
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3564
+Filename: strongswan-mod-farp_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4319
+SHA256sum: c7b22d091251970057ffdbbaf5012dc73eca66cc599203a7e1383fb1918cc7eb
+Description:  StrongSwan fake arp respsonses plugin
+
+Package: strongswan-mod-fips-prf
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-mod-sha1
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3108
+Filename: strongswan-mod-fips-prf_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3866
+SHA256sum: 9e4b963cb0ce43e679cea6a6793961909dd7c64eb9cdf27e72c06d892c32b13c
+Description:  StrongSwan FIPS PRF crypto plugin
+
+Package: strongswan-mod-forecast
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, kmod-ipt-conntrack-extra
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8214
+Filename: strongswan-mod-forecast_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 9021
+SHA256sum: 1b8518601b7bed5510d2a4c7bd2a9303b889272799d82373dcf3a8b4440bb865
+Description:  StrongSwan forward multi/broadcast traffic plugin
+
+Package: strongswan-mod-gcm
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4073
+Filename: strongswan-mod-gcm_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4834
+SHA256sum: 97a1e5c61a982bc6aa922adf2b624ac4fb5bf739089241b6a7fc34d0066bb082
+Description:  StrongSwan GCM AEAD wrapper crypto plugin
+
+Package: strongswan-mod-gcrypt
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, libgcrypt
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12388
+Filename: strongswan-mod-gcrypt_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 13117
+SHA256sum: be64805beb5934e4528c6f5aa7d6a7dd7f64913ff9d7861435341f452a958d32
+Description:  StrongSwan libgcrypt plugin
+
+Package: strongswan-mod-gmp
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, libgmp
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13120
+Filename: strongswan-mod-gmp_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 13825
+SHA256sum: 27c1223b2658ed8f8af0932fd86167f3a9828c04af102db18830f6b0b1415f0a
+Description:  StrongSwan libgmp plugin
+
+Package: strongswan-mod-gmpdh
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16915
+Filename: strongswan-mod-gmpdh_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 17673
+SHA256sum: 79225e4ca930681c75f7fbf85baea83313f0412e2727e6315934057f139930d7
+Description:  StrongSwan DH-Groups; no libgmp dep plugin
+
+Package: strongswan-mod-ha
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23323
+Filename: strongswan-mod-ha_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 24075
+SHA256sum: 4b237a1fb5c93be04445bcf07c0ccf0ba38b5eb4d5dfb216fc564df383c237c4
+Description:  StrongSwan high availability cluster plugin
+
+Package: strongswan-mod-hmac
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2950
+Filename: strongswan-mod-hmac_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3697
+SHA256sum: 9334842096d9c91a736548f8a9621de9bde5a87236c8ecba16525f4ad42792c9
+Description:  StrongSwan HMAC crypto plugin
+
+Package: strongswan-mod-kernel-libipsec
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22223
+Filename: strongswan-mod-kernel-libipsec_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 23017
+SHA256sum: 5f9b88e264221c8b0777fcdb643842a0abe23414ace2415a5935cdf7279d0baa
+Description:  StrongSwan libipsec kernel interface plugin
+
+Package: strongswan-mod-kernel-netlink
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 38849
+Filename: strongswan-mod-kernel-netlink_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 39673
+SHA256sum: d4bfe3e9ad6614938542ecbd3c61864fcc9b9252f7e8a602ff9e67e4c10445df
+Description:  StrongSwan netlink kernel interface plugin
+
+Package: strongswan-mod-ldap
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, libopenldap
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3138
+Filename: strongswan-mod-ldap_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3898
+SHA256sum: b9fedab29388cb081a492e23a47c0cfc4d2b1b8e89b949aab7d2629e86524806
+Description:  StrongSwan LDAP plugin
+
+Package: strongswan-mod-led
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3583
+Filename: strongswan-mod-led_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4342
+SHA256sum: 5ecf20aba5a74aa5861589af855f71937d1d55211c584de1b9d1beccafab0fc8
+Description:  StrongSwan LED blink on IKE activity plugin
+
+Package: strongswan-mod-load-tester
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14243
+Filename: strongswan-mod-load-tester_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 14957
+SHA256sum: 3a0ffaf96211636e39d8261347a1010d640cbe6ab3f8d362e75b5255495773f5
+Description:  StrongSwan load testing plugin
+
+Package: strongswan-mod-md4
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3997
+Filename: strongswan-mod-md4_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4748
+SHA256sum: 17149a0670f066cc5ebeaff56fa81de225873eda9a56024e25fca71a90b60ebb
+Description:  StrongSwan MD4 crypto plugin
+
+Package: strongswan-mod-md5
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4638
+Filename: strongswan-mod-md5_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5390
+SHA256sum: 46c04babaa9ff8c8c4acf955074b3c137af8ba36497455b569b20f4addf10738
+Description:  StrongSwan MD5 crypto plugin
+
+Package: strongswan-mod-mysql
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-mod-sql, libmysqlclient-r
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5899
+Filename: strongswan-mod-mysql_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 6690
+SHA256sum: d807a8400659d5534350b6287a241b89dabc2d888fb47b84d9a4bef09ef3a578
+Description:  StrongSwan MySQL database interface plugin
+
+Package: strongswan-mod-nonce
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2190
+Filename: strongswan-mod-nonce_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 2931
+SHA256sum: 0d607a066b23a968723053f3e08464071b1d914b465065da8e9c8eb4cd8be008
+Description:  StrongSwan nonce genereation plugin
+
+Package: strongswan-mod-openssl
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, libopenssl
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32832
+Filename: strongswan-mod-openssl_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 33169
+SHA256sum: 296be8147c5545cfa6ad9ec70fc68905ef6d5d95fdfe55d609e7e1b62f433685
+Description:  StrongSwan OpenSSL crypto plugin
+
+Package: strongswan-mod-pem
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7425
+Filename: strongswan-mod-pem_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 8217
+SHA256sum: f744a2cc21c3ddfb2aea3b5f2990c69b27fbba9a663d46be3d83bae024eb520a
+Description:  StrongSwan PEM decoding plugin
+
+Package: strongswan-mod-pgp
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6816
+Filename: strongswan-mod-pgp_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 7594
+SHA256sum: b9ee03786a2ef13507648453a9de3f665a9f9023763821dcfc42fc2fd6466ead
+Description:  StrongSwan PGP key decoding plugin
+
+Package: strongswan-mod-pkcs11
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27771
+Filename: strongswan-mod-pkcs11_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 28378
+SHA256sum: 51e39590c7b7e514a0faff48a2dd8e189c12f1ba65b3e9b1ca9d6f23290e56c0
+Description:  StrongSwan PKCS11 key decoding plugin
+
+Package: strongswan-mod-pkcs12
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4656
+Filename: strongswan-mod-pkcs12_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5417
+SHA256sum: 64feb3fc801ed1447051dfbdebe8f934ed6fc8fe8475eea9a9709f474fb4d823
+Description:  StrongSwan PKCS12 key decoding plugin
+
+Package: strongswan-mod-pkcs1
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4942
+Filename: strongswan-mod-pkcs1_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5701
+SHA256sum: d4bbd8b178c642875185eadc81e1971d313c4cac698f9dac5efbd94c9b058379
+Description:  StrongSwan PKCS1 key decoding plugin
+
+Package: strongswan-mod-pkcs7
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12356
+Filename: strongswan-mod-pkcs7_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 13109
+SHA256sum: 0ca5f516c12355438ed9be104cd1683c52e77b40b517e45de0a045cb0f00668e
+Description:  StrongSwan PKCS7 key decoding plugin
+
+Package: strongswan-mod-pkcs8
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3039
+Filename: strongswan-mod-pkcs8_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3792
+SHA256sum: b6d04cd0dedf991c19200d8776a51dbdc7457d4ecc20e25f8feddf9c8c1dacf4
+Description:  StrongSwan PKCS8 key decoding plugin
+
+Package: strongswan-mod-pubkey
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3217
+Filename: strongswan-mod-pubkey_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3972
+SHA256sum: 0bea933b6e3dd4a3f0b88db3b23f7faf349004654f2816be4a4bc8627b0ff665
+Description:  StrongSwan raw public key plugin
+
+Package: strongswan-mod-random
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2997
+Filename: strongswan-mod-random_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 3738
+SHA256sum: a601eeebee540d518002b126bb4f2e6a36725290ebd7e96e43a75d48fa3d3a04
+Description:  StrongSwan RNG plugin
+
+Package: strongswan-mod-rc2
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4157
+Filename: strongswan-mod-rc2_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4915
+SHA256sum: ba755b9543aedb8cbb82275469b4a66fc59e680ef0df5b72f7381b2a9a51abbb
+Description:  StrongSwan RC2 crypto plugin
+
+Package: strongswan-mod-resolve
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4604
+Filename: strongswan-mod-resolve_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5355
+SHA256sum: b7051e52cf395e7b55a67baaeba78dc2a1c8222f2ea955b320d86cdb4a9c1084
+Description:  StrongSwan DNS resolver plugin
+
+Package: strongswan-mod-revocation
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6804
+Filename: strongswan-mod-revocation_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 7626
+SHA256sum: 6f4b3d28b63e955a4d1d4264ccdaa558671b5a2cea98a87da714831109d9ac29
+Description:  StrongSwan X509 CRL/OCSP revocation plugin
+
+Package: strongswan-mod-sha1
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7011
+Filename: strongswan-mod-sha1_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 7814
+SHA256sum: c055e0d861d74cad8358df277636cbcd64eb22f8eba80cde12023163758e0f7b
+Description:  StrongSwan SHA1 crypto plugin
+
+Package: strongswan-mod-sha2
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6493
+Filename: strongswan-mod-sha2_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 7313
+SHA256sum: 31fb679c4f52f8828021cc002f3e6cd8cc8910a0835da2ab4b146d5d8e997dc8
+Description:  StrongSwan SHA2 crypto plugin
+
+Package: strongswan-mod-smp
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, libxml2
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7762
+Filename: strongswan-mod-smp_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 8554
+SHA256sum: 9e354bffdf88d8e53b311a7b98441c96ab5b99f3ccbed9429915fd1d6d7f0fb3
+Description:  StrongSwan SMP configuration and control interface plugin
+
+Package: strongswan-mod-socket-default
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5821
+Filename: strongswan-mod-socket-default_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 6592
+SHA256sum: 0ea11f317b927bd0a4fab204cbbe1c62bc3cedfba9d52910517355035269468d
+Description:  StrongSwan default socket implementation for charon plugin
+
+Package: strongswan-mod-socket-dynamic
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5263
+Filename: strongswan-mod-socket-dynamic_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 6028
+SHA256sum: 209b34bee5fa5309655c5a610ff1223a58cf6ccfb68b7d7174285ac4087124a3
+Description:  StrongSwan dynamic socket implementation for charon plugin
+
+Package: strongswan-mod-sql
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8507
+Filename: strongswan-mod-sql_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 9302
+SHA256sum: 06f20eabc875db9016ccf1084d67d95a4bc5899580c82c4eb740d366c6d41c98
+Description:  StrongSwan SQL database interface plugin
+
+Package: strongswan-mod-sqlite
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-mod-sql, libsqlite3
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4441
+Filename: strongswan-mod-sqlite_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5211
+SHA256sum: 486cd4c5ce55e116ddd14f7f7e24aa0ebd434912044e31dd5af04a60efbbc0e5
+Description:  StrongSwan SQLite database interface plugin
+
+Package: strongswan-mod-sshkey
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4675
+Filename: strongswan-mod-sshkey_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 5431
+SHA256sum: a141b40efbc77cf661b1e9743871313aa4998746f21d8c5fae5ea7acfd0b084d
+Description:  StrongSwan SSH key decoding plugin
+
+Package: strongswan-mod-stroke
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-charon, strongswan-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 78480
+Filename: strongswan-mod-stroke_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 79148
+SHA256sum: 4733f3e1242a9c080ab99dcce0f323a22618cd8ae4e97251f43e8c8419895425
+Description:  StrongSwan Stroke plugin
+
+Package: strongswan-mod-test-vectors
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 47861
+Filename: strongswan-mod-test-vectors_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 48348
+SHA256sum: 01381fa398045be2d07695adb37118ba1e858a661f45bcfec7dd087d16d6ed3d
+Description:  StrongSwan crypto test vectors plugin
+
+Package: strongswan-mod-uci
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, libuci
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7021
+Filename: strongswan-mod-uci_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 7798
+SHA256sum: a4978f4c2d1ef632a02c730af749b19fd4a1b1dc6ac29e355caf1b55b2e1b976
+Description:  StrongSwan UCI config interface plugin
+
+Package: strongswan-mod-unity
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6135
+Filename: strongswan-mod-unity_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 6907
+SHA256sum: acec88269c79fdfa196941f398293a3784735dd5feeb97b3d92abcc247ae7b13
+Description:  StrongSwan Cisco Unity extension plugin
+
+Package: strongswan-mod-updown
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9358
+Filename: strongswan-mod-updown_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 10117
+SHA256sum: 466864e228b24e90adab8eee12e0111b2be74457cc17ecfda15244028aa8497c
+Description:  StrongSwan updown firewall plugin
+
+Package: strongswan-mod-vici
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 58865
+Filename: strongswan-mod-vici_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 59563
+SHA256sum: 92d008ffd7d8112f706f168b65d9c6b03eab1e78f7906a6f9391e6d5eae3cdd6
+Description:  StrongSwan Versatile IKE Configuration Interface plugin
+
+Package: strongswan-mod-whitelist
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6675
+Filename: strongswan-mod-whitelist_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 7467
+SHA256sum: b50613f4d67548934d28fa6e05b6b57c30e22f50a868dcb000ffb93b04556e6b
+Description:  StrongSwan peer identity whitelisting plugin
+
+Package: strongswan-mod-x509
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33278
+Filename: strongswan-mod-x509_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 33744
+SHA256sum: 2c78944b1f28fc25da1610f0f973d736ee3975cb4858f72fa753e3cbc80aa589
+Description:  StrongSwan x509 certificate plugin
+
+Package: strongswan-mod-xauth-eap
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3471
+Filename: strongswan-mod-xauth-eap_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4222
+SHA256sum: dc33e76ce5e335e8f272e7185cdda297d1252ef3be137f37af5dd9d8e2847690
+Description:  StrongSwan EAP XAuth backend plugin
+
+Package: strongswan-mod-xauth-generic
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3435
+Filename: strongswan-mod-xauth-generic_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4201
+SHA256sum: 440d9e0fafcc165f80940fafb388a2894dcd251265e487b05d1b70c9032c088d
+Description:  StrongSwan generic XAuth backend plugin
+
+Package: strongswan-mod-xcbc
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3611
+Filename: strongswan-mod-xcbc_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 4361
+SHA256sum: 3708f7b667740db9e817ae3490264ac1276b1215fe33e2f04d3010a55107488b
+Description:  StrongSwan xcbc crypto plugin
+
+Package: strongswan-pki
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 29551
+Filename: strongswan-pki_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 30297
+SHA256sum: 76b9e9f5243fbeffd9c0fb2b400f78b2abc1116e780dbea8390604713765087c
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the pki tool.
+
+Package: strongswan-scepclient
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13770
+Filename: strongswan-scepclient_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 14576
+SHA256sum: 84a25f80e05a6a562ff48c5793a5a2c25deafdf1a02aa929c31fad2d8aa5a310
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the SCEP client.
+
+Package: strongswan-swanctl
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, strongswan, strongswan-mod-vici
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31935
+Filename: strongswan-swanctl_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 32809
+SHA256sum: a612c98a5a30b563e0a77c10b9c98900bcf927a2013e52d56255d698d5ea99b2
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains the swanctl utility.
+
+Package: strongswan
+Version: 5.6.3-3
+Depends: libc, librt, libpthread, libpthread, ip, kmod-crypto-authenc, kmod-ipsec, kmod-ipsec4, kmod-ipsec6, kmod-ipt-ipsec, iptables-mod-ipsec
+Source: feeds/packages/net/strongswan
+License: GPL-2.0+
+Section: net
+Maintainer: Stijn Tintel <stijn@linux-ipv6.be>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 166593
+Filename: strongswan_5.6.3-3_arm_cortex-a9_neon.ipk
+Size: 166379
+SHA256sum: d116c68fa1be9b72c9a043ca726eab84df2409cca37dadb8c8d0e403b8f2e1bd
+Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
+ This package contains shared libraries and scripts.
 
 Package: transmission-daemon-openssl
 Version: 2.94-4
