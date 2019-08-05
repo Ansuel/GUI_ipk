@@ -1,3 +1,18 @@
+Package: adblock
+Version: 3.5.5-3
+Depends: libc, librt, libpthread, jshn, jsonfilter
+License: GPL-3.0+
+Section: net
+Architecture: all
+Installed-Size: 10934
+Filename: adblock_3.5.5-3_all.ipk
+Size: 11878
+SHA256sum: 5e76418e082917f3524706aa6ca1d05ae04042ec4d07080b1c3b9c320cb044b9
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named, kresd or dnscrypt-proxy.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
 Package: alsa-lib
 Version: 1.1.6-1
 Depends: libc, librt, libpthread, kmod-sound-core, libpthread, librt
@@ -35,6 +50,30 @@ Filename: ariang_2018-02-21-f71a67cb-1_all.ipk
 Size: 969262
 SHA256sum: 0aa254d6e95d177575a61e993dbca6abd4a634dbee01d32eb0cd20e29c719560
 Description:  AriaNg is a web frontend making aria2 easier to use. AriaNg is written in pure html & javascript, thus it does not need any compilers or runtime environment.
+
+Package: atftp
+Version: 0.7.1-5
+Depends: libc, librt, libpthread, libreadline, libncurses
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19568
+Filename: atftp_0.7.1-5_arm_cortex-a9_neon.ipk
+Size: 20284
+SHA256sum: 47661cc06cbe3bc879794985408f93748393e2037124d4067237f851b0184946
+Description:  TFTP client
+
+Package: atftpd
+Version: 0.7.1-5
+Depends: libc, librt, libpthread, libpcre, libpthread
+License: GPL-2.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 24248
+Filename: atftpd_0.7.1-5_arm_cortex-a9_neon.ipk
+Size: 24946
+SHA256sum: 2109448270b2987ed81f5d759d72dd231b9a4b64de8d7cc4f51dd8ac35671319
+Description:  TFTP server
 
 Package: attendedsysupgrade-common
 Version: 0.1-2
@@ -1662,6 +1701,19 @@ Description:  libdaemon is a lightweight C library that eases the writing of UNI
  APIs like these are used in most daemon software available. It is not that
  simple to get it done right and code duplication is not a goal.
 
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, librt, libpthread, libxml2
+Provides: libdb47-full
+License: Sleepycat
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 545564
+Filename: libdb47_4.7.25.4.NC-5_arm_cortex-a9_neon.ipk
+Size: 542992
+SHA256sum: 29c17430f68302f6f035b62804e53137d981aae44a18ec2f66ed186994bba20e
+Description:  Berkeley DB library (4.7).
+
 Package: libdbus
 Version: 1.10.4-1
 Depends: libc, librt, libpthread, libpthread
@@ -1711,6 +1763,27 @@ Filename: libexpat_2.2.5-1_arm_cortex-a9_neon.ipk
 Size: 63450
 SHA256sum: b627691f2d019003eb755becdf01837be9bb12aa579aad4b13db3c4fcfb05005
 Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-3
+Depends: libc, librt, libpthread
+License: MIT
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16275
+Filename: libffi_3.2.1-3_arm_cortex-a9_neon.ipk
+Size: 17281
+SHA256sum: ddb3afbb80fa7155df2a87534c945dca5bc890e600d35890c561cffefb91e37e
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
 
 Package: libffmpeg-audio-dec
 Version: 3.2.12-3
@@ -1775,6 +1848,20 @@ Size: 115100
 SHA256sum: 8b0ed4e9ec62d36e63e9342a7202530a6bbbfae08578efd0444cb738ab15ebfd
 Description:  GD is an open source code library for the dynamic creation of images by
  programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc, librt, libpthread
+License: GPL-3.0+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18325
+Filename: libgdbm_1.11-1_arm_cortex-a9_neon.ipk
+Size: 19119
+SHA256sum: 93da1cdf83bbb460af39d01fd661445bca4a16374c3fc080a38c5b3deea3612d
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
 
 Package: libgnutls
 Version: 3.5.19-1
@@ -2166,6 +2253,32 @@ Size: 4422
 SHA256sum: 667ee4dc49c21a9668911a74d2e273d59de97f12da23f8a5bbf2c8a68f4e8b60
 Description:  Contains: lzmainfo 
 
+Package: mailsend-nossl
+Version: 1.17b15-2
+Depends: libc, librt, libpthread
+License: BSD-3-Clause
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 35246
+Filename: mailsend-nossl_1.17b15-2_arm_cortex-a9_neon.ipk
+Size: 36025
+SHA256sum: a1f9c48bc9557f88c150bfcfbec7563ad0b55d23ae26f50f6d0ad537664ff8f5
+Description:  Mailsend is a simple command line program to send mail via SMTP protocol.
+
+Package: mailsend
+Version: 1.17b15-2
+Depends: libc, librt, libpthread, libopenssl
+License: BSD-3-Clause
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 37094
+Filename: mailsend_1.17b15-2_arm_cortex-a9_neon.ipk
+Size: 37943
+SHA256sum: 3b443e0895b6a27c6a89d9dcbe2f5f7b73533f1c193f4c915bec78edcdafd55a
+Description:  Mailsend is a simple command line program to send mail via SMTP protocol.
+ .
+ SSL supported is provided by OpenSSL.
+
 Package: minidlna
 Version: 1.2.1-3
 Depends: libc, librt, libpthread, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid
@@ -2202,6 +2315,135 @@ Filename: mpg123_1.25.10-1_arm_cortex-a9_neon.ipk
 Size: 90164
 SHA256sum: cc090faf1a0303a70928a25d6930dc6326a74da3d80d3efc3a567098938c1f27
 Description:  fast console mpeg audio player
+
+Package: msmtp-mta
+Version: 1.6.6-1
+Depends: libc, librt, libpthread
+License: GPL-3.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 206
+Filename: msmtp-mta_1.6.6-1_arm_cortex-a9_neon.ipk
+Size: 1176
+SHA256sum: 762d5e9b1786e912c890b577f4864db335fd6272a0e6e225d9bfd1762480e9f6
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package add a link from sendmail to msmtp
+ and is built with SSL support.
+
+Package: msmtp-nossl
+Version: 1.6.6-1
+Depends: libc, librt, libpthread
+License: GPL-3.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42004
+Filename: msmtp-nossl_1.6.6-1_arm_cortex-a9_neon.ipk
+Size: 42995
+SHA256sum: 7750744c73925080c35133a1e383c2cb473be31fad8cd486da6954dba52aec3d
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built without SSL support.
+
+Package: msmtp-queue
+Version: 1.6.6-1
+Depends: libc, librt, libpthread, bash
+License: GPL-3.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 8692
+Filename: msmtp-queue_1.6.6-1_arm_cortex-a9_neon.ipk
+Size: 9665
+SHA256sum: c1a0aafb9bb669c832ad56dd6f93293c9273ef783ed0ac0ac2d98c4fb370130e
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package contains the msmtp queue scripts.
+
+Package: msmtp
+Version: 1.6.6-1
+Depends: libc, librt, libpthread, libopenssl, ca-bundle
+License: GPL-3.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 48772
+Filename: msmtp_1.6.6-1_arm_cortex-a9_neon.ipk
+Size: 49705
+SHA256sum: b37f1351ba69253cde2e96e0847b379149b38ea197086b198b5ebf9db8cc314e
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built with SSL support.
+
+Package: msmtpq-ng-mta-smtpd
+Version: 1.0.8-1
+Depends: libc, librt, libpthread, msmtpq-ng-mta, xinetd
+License: GPL-3.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 378
+Filename: msmtpq-ng-mta-smtpd_1.0.8-1_arm_cortex-a9_neon.ipk
+Size: 1187
+SHA256sum: 7458be69b6779aa77e3ea02e810ffb1bfdeda474cf32e0da832796458f7158eb
+Description:  Simple sendmail SMTP queueing and forwarding (basic SMTP server)
+
+Package: msmtpq-ng-mta
+Version: 1.0.8-1
+Depends: libc, librt, libpthread, msmtpq-ng
+License: GPL-3.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1557
+Filename: msmtpq-ng-mta_1.0.8-1_arm_cortex-a9_neon.ipk
+Size: 2648
+SHA256sum: 30719069de46dd27b58c188e48f40b392001f71f3fee54555624154deb938e50
+Description:  msmtp-scripts are scripts wrappers around the msmtp SMTP client that
+ add queueing, logging to syslog or file, a subset of sendmail/postfix
+ mailq/postsuper/postqueue commands implemented in a compatible fashion.
+ This package provides sendmail, mailq, postfix,
+ and postsuper symlinks to wrappers that configure
+ msmtpq-ng for use as the system mail transport
+ agent via the sendmail command.
+
+Package: msmtpq-ng
+Version: 1.0.8-1
+Depends: libc, librt, libpthread
+License: GPL-3.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10549
+Filename: msmtpq-ng_1.0.8-1_arm_cortex-a9_neon.ipk
+Size: 11508
+SHA256sum: 8852c202d50bc25b57f301b8dd7bc9685328cbe482ffb3550e30e7cca13e47b0
+Description:  msmtp-scripts are scripts wrappers around the msmtp SMTP client that
+ add queueing, logging to syslog or file, a subset of sendmail/postfix
+ mailq/postsuper/postqueue commands implemented in a compatible fashion.
+ This package contains the msmtpq-ng and msmtpq-ng-queue
+ wrappers around msmtp, which provide the bulk of the
+ functionality.
+
+Package: mutt
+Version: 1.9.4-1
+Depends: libc, librt, libpthread, libopenssl, libncursesw, terminfo, zlib
+License: GPL-2.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 404469
+Filename: mutt_1.9.4-1_arm_cortex-a9_neon.ipk
+Size: 404756
+SHA256sum: d1d7d0416bc9e634f97d180917aa43044d46edaa1bbe3d493793401cacd6b6aa
+Description:  Mutt is a small but very powerful text-based mail client for Unix
+ operating systems.
 
 Package: nginx
 Version: 1.12.2-1
@@ -2841,6 +3083,281 @@ Description:  PortAudio is a free, cross-platform, open-source, audio I/O librar
  intended to promote the exchange of audio software between developers on
  different platforms. Many applications use PortAudio for Audio I/O.
 
+Package: python-base
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, libpthread, zlib
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 778511
+Filename: python-base_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 773593
+SHA256sum: fd6c0bd8c3517c48615e3d99f8232447b23c99415070fd6ad6a9ad02859e1134
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 701538
+Filename: python-codecs_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 685609
+SHA256sum: b6cf6d800f651bb22ce1b29f16fb68c392fc61971653f23c48e797407e19c542
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 59813
+Filename: python-compiler_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 60703
+SHA256sum: 846b73b4320fea13a1a41b060bdf91f5f8d07a51ef3bf67d92171575da120fd2
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 64092
+Filename: python-ctypes_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 64752
+SHA256sum: 0f7c859565b6b26d0856fa56b2834bfe7010d71a98032d00694b77ff5b2d5214
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light, libdb47
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 74857
+Filename: python-db_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 75063
+SHA256sum: fb9539f31b4dd91e053c2aae36714bc3bb9aeadd90edf914fd24994fbb5d4e88
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 48936
+Filename: python-decimal_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 49824
+SHA256sum: f9dc4209201f9c35fef0d29dbeb294efeb8e58b4e1b48815cc9f412c8d64cdd9
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 174682
+Filename: python-distutils_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 175639
+SHA256sum: 525995071afa5b63ef0c656210a4df465ee9aaf89e820e03d54fe14f900c9ac0
+Description:  Python 2.7 distutils
+
+Package: python-dns
+Version: 1.15.0-2
+Depends: libc, librt, libpthread, python
+License: ISC
+Section: language-python
+Architecture: arm_cortex-a9_neon
+Installed-Size: 140193
+Filename: python-dns_1.15.0-2_arm_cortex-a9_neon.ipk
+Size: 141170
+SHA256sum: 0c032d198b2ea1b93c27aa157e99e135183f3fbc7b5fa62767c85951503d6cbc
+Description:  dnspython is a DNS toolkit for Python. It supports almost all record types. It can be used for queries, zone transfers, and dynamic updates. It supports TSIG authenticated messages and EDNS0.
+
+Package: python-email
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 50383
+Filename: python-email_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 51266
+SHA256sum: 8a8c03e94592a9e26737fabaa457b050e91ae41ac285dc1955b7aaa1c0dc001f
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light, libgdbm
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6150
+Filename: python-gdbm_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 7001
+SHA256sum: 2b797832fc1a67e249b924b42c81277c39058b8267a0f41fc7dd0879dd8cd53c
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-base, libffi, libbz2
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1472117
+Filename: python-light_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 1471976
+SHA256sum: c566721ba27a6afdb1c90da097a0d340ef1d65859d0c4a4abd8ae7f68abda3a1
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42716
+Filename: python-logging_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 43626
+SHA256sum: d4d9596838509bc0006db52ccf96852531a4cf1a067544098c5f1f73321904ac
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 65187
+Filename: python-multiprocessing_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 66060
+SHA256sum: c1c9d0ae8af0e9e20a270b8dbb566eac155919e53eb2d798baffc444104f19ba
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light, libncurses
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33904
+Filename: python-ncurses_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 34521
+SHA256sum: 6981345fdbba18d858e3d24697f94ef7963ca32421bf7cd338b7467df5668ebc
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light, libopenssl
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36757
+Filename: python-openssl_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 37269
+SHA256sum: 18bae9d5dc68f87d7a4e2da2d7bec9b3a6fe584e62f1733baf00b4cf0e70c11a
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 183045
+Filename: python-pydoc_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 183814
+SHA256sum: 94d5cb206bb4dcad1238055b3e36263d0306e6ff33e7c41d31042c0b728245d7
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light, libsqlite3
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27927
+Filename: python-sqlite3_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 28716
+SHA256sum: 3bcc3ed0d3fde1833b47cf7d4018c119fd387b55e40f6a7b1e7bc4174e1ed5f8
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33404
+Filename: python-unittest_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 34299
+SHA256sum: 0f195a427efa463220928e817c74132ec0de83e70510343d234cc5e19500eaeb
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light, libexpat
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 182873
+Filename: python-xml_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 183547
+SHA256sum: 76d7c2116cb3bcda90dba3317a64a31391d094b3c10e2709fb6666385f794ce3
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.16-2
+Depends: libc, librt, libpthread, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-codecs, python-sqlite3, python-logging, python-gdbm, python-email, python-distutils, python-xml, python-compiler, python-db, python-openssl, python-decimal, python-unittest, python-ncurses
+License: PSF
+Section: lang
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: python_2.7.16-2_arm_cortex-a9_neon.ipk
+Size: 1050
+SHA256sum: 7f9187ca0daaf7ff6d842fdf9c91bcbc3727bbee19adadfe7e7fe5ceb62524a3
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: rsync
+Version: 3.1.3-1
+Depends: libc, librt, libpthread, libpopt, zlib
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 198942
+Filename: rsync_3.1.3-1_arm_cortex-a9_neon.ipk
+Size: 199667
+SHA256sum: 6561c7579ce234acd334838aa1de0c3d4dcee62422b2c749ffb1976800a35645
+Description:  rsync is a program that allows files to be copied to and from remote machines
+ in much the same way as rcp. It has many more options than rcp, and uses the
+ rsync remote-update protocol to greatly speed up file transfers when the
+ destination file already exists.
+ 
+ The rsync remote-update protocol allows rsync to transfer just the differences
+ between two sets of files across the network link.
+
+Package: rsyncd
+Version: 3.1.3-1
+Depends: libc, librt, libpthread, rsync
+License: GPL-3.0
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 577
+Filename: rsyncd_3.1.3-1_arm_cortex-a9_neon.ipk
+Size: 1412
+SHA256sum: a2ea7db6f3e1b0e247d0ffc0ff9af6aaccbc6131b9ae1a2bc58132cb22b02bb9
+Description:  rsyncd is a configuration file and initscript to utilize rsync as a daemon. It
+ uses the same binary as rsync.
+
 Package: sqm-scripts-extra
 Version: 2016-06-08-1
 Depends: libc, librt, libpthread, sqm-scripts
@@ -2865,6 +3382,21 @@ Filename: sqm-scripts_1.2.4-1_all.ipk
 Size: 15993
 SHA256sum: 48e2a180d8df47d1bd482b434b47bae666d52d647968a6bcc1271ff5ca7f59c8
 Description:  A set of scripts that does simple SQM configuration.
+
+Package: ssmtp
+Version: 2.64-5
+Depends: libc, librt, libpthread, libopenssl
+License: GPL-2.0+
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 12819
+Filename: ssmtp_2.64-5_arm_cortex-a9_neon.ipk
+Size: 13662
+SHA256sum: daae62ca25c89222f4e2a24ce4ff7c8920089b1494ecfaef8a08c6014f33375f
+Description:  A secure, effective and simple way of getting mail off a system to your mail hub.
+ Mail is simply forwarded to the configured mailhost, no daemons running in the background.
+ Extremely easy configuration.
+ 
 
 Package: strongswan-charon-cmd
 Version: 5.6.3-3
@@ -3968,6 +4500,48 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
 
+Package: vsftpd-tls
+Version: 3.0.3-2
+Depends: libc, librt, libpthread, libopenssl
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 57032
+Filename: vsftpd-tls_3.0.3-2_arm_cortex-a9_neon.ipk
+Size: 57825
+SHA256sum: 73bc2f84b19163ffd7aafe102e5204fc3df026c1a8eb852e2cc8724318f3348c
+Description:  Fast and secure FTP server (TLS)
+
+Package: vsftpd
+Version: 3.0.3-2
+Depends: libc, librt, libpthread
+License: GPLv2
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 53322
+Filename: vsftpd_3.0.3-2_arm_cortex-a9_neon.ipk
+Size: 54115
+SHA256sum: 43c060f151da7fa55e04b6fbb945db3a0254e89e81a1423b01c72bdcfee51ef4
+Description:  Fast and secure FTP server (no TLS)
+
+Package: wget-nossl
+Version: 1.19.5-1
+Depends: libc, librt, libpthread, libpcre, zlib
+License: GPL-3.0+
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 230764
+Filename: wget-nossl_1.19.5-1_arm_cortex-a9_neon.ipk
+Size: 231314
+SHA256sum: e307df31091be395bd3cdf0b06da199a1766f69ed36cdc2dce8a6ed489442699
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built without SSL support.
+
 Package: wget
 Version: 1.19.5-1
 Depends: libc, librt, libpthread, libpcre, zlib, libopenssl, librt
@@ -3985,6 +4559,22 @@ Description:  Wget is a network utility to retrieve files from the Web using htt
  pages as well as ftp sites -- you can use wget to make mirrors of
  archives and home pages or to travel the Web like a WWW robot.
  This package is built with SSL support.
+
+Package: xinetd
+Version: 2.3.15-5
+Depends: libc, librt, libpthread
+License: xinetd
+Section: net
+Architecture: arm_cortex-a9_neon
+Installed-Size: 63513
+Filename: xinetd_2.3.15-5_arm_cortex-a9_neon.ipk
+Size: 64300
+SHA256sum: a1dc93128d71d84a7c688aa321d871648eded5b9e98df0749c980c5ff15bb6a6
+Description:  xinetd has access control mechanisms, extensive logging capabilities,
+ the ability to make services available based on time, can place limits
+ on the number of servers that can be started, and has deployable
+ defence mechanisms to protect against port scanners, among other
+ things.
 
 Package: xupnpd
 Version: 2017-10-31-1

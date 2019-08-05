@@ -28,6 +28,18 @@ Size: 8289
 SHA256sum: c559e2660112569394a992a5d319dbe3f93d73dbe86d6f5226aaf2db01124f59
 Description:  LuCI HTTP utility library
 
+Package: luci-app-adblock
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, adblock, luci-lib-jsonc
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 7723
+Filename: luci-app-adblock_git-19.213.49492-89e029c-1_all.ipk
+Size: 8540
+SHA256sum: 8367c1a1f835b5d0a326150a9184f59bfd99119ef32d117edfaab856b1b0dc9f
+Description:  LuCI support for Adblock
+
 Package: luci-app-attendedsysupgrade
 Version: git-19.213.49492-89e029c-1
 Depends: libc, librt, libpthread, luci-base, uhttpd-mod-ubus, attendedsysupgrade-common, cgi-io
@@ -213,6 +225,90 @@ Filename: luci-base_git-19.213.49492-89e029c-1_arm_cortex-a9_neon.ipk
 Size: 127235
 SHA256sum: 954c9852461c32605a238bdf74ac86e31f9aadaf0125dc41c480794e9be443dd
 Description:  LuCI core libraries
+
+Package: luci-i18n-adblock-it
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, luci-app-adblock
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 2173
+Filename: luci-i18n-adblock-it_git-19.213.49492-89e029c-1_all.ipk
+Size: 2988
+SHA256sum: 5ad65ac9d110ab06fd5d3124d21c2e4aa1771428f8d8b33fd6d0afe7aa9d67d2
+Description:  Translation for luci-app-adblock - Italiano (Italian)
+
+Package: luci-i18n-adblock-ja
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, luci-app-adblock
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 3919
+Filename: luci-i18n-adblock-ja_git-19.213.49492-89e029c-1_all.ipk
+Size: 4732
+SHA256sum: 77fd818717c07bdeceeca2011a9fa8634a9e488c2ec78caf3a810f4b014382f2
+Description:  Translation for luci-app-adblock - 日本語 (Japanese)
+
+Package: luci-i18n-adblock-pt-br
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, luci-app-adblock
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 1766
+Filename: luci-i18n-adblock-pt-br_git-19.213.49492-89e029c-1_all.ipk
+Size: 2607
+SHA256sum: a76e4cb712356ef2a0fe569ddc594026f9aac30ae0d90ad094afe881febf8de5
+Description:  Translation for luci-app-adblock - Português do Brasil (Brazialian Portuguese)
+
+Package: luci-i18n-adblock-ru
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, luci-app-adblock
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 4136
+Filename: luci-i18n-adblock-ru_git-19.213.49492-89e029c-1_all.ipk
+Size: 4955
+SHA256sum: 4df1b6384982a43b168bcc820d330ca87265ded09fbe0c3d5334a353e8c00a1b
+Description:  Translation for luci-app-adblock - Русский (Russian)
+
+Package: luci-i18n-adblock-sv
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, luci-app-adblock
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 1710
+Filename: luci-i18n-adblock-sv_git-19.213.49492-89e029c-1_all.ipk
+Size: 2534
+SHA256sum: 345148124527b2ef395ecfca472e067aea284db6865e03b337693c00a7d76f3e
+Description:  Translation for luci-app-adblock - Svenska (Swedish)
+
+Package: luci-i18n-adblock-zh-cn
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, luci-app-adblock
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 3471
+Filename: luci-i18n-adblock-zh-cn_git-19.213.49492-89e029c-1_all.ipk
+Size: 4261
+SHA256sum: ed2da8084f16cc6d97416c4453f65b7835fe09ec729c6e1fa0d2c9a5b9f267fa
+Description:  Translation for luci-app-adblock - 中文 (Chinese)
+
+Package: luci-i18n-adblock-zh-tw
+Version: git-19.213.49492-89e029c-1
+Depends: libc, librt, libpthread, luci-app-adblock
+Source: feeds/luci/applications/luci-app-adblock
+Section: luci
+Architecture: all
+Installed-Size: 2263
+Filename: luci-i18n-adblock-zh-tw_git-19.213.49492-89e029c-1_all.ipk
+Size: 3112
+SHA256sum: 5b337860b8a6ee3f90d223f17b569e4611067f25a7f8c3f57f5c36f6a3e275b2
+Description:  Translation for luci-app-adblock - 臺灣華語 (Taiwanese)
 
 Package: luci-i18n-base-ca
 Version: git-19.213.49492-89e029c-1
