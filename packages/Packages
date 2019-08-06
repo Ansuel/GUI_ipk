@@ -13,6 +13,38 @@ Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unb
  Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
  
 
+Package: alpine-nossl
+Version: 2.20-2
+Depends: libc, librt, libpthread, libopenssl, libncurses, libpthread, libpam
+License: Apache-2.0
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1981575
+Filename: alpine-nossl_2.20-2_arm_cortex-a9_neon.ipk
+Size: 1981051
+SHA256sum: 84d51946d60f56d7bcd97bee86c3e0eaf36af710d44156d306da8e1f22dd6c04
+Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
+ free software email client developed at the University of Washington.
+ It is suitable for both the inexperienced email user as well as for
+ the most demanding power user.
+ This package is built without OpenSSL support.
+
+Package: alpine
+Version: 2.20-2
+Depends: libc, librt, libpthread, libopenssl, libncurses, libpthread, libpam, libopenssl
+License: Apache-2.0
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2025389
+Filename: alpine_2.20-2_arm_cortex-a9_neon.ipk
+Size: 2024375
+SHA256sum: 0ec266cbc8e33c8e46952a87f054fce4321a4257631ef9bb55e57ca8a9375e73
+Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
+ free software email client developed at the University of Washington.
+ It is suitable for both the inexperienced email user as well as for
+ the most demanding power user.
+ This package is built with OpenSSL support.
+
 Package: alsa-lib
 Version: 1.1.6-1
 Depends: libc, librt, libpthread, kmod-sound-core, libpthread, librt
@@ -1529,6 +1561,25 @@ Description:  debootstrap is used to create a Debian base system from scratch, w
  files from a mirror site, and carefully unpacking them into a directory which
  can eventually be chrooted into.
 
+Package: emailrelay
+Version: 1.9-5
+Depends: libc, librt, libpthread, libopenssl, libstdcpp
+License: GPL-3.0
+Section: mail
+Architecture: arm_cortex-a9_neon
+Installed-Size: 516674
+Filename: emailrelay_1.9-5_arm_cortex-a9_neon.ipk
+Size: 517327
+SHA256sum: 03cea32d1a471bae0da49d4ca8eb23d0500fcce5a10d8a662db1c7b93580ab6f
+Description:  Emailrelay is a simple SMTP proxy and store-and-forward message transfer agent (MTA).
+ 
+ When running as a proxy all e-mail messages can be passed through
+ a user-defined program, such as a spam filter, which can drop,
+ re-address or edit messages as they pass through. When running
+ as a store-and-forward MTA incoming messages are stored in a
+ local spool directory, and then forwarded to the next SMTP
+ server on request.
+
 Package: etherwake
 Version: 1.09-4
 Depends: libc, librt, libpthread
@@ -2086,6 +2137,17 @@ Filename: libout123_1.25.10-1_arm_cortex-a9_neon.ipk
 Size: 21890
 SHA256sum: 4a1678b8a35f1242951f7962093bf27f757d72ef977794964e47f2fe27bfcea0
 Description:  Library for continuous playback of audio streams via various platform-specific output methods
+
+Package: libpam
+Version: 1.2.0-2
+Depends: libc, librt, libpthread
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 198449
+Filename: libpam_1.2.0-2_arm_cortex-a9_neon.ipk
+Size: 198591
+SHA256sum: 85fe47ccd8466cf8231a2991bae693cdcf3e6f44a90ded40d856b87712dcce5a
+Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libpcre
 Version: 8.41-2
