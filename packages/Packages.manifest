@@ -3167,6 +3167,22 @@ SHA256sum: d1d7d0416bc9e634f97d180917aa43044d46edaa1bbe3d493793401cacd6b6aa
 Description:  Mutt is a small but very powerful text-based mail client for Unix
  operating systems.
 
+Package: nano
+Version: 4.4-1
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/utils/nano
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 84766
+Filename: nano_4.4-1_arm_cortex-a9_neon.ipk
+Size: 85495
+SHA256sum: 1743ab67ccd99c8932fbd6b1b3fb8794f7d577c6f7384432b8aab155d5993c5a
+Description:  Nano (Nano's ANOther editor, or Not ANOther editor) is an enhanced clone
+ of the Pico text editor.
+
 Package: netperf
 Version: 2.7.0-1
 Depends: libc, librt, libpthread
