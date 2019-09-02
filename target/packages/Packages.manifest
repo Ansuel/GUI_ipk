@@ -26,29 +26,29 @@ SHA256sum: 2c1b0764245566c508c0dd3fe37b18ad56ed92c5ffdcceadcdbd7fc2d1d4415e
 Description:  Utility for appending and extracting firmware metadata and signatures
 
 Package: ip6tables
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread, kmod-ip6tables, iptables
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 211
-Filename: ip6tables_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 929
-SHA256sum: b4397be9bf4644e847d6c2a35bcffc3d46c4cfd68c559d28505d2b1d905cfe52
+Filename: ip6tables_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 931
+SHA256sum: 851d618ab9265a5f1698e9a21c01f4ed365522c575282f17ba4a7d6d21d43bd6
 Description:  IPv6 firewall administration tool
 
 Package: iptables-mod-conntrack-extra
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread, iptables, kmod-ipt-conntrack-extra
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11731
-Filename: iptables-mod-conntrack-extra_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 12502
-SHA256sum: 7f36ffc022eb696fddcb3dd4bb6786d3ccfcd5150a237db42965fab3191c66f7
+Installed-Size: 11732
+Filename: iptables-mod-conntrack-extra_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 12485
+SHA256sum: 7fc93fcaebc6d08f615972d0eaeb36d2ed1d537a236ebe52255d99a8a6c41806
 Description:  Extra iptables extensions for connection tracking.
  
  Matches:
@@ -63,16 +63,16 @@ Description:  Extra iptables extensions for connection tracking.
  
 
 Package: iptables-mod-ipopt
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread, iptables, kmod-ipt-ipopt
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 16030
-Filename: iptables-mod-ipopt_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 16685
-SHA256sum: 1fe539734b8273a2d4d379620c961ec11ebcf118ad1509838e31f364d9f3f7ed
+Filename: iptables-mod-ipopt_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 16668
+SHA256sum: 9c48284b4974224cf9fba17d8eccf2b5bac0d99940a97f7d24c77431ccb99ce6
 Description:  iptables extensions for matching/changing IP packet options.
  
  Matches:
@@ -92,16 +92,16 @@ Description:  iptables extensions for matching/changing IP packet options.
  
 
 Package: iptables-mod-ipsec
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread, iptables, kmod-ipt-ipsec
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7310
-Filename: iptables-mod-ipsec_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 8096
-SHA256sum: ed19105c7158433f957080bd3055952501782db3d774cb9703f60bee9d7f429b
+Installed-Size: 7311
+Filename: iptables-mod-ipsec_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 8095
+SHA256sum: 3663603a452d334b0d1aa3162856cf39eff44671f78bba6208d77bcd604a7f4a
 Description:  iptables extensions for matching ipsec traffic.
  
  Matches:
@@ -111,16 +111,16 @@ Description:  iptables extensions for matching ipsec traffic.
  
 
 Package: iptables
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread, kmod-ipt-core, libip4tc, libip6tc, libxtables
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 33708
-Filename: iptables_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 34582
-SHA256sum: 7435d7b8ef25786f9e16ed92d94235059f9ef488cff2638afd3a5a510cc3f53e
+Installed-Size: 34153
+Filename: iptables_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 34975
+SHA256sum: 50aade043401c6b84aa1f477fbfad7c13973bce579349ba31118117380ad6042
 Description:  IP firewall administration tool.
  
  Matches:
@@ -590,6 +590,20 @@ Filename: kmod-crypto-wq_4.1.38-1_arm_cortex-a9_neon.ipk
 Size: 914
 SHA256sum: 10aaf097f498a2403b1a086d9bcd59d0d62d8aa556904fcff4996a4f99cadec1
 Description:  CryptoAPI work queue handling
+
+Package: kmod-dm
+Version: 4.1.38-1
+Depends: kernel, kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: arm_cortex-a9_neon
+Installed-Size: 80858
+Filename: kmod-dm_4.1.38-1_arm_cortex-a9_neon.ipk
+Size: 81472
+SHA256sum: d74fd196b3096b4188c21fce129aa93e0638a2bfda95f4d69ee9d596db786aa4
+Description:  Kernel module necessary for LVM2 support
 
 Package: kmod-echo
 Version: 4.1.38-1
@@ -1573,10 +1587,10 @@ Source: package/kernel/ripdrv
 Section: kernel
 Maintainer: Technicolor <linuxgw@technicolor.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 22951
+Installed-Size: 22950
 Filename: kmod-ripdrv_4.1.38+2014.01-1_arm_cortex-a9_neon.ipk
-Size: 23655
-SHA256sum: 4949b5d75d7dee2d01bb29f3713f426be69a4a76e3d6eb7f8a5800b015cd6102
+Size: 23665
+SHA256sum: fb2d4455a42ef94fe425714ef9525af9c459cc0266e5bf7043b7bdf246bf8994
 Description:  Kernel module that provides access to the eRIPv2 on Technicolor gateways.
 
 Package: kmod-sched-cake
@@ -2249,10 +2263,10 @@ License: GPL-2.0 Apache-2.0
 LicenseFiles: COPYING
 Section: kernel
 Architecture: arm_cortex-a9_neon
-Installed-Size: 68588
+Installed-Size: 68587
 Filename: kmod-wireguard_4.1.38+0.0.20190601-1_arm_cortex-a9_neon.ipk
-Size: 69501
-SHA256sum: 83037423b61cdfec213188263bb99d47bb94f91fb0cfb51454cd42318d560adc
+Size: 69507
+SHA256sum: b84dd4b309e205e624d852a2a6702cf8895b8c9493bd6a574c25dd62ef3b0031
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to
@@ -2263,7 +2277,7 @@ Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and uti
  This package provides the kernel module for WireGuard.
 
 Package: libatomic
-Version: 4.8-linaro-1
+Version: 4.8-linaro-2
 Depends: libgcc
 Source: package/libs/toolchain
 License: GPL-3.0-with-GCC-exception
@@ -2272,14 +2286,14 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5077
-Filename: libatomic_4.8-linaro-1_arm_cortex-a9_neon.ipk
-Size: 5774
-SHA256sum: 9b0e9e49ee69c4848fae6601e5842b551c1f9dd5e3e41c27309484e27faae1a2
+Installed-Size: 5078
+Filename: libatomic_4.8-linaro-2_arm_cortex-a9_neon.ipk
+Size: 5780
+SHA256sum: cc0065cd592bbcfbf9abe60e8649762272b647dbfa131c8752b4204ea8a05770
 Description:  Atomic support library
 
 Package: libgcc
-Version: 4.8-linaro-1
+Version: 4.8-linaro-2
 Source: package/libs/toolchain
 License: GPL-3.0-with-GCC-exception
 Section: libs
@@ -2288,35 +2302,35 @@ Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 22842
-Filename: libgcc_4.8-linaro-1_arm_cortex-a9_neon.ipk
-Size: 23467
-SHA256sum: 786a83dd932690809ba9999e13a2a0115a2a004aa2260ac6f36baf74ae641b11
+Filename: libgcc_4.8-linaro-2_arm_cortex-a9_neon.ipk
+Size: 23432
+SHA256sum: 69220bfd7e9efc4afa2a76fad501e43fc5156781caf7787ee5bb38dd9f6f32c0
 Description:  GCC support library
 
 Package: libip4tc
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread, libxtables
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 22432
-Filename: libip4tc_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 23158
-SHA256sum: 20a0eb6708069438fdb0045e0b4b4f321872f3ae6de83b0f765175d15838353e
+Installed-Size: 22434
+Filename: libip4tc_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 23148
+SHA256sum: 133aeb573b762ce3de5b5d630590ca43179171ccea87a057681b5ef1fffdc883
 Description:  IPv4 firewall - shared libiptc library
 
 Package: libip6tc
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread, libxtables
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 21777
-Filename: libip6tc_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 22473
-SHA256sum: b8e14c80212436f2c87d4c8a19e49f9cd2e02e53b1d1977cdffbaa0704fd62dd
+Installed-Size: 21775
+Filename: libip6tc_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 22466
+SHA256sum: f9912c95ce4a1aff8890224778cce9effb88f9ce8e8ff579ce99096e57da63de
 Description:  IPv6 firewall - shared libiptc library
 
 Package: libiwinfo-lua
@@ -2350,7 +2364,7 @@ Description:  Wireless information library with consistent interface for proprie
  nl80211 and wext driver interfaces.
 
 Package: libpthread
-Version: 2.24-1
+Version: 2.24-2
 Depends: libgcc
 Source: package/libs/toolchain
 License: GPL-3.0-with-GCC-exception
@@ -2359,14 +2373,14 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 39831
-Filename: libpthread_2.24-1_arm_cortex-a9_neon.ipk
-Size: 40614
-SHA256sum: f03d2854080cd665a674c1f01fad564fe66650280a14f0b3f47e7831d43391fa
+Installed-Size: 39833
+Filename: libpthread_2.24-2_arm_cortex-a9_neon.ipk
+Size: 40616
+SHA256sum: 945ee6f4be18305e482a29afa988466b3c47f3b82476df5786435c6771219553
 Description:  POSIX thread library
 
 Package: librt
-Version: 2.24-1
+Version: 2.24-2
 Depends: libpthread
 Source: package/libs/toolchain
 License: GPL-3.0-with-GCC-exception
@@ -2376,13 +2390,13 @@ Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 12206
-Filename: librt_2.24-1_arm_cortex-a9_neon.ipk
-Size: 13005
-SHA256sum: cdccf02e18f39544d5dee2f1d79b8b31ed02b050b36ed62341f6d14311673eb6
+Filename: librt_2.24-2_arm_cortex-a9_neon.ipk
+Size: 13011
+SHA256sum: 41279dee34413613ac5dbab101d5b15a899017314d4e5a631e381828b8b74d43
 Description:  POSIX.1b RealTime extension library
 
 Package: libstdcpp
-Version: 4.8-linaro-1
+Version: 4.8-linaro-2
 Source: package/libs/toolchain
 License: GPL-3.0-with-GCC-exception
 Section: libs
@@ -2390,23 +2404,23 @@ Status: unknown hold not-installed
 Essential: yes
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 269783
-Filename: libstdcpp_4.8-linaro-1_arm_cortex-a9_neon.ipk
-Size: 268533
-SHA256sum: 0811e2486b3168de8646bba5c62380caf9aa0232de6287b875686d25f26520c1
+Installed-Size: 269781
+Filename: libstdcpp_4.8-linaro-2_arm_cortex-a9_neon.ipk
+Size: 268506
+SHA256sum: 84425ffc80e9b8dda2648ab98aefa2872e5923472302978b2810da76f5c50294
 Description:  GNU Standard C++ Library v3
 
 Package: libxtables
-Version: 1.6.2-1
+Version: 1.6.2-2
 Depends: libc, librt, libpthread
 Source: package/network/utils/iptables
 License: GPL-2.0
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 53119
-Filename: libxtables_1.6.2-1_arm_cortex-a9_neon.ipk
-Size: 53823
-SHA256sum: 457254f269b6b3582e39307c0c2ff5fe8e84f231b175b0509a464b922f92e6cc
+Installed-Size: 53121
+Filename: libxtables_1.6.2-2_arm_cortex-a9_neon.ipk
+Size: 53820
+SHA256sum: 58d32649c55279710fbd2b3ec4cb808018cd8c6b6f78585d83aa9e48989e2816
 Description:  IPv4/IPv6 firewall - shared xtables library
 
 Package: mtd

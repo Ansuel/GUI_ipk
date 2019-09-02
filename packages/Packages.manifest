@@ -204,31 +204,31 @@ Description:  Bash is an sh-compatible command language interpreter that execute
  incorporates useful features from the Korn and C shells (ksh and csh).
 
 Package: bind-client
-Version: 9.11.2-P1-1
+Version: 9.11.9-1
 Depends: libc, librt, libpthread, bind-libs
 Source: feeds/packages/net/bind
 License: BSD-3-Clause
 Section: net
 Maintainer: Noah Meyerhans <frodo@morgul.net>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23729
-Filename: bind-client_9.11.2-P1-1_arm_cortex-a9_neon.ipk
-Size: 24395
-SHA256sum: 78b4d1c960eeb7f50212b7683891d0bc1bed5a4adbd9f00ff3889ea0ac49a1b9
+Installed-Size: 25067
+Filename: bind-client_9.11.9-1_arm_cortex-a9_neon.ipk
+Size: 25613
+SHA256sum: 3953fb701a15b0e314007dd52bba99a16ee341717996d23828acdbb0d9485ded
 Description:  bind dynamic DNS client
 
 Package: bind-libs
-Version: 9.11.2-P1-1
+Version: 9.11.9-1
 Depends: libc, librt, libpthread, libopenssl, zlib
 Source: feeds/packages/net/bind
 License: BSD-3-Clause
 Section: libs
 Maintainer: Noah Meyerhans <frodo@morgul.net>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1250635
-Filename: bind-libs_9.11.2-P1-1_arm_cortex-a9_neon.ipk
-Size: 1245029
-SHA256sum: 2f2ec5292f57f0fdd80504f0d4c1db27ad4752c837656cdf24f8d38ad1997461
+Installed-Size: 1291297
+Filename: bind-libs_9.11.9-1_arm_cortex-a9_neon.ipk
+Size: 1285662
+SHA256sum: 4b13a5b0c9cf610af92342bc3aaaf800e3b3194e9bf9b7b92bea940b3c1f36a1
 Description:  bind shared libraries
 
 Package: bluez-libs
@@ -246,22 +246,70 @@ Size: 56005
 SHA256sum: 8455669f5b9a9c773090b172fe4eb8636519a5b3b7f110780d2ebe7ef4765104
 Description:  Bluetooth library
 
-Package: bsdtar
-Version: 3.3.2-1
+Package: bsdtar-noopenssl
+Version: 3.4.0-1
 Depends: libc, librt, libpthread, libarchive-noopenssl
 Source: feeds/packages/libs/libarchive
 License: BSD-2-Clause
 Section: utils
 Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23045
-Filename: bsdtar_3.3.2-1_arm_cortex-a9_neon.ipk
-Size: 23774
-SHA256sum: 671bb915cdfa5feac58d07343032d47f8bf3d5d01190379e1d014e4afaaa8150
+Installed-Size: 23278
+Filename: bsdtar-noopenssl_3.4.0-1_arm_cortex-a9_neon.ipk
+Size: 23897
+SHA256sum: 82164b4b4f3fe39bbeb879be1a5862f2f6c1de287cdccacf69f94af807160b3c
+Description:  tar BSD variant (without OpenSSL dependency)
+
+Package: bsdtar
+Version: 3.4.0-1
+Depends: libc, librt, libpthread, libarchive
+Source: feeds/packages/libs/libarchive
+License: BSD-2-Clause
+Section: utils
+Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23278
+Filename: bsdtar_3.4.0-1_arm_cortex-a9_neon.ipk
+Size: 23999
+SHA256sum: 9e483bddccfa544e261748dba146b81c5ced4b4a70e5e54cf0125dc775a14ea6
 Description:  Reads a variety of formats including tar, pax, zip, xar, lha, ar,
  cab, mtree, rar, warc, 7z and ISO images. Writes tar, pax, zip,
  xar, ar, ISO, mtree and shar archives. Automatically handles
  archives compressed with gzip, bzip2, lzip, xz, lzma or compress.
+
+Package: ccrypt
+Version: 1.11-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/utils/ccrypt
+License: GPLv2+
+Section: utils
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28027
+Filename: ccrypt_1.11-1_arm_cortex-a9_neon.ipk
+Size: 28230
+SHA256sum: 56f312d20a85b2c43acdc1599f7c3d6ed378c3115e9bea956cde4c166338544e
+Description:  utility for encrypting/decrypting files and streams
+
+Package: certtool
+Version: 3.5.19-1
+Depends: libc, librt, libpthread, libgnutls
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 148340
+Filename: certtool_3.5.19-1_arm_cortex-a9_neon.ipk
+Size: 148853
+SHA256sum: 4267258afd5c5619f59f8906c6414d35c3bdb0aac8663a997f6539557766fa9f
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS certtool utility.
 
 Package: cgi-io
 Version: 5
@@ -1676,6 +1724,38 @@ Description:  Full versions of standard GNU utilities. If an equivalent Busybox 
  available, you should consider compiling that instead as Busybox applets are
  usually smaller, at the expense of reduced functionality.
 
+Package: cryptsetup-openssl
+Version: 1.7.5-1
+Depends: libc, librt, libpthread, libblkid, libuuid, libpopt, lvm2, libdevmapper, libopenssl
+Source: feeds/packages/utils/cryptsetup
+License: GPL-2.0+ LGPL-2.1+
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 95967
+Filename: cryptsetup-openssl_1.7.5-1_arm_cortex-a9_neon.ipk
+Size: 96379
+SHA256sum: a52b438af3f78a58be384d7ba769b1e5ecfd71ad59e7806981c5318f180c8d52
+Description:  Cryptsetup-luks
+ linked against openssl
+
+Package: cryptsetup
+Version: 1.7.5-1
+Depends: libc, librt, libpthread, libblkid, libuuid, libpopt, lvm2, libdevmapper, libgcrypt
+Source: feeds/packages/utils/cryptsetup
+License: GPL-2.0+ LGPL-2.1+
+LicenseFiles: COPYING COPYING.LGPL
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 96236
+Filename: cryptsetup_1.7.5-1_arm_cortex-a9_neon.ipk
+Size: 96727
+SHA256sum: 7e176163c2136906fc784198ed61669a4ab804fe44ec3eec3ba205981b1583dd
+Description:  Cryptsetup-luks
+ linked against libgcrypt
+
 Package: dbus-utils
 Version: 1.10.4-1
 Depends: libc, librt, libpthread, dbus
@@ -1856,6 +1936,82 @@ Description:  You can wake up WOL compliant Computers which have been powered do
  to turn on a computer from another location over a network connection.
  ether-wake also supports WOL passwords.
 
+Package: gnupg-utils
+Version: 1.4.21-1
+Depends: libc, librt, libpthread, gnupg, libcurl
+Source: feeds/packages/utils/gnupg
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Daniel Dickinson <lede@cshore.thecshore.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13974
+Filename: gnupg-utils_1.4.21-1_arm_cortex-a9_neon.ipk
+Size: 14697
+SHA256sum: 7a9ebcc831f048c2ba2a917173b4ad0e5396c89d80b835668d21ef4ef3e4841f
+Description:  Key management utilies for GnuPG.
+ This package is needed to import keys from a keyserver.
+
+Package: gnupg
+Version: 1.4.21-1
+Depends: libc, librt, libpthread, zlib, libncurses, libreadline
+Source: feeds/packages/utils/gnupg
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Daniel Dickinson <lede@cshore.thecshore.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 421013
+Filename: gnupg_1.4.21-1_arm_cortex-a9_neon.ipk
+Size: 420160
+SHA256sum: c5de05e4129ffdd74340ac7eb8255a00eb15ca5fb51fc4df6df393db2607e546
+Description:  GnuPG is GNU's tool for secure communication and data storage.
+ It can be used to encrypt data and to create digital signatures.
+ It includes an advanced key management facility and is compliant
+ with the proposed OpenPGP Internet standard as described in RFC2440.
+ .
+ GnuPG does not use any patented algorithms so it cannot be compatible
+ with PGP2 because it uses IDEA (which is patented worldwide).
+
+Package: gnutls-utils
+Version: 3.5.19-1
+Depends: libc, librt, libpthread, libgnutls
+Source: feeds/packages/libs/gnutls
+License: LGPLv2.1+
+Section: utils
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 276634
+Filename: gnutls-utils_3.5.19-1_arm_cortex-a9_neon.ipk
+Size: 276804
+SHA256sum: 4613c9e692ad3cc8ce7cc9925f41d7973871c8780ddf1d9e9cdcddcb48bf4c21
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS gnutls-cli, gnutls-serv, psktool,
+ and srptool utilities.
+
+Package: gpgv
+Version: 1.4.21-1
+Depends: libc, librt, libpthread, zlib, libncurses, libreadline
+Source: feeds/packages/utils/gnupg
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Daniel Dickinson <lede@cshore.thecshore.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 185282
+Filename: gpgv_1.4.21-1_arm_cortex-a9_neon.ipk
+Size: 185943
+SHA256sum: 53a16ba1379d9916256844c711884dd09c1238eeb505d5b03244aa153fc929da
+Description:  GPGv is a stripped down version of GnuPG that only checks signatures.
+ .
+ GnuPG does not use any patented algorithms so it cannot be compatible
+ with PGP2 because it uses IDEA (which is patented worldwide).
+
 Package: gzip
 Version: 1.7-1
 Depends: libc, librt, libpthread
@@ -1898,6 +2054,20 @@ Size: 25438
 SHA256sum: a928b9f5ce44a60824b4f54c2f9d346ede35c64e7e74ee4d2089fc98cf20fd9c
 Description:  Jansson is a C library for encoding, decoding and manipulating JSON data
 
+Package: joe
+Version: 4.4-1
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/utils/joe
+Section: utils
+Maintainer: Vitaly Protsko <villy@sft.ru>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 302779
+Filename: joe_4.4-1_arm_cortex-a9_neon.ipk
+Size: 302628
+SHA256sum: 87050afca393f0eb3fe762c04ce92069c106782975882e530d128331b80ff905
+Description:  Joe is world-famous Wordstar like text editor, that also features
+ Emacs and Pico emulation
+
 Package: libacl
 Version: 20180121-1
 Depends: libc, librt, libpthread, libattr
@@ -1915,18 +2085,32 @@ Description:  Access control list support
  This package provides libacl
 
 Package: libarchive-noopenssl
-Version: 3.3.2-1
+Version: 3.4.0-1
 Depends: libc, librt, libpthread, zlib, liblzma, libbz2, libexpat
 Source: feeds/packages/libs/libarchive
 License: BSD-2-Clause
 Section: libs
 Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 338166
-Filename: libarchive-noopenssl_3.3.2-1_arm_cortex-a9_neon.ipk
-Size: 337413
-SHA256sum: 0480e90ed0d2e48317d75217f0a53da8bb77392915de31426dc37a58da5bf036
+Installed-Size: 375140
+Filename: libarchive-noopenssl_3.4.0-1_arm_cortex-a9_neon.ipk
+Size: 374268
+SHA256sum: 69bb1423f10d83813cb01cae4cfc89bb5b2fbac24ef52dff28cc50af24b22e03
 Description:  Multi-format archive and compression library (without OpenSSL dependency)
+
+Package: libarchive
+Version: 3.4.0-1
+Depends: libc, librt, libpthread, zlib, liblzma, libbz2, libexpat, libopenssl
+Source: feeds/packages/libs/libarchive
+License: BSD-2-Clause
+Section: libs
+Maintainer: Johannes Morgenroth <morgenroth@ibr.cs.tu-bs.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 375140
+Filename: libarchive_3.4.0-1_arm_cortex-a9_neon.ipk
+Size: 374245
+SHA256sum: 7925a9b073883ecae0002daa581090d6837b0e664ede6b528385e141f0e49ce0
+Description:  Multi-format archive and compression library
 
 Package: libattr
 Version: 20170915-1
@@ -2065,6 +2249,21 @@ Filename: libdbus_1.10.4-1_arm_cortex-a9_neon.ipk
 Size: 126705
 SHA256sum: 510186b6292dd89117732852c294a39931b814b679be72a909d956a7c57056f0
 Description:  Simple interprocess messaging system (library)
+
+Package: libdevmapper
+Version: 2.02.177-1
+Depends: libc, librt, libpthread, kmod-dm, libpthread, libuuid, librt
+Source: feeds/packages/utils/lvm2
+License: GPL-2.0 LGPL-2.1
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 161484
+Filename: libdevmapper_2.02.177-1_arm_cortex-a9_neon.ipk
+Size: 162064
+SHA256sum: 4cba76f69d6b3a4b3354f40face391cd1c9f4a8a43026091a7a99acf2e02b2e0
+Description:  The device-mapper is a component of the 2.6 linux kernel that supports logical
+ volume management. It is required by LVM2 and EVMS.
 
 Package: libedit
 Version: 20170329-3.1-1
@@ -2331,7 +2530,7 @@ SHA256sum: 396945f3f4abb7990de435ca89b4eeef63f4436e977e02bad4cdd730641537fd
 Description:  liblzma library from XZ Utils
 
 Package: libmariadbclient
-Version: 10.1.41-1
+Version: 10.1.41-2
 Depends: libc, librt, libpthread, libatomic, libopenssl, libstdcpp, zlib
 Provides: libmysqlclient, libmysqlclient-r
 Source: feeds/packages/utils/mariadb
@@ -2340,10 +2539,10 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 324658
-Filename: libmariadbclient_10.1.41-1_arm_cortex-a9_neon.ipk
-Size: 295757
-SHA256sum: 4b5058a918e7ab9e27f069dd624ff5b8b286ef45bc0cab75f66dd5d5e6cba489
+Installed-Size: 324662
+Filename: libmariadbclient_10.1.41-2_arm_cortex-a9_neon.ipk
+Size: 295196
+SHA256sum: 8fe28cdc02f68256dc3fec148ca892edaeee881110d88e01daa9c18b50307439
 Description:  MariaDB is a fast, stable and true multi-user, multi-threaded SQL
  database server. SQL (Structured Query Language) is the most popular
  database query language in the world. The main goals of MariaDB are
@@ -2596,6 +2795,20 @@ Size: 74315
 SHA256sum: 3bdcd86646d81912126d8bddac56e4361e920fbdd3b78c973083ff2f8a779754
 Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
 
+Package: libstoken
+Version: 0.8-2
+Depends: libc, librt, libpthread, libxml2, libnettle
+Source: feeds/packages/utils/stoken
+License: LGPL-2.1
+Section: libs
+Maintainer: Florian Fainelli <florian@openwrt.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27969
+Filename: libstoken_0.8-2_arm_cortex-a9_neon.ipk
+Size: 28720
+SHA256sum: 170a46cf8d690483b6772f40460723459602c4761b4dfe5cfc4e55809e9b4cae
+Description:  tokencode generator compatible with RSA SecurID 128-bit (AES)
+
 Package: libtiff
 Version: 4.0.10-1
 Depends: libc, librt, libpthread, zlib, libjpeg
@@ -2676,6 +2889,22 @@ Filename: luci-app-sqm_1.2.4-1_all.ipk
 Size: 4986
 SHA256sum: f9a8c30889e400270b8faadc9daa8b7ddb0d68c5aca06c6e4c9ed61c005b42d1
 Description:  Luci interface for the SQM scripts queue management configuration package.
+
+Package: lvm2
+Version: 2.02.177-1
+Depends: libc, librt, libpthread, libdevmapper, libblkid, libreadline, libncurses
+Source: feeds/packages/utils/lvm2
+License: GPL-2.0 LGPL-2.1
+Section: utils
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 871166
+Filename: lvm2_2.02.177-1_arm_cortex-a9_neon.ipk
+Size: 868785
+SHA256sum: 16c5849645dc516b09de97b8f3536c9c9d844cf2c711b1a130242193d8c8e7d0
+Description:  LVM2 refers to a new userspace toolset that provide logical volume management
+ facilities on linux. It is reasonably backwards-compatible with the original
+ LVM toolset.
 
 Package: lzmadec
 Version: 5.2.4-1
@@ -2938,6 +3167,20 @@ SHA256sum: d1d7d0416bc9e634f97d180917aa43044d46edaa1bbe3d493793401cacd6b6aa
 Description:  Mutt is a small but very powerful text-based mail client for Unix
  operating systems.
 
+Package: netperf
+Version: 2.7.0-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/net/netperf
+License: Custom
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 173371
+Filename: netperf_2.7.0-1_arm_cortex-a9_neon.ipk
+Size: 173917
+SHA256sum: 8adc5ed3afe1ee84060524f3f5ada220c0e5749262f2b5b2081be4158a4e071c
+Description:  Network performance measurement tool
+
 Package: nginx
 Version: 1.12.2-1
 Depends: libc, librt, libpthread, libpcre, libopenssl, zlib, liblua, libpthread
@@ -2954,7 +3197,7 @@ Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy
  written by Igor Sysoev.
 
 Package: nut-avahi-service
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, avahi-daemon
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -2962,15 +3205,15 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 845
-Filename: nut-avahi-service_2.7.4-9_arm_cortex-a9_neon.ipk
+Installed-Size: 841
+Filename: nut-avahi-service_2.7.4-10_arm_cortex-a9_neon.ipk
 Size: 1709
-SHA256sum: 8e20ffa893b98f6494a487060453aca40595d958f0efe4c963166b86b5e55775
+SHA256sum: c08a65cf01100fa316af0e7a01cd1f39c764d8b95584cb85b91de75f9573c593
 Description:  This package contains the service definition for announcing the
  attached UPS via mDNS/DNS-SD.
 
 Package: nut-common
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, libnetsnmp, libusb-compat, libopenssl
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -2979,9 +3222,9 @@ Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 19271
-Filename: nut-common_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 20155
-SHA256sum: 227f2c449fb8310cceefe270c7cf4321198292fb329886941f7c1f1eedcde5c2
+Filename: nut-common_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 20212
+SHA256sum: faf8dba265010a600bf080a47bb842c91429611f0fa6e27dd98c7d45ab74c714
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -2990,7 +3233,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  This package contains the common files.
 
 Package: nut-driver-bcmxcp_usb
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -2999,13 +3242,13 @@ Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 42445
-Filename: nut-driver-bcmxcp_usb_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 43194
-SHA256sum: 209fe90c84053b15b02aaefd716259b8fc124745cefa786ea22995ea14f85390
+Filename: nut-driver-bcmxcp_usb_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 43140
+SHA256sum: 460547a89a24a68f69094c9d71baf63321827374765d59ec1d215dd4094cbf16
 Description:  Experimental driver for UPSes supporting the BCM/XCP protocol over USB
 
 Package: nut-driver-blazer_usb
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3013,14 +3256,14 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 34804
-Filename: nut-driver-blazer_usb_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 35550
-SHA256sum: 5d70c542313edc059097e459579723d109e64b5ff790f33cdf44be7ffc8f9f4f
+Installed-Size: 34801
+Filename: nut-driver-blazer_usb_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 35536
+SHA256sum: b9cb37a52bb421eaea7781449afb5653d25c170991896920029fd164725a3084
 Description:  Driver for Megatec/Q1 protocol USB based UPS equipment
 
 Package: nut-driver-nutdrv_atcl_usb
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3028,14 +3271,14 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23281
-Filename: nut-driver-nutdrv_atcl_usb_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 24021
-SHA256sum: 41b8120e8dce94bdcc0e91330bfb2aea1e2f5700e72011d7e405d4340a6e5dd8
+Installed-Size: 23284
+Filename: nut-driver-nutdrv_atcl_usb_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 24036
+SHA256sum: 26984d8db2bc961511e342ff47a94f4086e690603589848d8c786dc6e658b14a
 Description:  Driver for ATCL FOR UPS equipment
 
 Package: nut-driver-nutdrv_qx
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3043,14 +3286,14 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 69219
-Filename: nut-driver-nutdrv_qx_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 68005
-SHA256sum: bdeaade20e1879728142db0257a418440f80ab66a302c2a5699a053098d1a4c8
+Installed-Size: 69220
+Filename: nut-driver-nutdrv_qx_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 68065
+SHA256sum: 23f360910d05c3b68615bad719d019a5e6ae33a7ea4d076e892f83721f3af707
 Description:  Driver for Q* protocol serial and USB based UPS equipment
 
 Package: nut-driver-richcomm_usb
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3058,14 +3301,14 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23200
-Filename: nut-driver-richcomm_usb_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 23958
-SHA256sum: 20fd56c9c941d62f6c99dfdb89f74c569122ee921f5d3fee81c580be51d9aeb3
+Installed-Size: 23202
+Filename: nut-driver-richcomm_usb_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 23955
+SHA256sum: ecdc349ed6ccc4fa8e61bea8ccda136d7bee88dc95f6bf2a77b28a468422548b
 Description:  Driver for UPS equipment using Richcomm dry-contact to USB solution
 
 Package: nut-driver-riello_usb
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3074,13 +3317,13 @@ Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 34235
-Filename: nut-driver-riello_usb_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 35023
-SHA256sum: 17859863969bf692308e0dfd930b9bd3ea05b072c5230c9157238d3661d0132a
+Filename: nut-driver-riello_usb_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 35077
+SHA256sum: 8c338a6788ed0a4215ef0c6f453460b2c5c6eeee8511439865dc597525656c11
 Description:  Driver for Riello UPS Protocol UPS equipment via USB
 
 Package: nut-driver-snmp-ups
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3088,14 +3331,14 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 47545
-Filename: nut-driver-snmp-ups_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 48238
-SHA256sum: 461e4dde930743fc30319235f602bbff5f27a5967cbd1fbc33938bc7bc20a6d3
+Installed-Size: 47548
+Filename: nut-driver-snmp-ups_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 48253
+SHA256sum: 3422f82598b4a9be8a1f967fc217f70998f07872ba71194d04735a261af24ea5
 Description:  Multi-MIB Driver for SNMP UPS equipment
 
 Package: nut-driver-tripplite_usb
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3103,14 +3346,14 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 32331
-Filename: nut-driver-tripplite_usb_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 33035
-SHA256sum: eab2a38a52696ef46a6d4706e049520f1daa0b34339d571d932a0800d81cca11
+Installed-Size: 32330
+Filename: nut-driver-tripplite_usb_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 33039
+SHA256sum: 0ce793da6d22a1b3f94eb2d8c7ce0b3ff3d0ff17fd889d8a7f6b6237b0afd046
 Description:  Driver for older Tripp Lite USB UPSes (not PDC HID)
 
 Package: nut-driver-usbhid-ups
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-server
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3118,14 +3361,14 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 57347
-Filename: nut-driver-usbhid-ups_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 58002
-SHA256sum: 1a482184300246b1d039e537d4e47bdef4f22a3614960c26b1f92139e1ace8d0
+Installed-Size: 57345
+Filename: nut-driver-usbhid-ups_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 57993
+SHA256sum: ed31739a9c462280bccc3215bb651fb419870adcebe9df5dce3640ee1354b25c
 Description:  Driver for USB/HID UPS equipment
 
 Package: nut-server
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3134,10 +3377,10 @@ Section: net
 Require-User: nut=113:nut=113
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 53723
-Filename: nut-server_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 54891
-SHA256sum: fa932a85861fdb623dccf702d8c44d126d0149eda65e8ae374933008b6e31880
+Installed-Size: 53946
+Filename: nut-server_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 55036
+SHA256sum: f0ce2d15e99a4f93767f27a79e590f748b5181ee2e53aa601a9851a73ae178ca
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3150,7 +3393,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  all times to actually make any use out of the drivers and clients.
 
 Package: nut-upsc
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3158,10 +3401,10 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7537
-Filename: nut-upsc_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 8572
-SHA256sum: 9be37e5be1c16f926ccd29eff3273baf92206fed5b6b5469e4be5120c68cb8bb
+Installed-Size: 7538
+Filename: nut-upsc_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 8573
+SHA256sum: d5a8416520f31d6c666d4f7f272bade58f8c4f1ac8f3c2aa6360124d330d077d
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3172,7 +3415,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  but don not want to include the full interface.
 
 Package: nut-upscmd
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3181,9 +3424,9 @@ Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 8225
-Filename: nut-upscmd_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 9333
-SHA256sum: 197dade0bfce93977ea796eb1918503ef1bdcebc5f6d6a2d347833b61a5bbc0d
+Filename: nut-upscmd_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 9337
+SHA256sum: 1adb7997b78049c713d72be9bf4e48870fe7b466b9592b53a9ba11d1e71fd401
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3196,7 +3439,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  (beep!), turn the load on or off, and more.
 
 Package: nut-upslog
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3204,10 +3447,10 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9360
-Filename: nut-upslog_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 10314
-SHA256sum: 33800078a901bc23f072a9e226c4e9920572e81db80a8dbdc4950c0017a46e78
+Installed-Size: 9362
+Filename: nut-upslog_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 10308
+SHA256sum: 416d228f29a41ad6d0b40ca8955779d30a89756e8980cd1714f22d02b92c72e6
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3217,7 +3460,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  variables that interest you, format them, and write them to a file.
 
 Package: nut-upsmon-sendmail-notify
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-upsmon
 Conflicts: nut-upssched
 Source: feeds/packages/net/nut
@@ -3226,10 +3469,10 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 666
-Filename: nut-upsmon-sendmail-notify_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 1639
-SHA256sum: 8e01b4509530a70b71b95b07689b8e4dbb06ce751876edd34001e3ee0d392d04
+Installed-Size: 665
+Filename: nut-upsmon-sendmail-notify_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 1641
+SHA256sum: 8795f24afaa6ec45b78790356aab27001470ca11b63167bcb705c0e002dafaea
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3238,7 +3481,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  upsmon with default notification via sendmail
 
 Package: nut-upsmon
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3247,10 +3490,10 @@ Section: net
 Require-User: nut=113:nut=113
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 21458
-Filename: nut-upsmon_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 22625
-SHA256sum: ce60da44da5c88706faecb37a9be86afdc17d6e52ec43eacf95c3537d6c74fa7
+Installed-Size: 21844
+Filename: nut-upsmon_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 22855
+SHA256sum: 8791df3ea7cd9e37c611d6bd17de93f3c304b3d8fdf2a4e1595a6df2634db646
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3264,7 +3507,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  is assigned a power value and a type (slave or master).
 
 Package: nut-upsrw
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3273,9 +3516,9 @@ Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 12653
-Filename: nut-upsrw_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 13738
-SHA256sum: 9986774280d721b86df0709becca67a21ef2ef10d560875bb5f7fd0311b16a94
+Filename: nut-upsrw_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 13737
+SHA256sum: f1bd085bbc1b49507be34fe2d6efcc8b61317cb459da129171ba10110a4f0c66
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3289,7 +3532,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  support any of them.
 
 Package: nut-upssched
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common, nut-upsmon
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3298,9 +3541,9 @@ Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 14936
-Filename: nut-upssched_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 16025
-SHA256sum: 473f130027669601b552c208af0e8662b6c48c846fd296aa6e2072786640daf8
+Filename: nut-upssched_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 16023
+SHA256sum: 7e5ab72e9f2f2895862c222da51c2a2694cd8247f08f31bcc729b299baf08b21
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3313,7 +3556,7 @@ Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  You can alternatively write your own script and save some space.
 
 Package: nut-web-cgi
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread, nut, nut-common, libgd
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3321,16 +3564,16 @@ LicenseFiles: LICENSE-GPL2
 Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 51549
-Filename: nut-web-cgi_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 52532
-SHA256sum: dbab0c627b4387373bdb827f499715eda185b398c0518526f49170caa085c447
+Installed-Size: 51552
+Filename: nut-web-cgi_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 52528
+SHA256sum: 642d6898fb5aa95acb675f16f21b07f9eac4042ca8c91b7ddd19c9a145ea6d57
 Description:  The CGI programs are clients that run through your web server.
  They allow you to see UPS status and perform certain administrative
  commands from any web browser. Javascript and cookies are not required.
 
 Package: nut
-Version: 2.7.4-9
+Version: 2.7.4-10
 Depends: libc, librt, libpthread
 Source: feeds/packages/net/nut
 License: GPL-2.0
@@ -3339,9 +3582,9 @@ Section: net
 Maintainer: Daniel Dickinson <cshored@thecshore.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
-Filename: nut_2.7.4-9_arm_cortex-a9_neon.ipk
-Size: 1010
-SHA256sum: 8d9293f794cd246df73949aab01e64d624b2de9eb81fa3dcb48c5f13757aac64
+Filename: nut_2.7.4-10_arm_cortex-a9_neon.ipk
+Size: 1013
+SHA256sum: e2416f09a5b50701e79319d455b8fbc6244ce90181c231a95307ba0eab37e568
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3712,7 +3955,7 @@ Description:  PortAudio is a free, cross-platform, open-source, audio I/O librar
  different platforms. Many applications use PortAudio for Audio I/O.
 
 Package: python-base
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, libpthread, zlib
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3720,15 +3963,15 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 778511
-Filename: python-base_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 773593
-SHA256sum: fd6c0bd8c3517c48615e3d99f8232447b23c99415070fd6ad6a9ad02859e1134
+Installed-Size: 778509
+Filename: python-base_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 773548
+SHA256sum: 0a55299d30367a64e30ca2b8c66265e0d4327bb804186ffc753cf3bcf32d8d8e
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
 Package: python-codecs
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3736,14 +3979,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 701538
-Filename: python-codecs_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 685609
-SHA256sum: b6cf6d800f651bb22ce1b29f16fb68c392fc61971653f23c48e797407e19c542
+Installed-Size: 701551
+Filename: python-codecs_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 685427
+SHA256sum: 9d27c0e38f6c13d793617151adaf6fdab7ab77a96f4f39904bfd87accba36ecd
 Description:  Python 2.7 codecs + unicode support
 
 Package: python-compiler
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3751,14 +3994,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 59813
-Filename: python-compiler_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 60703
-SHA256sum: 846b73b4320fea13a1a41b060bdf91f5f8d07a51ef3bf67d92171575da120fd2
+Installed-Size: 59809
+Filename: python-compiler_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 60756
+SHA256sum: ba4c0e03a6b1e337bf28a0a570ce62108d2b084b5a7a42645604795a39c2bff6
 Description:  Python 2.7 compiler module
 
 Package: python-ctypes
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3766,14 +4009,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 64092
-Filename: python-ctypes_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 64752
-SHA256sum: 0f7c859565b6b26d0856fa56b2834bfe7010d71a98032d00694b77ff5b2d5214
+Installed-Size: 64096
+Filename: python-ctypes_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 64760
+SHA256sum: 8f162e01e11e07dc47917a1235f456a3a367df947228b9130ee3fe476b39a472
 Description:  Python 2.7 ctypes module
 
 Package: python-db
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light, libdb47
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3781,14 +4024,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 74857
-Filename: python-db_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 75063
-SHA256sum: fb9539f31b4dd91e053c2aae36714bc3bb9aeadd90edf914fd24994fbb5d4e88
+Installed-Size: 74860
+Filename: python-db_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 75059
+SHA256sum: 48acd457c71dffdfac0b5d86bb0dad3a1c3b6ddc4883647c305817148780b83b
 Description:  Python 2.7 db module
 
 Package: python-decimal
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3796,14 +4039,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 48936
-Filename: python-decimal_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 49824
-SHA256sum: f9dc4209201f9c35fef0d29dbeb294efeb8e58b4e1b48815cc9f412c8d64cdd9
+Installed-Size: 48940
+Filename: python-decimal_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 49825
+SHA256sum: e5d094984af66a2bb0b3488c2ea86c5c4bee25de035c7fb8ebbe8e5d4f18be80
 Description:  Python 2.7 decimal module
 
 Package: python-distutils
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3811,10 +4054,10 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 174682
-Filename: python-distutils_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 175639
-SHA256sum: 525995071afa5b63ef0c656210a4df465ee9aaf89e820e03d54fe14f900c9ac0
+Installed-Size: 174686
+Filename: python-distutils_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 175656
+SHA256sum: f1300f782bfea5f9e390e8b34bdc748e2df75497fa753a32da8d0c2bd9be628c
 Description:  Python 2.7 distutils
 
 Package: python-dns
@@ -3833,7 +4076,7 @@ SHA256sum: 0c032d198b2ea1b93c27aa157e99e135183f3fbc7b5fa62767c85951503d6cbc
 Description:  dnspython is a DNS toolkit for Python. It supports almost all record types. It can be used for queries, zone transfers, and dynamic updates. It supports TSIG authenticated messages and EDNS0.
 
 Package: python-email
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3841,14 +4084,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 50383
-Filename: python-email_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 51266
-SHA256sum: 8a8c03e94592a9e26737fabaa457b050e91ae41ac285dc1955b7aaa1c0dc001f
+Installed-Size: 50380
+Filename: python-email_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 51259
+SHA256sum: 52595fd080e15e3e68c6cddd8c651de6c881ff318bd9a29fb562399f17fbeda8
 Description:  Python 2.7 email module
 
 Package: python-gdbm
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light, libgdbm
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3856,14 +4099,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6150
-Filename: python-gdbm_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 7001
-SHA256sum: 2b797832fc1a67e249b924b42c81277c39058b8267a0f41fc7dd0879dd8cd53c
+Installed-Size: 6153
+Filename: python-gdbm_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 7005
+SHA256sum: 0fbfa5d5feb9ce4fdd48c3699727c978bb5ce6c06cef2bcaa5e5313570cb6377
 Description:  Python 2.7 gdbm module
 
 Package: python-light
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-base, libffi, libbz2
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3871,16 +4114,16 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1472117
-Filename: python-light_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 1471976
-SHA256sum: c566721ba27a6afdb1c90da097a0d340ef1d65859d0c4a4abd8ae7f68abda3a1
+Installed-Size: 1472099
+Filename: python-light_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 1471806
+SHA256sum: 77b7906018558f5330eae25f6d935b108adcaaf4d8280e7db28aa981462884a8
 Description:  This package is essentially the python-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
 
 Package: python-logging
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3888,14 +4131,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 42716
-Filename: python-logging_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 43626
-SHA256sum: d4d9596838509bc0006db52ccf96852531a4cf1a067544098c5f1f73321904ac
+Installed-Size: 42718
+Filename: python-logging_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 43620
+SHA256sum: 3ae525445738f530a31bc19abfddcfd68c93715e7a0226567fa8b5cdbf2c5aba
 Description:  Python 2.7 logging module
 
 Package: python-multiprocessing
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3903,14 +4146,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 65187
-Filename: python-multiprocessing_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 66060
-SHA256sum: c1c9d0ae8af0e9e20a270b8dbb566eac155919e53eb2d798baffc444104f19ba
+Installed-Size: 65190
+Filename: python-multiprocessing_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 66062
+SHA256sum: 2e2fad081ee2820d9a1d8aa0b472164b87309b21e56edc792c6168d95ca6fb4f
 Description:  Python 2.7 multiprocessing
 
 Package: python-ncurses
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light, libncurses
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3918,14 +4161,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 33904
-Filename: python-ncurses_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 34521
-SHA256sum: 6981345fdbba18d858e3d24697f94ef7963ca32421bf7cd338b7467df5668ebc
+Installed-Size: 33907
+Filename: python-ncurses_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 34563
+SHA256sum: 74a600496d7f18403521442c8b9ffc71ac73e209e20777253d26bb88f4664e2c
 Description:  Python 2.7 ncurses module
 
 Package: python-openssl
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light, libopenssl
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3933,14 +4176,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 36757
-Filename: python-openssl_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 37269
-SHA256sum: 18bae9d5dc68f87d7a4e2da2d7bec9b3a6fe584e62f1733baf00b4cf0e70c11a
+Installed-Size: 36758
+Filename: python-openssl_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 37266
+SHA256sum: 5a2e6f5f6b7b564f54d9278766ee5bada70f1cca827713d50fe8cb4492f95ce5
 Description:  Python 2.7 SSL module
 
 Package: python-pydoc
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3949,13 +4192,13 @@ Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 183045
-Filename: python-pydoc_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 183814
-SHA256sum: 94d5cb206bb4dcad1238055b3e36263d0306e6ff33e7c41d31042c0b728245d7
+Filename: python-pydoc_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 183804
+SHA256sum: feac5c7f0525da3d9f1490cd6e9255e4c820cbace1f18d1a5b16ec5a8b95ea15
 Description:  Python 2.7 pydoc module
 
 Package: python-sqlite3
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light, libsqlite3
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3963,14 +4206,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 27927
-Filename: python-sqlite3_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 28716
-SHA256sum: 3bcc3ed0d3fde1833b47cf7d4018c119fd387b55e40f6a7b1e7bc4174e1ed5f8
+Installed-Size: 27931
+Filename: python-sqlite3_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 28720
+SHA256sum: bae29980098aea6f06717158e3feecb49f29d2e011b68af5aeb62efbc16be1aa
 Description:  Python 2.7 sqlite3 module
 
 Package: python-unittest
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3979,13 +4222,13 @@ Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 33404
-Filename: python-unittest_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 34299
-SHA256sum: 0f195a427efa463220928e817c74132ec0de83e70510343d234cc5e19500eaeb
+Filename: python-unittest_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 34303
+SHA256sum: 9d4eb7b1a1ec5d5b4069d69b1ffaa6fccbed4688e830dd984100e5f1063f2b92
 Description:  Python 2.7 unittest module
 
 Package: python-xml
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light, libexpat
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -3993,14 +4236,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 182873
-Filename: python-xml_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 183547
-SHA256sum: 76d7c2116cb3bcda90dba3317a64a31391d094b3c10e2709fb6666385f794ce3
+Installed-Size: 182878
+Filename: python-xml_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 183550
+SHA256sum: acde871e0e108ca99c5396a09e28f84a9d463a51d85e11c1cec9de6c98407a46
 Description:  Python 2.7 xml libs
 
 Package: python
-Version: 2.7.16-2
+Version: 2.7.16-3
 Depends: libc, librt, libpthread, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-codecs, python-sqlite3, python-logging, python-gdbm, python-email, python-distutils, python-xml, python-compiler, python-db, python-openssl, python-decimal, python-unittest, python-ncurses
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4009,9 +4252,9 @@ Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
-Filename: python_2.7.16-2_arm_cortex-a9_neon.ipk
-Size: 1050
-SHA256sum: 7f9187ca0daaf7ff6d842fdf9c91bcbc3727bbee19adadfe7e7fe5ceb62524a3
+Filename: python_2.7.16-3_arm_cortex-a9_neon.ipk
+Size: 1046
+SHA256sum: 1484174b67211b815e771bd16796212232ee157c009744074f663ff191a4e362
 Description:  This package contains the (almost) full Python install.
  It's python-light + all other packages.
 
@@ -4051,6 +4294,23 @@ Size: 1412
 SHA256sum: a2ea7db6f3e1b0e247d0ffc0ff9af6aaccbc6131b9ae1a2bc58132cb22b02bb9
 Description:  rsyncd is a configuration file and initscript to utilize rsync as a daemon. It
  uses the same binary as rsync.
+
+Package: speedtest-netperf
+Version: 1.0.0-1
+Depends: libc, librt, libpthread, netperf
+Conflicts: speedtest
+Source: feeds/packages/net/speedtest-netperf
+License: GPL-2.0
+Section: net
+Maintainer: Tony Ambardar <itugrok@yahoo.com>
+Architecture: all
+Installed-Size: 4887
+Filename: speedtest-netperf_1.0.0-1_all.ipk
+Size: 5714
+SHA256sum: d98b0eaebb3730dd0332bf6d1ae5e538f6eb8f244781ea428acc602f8e04cb01
+Description:  Script to measure the performance of your network and router.
+ 
+ Please see https://github.com/openwrt/packages/blob/master/net/speedtest-netperf/files/README.md for further information.
 
 Package: sqm-scripts-extra
 Version: 2016-06-08-1
@@ -4097,6 +4357,20 @@ Description:  A secure, effective and simple way of getting mail off a system to
  Mail is simply forwarded to the configured mailhost, no daemons running in the background.
  Extremely easy configuration.
  
+
+Package: stoken
+Version: 0.8-2
+Depends: libc, librt, libpthread, libstoken
+Source: feeds/packages/utils/stoken
+License: LGPL-2.1
+Section: utils
+Maintainer: Florian Fainelli <florian@openwrt.org>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9822
+Filename: stoken_0.8-2_arm_cortex-a9_neon.ipk
+Size: 10626
+SHA256sum: a3d63341650a60246a9fb9b46b5aea831c44cd720e6563ac71fd822a330459e3
+Description:  stoken is a tokencode generator compatible with RSA SecurID 128-bit (AES). This package contains the cli
 
 Package: strongswan-charon-cmd
 Version: 5.6.3-3
@@ -5388,6 +5662,76 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
 
+Package: vim-full
+Version: 8.0.586-2
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 800773
+Filename: vim-full_8.0.586-2_arm_cortex-a9_neon.ipk
+Size: 799800
+SHA256sum: bca300e0af49fe208c72cb970ffa98ce61297598f44c03856af1095285a18308
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Normal build)
+
+Package: vim-fuller
+Version: 8.0.586-2
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2753565
+Filename: vim-fuller_8.0.586-2_arm_cortex-a9_neon.ipk
+Size: 2749122
+SHA256sum: 502afb57bb2df16e2e70fb97412f7f1021c4488bc293a1f595dbbf66cc486d34
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Big build)
+
+Package: vim-help
+Version: 8.0.586-2
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2118100
+Filename: vim-help_8.0.586-2_arm_cortex-a9_neon.ipk
+Size: 2118504
+SHA256sum: d22fb2756f5732472ef3d091c4b26de035046f3a3fdd223b4fbb2d34d74ef5c0
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Help files)
+
+Package: vim-runtime
+Version: 8.0.586-2
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1918300
+Filename: vim-runtime_8.0.586-2_arm_cortex-a9_neon.ipk
+Size: 1916748
+SHA256sum: c00e5580ed24677e4c77a3861f68bc76bf9bcaf44ba25c05800fc6d8b946920a
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Runtime files)
+
+Package: vim
+Version: 8.0.586-2
+Depends: libc, librt, libpthread, libncurses
+Source: feeds/packages/utils/vim
+Section: utils
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 286872
+Filename: vim_8.0.586-2_arm_cortex-a9_neon.ipk
+Size: 287173
+SHA256sum: 6249997c1e8afb5a5e92ba7567db4add51e6cede7dcac63c879ba8117e1bb330
+Description:  Vim is an almost compatible version of the UNIX editor Vi.
+ (Tiny build)
+
 Package: vsftpd-tls
 Version: 3.0.3-2
 Depends: libc, librt, libpthread, libopenssl
@@ -5598,6 +5942,41 @@ Filename: xzmore_5.2.4-1_arm_cortex-a9_neon.ipk
 Size: 2137
 SHA256sum: 665130885d8133b3186ff51d89655013c2b45a783ed94b56701e32da75edf148
 Description:  Contains: xzmore  lzmore
+
+Package: youtube-dl-src
+Version: 2019.8.2-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/multimedia/youtube-dl
+License: Unlicense
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: Adrian Panella <ianchi74@outlook.com>, Josef Schlehofer <pepe.schlehofer@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1276997
+Filename: youtube-dl-src_2019.8.2-1_arm_cortex-a9_neon.ipk
+Size: 1278126
+SHA256sum: e10b5024bfc644428dbc5df580afc404fcc572adf4197ed84fc71f3e332dfda8
+Description:  youtube-dl is a small command-line program to download videos
+ from YouTube.com and other video sites.
+ It requires the Python interpreter..
+ (Contains the Python sources for this package).
+
+Package: zile
+Version: 2.3.24-4
+Depends: libc, librt, libpthread, libncursesw
+Source: feeds/packages/utils/zile
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 116470
+Filename: zile_2.3.24-4_arm_cortex-a9_neon.ipk
+Size: 117303
+SHA256sum: bd7957ccd62f61fd946b492082f7cf8f3d5afce0681a10107422e805cd1415b6
+Description:  Zile is a small Emacs clone. Zile is a customizable, self-documenting
+ real-time display editor. Zile was written to be as similar as possible
+ to Emacs; every Emacs user should feel at home with Zile.
 
 Package: zip
 Version: 3.0-4

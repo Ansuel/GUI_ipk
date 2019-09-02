@@ -196,6 +196,21 @@ Size: 380246
 SHA256sum: 725ce2b751565cb75c349a14fa04ba684ade9f92755e800971404ad102b26f6c
 Description:  libbfd
 
+Package: libblkid
+Version: 2.32-2
+Depends: libc, librt, libpthread, libuuid
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 138982
+Filename: libblkid_2.32-2_arm_cortex-a9_neon.ipk
+Size: 139472
+SHA256sum: b9a105d96f9f39599954edf84e62d6d28236eb2dc43197f56e0b721a79d20b55
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
 Package: libblobmsg-json
 Version: 2018-07-25-c83a84af-2
 Depends: libc, librt, libpthread, libjson-c, libubox
@@ -758,10 +773,10 @@ License: GPL-2.0
 Section: base
 Essential: yes
 Architecture: arm_cortex-a9_neon
-Installed-Size: 62637
+Installed-Size: 62635
 Filename: opkg_2019-06-14-dcbc142e-1_arm_cortex-a9_neon.ipk
-Size: 63573
-SHA256sum: 020806473909ca805c4a7334d1a3f2b60436c9a82f6896e0f35f7e5097c0e199
+Size: 63583
+SHA256sum: b192c9dfe141f729d0e0e0509a83c913eb60b8cf2fe5a251391a2a5864ee3f37
 Description:  Lightweight package management system
  opkg is the opkg Package Management System, for handling
  installation and removal of packages on a system. It can
@@ -805,6 +820,35 @@ Filename: procd_2018-03-28-dfb68f85-1_arm_cortex-a9_neon.ipk
 Size: 42801
 SHA256sum: beb379e2888904594cb9986e13332818eebdd63d6422ceff0acfe37c4a3c6827
 Description:  OpenWrt system process manager
+
+Package: px5g-mbedtls
+Version: 6
+Depends: libc, librt, libpthread, libmbedtls
+Provides: px5g
+License: LGPL-2.1
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4650
+Filename: px5g-mbedtls_6_arm_cortex-a9_neon.ipk
+Size: 5439
+SHA256sum: 22cd74dc8676a325b66c423c1f9b31bf7df9d3daa7bb2775c7a2a9c308d71fdf
+Description:  Px5g is a tiny standalone X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: px5g-standalone
+Version: 6
+Depends: libc, librt, libpthread
+License: LGPL-2.1
+Section: utils
+Architecture: arm_cortex-a9_neon
+Installed-Size: 48949
+Filename: px5g-standalone_6_arm_cortex-a9_neon.ipk
+Size: 49800
+SHA256sum: 83cc3be66093bf4a91196cb7798ee8a0520712d1051fb6202c60f3c9247c76ea
+Description:  Px5g is a tiny standalone X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
 
 Package: qos-scripts
 Version: 1.3.1-1
@@ -1020,15 +1064,15 @@ SHA256sum: a4db3ac6d77d546f1d148ee2a32d4474692fe251f54ce85e45b6c89c88e1d9a8
 Description:  USB mode switching utility
 
 Package: usign
-Version: 2015-07-04-ef641914-1
+Version: 2019-08-06-5a52b379-1
 Depends: libc, librt, libpthread, libubox
 License: ISC
 Section: base
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10649
-Filename: usign_2015-07-04-ef641914-1_arm_cortex-a9_neon.ipk
-Size: 11431
-SHA256sum: 92143cd898ec430e6a4a26384ae3e709b4c2d9bf6025c425963d8e4c828ba03d
+Installed-Size: 10643
+Filename: usign_2019-08-06-5a52b379-1_arm_cortex-a9_neon.ipk
+Size: 11436
+SHA256sum: 5c2fb81347ca3c500cb58634667a2bee99f510047ac779b57c9aca5198883150
 Description:  OpenWrt signature verification utility
 
 Package: wireguard-tools
@@ -1039,8 +1083,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 33232
 Filename: wireguard-tools_0.0.20190601-1_arm_cortex-a9_neon.ipk
-Size: 34332
-SHA256sum: 23f190b69e03b89ce5cccc65387b5d931cbf1dfe90cf642a3e68cbb4a7b2c112
+Size: 34334
+SHA256sum: 44a320c015ef140cfcfef5eb4b0c238c040c7edd33412cd5a2c93471b8775b54
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to
@@ -1059,8 +1103,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: wireguard_0.0.20190601-1_arm_cortex-a9_neon.ipk
-Size: 1180
-SHA256sum: 8440ebadcc979aa8bd0224243afa154ecd385f7f17a832b0d47d3957232ce018
+Size: 1182
+SHA256sum: 476d25d8c484a13c23bb7cc5fe0a5b6f19ceb0d3ff82a9ef35055dfa9f2c673c
 Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
  state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
  more useful than IPSec, while avoiding the massive headache. It intends to
