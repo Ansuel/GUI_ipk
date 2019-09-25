@@ -47,7 +47,7 @@ Description:  The Swiss Army Knife of embedded Linux.
  It slices, it dices, it makes Julian Fries.
 
 Package: bzip2
-Version: 1.0.6-4
+Version: 1.0.6-5
 Depends: libc, librt, libpthread, libbz2
 Source: package/utils/bzip2
 License: BZIP2
@@ -55,10 +55,10 @@ LicenseFiles: LICENSE
 Section: utils
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 16658
-Filename: bzip2_1.0.6-4_arm_cortex-a9_neon.ipk
-Size: 17451
-SHA256sum: 27589ef5305e41d6b97e02f24aa8e5bd8bf7e22e186a1bd842b0a91b37b138a5
+Installed-Size: 16659
+Filename: bzip2_1.0.6-5_arm_cortex-a9_neon.ipk
+Size: 17446
+SHA256sum: 8872272e742df7d2ba4ee960a1a57b4c17cac46b7d6acc3f2bccb5628e20cdf3
 Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This package provides the binary.
 
@@ -83,10 +83,10 @@ LicenseFiles: COPYING
 Section: net
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 48559
+Installed-Size: 48558
 Filename: curl_7.60.0-4_arm_cortex-a9_neon.ipk
-Size: 49181
-SHA256sum: 04845c40fc3052adf08016ed820107ab9dec5a0fafa7ae7324776172fc84c813
+Size: 49176
+SHA256sum: e9174d952ca7a2d544b737eb4f14cb119be87a3ed255baee8e033e0c01283a6c
 Description:  A client-side URL transfer utility
 
 Package: dnsmasq
@@ -147,7 +147,7 @@ SHA256sum: 253938c94f90e94d6ab4977e6948a1db03dc70dc646b1b69f29d0724cf76e017
 Description:  This package provides a config-compatible C implementation of the UCI firewall.
 
 Package: hostapd-common
-Version: 2018-05-21-62566bc2-6
+Version: 2018-05-21-62566bc2-8
 Depends: libc, librt, libpthread
 Source: package/network/services/hostapd
 License: BSD-3-Clause
@@ -155,9 +155,9 @@ Section: net
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 6129
-Filename: hostapd-common_2018-05-21-62566bc2-6_arm_cortex-a9_neon.ipk
-Size: 6888
-SHA256sum: f6ef68a0874f0f5858f6af1fd617c4d13bc93e92b1d9e38d7ff2172fbb84cd75
+Filename: hostapd-common_2018-05-21-62566bc2-8_arm_cortex-a9_neon.ipk
+Size: 6885
+SHA256sum: 89a55a92a8a5ec39aa362d41ef0ba0431f635acd836b51c3cdb05764b64bf8c8
 Description:  hostapd/wpa_supplicant common support files
 
 Package: ip-tiny
@@ -264,7 +264,7 @@ SHA256sum: a4a2e26a12e4fbc3297ad17e2d38532fc0b738cdf99bfc823519595c5112e28a
 Description:  blobmsg <-> json conversion library
 
 Package: libbz2
-Version: 1.0.6-4
+Version: 1.0.6-5
 Depends: libc, librt, libpthread
 Source: package/utils/bzip2
 License: BZIP2
@@ -272,12 +272,34 @@ LicenseFiles: LICENSE
 Section: libs
 Maintainer: Steven Barth <cyrus@openwrt.org>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 37779
-Filename: libbz2_1.0.6-4_arm_cortex-a9_neon.ipk
-Size: 38572
-SHA256sum: 17e77cdd18bb7ca097dcb6b4b65a9ec0633a61ea656a675617231e3fa2879417
+Installed-Size: 37776
+Filename: libbz2_1.0.6-5_arm_cortex-a9_neon.ipk
+Size: 38555
+SHA256sum: 6bbbea53c6a622210874c05c160640d9a52c40166e4438676ed0702552c8cf59
 Description:  bzip2 is a freely available, patent free, high-quality
  data compressor. This packages provides libbz2 library.
+
+Package: libconfig
+Version: 1.5-1
+Depends: libc, librt, libpthread
+Source: package/libs/libconfig
+License: LGPL-2.1+
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18738
+Filename: libconfig_1.5-1_arm_cortex-a9_neon.ipk
+Size: 19735
+SHA256sum: e197518728336c0afea1ed9ebee035bb7e879d15f8fb68a151056c5cf41b7f34
+Description:  Libconfig is a simple library for manipulating structured configuration
+ files. This file format is more compact and more readable than XML. And
+ unlike XML, it is type-aware, so it is not necessary to do string
+ parsing in application code.
+ 
+ Libconfig is very compact -- just 38K for the stripped C shared
+ library (less than one-fourth the size of the expat XML parser library)
+ and 66K for the stripped C++ shared library. This makes it well-suited
+ for memory-constrained systems like handheld devices.
 
 Package: libcurl
 Version: 7.60.0-4
@@ -288,10 +310,10 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Imre Kaloz <kaloz@openwrt.org>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 138777
+Installed-Size: 138778
 Filename: libcurl_7.60.0-4_arm_cortex-a9_neon.ipk
-Size: 139507
-SHA256sum: 3f94b5286c8fc9274d5c32f391a3841d2959adb88181adcbf816b6d1eb0373e0
+Size: 139401
+SHA256sum: 65ca98d7c241f95d1413c4b2f72b024205f330fa0e5d82f7624132a99984e93c
 Description:  A client-side URL transfer library
 
 Package: libevent2
@@ -302,10 +324,10 @@ License: BSD-3-Clause
 Section: libs
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 117585
+Installed-Size: 117583
 Filename: libevent2_2.0.22-1_arm_cortex-a9_neon.ipk
-Size: 118159
-SHA256sum: e23a1b7e2058978960d8bc289f5a8ed8e5581cc74a5913b06b50819c5ce0d431
+Size: 118144
+SHA256sum: 6caa93fd2380dd4a7d1d3545e16dbf783c8cda3aa47733a0b1b3d98ad38000a0
 Description:  The libevent API provides a mechanism to execute a callback function
  when a specific event occurs on a file descriptor or after a timeout
  has been reached. Furthermore, libevent also support callbacks due
@@ -409,16 +431,16 @@ Description:  LZO is a data compression library which is suitable for data de-/c
  in real-time. This means it favours speed over compression ratio.
 
 Package: libmbedtls
-Version: 2.16.1-1
+Version: 2.16.3-1
 Depends: libc, librt, libpthread
 Source: package/libs/mbedtls
 License: GPL-2.0+
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 148468
-Filename: libmbedtls_2.16.1-1_arm_cortex-a9_neon.ipk
-Size: 148864
-SHA256sum: 0e013d3583381f23bfbe7bf697fcaf796eaf35d5020ba71d189023bea258601d
+Installed-Size: 148664
+Filename: libmbedtls_2.16.3-1_arm_cortex-a9_neon.ipk
+Size: 149278
+SHA256sum: f8ece4d76d77f99987cef42a84c1e84c109b9e248d4e69c0d65d06564cd3e799
 Description:  The aim of the mbedtls project is to provide a quality, open-source
  cryptographic library written in C and targeted at embedded systems.
  This package contains the mbedtls library.
@@ -515,17 +537,18 @@ SHA256sum: db198fd5354647e8544a974b783dcf7859d1953e915ffbbae0df640c48ff2b2e
 Description:  This package contains a stripped down version of libnl
 
 Package: libopenssl
-Version: 1.0.2s-1
+Version: 1.0.2t-1
 Depends: libc, librt, libpthread, zlib
 Source: package/libs/openssl
 License: OpenSSL
 LicenseFiles: LICENSE
 Section: libs
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 777520
-Filename: libopenssl_1.0.2s-1_arm_cortex-a9_neon.ipk
-Size: 771380
-SHA256sum: b1fd163e5e63f7ff28b6ef2f64fa07b68c9c564b16072fef9080a623c6349087
+Installed-Size: 778970
+Filename: libopenssl_1.0.2t-1_arm_cortex-a9_neon.ipk
+Size: 773284
+SHA256sum: 12585b06530fecd2c73f9045edb131860e87ee4946c75be18a9d96f9b6ca8c37
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -687,10 +710,10 @@ License: ISC
 Section: libs
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4084
+Installed-Size: 4085
 Filename: libustream-openssl_2018-07-30-23a3f283-1_arm_cortex-a9_neon.ipk
-Size: 4811
-SHA256sum: 8bbdd62c314d9c4eee6047c9d1a777f55279165c0624858de7d75598a2476007
+Size: 4815
+SHA256sum: 8c40e6360526a6f26af4caefb7e079a244a52eecf3af659f5dddee8cca92e398
 Description:  ustream SSL Library (openssl)
 
 Package: libuuid
@@ -795,17 +818,18 @@ Description:  odhcpd is a daemon for serving and relaying IP management protocol
  routed (non-bridged) interfaces in case no delegated prefixes are available.
 
 Package: openssl-util
-Version: 1.0.2s-1
+Version: 1.0.2t-1
 Depends: libc, librt, libpthread, libopenssl
 Source: package/libs/openssl
 License: OpenSSL
 LicenseFiles: LICENSE
 Section: utils
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 237427
-Filename: openssl-util_1.0.2s-1_arm_cortex-a9_neon.ipk
-Size: 235215
-SHA256sum: 73f9d56cfd61a54b3ef3e9feecb18c7a2593c629c853160d2f9276ec90b60f37
+Installed-Size: 237422
+Filename: openssl-util_1.0.2t-1_arm_cortex-a9_neon.ipk
+Size: 235263
+SHA256sum: 36055b89e9f46566437935e0717177d8e11cbdb61a3ba4ed7d0cac642c087712
 Description:  The OpenSSL Project is a collaborative effort to develop a robust,
  commercial-grade, full-featured, and Open Source toolkit implementing the Secure
  Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
@@ -834,10 +858,10 @@ License: GPL-2.0
 Section: net
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 215717
+Installed-Size: 215716
 Filename: openvpn-mbedtls_2.4.5-4.2_arm_cortex-a9_neon.ipk
-Size: 216074
-SHA256sum: 796a9cae0aab7350fa4f8c2c9eb31c2e09ff2fb4e6640ba8bdea2299486fb79e
+Size: 216202
+SHA256sum: b56c7d6713007b2e5f81ded18d8c86da3df7b3382c36e76bdd6dd1b84a4710b1
 Description:  Open source VPN solution using mbedTLS
 
 Package: openvpn-nossl
@@ -849,10 +873,10 @@ License: GPL-2.0
 Section: net
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 104064
+Installed-Size: 104065
 Filename: openvpn-nossl_2.4.5-4.2_arm_cortex-a9_neon.ipk
-Size: 104649
-SHA256sum: 398103c611ee7c9d21939fd54a3f2c09769b7d831d2cb0512c61baf3d7c9ceb0
+Size: 104651
+SHA256sum: 52c86277cafb4a739d312deb2125e7296adc255edf902418a9c7b88975ea5fd7
 Description:  Open source VPN solution using plaintext (no SSL)
 
 Package: openvpn-openssl
@@ -864,10 +888,10 @@ License: GPL-2.0
 Section: net
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 220739
+Installed-Size: 220741
 Filename: openvpn-openssl_2.4.5-4.2_arm_cortex-a9_neon.ipk
-Size: 221003
-SHA256sum: d8b7916124419044cab65e86e8a7b84bf7b52b321c568640180f273021303543
+Size: 220975
+SHA256sum: d1faec87b684a0fa5db94be8901c3c4628b49dc71ca862a5d39f2356bbe5994a
 Description:  Open source VPN solution using OpenSSL
 
 Package: openwrt-keyring
@@ -958,10 +982,10 @@ License: LGPL-2.1
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4650
+Installed-Size: 4651
 Filename: px5g-mbedtls_6_arm_cortex-a9_neon.ipk
-Size: 5439
-SHA256sum: 22cd74dc8676a325b66c423c1f9b31bf7df9d3daa7bb2775c7a2a9c308d71fdf
+Size: 5440
+SHA256sum: cab7545dfa66092b28df0ad09eb3da25dee8563733b87a530cb8a58abb1151ab
 Description:  Px5g is a tiny standalone X.509 certificate generator.
  It suitable to create key files and certificates in DER
  and PEM format for use with stunnel, uhttpd and others.
@@ -974,10 +998,10 @@ License: LGPL-2.1
 Section: utils
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 48949
+Installed-Size: 48943
 Filename: px5g-standalone_6_arm_cortex-a9_neon.ipk
-Size: 49800
-SHA256sum: 83cc3be66093bf4a91196cb7798ee8a0520712d1051fb6202c60f3c9247c76ea
+Size: 49753
+SHA256sum: b1242b6c9bbb8d6620b994e5e81f97244f665dc19ce846f4e6927670f4e14786
 Description:  Px5g is a tiny standalone X.509 certificate generator.
  It suitable to create key files and certificates in DER
  and PEM format for use with stunnel, uhttpd and others.
@@ -1301,7 +1325,7 @@ SHA256sum: fcbff9609cc2fe87fed6d5f0bb63a4fa629726e6832e2c1aebbdda436b6332cf
 Description:  Wireless Regulatory Database
 
 Package: wpad-mini
-Version: 2018-05-21-62566bc2-6
+Version: 2018-05-21-62566bc2-8
 Depends: libc, librt, libpthread, hostapd-common, libubus
 Conflicts: hostapd, hostapd-mini, hostapd-openssl, hostapd-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl
 Provides: hostapd, wpa-supplicant
@@ -1310,10 +1334,10 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 237438
-Filename: wpad-mini_2018-05-21-62566bc2-6_arm_cortex-a9_neon.ipk
-Size: 238157
-SHA256sum: 8894b5ed6d91bd8bc756eb03d0b2ab498498c9055c15e115031f34954a4efee7
+Installed-Size: 237498
+Filename: wpad-mini_2018-05-21-62566bc2-8_arm_cortex-a9_neon.ipk
+Size: 238190
+SHA256sum: 16266d0d2280a6c24e792c489b158a5dd5479d90de6d94736a1a967a5b2b5881
 Description:  This package contains a minimal IEEE 802.1x/WPA Authenticator and Supplicant (WPA-PSK only).
 
 Package: wxbase

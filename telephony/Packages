@@ -6,8 +6,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 21116
 Filename: asterisk13-app-adsiprog_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 21976
-SHA256sum: 90d0d4a08bed2716439a7fd2d43b3b9ce8a29ea167452af5e15d58a353a61646
+Size: 21978
+SHA256sum: c4db0e14219b4af77a2f96a7ad9cddec6cb8379f30de2e8dab37fd7b21e0479c
 Description:  This package provides support for 'program Asterisk ADSI scripts into phone' in Asterisk.
 
 Package: asterisk13-app-agent-pool
@@ -16,10 +16,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 21917
+Installed-Size: 21914
 Filename: asterisk13-app-agent-pool_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 22709
-SHA256sum: ea9b0de38d935a596d766294750ef5d4737b7cd3d5a7291bb20f15d6d09ccdb8
+Size: 22711
+SHA256sum: 11975e884cd2b3af1e82c229b0374995898518a37eebf0231126032b493a7282
 Description:  This package provides support for 'call center agent pool' in Asterisk.
 
 Package: asterisk13-app-alarmreceiver
@@ -28,10 +28,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10350
+Installed-Size: 10352
 Filename: asterisk13-app-alarmreceiver_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11135
-SHA256sum: ef568013a6c2e80e932f558764d182511d654b6a054692b31887d5a91dd495bc
+Size: 11179
+SHA256sum: 2034dfe5922528ea252be505cf3f538fe3bae1ebc9ffc91a9eaaf7468a33c8ae
 Description:  This package provides support for 'Central Station Alarm receiver for Ademco Contact ID' in Asterisk.
 
 Package: asterisk13-app-amd
@@ -40,10 +40,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7553
+Installed-Size: 7550
 Filename: asterisk13-app-amd_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 8414
-SHA256sum: daeee4efdb96774384ee27057b246c9d8e07710ebe66ec04d2d37351eff52dbf
+Size: 8408
+SHA256sum: cda0bce90567e2af2841c18e11288cd3bf7a5fd228ccc447846ab9c5d4d87061
 Description:  This package provides support for 'answering machine detection' in Asterisk.
 
 Package: asterisk13-app-authenticate
@@ -54,8 +54,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3877
 Filename: asterisk13-app-authenticate_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4685
-SHA256sum: 55e5d6ba02b6b4e532061b3cc58d87811f198a603ca57e799a0e5ad97f4132c7
+Size: 4680
+SHA256sum: fe014761751e2db12c65251019468ff70da96d5953b2d540017e344465c83eec
 Description:  This package provides support for 'Execute arbitrary authenticate commands' in Asterisk.
 
 Package: asterisk13-app-bridgewait
@@ -64,10 +64,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-bridge-holding
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5031
+Installed-Size: 5029
 Filename: asterisk13-app-bridgewait_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5831
-SHA256sum: 653701b97da45fbca318a3390da6f4812065f6c976b17328d48170e20be35e7e
+Size: 5842
+SHA256sum: 3eb930dc00d6b7e72f07fe2fc935a9eb84c6508ecfbddca245d57f6965538230
 Description:  This package provides support for 'place a channel into a holding bridge' in Asterisk.
 
 Package: asterisk13-app-celgenuserevent
@@ -76,10 +76,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2483
+Installed-Size: 2482
 Filename: asterisk13-app-celgenuserevent_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 3311
-SHA256sum: 9c8a9da91e5da654ffac89d50e3c410af88326ee3705ee316286aca18d5bf3f1
+SHA256sum: 0efcce85eda05bfbac59f78b4730b430ba80084f83761b899b9eec718d723e39
 Description:  This package provides support for 'generate user-defined CEL event' in Asterisk.
 
 Package: asterisk13-app-chanisavail
@@ -88,10 +88,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3477
+Installed-Size: 3476
 Filename: asterisk13-app-chanisavail_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4276
-SHA256sum: ee547f59d655fc7b1c97fc6c19542b2c8a4e45df894f142fd9f57c6df70c0d60
+Size: 4273
+SHA256sum: f5b5951062588b577d91148789b7a68ce5a536c59e469ec7513cf8c6a888676c
 Description:  This package provides support for 'support for checking if a channel is available' in Asterisk.
 
 Package: asterisk13-app-channelredirect
@@ -100,10 +100,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2744
+Installed-Size: 2742
 Filename: asterisk13-app-channelredirect_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3569
-SHA256sum: 0956f366ceebed1a9e569e8a4f04d658b6107076a1a8caaf0d9e4d7e0e1710de
+Size: 3572
+SHA256sum: 8839e5a6a608840ad587c3cc2d5ec6c30946334b4ec76aec653cd49a28d2a152
 Description:  This package provides support for 'ChannelRedirect application' in Asterisk.
 
 Package: asterisk13-app-chanspy
@@ -112,10 +112,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 17019
+Installed-Size: 17015
 Filename: asterisk13-app-chanspy_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 17759
-SHA256sum: 85d337e871d8d09fe457f8d826aa7c7fbb1feee9dd1d228cca9d4186ea7ae80e
+Size: 17823
+SHA256sum: 432d7f978729ad7cf18b18bb2c707af7ee521f9defac8ec6c226a5d736d9c36a
 Description:  This package provides support for 'support for listening in on any channel' in Asterisk.
 
 Package: asterisk13-app-confbridge
@@ -124,10 +124,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-bridge-builtin-features
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 60680
+Installed-Size: 60675
 Filename: asterisk13-app-confbridge_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 61383
-SHA256sum: f3d35a32d4f49e9e9a7ddab1b780b61a09ba353ce8c0ab8f3776ba75f9556c77
+Size: 61382
+SHA256sum: f604c3e7b0c16e8ad498f876a8c2858c7fef461c347be23d8ba2814704eabc95
 Description:  This package provides support for 'Software bridge for multi-party audio conferencing' in Asterisk.
 
 Package: asterisk13-app-controlplayback
@@ -138,8 +138,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4091
 Filename: asterisk13-app-controlplayback_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4913
-SHA256sum: 34cd043946ca72b0441ff4933311ef948820e21b315df8c16c8494365f8faeb7
+Size: 4907
+SHA256sum: ead6f5584edae830e651f71180c6a235bd1f338bd3407bb8cc5de7ff9fa62d9b
 Description:  This package provides support for 'trivial application to control playback of a sound file' in Asterisk.
 
 Package: asterisk13-app-dictate
@@ -148,10 +148,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4909
+Installed-Size: 4907
 Filename: asterisk13-app-dictate_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5700
-SHA256sum: c9aa4f87a0987b18dfd13ef14c4e7e59bc75835bb8a179edc0bec9c3f37f4a00
+Size: 5706
+SHA256sum: 3a45cdde10774b0c0d150b66f50482c5cd9563ba3908b96a30251785f20aeb14
 Description:  This package provides support for 'virtual dictation machine application' in Asterisk.
 
 Package: asterisk13-app-directed-pickup
@@ -162,8 +162,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4379
 Filename: asterisk13-app-directed-pickup_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5175
-SHA256sum: 01d6e2a9a82a75e6e82e7377cb4f46585aa150ca1fe0c72812bdd8fcb4cc7293
+Size: 5171
+SHA256sum: 0af4a0203c7439835c0d9e903a679f01bf83784c50dee4f8baec01547bc51f63
 Description:  This package provides support for 'support for directed call pickup' in Asterisk.
 
 Package: asterisk13-app-directory
@@ -172,10 +172,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10496
+Installed-Size: 10494
 Filename: asterisk13-app-directory_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11321
-SHA256sum: 575e8bb1288a0aacae78859e4e8e90009ac5b0f6d6ffe0493aa218184c5c9e91
+Size: 11314
+SHA256sum: ab6e85c8ec11f2b1c0c51efe5a326229fb09ea3832facae9ace2b4d5cf2f1b8c
 Description:  This package provides support for 'provide a directory of extensions' in Asterisk.
 
 Package: asterisk13-app-disa
@@ -184,10 +184,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6398
+Installed-Size: 6396
 Filename: asterisk13-app-disa_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7238
-SHA256sum: fcb31023c17854209f819ee65d6ef7652a35ad4f25b5ac36404c24cd58935907
+Size: 7222
+SHA256sum: 37f17fbd8eb7f1bc8aeb8b3a0c199b10cb19f1cf3f1e3182df3a33f845249a6c
 Description:  This package provides support for 'Direct Inward System Access' in Asterisk.
 
 Package: asterisk13-app-dumpchan
@@ -196,10 +196,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5437
+Installed-Size: 5434
 Filename: asterisk13-app-dumpchan_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6252
-SHA256sum: 5582a439d747a29742b6a259b5e50a7c137404743f39344797bf58a9ccfb8c17
+Size: 6255
+SHA256sum: 0c7e21aff60206c09110c0e6804d420f8742b6758883bba81e2cfe66e8fac6c4
 Description:  This package provides support for 'application to dump channel variables' in Asterisk.
 
 Package: asterisk13-app-exec
@@ -208,10 +208,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3825
+Installed-Size: 3824
 Filename: asterisk13-app-exec_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4611
-SHA256sum: a9e4f7dc38b5bc293da3fbc0787cdc954b1d03951d7c610611b6a33a274c1dbb
+Size: 4614
+SHA256sum: 9b8202c59c81a397acd6e34821ad29abe57fdcfcb54793a2b2021c4e6f4a0bd5
 Description:  This package provides support for 'support for application execution' in Asterisk.
 
 Package: asterisk13-app-externalivr
@@ -220,10 +220,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11793
+Installed-Size: 11792
 Filename: asterisk13-app-externalivr_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 12635
-SHA256sum: 3caa72057c628cff0faf4c6248c5f5ccc0ba295a6b30d66f25c6423696411406
+Size: 12632
+SHA256sum: 093b64cd98c7bf1e32a3413a8c530b6591b4c0cda09d237c21148206e419dd1c
 Description:  This package provides support for 'external IVR application interface' in Asterisk.
 
 Package: asterisk13-app-festival
@@ -232,10 +232,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9650
+Installed-Size: 9646
 Filename: asterisk13-app-festival_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 10492
-SHA256sum: 24c458778099583e42d0b540651c30debb75fa62d3bd0318504387935c3e711a
+Size: 10442
+SHA256sum: 42345fb8338d8f0e7d2c2543fc08d031316c2956044231a802e08d48359142fc
 Description:  This package provides support for 'connect to festival' in Asterisk.
 
 Package: asterisk13-app-followme
@@ -244,10 +244,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 20564
+Installed-Size: 20560
 Filename: asterisk13-app-followme_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 21231
-SHA256sum: 39b170bbb199a526d8dc7e458b2c257504e4fd3d46d2cd0dc5d16f2ffa03c979
+Size: 21303
+SHA256sum: 542861079583a9dcf695122cae52f00906fc2f67b691ff0cfa9b3301d3a6f673
 Description:  This package provides support for 'find-me/follow-me application' in Asterisk.
 
 Package: asterisk13-app-getcpeid
@@ -256,10 +256,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3301
+Installed-Size: 3300
 Filename: asterisk13-app-getcpeid_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4085
-SHA256sum: 3d181831b0fc41fdb921bf0fc671708e470340784c481c501f61fc4b11edcebc
+Size: 4082
+SHA256sum: d7375eca7a22e0bef8aa93ca758c0b36201d6cf5925dbf111d4b22d92624aca6
 Description:  This package provides support for 'get ADSI CPE ID' in Asterisk.
 
 Package: asterisk13-app-ices
@@ -268,10 +268,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4069
+Installed-Size: 4068
 Filename: asterisk13-app-ices_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4863
-SHA256sum: 36678e00392bc4c4d619f7f02b73b2834b37109dfbb7ef3960928741d1e96625
+Size: 4861
+SHA256sum: 16b48c9c017fbb5d4a942f1ca7ada19ce94000faacee0942a1fcddd9a6d8fe66
 Description:  This package provides support for 'stream to an icecast server via ICES' in Asterisk.
 
 Package: asterisk13-app-image
@@ -280,10 +280,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2422
+Installed-Size: 2421
 Filename: asterisk13-app-image_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3248
-SHA256sum: c7ffcc0a0657c02fc26672037707284eb0e54c5f3f8574ab2a643060bf5097bf
+Size: 3241
+SHA256sum: 0544c408195ce7894ea50c1287969a8e553c510ed4ecd46e219f7bf091ef8547
 Description:  This package provides support for 'transmit an image' in Asterisk.
 
 Package: asterisk13-app-ivrdemo
@@ -294,8 +294,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2770
 Filename: asterisk13-app-ivrdemo_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3595
-SHA256sum: 620d5f7088e33f5a2e92a022b3f0d8269cff9d8226cc585379def4557e464e42
+Size: 3590
+SHA256sum: 3cc516dcfd44263e039ebd110c601800bad9842d6613bf5b0d5e26db7045c337
 Description:  This package provides support for 'IVR demo application' in Asterisk.
 
 Package: asterisk13-app-milliwatt
@@ -304,10 +304,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3399
+Installed-Size: 3397
 Filename: asterisk13-app-milliwatt_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 4190
-SHA256sum: ba329fc2554a2d37413c4adf789c561545f70c3d9f5f2fc4a409143e274c78ff
+SHA256sum: 69832f8f4d0a09f3ce8b621006af5f4301f9f1f67df0cf44d76d7d2dfba02f6a
 Description:  This package provides support for 'digital milliwatt test' in Asterisk.
 
 Package: asterisk13-app-minivm
@@ -316,10 +316,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 45043
+Installed-Size: 45044
 Filename: asterisk13-app-minivm_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 46008
-SHA256sum: 2502662425b47be69efe54a23aa92333d894ee3a11ce7319696df842feb6dfd7
+Size: 45872
+SHA256sum: 40dbf1bd0aac9ea557919f0f29208cab7967024bb3b7e5ac1e376e93fa579eb8
 Description:  This package provides support for 'a voicemail system in small building blocks working together based on the Comedian Mail voicemail' in Asterisk.
 
 Package: asterisk13-app-mixmonitor
@@ -328,10 +328,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 16985
+Installed-Size: 16983
 Filename: asterisk13-app-mixmonitor_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 17789
-SHA256sum: c5e6ad77b2673bc2deb5b6725fbffb3c0b3024bea77dfdf3b6fb96536310e21c
+Size: 17774
+SHA256sum: b22f161aa7988a370df2f24b5386467369c95c399a3501dd85750e40faad9a3f
 Description:  This package provides support for 'record a call and mix the audio during the recording' in Asterisk.
 
 Package: asterisk13-app-morsecode
@@ -340,10 +340,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3488
+Installed-Size: 3487
 Filename: asterisk13-app-morsecode_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4266
-SHA256sum: 2cd995afad810f04f739b3303c957507c95d34cb80ec07acfb4e6f21ffd5184f
+Size: 4271
+SHA256sum: 277336d871d3666c998b5d8158234779362b93f2182c11ba1c797a1f40f3ca77
 Description:  This package provides support for 'Morsecode application' in Asterisk.
 
 Package: asterisk13-app-mp3
@@ -352,10 +352,10 @@ Depends: libc, librt, libpthread, asterisk13, mpg123
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5297
+Installed-Size: 5295
 Filename: asterisk13-app-mp3_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6120
-SHA256sum: f7da775587c038a8e3a3e9464e28fd58e7ad163fbf6d79d163319bccca162fb6
+Size: 6122
+SHA256sum: 8c6e890b2ecae4fe54d8260c76797e6c7cbd84ccb9d02743ff9882cfe056564d
 Description:  This package provides support for 'silly application to play an MP3 file [uses mpg123]' in Asterisk.
 
 Package: asterisk13-app-originate
@@ -364,10 +364,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4194
+Installed-Size: 4192
 Filename: asterisk13-app-originate_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5021
-SHA256sum: f296ef3b9146b34494d340da33e51c37d4e0c2ea5fc8ee056f7d6637bb65f0cc
+Size: 5019
+SHA256sum: 6268a2493eb30676ac1446dcc95d4238abb3406fd6fcb05d624e8f229dc6f844
 Description:  This package provides support for 'originating an outbound call and connecting it to a specified extension or application' in Asterisk.
 
 Package: asterisk13-app-page
@@ -376,10 +376,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-app-confbridge
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4997
+Installed-Size: 4995
 Filename: asterisk13-app-page_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5795
-SHA256sum: 85f34e6deab88095d57a87dc441b2e998a53fd89011ecb719c1fc6a392a7364b
+Size: 5790
+SHA256sum: a4246fad2ab25ddd6b47e803eb7959021d991e7fa01e8cf5a676fa76b92da2f5
 Description:  This package provides support for 'paging application' in Asterisk.
 
 Package: asterisk13-app-playtones
@@ -388,10 +388,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2484
+Installed-Size: 2483
 Filename: asterisk13-app-playtones_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3297
-SHA256sum: 8cb8199bcc68f4e27bb687b024b80e9b0d08b8540c9c901b9433322b5a4e57ce
+Size: 3300
+SHA256sum: 76d52372ee300001e42f94d07677d68ae5032956feb09a66c709f24c2bbc4787
 Description:  This package provides support for 'play a tone list' in Asterisk.
 
 Package: asterisk13-app-privacy
@@ -400,10 +400,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3619
+Installed-Size: 3618
 Filename: asterisk13-app-privacy_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 4429
-SHA256sum: 8a163197093327a14eb0a76e0908113201a8f3673dc13501fcbc8e9ed01bf90f
+SHA256sum: 93dfa701fd44a59d0efc046ec53d1c31d50956161f0de7d2083481e5f0e10c12
 Description:  This package provides support for 'require phone number to be entered if no CallerID sent' in Asterisk.
 
 Package: asterisk13-app-queue
@@ -412,10 +412,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 107904
+Installed-Size: 107900
 Filename: asterisk13-app-queue_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 108295
-SHA256sum: 95c04e727c2f730fd99e77bb3787e77c68e8f589c90c512edaf3ef89f3713f11
+Size: 108394
+SHA256sum: e23a65da0e77c9b6ca48b9de0e29f95fabbf7abda27685dcdaa685bd693d4e48
 Description:  This package provides support for 'support for ACD' in Asterisk.
 
 Package: asterisk13-app-read
@@ -424,10 +424,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4163
+Installed-Size: 4164
 Filename: asterisk13-app-read_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4973
-SHA256sum: ab88291ce03aa8439295b9711fdd546db239f2304864a5f54d77286c09cc1b45
+Size: 4974
+SHA256sum: d141526908c200147640f6550ee4456092ff48800edbc90c325e537745b16cb4
 Description:  This package provides support for 'a trivial application to read a variable' in Asterisk.
 
 Package: asterisk13-app-readexten
@@ -436,10 +436,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4310
+Installed-Size: 4307
 Filename: asterisk13-app-readexten_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5127
-SHA256sum: 0f95d217ece1b5d1ecb2509b50617e40650d8e994f37234d90656cfaf601d730
+Size: 5128
+SHA256sum: fa8d05778cb36f4acf5abfa44e630de1e72b9c2f2dda1d5d66086759f3fb5e49
 Description:  This package provides support for 'a trivial application to read an extension into a variable' in Asterisk.
 
 Package: asterisk13-app-record
@@ -448,10 +448,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6578
+Installed-Size: 6577
 Filename: asterisk13-app-record_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7406
-SHA256sum: d3ad4396ae69bf9ebc6d178d11094da76397024d4cd1017b58a4467566785f80
+Size: 7405
+SHA256sum: 61f6f640ee040dbea78fd50577e6ed26abcb88b5394bd220a28924c57042e32c
 Description:  This package provides support for 'to record a sound file' in Asterisk.
 
 Package: asterisk13-app-saycounted
@@ -460,10 +460,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3065
+Installed-Size: 3064
 Filename: asterisk13-app-saycounted_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3875
-SHA256sum: 817fd79a15d158ae95fe3212d1c7b5883c574b48a1036b39336ed34afd349705
+Size: 3872
+SHA256sum: b9f083bceb93ac03cd5fc04b184ab1bf3830bf650560797de258e8ef1a0ef194
 Description:  This package provides support for 'applications to decline words according to current language' in Asterisk.
 
 Package: asterisk13-app-sayunixtime
@@ -472,10 +472,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3011
+Installed-Size: 3009
 Filename: asterisk13-app-sayunixtime_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3808
-SHA256sum: 62271a89dc574448a1a3a117dcc81f91bf56d13fafcdb6a6d763adc34f8489fb
+Size: 3817
+SHA256sum: c5422f8dff017c7b0eeb1393147a677dbd3d31702c55b455e544b5e0d1fd1a60
 Description:  This package provides support for 'an application to say Unix time' in Asterisk.
 
 Package: asterisk13-app-senddtmf
@@ -484,10 +484,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3256
+Installed-Size: 3255
 Filename: asterisk13-app-senddtmf_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4044
-SHA256sum: c77cb8c70e2b5f5414830cfed1c14ff1414a2d813ac87e90b58bd18da9fb7269
+Size: 4043
+SHA256sum: 94325bc2ee5764572a66929b5deb55288ec75460cb33ff433fbd7e2bd6b8ac0f
 Description:  This package provides support for 'Sends arbitrary DTMF digits' in Asterisk.
 
 Package: asterisk13-app-sendtext
@@ -498,8 +498,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2662
 Filename: asterisk13-app-sendtext_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3489
-SHA256sum: 73718c2777a36c704c364327f6755366d3b6f13449df6ae2dcd80372068009f1
+Size: 3491
+SHA256sum: 227440dd14acee471a5acdbfb190389550020263e694b68fec77b5145232f474
 Description:  This package provides support for 'transmit a text message' in Asterisk.
 
 Package: asterisk13-app-skel
@@ -508,10 +508,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7606
+Installed-Size: 7604
 Filename: asterisk13-app-skel_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 8481
-SHA256sum: f3748e86b8e950951491111c84caf7d55658574a7c145532cbaa56035d49c74c
+SHA256sum: 2f3d7199d96ca8dc8c4aa34379cbf404fe7dfec4d1eb18de29a7967eb059ad8c
 Description:  This package provides support for 'skeleton for development of an Asterisk application' in Asterisk.
 
 Package: asterisk13-app-sms
@@ -520,10 +520,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 20826
+Installed-Size: 20824
 Filename: asterisk13-app-sms_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 21621
-SHA256sum: c570adac4a1401a8c19ff16632c90cb00f7568524b6bae62f7717640c79d0f29
+Size: 21617
+SHA256sum: 25cddc4de6be5ae95d04e9b681bc235c29ee117c248f38f9b5bab52b40d878e4
 Description:  This package provides support for 'SMS support (ETSI ES 201 912 protocol 1)' in Asterisk.
 
 Package: asterisk13-app-softhangup
@@ -534,8 +534,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3182
 Filename: asterisk13-app-softhangup_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3976
-SHA256sum: 9c6121f026d6e3b3980d0c035cac8ff8f8667afcf944280d20def8a18f3d2245
+Size: 3978
+SHA256sum: dc60d806d01b6030927fbbf91db7340adebd0eab63acbe9db8387432a20322c4
 Description:  This package provides support for 'SoftHangup application' in Asterisk.
 
 Package: asterisk13-app-speech
@@ -546,8 +546,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 8335
 Filename: asterisk13-app-speech_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 9172
-SHA256sum: 1721e8fad127cbdbc02569d4b14058ae7bddf1142b4bd860f26022932c35ee95
+Size: 9180
+SHA256sum: 3dfe2e24af2148781e7b00f6293eafe6203ca5950a0958946cbcfafbbad5dc73
 Description:  This package provides support for 'Dialplan Speech Applications' in Asterisk.
 
 Package: asterisk13-app-stack
@@ -556,10 +556,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-agi
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 14273
+Installed-Size: 14272
 Filename: asterisk13-app-stack_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 15078
-SHA256sum: d29b315fed0d656d77aa2bf51ed14148ed78c5cfe0df7fe3e10e7fc2eb973d6a
+Size: 15082
+SHA256sum: efc21eb220256eea569b5fb04580c268f22f0be308acf56d9f2fbce58b3ca40c
 Description:  This package provides support for 'Stack applications Gosub Return etc.' in Asterisk.
 
 Package: asterisk13-app-stasis
@@ -568,10 +568,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2608
+Installed-Size: 2607
 Filename: asterisk13-app-stasis_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3435
-SHA256sum: 635fdfd2b71d64fd153c865aac89447e7afd81765f8a5cb18797d6c14c189660
+Size: 3433
+SHA256sum: a453515c639b8527d41ea4f657f29aa18e6932abf14d7a63299d60b291793ba7
 Description:  This package provides support for 'Stasis dialplan application' in Asterisk.
 
 Package: asterisk13-app-system
@@ -580,10 +580,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3698
+Installed-Size: 3697
 Filename: asterisk13-app-system_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4492
-SHA256sum: 6ca7716e8025106d61604b0ca658705f9773c8203875078f817d3f6a947f7d10
+Size: 4488
+SHA256sum: 152d6ba52fea10f6d77033cec12586f33498cc503f7722df09546ea1baf5a4ae
 Description:  This package provides support for 'support for executing system commands' in Asterisk.
 
 Package: asterisk13-app-talkdetect
@@ -592,10 +592,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5019
+Installed-Size: 5017
 Filename: asterisk13-app-talkdetect_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5806
-SHA256sum: 08f60dccfd0f4034e4ceaef1939c9e4daa80efdf7b636b91fb13db3e5d4abe2b
+Size: 5813
+SHA256sum: 5721706b08e63c88ba473f278c1926c2adaad066d53c6fbb581f46c8c85e3a5e
 Description:  This package provides support for 'for file playback with audio detect' in Asterisk.
 
 Package: asterisk13-app-test
@@ -604,10 +604,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8252
+Installed-Size: 8251
 Filename: asterisk13-app-test_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 9089
-SHA256sum: 9fa530203639b03beb709a606431fb446b2489e33128f960ba0645a51a90db93
+Size: 9088
+SHA256sum: 26ff3cf5bc12483631139ba51d72ac25b8014da3271ae524ac18eca7f6c8027e
 Description:  This package provides support for 'applications to test connection and produce report in text file' in Asterisk.
 
 Package: asterisk13-app-transfer
@@ -616,10 +616,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2678
+Installed-Size: 2677
 Filename: asterisk13-app-transfer_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3494
-SHA256sum: 2af1f18ef21d073e349c6b23fcd6dbb29ed174c2b4a0ec7b1fe5d314cad2da1b
+Size: 3490
+SHA256sum: 38cda237f76643c1c822fbf1c267794f34a7f88c9e05a7af7989c3e2ec0cb38c
 Description:  This package provides support for 'transfer a caller' in Asterisk.
 
 Package: asterisk13-app-url
@@ -628,10 +628,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2960
+Installed-Size: 2959
 Filename: asterisk13-app-url_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3748
-SHA256sum: a7b846fb3aaa6b0b734ac3f402bd1812b09ce9bd7be1f4383e3054c5827dc4b8
+Size: 3745
+SHA256sum: b6852acac1f95b2b23e82a9af48662ca2ce4a2fb35ef46054310a3fbac779363
 Description:  This package provides support for 'app to transmit a URL' in Asterisk.
 
 Package: asterisk13-app-userevent
@@ -640,10 +640,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2971
+Installed-Size: 2970
 Filename: asterisk13-app-userevent_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3767
-SHA256sum: 0a5d5849428e98dfff3bfb94066ab6cd1b9c5955c74be9c8ea477545b5cd0afd
+Size: 3757
+SHA256sum: 361b37f8a1f7dd19fb80df97c314c466bf28d5d81d24de16d703a462676ea20b
 Description:  This package provides support for 'UserEvent application -- send manager event' in Asterisk.
 
 Package: asterisk13-app-verbose
@@ -652,10 +652,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3153
+Installed-Size: 3152
 Filename: asterisk13-app-verbose_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3944
-SHA256sum: 34678441551eb1ae4dc3b2f6840779f35c956143875763d9dee647a70f55e3f2
+Size: 3942
+SHA256sum: 6c9adb337033924b7f6f20af307a490c8d6b68e563efe10a155fc21d6613fb99
 Description:  This package provides support for 'Verbose logging application' in Asterisk.
 
 Package: asterisk13-app-waitforring
@@ -664,10 +664,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3105
+Installed-Size: 3104
 Filename: asterisk13-app-waitforring_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 3892
-SHA256sum: fd9ba12e2dd19a882c1a72c71edc46c279dfbcfc339744ec836f2eb4a0844768
+SHA256sum: 755264aa2ca0798b89ac7f5f5a565b88462ca8c18d2807d47d92516cee85246b
 Description:  This package provides support for 'wait for ring application' in Asterisk.
 
 Package: asterisk13-app-waitforsilence
@@ -676,10 +676,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4650
+Installed-Size: 4649
 Filename: asterisk13-app-waitforsilence_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5432
-SHA256sum: bbe05d4fcdbdf1a297a5227d2db374ce094a31748d13cecfa886adb9f0bb70a9
+Size: 5427
+SHA256sum: 57b24501bfa7fa772faccf81e5a9ff0c592bbf2164370b4c842ba9cefa597cc5
 Description:  This package provides support for 'wait for silence' in Asterisk.
 
 Package: asterisk13-app-waituntil
@@ -688,10 +688,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2774
+Installed-Size: 2773
 Filename: asterisk13-app-waituntil_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3602
-SHA256sum: 948568e83360a7b4b57abed7363e93278becb8a3de8352fff4ff22bf57324368
+Size: 3601
+SHA256sum: 91d11a4160c2e9fb42f2db57f7774b02802c57dca86a0f1139a160d1b10ea1ef
 Description:  This package provides support for 'support sleeping until the given epoch' in Asterisk.
 
 Package: asterisk13-app-while
@@ -700,10 +700,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4843
+Installed-Size: 4840
 Filename: asterisk13-app-while_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5630
-SHA256sum: 5806a0144b2507b0bdd0d9d096097831ac3a10823e77d84e24aafe26c913bc18
+Size: 5631
+SHA256sum: e98ee67c11b273579fbd1599d966511f4a2d6d323a5cec96d87941ecfe1885b1
 Description:  This package provides support for 'a while loop implementation' in Asterisk.
 
 Package: asterisk13-app-zapateller
@@ -712,10 +712,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2945
+Installed-Size: 2944
 Filename: asterisk13-app-zapateller_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3770
-SHA256sum: 0a4ad1b50d835f302320f22514fac57b0cb3e8bfb8f8884f0f289c4203e306d6
+Size: 3774
+SHA256sum: abcd73f40aa9400bf028e25fe68503c495f6bdd5c138bcc154c5fbe35c686d79
 Description:  This package provides support for 'playback the special information tone to get rid of telemarketers' in Asterisk.
 
 Package: asterisk13-bridge-builtin-features
@@ -724,10 +724,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6918
+Installed-Size: 6916
 Filename: asterisk13-bridge-builtin-features_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7753
-SHA256sum: 72b36fffb846689bac252979c6d8d62fd45812200451f299a4a43c927752fd3d
+Size: 7748
+SHA256sum: 27d8d8bfde4a0740bcb27124c65d6055919b5e1154e4e986ed60982730757a4b
 Description:  This package provides support for 'built in bridging features' in Asterisk.
 
 Package: asterisk13-bridge-builtin-interval-features
@@ -736,10 +736,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4019
+Installed-Size: 4016
 Filename: asterisk13-bridge-builtin-interval-features_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4818
-SHA256sum: 47b48f9e961d9f7b91dae1c4ef8cbb56b44ec4f3781460c151b88a74c61ea89d
+Size: 4814
+SHA256sum: 966bbaee4a2985c4cfebb9dff2054bf4d9eeac1456501cb15fb76f1e98a01628
 Description:  This package provides support for 'built in bridging interval features' in Asterisk.
 
 Package: asterisk13-bridge-holding
@@ -748,10 +748,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4965
+Installed-Size: 4963
 Filename: asterisk13-bridge-holding_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5765
-SHA256sum: 4fc352caaecdc5b54a1742142887f08eb0a605142bf73130b268c3216f4e629e
+Size: 5759
+SHA256sum: d533d2799fcc6fa13b3c8023dc7b78daf85318ad9b3c49e97d00bdf0b02b3f80
 Description:  This package provides support for 'bridging technology for storing channels in a bridge' in Asterisk.
 
 Package: asterisk13-bridge-native-rtp
@@ -762,8 +762,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 10376
 Filename: asterisk13-bridge-native-rtp_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11187
-SHA256sum: 57f5cd55e58c5aeea0cf59ac8eb4c11cef787f5d575214cba0c157a3f51deb21
+Size: 11203
+SHA256sum: c3468ab196114d1ff86e6487623ea73d1592416a9e5fbd4ed900a142264a9143
 Description:  This package provides support for 'native RTP bridging technology module' in Asterisk.
 
 Package: asterisk13-bridge-simple
@@ -772,10 +772,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2278
+Installed-Size: 2275
 Filename: asterisk13-bridge-simple_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3104
-SHA256sum: 401703d9b5b2277aeb0f867f7db08f971663190f5a1ae7e137d15b73ef1dfb58
+Size: 3106
+SHA256sum: 7563428dd2d9b6e9971daa7288c62e0535f7f2c7bb2f669eb3dd787fb439fea1
 Description:  This package provides support for 'simple two channel bridging module' in Asterisk.
 
 Package: asterisk13-bridge-softmix
@@ -786,8 +786,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 11115
 Filename: asterisk13-bridge-softmix_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11951
-SHA256sum: 3af4d50383bff460ac36c5d8299fa83ee8d2481be7d6382e28a857ce9f27c664
+Size: 11952
+SHA256sum: b661ec4547ab23105efdef1a7e9559589315c15b7d3c38d57407a341da5eb738
 Description:  This package provides support for 'multi-party software based channel mixing' in Asterisk.
 
 Package: asterisk13-cdr-csv
@@ -796,10 +796,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6158
+Installed-Size: 6155
 Filename: asterisk13-cdr-csv_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6978
-SHA256sum: a6f3f6854a3f626e0409eb46948f4e2ae5e4d570c0fa0adf2eb4b4f0256613c8
+Size: 6972
+SHA256sum: ff04169469618914e0781495fb7a204cc0635a745ad646b12448a08e711e6aaa
 Description:  This package provides support for 'Call Detail Record with CSV support' in Asterisk.
 
 Package: asterisk13-cdr-sqlite3
@@ -808,10 +808,10 @@ Depends: libc, librt, libpthread, asterisk13, libsqlite3
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6491
+Installed-Size: 6488
 Filename: asterisk13-cdr-sqlite3_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7343
-SHA256sum: 5b62027626bacc1204f5d8a73384f9737e593bc48a83a5a0999bd2f160270c98
+Size: 7333
+SHA256sum: e61db3d911bb760d4241242d5a96b1c09ab35dec7e1b5617039b912bfaf31818
 Description:  This package provides support for 'Call Detail Record with SQLITE3 support' in Asterisk.
 
 Package: asterisk13-cdr
@@ -820,10 +820,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 25887
+Installed-Size: 25888
 Filename: asterisk13-cdr_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 26568
-SHA256sum: 07147ab32e73af5309a061f36527f0c8b24ea9bfffbd98d548ae5e6fcdce881b
+Size: 26592
+SHA256sum: f5e59aff3d7d99447b1d2fd731c696f0cc79c939bc4e1ed763c60f6495b770e1
 Description:  This package provides support for 'Call Detail Record' in Asterisk.
 
 Package: asterisk13-cel-custom
@@ -832,10 +832,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5800
+Installed-Size: 5798
 Filename: asterisk13-cel-custom_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6646
-SHA256sum: 502c592dcf6ea614d4fd4b6e5bea322bc79001c90fb3b1ce7553e425c68520c1
+Size: 6641
+SHA256sum: 5cc62b57bf264aadc78147e1649824a0887de9d42fcf61a9f6f708eb2588eb75
 Description:  This package provides support for 'custom Comma Separated Value CEL records' in Asterisk.
 
 Package: asterisk13-cel-manager
@@ -844,10 +844,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3635
+Installed-Size: 3633
 Filename: asterisk13-cel-manager_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4434
-SHA256sum: 7b162f12b1ba4724a2432aad80c5726e0f0cbdbb7a5be405e8966dde83982fd3
+Size: 4425
+SHA256sum: 02a48435a194de406f15dee4bcdd718c8dcb7219a4a4918e6ddc427606e34f93
 Description:  This package provides support for 'Asterisk channel event records' in Asterisk.
 
 Package: asterisk13-cel-sqlite3-custom
@@ -856,10 +856,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7066
+Installed-Size: 7063
 Filename: asterisk13-cel-sqlite3-custom_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7935
-SHA256sum: e94b369eace4f9f160721f4653580eca56db98dc3e783125f278db435add3a60
+Size: 7927
+SHA256sum: 4da1da988ea18ac6932e3b8b3a7cdda624dd73ffbbce08300208007e6d3094b3
 Description:  This package provides support for 'custom SQLite3 CEL records' in Asterisk.
 
 Package: asterisk13-chan-alsa
@@ -868,10 +868,10 @@ Depends: libc, librt, libpthread, asterisk13, alsa-lib
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 14457
+Installed-Size: 14451
 Filename: asterisk13-chan-alsa_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 15239
-SHA256sum: 7d9f630863499d65f443b59298c9a485e0c40d3ea3c026ffa7f62267aa15b22f
+SHA256sum: 14cd544f95c20e8cf4de937a735b534bb862bddce1ae0616676f4f823b9c5144
 Description:  This package provides support for 'the channel chan_alsa' in Asterisk.
 
 Package: asterisk13-chan-bridge-media
@@ -880,10 +880,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3353
+Installed-Size: 3352
 Filename: asterisk13-chan-bridge-media_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4148
-SHA256sum: 6928928e6f28a233c9e8e2b3d8ff5348e28b5bdf57506e4916bc5888ff4fe62b
+Size: 4147
+SHA256sum: 8be2d0a3c4732f25a7af8b2815bbc8271a901b533d9af03175679db9e7da7549
 Description:  This package provides support for 'bridge media channel driver' in Asterisk.
 
 Package: asterisk13-chan-console
@@ -892,10 +892,10 @@ Depends: libc, librt, libpthread, asterisk13, portaudio
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 19358
+Installed-Size: 19355
 Filename: asterisk13-chan-console_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 20237
-SHA256sum: ede89010eca9c10baf81f013498bc3e0d0e3e34c50d89c052fe0dfa4c01e7564
+Size: 20082
+SHA256sum: b3efa2324ea1bae7029511dd6cbbc20b7403352777883044bd2c4e1b5d7d342e
 Description:  This package provides support for 'cross-platform console channel driver' in Asterisk.
 
 Package: asterisk13-chan-dongle
@@ -916,10 +916,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-timing-timerfd
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 193359
+Installed-Size: 193356
 Filename: asterisk13-chan-iax2_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 193514
-SHA256sum: a46f146987387e88365484c7717d71ff9020507fbc8ad88392468a7c54e194eb
+Size: 193521
+SHA256sum: 7c72370b99f6d249b4044b7afff26d318c42f241a29af4662bee1f5413550573
 Description:  This package provides support for 'IAX support' in Asterisk.
 
 Package: asterisk13-chan-mgcp
@@ -928,10 +928,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 63046
+Installed-Size: 63037
 Filename: asterisk13-chan-mgcp_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 63572
-SHA256sum: b7a789788666dc8d816aeefafbbcc26110f3acd9ec9dddca674f50c4b0c1df8e
+Size: 63558
+SHA256sum: ac2c168b5685d87c5007deb6903b585ae76c1bec228e91f3cf5bd9815b3e6c97
 Description:  This package provides support for 'Media Gateway Control Protocol' in Asterisk.
 
 Package: asterisk13-chan-mobile
@@ -940,10 +940,10 @@ Depends: libc, librt, libpthread, asterisk13, bluez-libs
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 44770
+Installed-Size: 44767
 Filename: asterisk13-chan-mobile_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 45439
-SHA256sum: f7c976229fce37e84b6dfc333b34758aa0f7372854d0460ec15f152f17765de5
+Size: 45467
+SHA256sum: 749c539ef233af2c44481cad9975219d8b23de90d1ec0efa4e5a7a7bca86077d
 Description:  This package provides support for 'Bluetooth mobile device channel driver' in Asterisk.
 
 Package: asterisk13-chan-motif
@@ -952,10 +952,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-xmpp
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 26320
+Installed-Size: 26314
 Filename: asterisk13-chan-motif_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 27005
-SHA256sum: 82783a5b9bf55a1fa8e3088fea2f6e706bb64b8aca7429b87ea6f0e431a95a91
+Size: 26997
+SHA256sum: 68f37ad5b7ff9d12719f5f6e6ae96e0ecb646e167b7ca6e89ab499e2bdd948f9
 Description:  This package provides support for 'Motif Jingle Channel Driver' in Asterisk.
 
 Package: asterisk13-chan-ooh323
@@ -964,10 +964,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 383636
+Installed-Size: 383626
 Filename: asterisk13-chan-ooh323_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 383976
-SHA256sum: 4e775d97c0d881689035cdea618ea0a6204516b0b2de54a8e60cda31344d6f7d
+Size: 384041
+SHA256sum: f5ff08b5e279d3fe1927781af2ad2dafcff360b80eb3766a1c090ec2e73adbb7
 Description:  This package provides support for 'Objective Systems H.323 channel' in Asterisk.
 
 Package: asterisk13-chan-oss
@@ -976,10 +976,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 18878
+Installed-Size: 18876
 Filename: asterisk13-chan-oss_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 19735
-SHA256sum: 7eb85e3049d4b0c46db55e7059fabbfcab8e3d777c498577c4942c9349515726
+Size: 19733
+SHA256sum: fbda4dee6d72b900b0089e6e7af088c229c67e79a3dede056d53479b0a990b8c
 Description:  This package provides support for 'the channel chan_oss' in Asterisk.
 
 Package: asterisk13-chan-phone
@@ -988,10 +988,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 18903
+Installed-Size: 18898
 Filename: asterisk13-chan-phone_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 19706
-SHA256sum: 23bcd1e981179b07f40c19e01e4d91ff021b6a3344409908cb53e0d8014d1ccd
+Size: 19750
+SHA256sum: ec5d04e369cc65ac4d0457f24a6ea9ca6396f1a08bc4eeef4441512aacf07e6c
 Description:  This package provides support for 'generic Linux telephony interface driver' in Asterisk.
 
 Package: asterisk13-chan-rtp
@@ -1003,7 +1003,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 5617
 Filename: asterisk13-chan-rtp_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 6413
-SHA256sum: 6d746a7b205f004bf89ad6ec49a61cae4784d0382e30c4a089293605fc337513
+SHA256sum: 362b197445e985b52bd9bed8f95da02b704efcbc68282c3b1b16dd1a22bf1549
 Description:  This package provides support for 'RTP [Multicast and Unicast] media channel' in Asterisk.
 
 Package: asterisk13-chan-sccp
@@ -1027,10 +1027,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-app-confbridge
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 415441
+Installed-Size: 415435
 Filename: asterisk13-chan-sip_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 414605
-SHA256sum: 2d2aba1ad1a2ee2b868329e60b5cef9b39b9c91a37862b2cbbe021a3fafbe1f4
+Size: 414616
+SHA256sum: 2f8c50ad3740dc44c4275e3cacfffdd18d96ca533428e474954eb7777d419355
 Description:  This package provides support for 'the channel chan_sip' in Asterisk.
 
 Package: asterisk13-chan-skinny
@@ -1039,10 +1039,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 73349
+Installed-Size: 73347
 Filename: asterisk13-chan-skinny_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 74126
-SHA256sum: d208fc9d4681fc66af273633870de52842b095c7c81d84127582e5e3aa32ea09
+Size: 74106
+SHA256sum: 0254d1c3b20a6582c6cf142acb28b1cfbd1ba093a70e562bd62d78040853ebcc
 Description:  This package provides support for 'the channel chan_skinny' in Asterisk.
 
 Package: asterisk13-chan-unistim
@@ -1053,8 +1053,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 82344
 Filename: asterisk13-chan-unistim_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 83089
-SHA256sum: 3f4f897da3ace2c602cf9efae3b17fbed6867d9294e7a53a3867d31bbb83de7f
+Size: 83090
+SHA256sum: 7175ef1f650367efa9d45b069d5a11fe7c622e5a397f15d91c4a8e1d82a955f5
 Description:  This package provides support for 'channel driver for the UNISTIM (Unified Networks IP Stimulus) protocol' in Asterisk.
 
 Package: asterisk13-codec-a-mu
@@ -1063,10 +1063,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2790
+Installed-Size: 2789
 Filename: asterisk13-codec-a-mu_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3594
-SHA256sum: eae94ed2d038f902ed3c6bbdd4befee3a6d0959d46d79ebf1b8ce572c84c516d
+Size: 3582
+SHA256sum: c4bbccb8445dcded9ad1d6f87ee55a02ea33bd8c3ae949e5279daeb66bf942eb
 Description:  This package provides support for 'translation between alaw and ulaw codecs' in Asterisk.
 
 Package: asterisk13-codec-adpcm
@@ -1077,8 +1077,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3804
 Filename: asterisk13-codec-adpcm_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4588
-SHA256sum: 1be53744fb0e70c3b3dd87788bc8922913acc9dc27f2db380d4b224d9cb95b12
+Size: 4591
+SHA256sum: 1f0a564e3baaa1a0cccd0b3ff5bb4725c2d59a8804b73c9ddb155635dce5de7f
 Description:  This package provides support for 'ADPCM text ' in Asterisk.
 
 Package: asterisk13-codec-alaw
@@ -1087,10 +1087,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3030
+Installed-Size: 3029
 Filename: asterisk13-codec-alaw_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3831
-SHA256sum: b75eddd23ac7dcbb13f22bd32e83a40ff979ac979b73b0273e8961497e3202da
+Size: 3828
+SHA256sum: a9bbb0db9fe1f37212dc47e5162d9ca5618ef20fc5330fcf269dc9207dbaf731
 Description:  This package provides support for 'translation between signed linear and alaw codecs' in Asterisk.
 
 Package: asterisk13-codec-g722
@@ -1099,10 +1099,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9217
+Installed-Size: 9214
 Filename: asterisk13-codec-g722_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 10048
-SHA256sum: d19496d2dded7649600494ff98b96b10787c99edca032d4552de65a3d9300f7b
+Size: 10047
+SHA256sum: 3a385dd03015a8510a5ea6baaecfb83d42420e6bc8fd4b80f11395c1cb6a39c0
 Description:  This package provides support for 'a high bit rate 48/56/64Kbps ITU standard codec' in Asterisk.
 
 Package: asterisk13-codec-g726
@@ -1111,10 +1111,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5196
+Installed-Size: 5188
 Filename: asterisk13-codec-g726_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6036
-SHA256sum: 9350a98192793e4e72e2e851de65da86cdf40869e06848a5bd5a9360df3f98ea
+Size: 6025
+SHA256sum: 0fd76249d7c159e89bdd94a1cb0cc6406e25906c1cf86cb1f16f93bd2aecd72a
 Description:  This package provides support for 'translation between signed linear and ITU G.726-32kbps codecs' in Asterisk.
 
 Package: asterisk13-codec-g729
@@ -1135,10 +1135,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 30874
+Installed-Size: 30871
 Filename: asterisk13-codec-gsm_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 31665
-SHA256sum: 30e169a2fb53582f80018c99fb28a8e210614a22425232ff209b8bf77d8874e8
+Size: 31656
+SHA256sum: 5f4f0cb5f1dd86ec24c6641b07ede37ec79a994703798890a369e76d53604c79
 Description:  This package provides support for 'translate between signed linear and GSM' in Asterisk.
 
 Package: asterisk13-codec-ilbc
@@ -1147,10 +1147,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 45266
+Installed-Size: 45264
 Filename: asterisk13-codec-ilbc_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 46071
-SHA256sum: 5cf909987521169e1f341a896719bda537545b2df582ac01dc748d4e6cff5b33
+Size: 46085
+SHA256sum: a91aae1e0e2ebce4e9a4e714822d863df0355e01a985a1fe4673d9edd3c0b069
 Description:  This package provides support for 'translate between signed linear and ILBC' in Asterisk.
 
 Package: asterisk13-codec-lpc10
@@ -1159,10 +1159,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 27784
+Installed-Size: 27781
 Filename: asterisk13-codec-lpc10_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 28560
-SHA256sum: fa3567abff937e0ba286b6aa5b2e67976ef3b8e691052131db6dbcb44082e8fc
+Size: 28565
+SHA256sum: 7af4a1e306a2652bf633b66ad2b9ec8f48ea4645b53c1272821d7e172f1104a2
 Description:  This package provides support for 'translate between signed linear and LPC10' in Asterisk.
 
 Package: asterisk13-codec-resample
@@ -1171,10 +1171,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 13403
+Installed-Size: 13402
 Filename: asterisk13-codec-resample_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 14123
-SHA256sum: 0a4a353b1e7e9269017cc6bbde914f4a14ad9be4018858b99a601915dd323c87
+Size: 14113
+SHA256sum: a89a7aaa1cdfabb8d7527557bdddbe538d834170b035c8bbfd53d5f71d76929f
 Description:  This package provides support for 'resample sLinear audio' in Asterisk.
 
 Package: asterisk13-codec-ulaw
@@ -1183,10 +1183,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3159
+Installed-Size: 3157
 Filename: asterisk13-codec-ulaw_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3961
-SHA256sum: 5988a13388409991205e4aa3fb79d12fc2f0aa0d5588c146d9c0dc81f11ffd67
+Size: 3958
+SHA256sum: 1563baf388db6aa5f24519415ebd3aa5191684646a9c18035033e7a3ecb9aa8a
 Description:  This package provides support for 'translation between signed linear and ulaw codecs' in Asterisk.
 
 Package: asterisk13-curl
@@ -1195,10 +1195,10 @@ Depends: libc, librt, libpthread, asterisk13, libcurl
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 17664
+Installed-Size: 17661
 Filename: asterisk13-curl_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 18462
-SHA256sum: 11a7d3386467b47e119288c1248de1cc1b0b67d9ab04cd812f6d0372a03dc23c
+Size: 18442
+SHA256sum: 69725b91284e2e1402febd50f334329f9e8894bcce4f3e34c8f69a5fa8f481a4
 Description:  This package provides support for 'CURL support' in Asterisk.
 
 Package: asterisk13-format-g719
@@ -1207,10 +1207,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3365
+Installed-Size: 3363
 Filename: asterisk13-format-g719_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4158
-SHA256sum: 55c5f117c02cebf5d09ba2094fa2c9aa22b333ce0e9b3678cd454e7940d75b5f
+Size: 4151
+SHA256sum: fe7f6f20cb188b4a1d3a84ee6a4160ef99dd0aaa821c29ad0d8f14df40d831d6
 Description:  This package provides support for 'ITU G.719 64kbps-only' in Asterisk.
 
 Package: asterisk13-format-g723
@@ -1219,10 +1219,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3253
+Installed-Size: 3254
 Filename: asterisk13-format-g723_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4051
-SHA256sum: 47175d4fb31c245e472c1cd24d653135159ab0c8f2188265e02e25783c2f0491
+Size: 4054
+SHA256sum: ff10ef2ddf644ea3a8fd99e6f9d7c37a11240257a636c3cca7b7cc0940d758db
 Description:  This package provides support for 'old-style G.723.1 frame/timestamp format' in Asterisk.
 
 Package: asterisk13-format-g726
@@ -1231,10 +1231,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3701
+Installed-Size: 3699
 Filename: asterisk13-format-g726_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 4512
-SHA256sum: e9be8570fb37d35f2ee3be08569ddd479795e46d6dbb88ff3038c739aced70dc
+SHA256sum: 5d90749f4b3f99214703039dfa03f91abf69109f379dec8bdf64ed9edc38674a
 Description:  This package provides support for 'support for headerless G.726 16/24/32/40kbps data format' in Asterisk.
 
 Package: asterisk13-format-g729
@@ -1243,10 +1243,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3285
+Installed-Size: 3284
 Filename: asterisk13-format-g729_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4079
-SHA256sum: ecff5f7f79a0e321ab5291fefb8dc3a33816a98dfba3ce6f79d46fceba824090
+Size: 4073
+SHA256sum: cc8594f27a41a5dfa1445dbb8ca4eeb97fdfc68ca77a0da4407fc18a9f800dee
 Description:  This package provides support for 'support for raw headerless G729 data' in Asterisk.
 
 Package: asterisk13-format-gsm
@@ -1255,10 +1255,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6397
+Installed-Size: 6394
 Filename: asterisk13-format-gsm_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7237
-SHA256sum: 17f0320df136a693158d92f6c103f3305a31add06d99467c24ba8b3d190ab9c4
+Size: 7228
+SHA256sum: c517d648847fadce9051bc842b190ae67369f7c0b2162122d4893d9168331c29
 Description:  This package provides support for 'support for GSM format' in Asterisk.
 
 Package: asterisk13-format-h263
@@ -1267,10 +1267,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3272
+Installed-Size: 3271
 Filename: asterisk13-format-h263_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 4052
-SHA256sum: fa6872e1b0a53abe5788f3d6fe88f557d6065ded783c706a7c6626ddca63fefd
+SHA256sum: 4bfa27ff5fd17d55eb20f680e78373a35daf676e8eb056ff5d5cc2ab3c329221
 Description:  This package provides support for 'support for H264 format' in Asterisk.
 
 Package: asterisk13-format-h264
@@ -1279,10 +1279,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3352
+Installed-Size: 3350
 Filename: asterisk13-format-h264_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4138
-SHA256sum: 2edf9690360d1591a89aee03ac743158eb8fcfbf2d65d7bd4f10054ec04e8647
+Size: 4134
+SHA256sum: 8c9cd80a9d1b33afbbe5c9f39271b8e636c5080a826c701b9081c27ada08d27d
 Description:  This package provides support for 'support for H264 format' in Asterisk.
 
 Package: asterisk13-format-ilbc
@@ -1291,10 +1291,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3265
+Installed-Size: 3263
 Filename: asterisk13-format-ilbc_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4051
-SHA256sum: 39d16eda1ee9a3618969d589dc8c9b19bb52e53785612c0209c46a5996663573
+Size: 4042
+SHA256sum: b63d6bd07f767ccb4f7da5e44ffad977891ff2d9788148fc031d83d3b7cb3f8f
 Description:  This package provides support for 'support for ILBC format' in Asterisk.
 
 Package: asterisk13-format-jpeg
@@ -1305,8 +1305,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2826
 Filename: asterisk13-format-jpeg_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3650
-SHA256sum: 1a3a6e1d6e88a14268ad74ce5697cb0c96ad0ab33952876853847882df76dc8a
+Size: 3648
+SHA256sum: 897d8ee19d3180e72075b893d25c6e12f3745e99fe4f4378bd317b2358012ec4
 Description:  This package provides support for 'JPEG file format' in Asterisk.
 
 Package: asterisk13-format-ogg-vorbis
@@ -1315,10 +1315,10 @@ Depends: libc, librt, libpthread, asterisk13, libvorbis
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5293
+Installed-Size: 5294
 Filename: asterisk13-format-ogg-vorbis_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6093
-SHA256sum: 9277bead17bbc25d424c95ddc9cfa967193921a31790e4c35e07b8f2f1be3ec3
+Size: 6089
+SHA256sum: 0abf3cd2bc7e9b2f212225f89b3b2068725486b4430086cd1c8465620b21b4bc
 Description:  This package provides support for 'OGG/Vorbis streams' in Asterisk.
 
 Package: asterisk13-format-pcm
@@ -1327,10 +1327,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5246
+Installed-Size: 5245
 Filename: asterisk13-format-pcm_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6027
-SHA256sum: e8147df77aeec119e5d2b4ad8428cd8c06d03d1efc090476f8dfe296bacd72d9
+Size: 6029
+SHA256sum: 961299db6fc519c4d320061c59c2671483f6490144ac1b6036e294e45d2b9829
 Description:  This package provides support for 'support for PCM format' in Asterisk.
 
 Package: asterisk13-format-siren14
@@ -1341,8 +1341,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3403
 Filename: asterisk13-format-siren14_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4210
-SHA256sum: 843680bf2388e748b7b5249346e88221682d0af5f453dff9da27cd97d99bb14d
+Size: 4213
+SHA256sum: c1bbd18f3a17d4da4e6da5bd8b9eceb1bdf54b2360771789532f3a0f387ec849
 Description:  This package provides support for 'ITU G.722.1 Annex C Siren14 48kbps-only format' in Asterisk.
 
 Package: asterisk13-format-siren7
@@ -1351,10 +1351,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3268
+Installed-Size: 3266
 Filename: asterisk13-format-siren7_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4066
-SHA256sum: cbd1f54befb6d571734977b79b7b02b03daa837d49d9f444868c742d9e82b614
+Size: 4063
+SHA256sum: 81bbeaaed965d0a5083b620f6135ffba1dae33b0145c32301c9a0c1e7cab63d8
 Description:  This package provides support for 'ITU G.722.1 Siren7 32kbps-only format' in Asterisk.
 
 Package: asterisk13-format-sln
@@ -1363,10 +1363,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3873
+Installed-Size: 3870
 Filename: asterisk13-format-sln_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4670
-SHA256sum: faaf29a574f9ed202b14a9092a6051703e94a5811d69738f6ebf58d17ef26595
+Size: 4663
+SHA256sum: a13d2b4ea87839f08a88a49d36253f49e28be88a5bf904d69f165f7269b2792c
 Description:  This package provides support for 'support for raw slinear format' in Asterisk.
 
 Package: asterisk13-format-vox
@@ -1375,10 +1375,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3131
+Installed-Size: 3129
 Filename: asterisk13-format-vox_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3921
-SHA256sum: f86c10fd98302e4b64cc894d89922b4238baaff43a67da1281f6a8863593b432
+Size: 3916
+SHA256sum: 8eecea37b39c529746e484ed69f5f9587eb5e1ac9ab3027337d15446a68d10a5
 Description:  This package provides support for 'support for ADPCM vox format' in Asterisk.
 
 Package: asterisk13-format-wav-gsm
@@ -1387,10 +1387,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11826
+Installed-Size: 11823
 Filename: asterisk13-format-wav-gsm_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 12663
-SHA256sum: 7bd8ff51f9c4acb631bfc314512cc17c3e05f77429e3cf6c0bdd4c421e2a5766
+Size: 12657
+SHA256sum: 626c6c65593fbeb7f8ec5ff98bcbcd0746f8f07a4e212236b75d6fadc3851234
 Description:  This package provides support for 'support for proprietary Microsoft WAV format (Proprietary GSM)' in Asterisk.
 
 Package: asterisk13-format-wav
@@ -1401,8 +1401,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 5864
 Filename: asterisk13-format-wav_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6695
-SHA256sum: ff004a41e89a84f0a5d7b6cbaa4409da242688923b5d22525d2135252fdb0d5a
+Size: 6694
+SHA256sum: 7da849112533174eb4c6e6eead7d52309e8af50254d00c16d58b1be77f4a8fd6
 Description:  This package provides support for 'support for proprietary Microsoft WAV format (8000hz Signed Linear)' in Asterisk.
 
 Package: asterisk13-func-aes
@@ -1411,10 +1411,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4225
+Installed-Size: 4223
 Filename: asterisk13-func-aes_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5017
-SHA256sum: 1496b6cb1c4e32ece1cb2d88747c9f247ef29036f0d074ce7ad028fd750bef0d
+Size: 5018
+SHA256sum: adb2f3f812c29b820b506bca286eacbdb6dd97af933f9afd92299acb279d1da8
 Description:  This package provides support for 'AES encryption/decryption dialplan functions' in Asterisk.
 
 Package: asterisk13-func-base64
@@ -1423,10 +1423,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3461
+Installed-Size: 3460
 Filename: asterisk13-func-base64_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4249
-SHA256sum: ce8e52869dccf7d3b1b28ef7c3fb839c4e5bd99dd049d2bae9b0d49d241d26a1
+Size: 4241
+SHA256sum: 01945f6f76f247dbcb11c393f34b952c0bdea1c61612a48cf0cc1e8a5d291f6b
 Description:  This package provides support for 'support of base64 function' in Asterisk.
 
 Package: asterisk13-func-blacklist
@@ -1437,8 +1437,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3078
 Filename: asterisk13-func-blacklist_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3884
-SHA256sum: f6c12b68b7ca669bd574e7d3ebc28d027eaeccb9f53e9a1e1d17eac375edcfe3
+Size: 3883
+SHA256sum: 34a202485c8a1bcab59fce3226bd23187e39f7077b36056d8ec2ee81c6fd8a64
 Description:  This package provides support for 'looking up the callerid number and see if it is blacklisted' in Asterisk.
 
 Package: asterisk13-func-callcompletion
@@ -1449,8 +1449,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2580
 Filename: asterisk13-func-callcompletion_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3414
-SHA256sum: ae18b1bbc34c42839ff9989307d24bcfef2b88dcc212131858dd377bab8f4a01
+Size: 3419
+SHA256sum: 9b8d88c7fafd58e1f8fb20cb0d1d94ab9e40d2e9a3e3e356af4b9960e512c90c
 Description:  This package provides support for 'call completion supplementary services implementation' in Asterisk.
 
 Package: asterisk13-func-channel
@@ -1459,10 +1459,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 12598
+Installed-Size: 12597
 Filename: asterisk13-func-channel_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 13378
-SHA256sum: 4101bed26b0b84fb8646205ba2003f711d95f44381c6c25cad121af89a5db943
+Size: 13293
+SHA256sum: 85fb2230a08e04d11c04bc4ce39f06f8f8ebb71c18dd420d708dfe2317e3d114
 Description:  This package provides support for 'Channel info dialplan function' in Asterisk.
 
 Package: asterisk13-func-config
@@ -1471,10 +1471,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4237
+Installed-Size: 4235
 Filename: asterisk13-func-config_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5041
-SHA256sum: bc1e7569a0035f270378053de292271b37a101bb45fd86fa72255ede449ced1c
+Size: 5032
+SHA256sum: 53763aebd830e696c7d3eb4c11dd14aba6b721f29f8c0a06617d3eeb104af772
 Description:  This package provides support for 'a function to retrieve variables from an Asterisk configuration file' in Asterisk.
 
 Package: asterisk13-func-cut
@@ -1483,10 +1483,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4606
+Installed-Size: 4603
 Filename: asterisk13-func-cut_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5375
-SHA256sum: 1297f774c51249dc9e60a26d84495f1173cb185cefc316c64233b27f266bc06c
+Size: 5369
+SHA256sum: db559293652ce3d859d59a97b82c80c03d951f18588acc671e990c410ea6e06c
 Description:  This package provides support for 'CUT function' in Asterisk.
 
 Package: asterisk13-func-db
@@ -1497,8 +1497,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 6025
 Filename: asterisk13-func-db_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6818
-SHA256sum: 8deff5c9173016bc86c1e72a7429673a6b6649b95f78be099398c6fa3f454365
+Size: 6811
+SHA256sum: 5c8cf3c0e5c80bb5f2dcb2ee5cb3fb3843a76e6c68f23c3fb984eac40d0d3dd2
 Description:  This package provides support for 'functions for interaction with the database' in Asterisk.
 
 Package: asterisk13-func-devstate
@@ -1507,10 +1507,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4353
+Installed-Size: 4352
 Filename: asterisk13-func-devstate_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5171
-SHA256sum: ce105158bc61a1cb406ef1552e5bf7728d69d2474ee0b8f2fc501292b67aff58
+Size: 5165
+SHA256sum: 3f50da60aae48098785a09f7f1e39e91e55606658b150cdba14ea428870ff42b
 Description:  This package provides support for 'functions for manually controlled blinky lights' in Asterisk.
 
 Package: asterisk13-func-dialgroup
@@ -1521,8 +1521,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4680
 Filename: asterisk13-func-dialgroup_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5463
-SHA256sum: f920e0e2b843808255e1f990a5349a66ad2c6040626ec962db5be8e6398cd64a
+Size: 5460
+SHA256sum: c6b679096d0016b2ef2c8e3a44523f64cf0d22b1355399792906e5004b6f04b2
 Description:  This package provides support for 'dialgroup dialplan function' in Asterisk.
 
 Package: asterisk13-func-dialplan
@@ -1531,10 +1531,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3389
+Installed-Size: 3383
 Filename: asterisk13-func-dialplan_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4193
-SHA256sum: cf65ef2a78246ab7fe4d469f2fd285fe97c885a31afa69cb33c65b07b61c2413
+Size: 4185
+SHA256sum: 04dadb7ecb590df78eaea4d1d0de4c6aac6e7a9476798befd5b46d458623cc44
 Description:  This package provides support for 'dialplan group functions check if a dialplan entry exists' in Asterisk.
 
 Package: asterisk13-func-enum
@@ -1543,10 +1543,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5753
+Installed-Size: 5748
 Filename: asterisk13-func-enum_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6577
-SHA256sum: a48500dc566d4a3d78b81dcb7305b61bd252f867f5e5df8201024dedb198c7b2
+Size: 6570
+SHA256sum: 3aa0c857d90afcbafb8f769f58ef3acac51543f98c0e4718d4a270f2f9123941
 Description:  This package provides support for 'ENUM' in Asterisk.
 
 Package: asterisk13-func-env
@@ -1555,10 +1555,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 14917
+Installed-Size: 14914
 Filename: asterisk13-func-env_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 15703
-SHA256sum: 4912ad3f25d95a85ceb02c960406afbe9fa86c6904f6e70de0de7e4a5684a3d1
+Size: 15696
+SHA256sum: 0031dcbeb925b90cf651a558d682d32a4fef2282558dfa193a00c3da06f5c663
 Description:  This package provides support for 'Environment dialplan functions' in Asterisk.
 
 Package: asterisk13-func-extstate
@@ -1567,10 +1567,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2599
+Installed-Size: 2597
 Filename: asterisk13-func-extstate_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3446
-SHA256sum: cc195b2ca08941b0739a6ac1869a5b3a64b6c69574b007e0495df7c0eca61a4d
+Size: 3438
+SHA256sum: fd596225d1bf57bf6a6cf7d43000d08c2cce6b7ffb8279ce30a1394329fa0392
 Description:  This package provides support for 'retrieving the state of a hinted extension for dialplan control' in Asterisk.
 
 Package: asterisk13-func-frame-trace
@@ -1579,10 +1579,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6011
+Installed-Size: 6010
 Filename: asterisk13-func-frame-trace_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6825
-SHA256sum: c732ad61cc74d7e6fd217639ec8a2023c533c4cbb3e9bef4386174f3590e5158
+Size: 6819
+SHA256sum: e2c2da1146f91818f908339746b21f3110faf33c097c3dbd2fad07bc9cd8700f
 Description:  This package provides support for 'trace internal ast_frames on a channel' in Asterisk.
 
 Package: asterisk13-func-global
@@ -1591,10 +1591,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4514
+Installed-Size: 4512
 Filename: asterisk13-func-global_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5297
-SHA256sum: e4ffe01e9c15112b6d618724b9ac43beb38d731a79d64361988dfead1f35bbb5
+Size: 5295
+SHA256sum: b6c9e7593f332095aa5f8be275316155d9175be8b89e674985a17c11767bed1d
 Description:  This package provides support for 'global variable dialplan functions' in Asterisk.
 
 Package: asterisk13-func-groupcount
@@ -1603,10 +1603,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3881
+Installed-Size: 3878
 Filename: asterisk13-func-groupcount_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4691
-SHA256sum: 29275fc44cc82529458064ea898a37a9dde4307f0e9f802f644cc57d560772b0
+Size: 4684
+SHA256sum: d9ca6ca3ea87330413a9701d2f6e18757b4a8b0173a492439e947eea76df0fef
 Description:  This package provides support for 'for counting number of channels in the specified group' in Asterisk.
 
 Package: asterisk13-func-hangupcause
@@ -1615,10 +1615,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3416
+Installed-Size: 3414
 Filename: asterisk13-func-hangupcause_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4231
-SHA256sum: 6aafd93b512d753522369cfac9ffaa0c0c6cdc4339ef950771848902fde1b269
+Size: 4233
+SHA256sum: 6e507e26e666a47a28b981884dc67dc03a6287d73bbcaff7b35c304c192cedf4
 Description:  This package provides support for 'functions related to retreiving per-channel hangupcause information' in Asterisk.
 
 Package: asterisk13-func-holdintercept
@@ -1627,10 +1627,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3638
+Installed-Size: 3637
 Filename: asterisk13-func-holdintercept_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4461
-SHA256sum: 7777d5ce3735900f0de07d3f5457ace4ab8ab47b930d068df348a8f9ceec3264
+Size: 4456
+SHA256sum: 1bcb7c7a86ee22a7b7ad3772bc670763897ff659461100ec431367a370d3a199
 Description:  This package provides support for 'function that intercepts HOLD frames from channels and raises events' in Asterisk.
 
 Package: asterisk13-func-iconv
@@ -1639,10 +1639,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3171
+Installed-Size: 3169
 Filename: asterisk13-func-iconv_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3958
-SHA256sum: 1e515c78886a1d5377921acba4f0b4383d4e31bbfe8373351b6e50c9703f5bf4
+Size: 3947
+SHA256sum: a47ef964fed32c92906dd4789b6a9a7bcde21016a2338a3c7dbd8cc9a8a01786
 Description:  This package provides support for 'charset conversion' in Asterisk.
 
 Package: asterisk13-func-jitterbuffer
@@ -1651,10 +1651,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3035
+Installed-Size: 3037
 Filename: asterisk13-func-jitterbuffer_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3840
-SHA256sum: e001bf1d459516a81a7c42b20fac34bc3215c14a888d0d00b025ad2224340df0
+Size: 3835
+SHA256sum: 9a1cdd85f870a44c6a616df5cd674f288bf23c24326f488ffa2fec392cd010d0
 Description:  This package provides support for 'put a jitterbuffer on the read side of a channel' in Asterisk.
 
 Package: asterisk13-func-lock
@@ -1665,8 +1665,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 6784
 Filename: asterisk13-func-lock_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7628
-SHA256sum: ddde0c00b610d431714a0775c63af33ceb7f504ad05aec0c70d3c5abf78bb873
+Size: 7631
+SHA256sum: 316fe6dcfb36669cf0868ad396c8bec06a9ed42bb3b0452bce898b5df63afa4b
 Description:  This package provides support for 'dialplan mutexes' in Asterisk.
 
 Package: asterisk13-func-math
@@ -1675,10 +1675,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5118
+Installed-Size: 5117
 Filename: asterisk13-func-math_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5893
-SHA256sum: 2fe0d02c9d34f40ac05609315391f045637fd1ee5787500b0cb6913e5917dc07
+Size: 5890
+SHA256sum: ba8f26e7a28111be9d718ee91a5d6c263aca2224f29c247b2e1f75941055c756
 Description:  This package provides support for 'Math functions' in Asterisk.
 
 Package: asterisk13-func-md5
@@ -1687,10 +1687,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2254
+Installed-Size: 2253
 Filename: asterisk13-func-md5_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3081
-SHA256sum: e8f7d47899b7ba7943c3d0b91cb666db1f566fdb02c48837f6b62e9a876b109a
+Size: 3077
+SHA256sum: 5dc906735bc6dfce8be39530df3912dab42f0e200a7976bb5f8089eda85d5004
 Description:  This package provides support for 'MD5 digest related dialplan functions' in Asterisk.
 
 Package: asterisk13-func-module
@@ -1699,10 +1699,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2216
+Installed-Size: 2217
 Filename: asterisk13-func-module_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3037
-SHA256sum: c3b7b38294b9bbdb7d02ebc763273041b6f9bc4645c27f5bab0a6a3bd586c007
+Size: 3032
+SHA256sum: 7d9ce7f24eefb73f20fc6b1bb90d1a06183e872d4e261b0fbfa791f784c2c08f
 Description:  This package provides support for 'Simple module check function' in Asterisk.
 
 Package: asterisk13-func-periodic-hook
@@ -1711,10 +1711,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-app-chanspy, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6877
+Installed-Size: 6875
 Filename: asterisk13-func-periodic-hook_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7767
-SHA256sum: 607b2b89f94a06071bbedc522946dba8e924d22d84281f727985f7fc75a99ee2
+Size: 7754
+SHA256sum: 8488c1f30571c7d2cfcc464f2c3c2cf9c596d55cd9f07d71a5b5201b454c5d44
 Description:  This package provides support for 'Execute a periodic dialplan hook into the audio of a call' in Asterisk.
 
 Package: asterisk13-func-pitchshift
@@ -1725,8 +1725,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 7478
 Filename: asterisk13-func-pitchshift_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 8299
-SHA256sum: 4faee58941a612a7b5c29b5724e06f4dc12d165acfecb728813d222ceb614017
+Size: 8292
+SHA256sum: 0cb07018b14eb3b007809ade1a0cf81fae9cae4c89d76572be34c970833e3959
 Description:  This package provides support for 'pitch shift audio effect' in Asterisk.
 
 Package: asterisk13-func-presencestate
@@ -1735,10 +1735,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6260
+Installed-Size: 6256
 Filename: asterisk13-func-presencestate_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7114
-SHA256sum: cfe8a62c5c3b9d0ed1b5449fe23b6276f592f4ed3bee3f75abd1449bf340265d
+Size: 7117
+SHA256sum: 9a2958eff441ccaf732f73b6e833f96e7403c5e55773048fcbcd61666286fd37
 Description:  This package provides support for 'Gets or sets a presence state in the dialplan' in Asterisk.
 
 Package: asterisk13-func-rand
@@ -1747,10 +1747,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2789
+Installed-Size: 2788
 Filename: asterisk13-func-rand_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3610
-SHA256sum: 9184a99baf4cd98a68539bc25ea7824e198b9f3a4c1dc9b4996a9b5420cb1243
+Size: 3608
+SHA256sum: 265ecef0b299d75ed2c6da9b5c569550e94cc4b134814581e92f800bf2d0073d
 Description:  This package provides support for 'RAND dialplan function' in Asterisk.
 
 Package: asterisk13-func-realtime
@@ -1759,10 +1759,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6583
+Installed-Size: 6581
 Filename: asterisk13-func-realtime_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7434
-SHA256sum: 0e09f8ef823ed7b3f5a0d6fc00a36168f73e8467bf2963dbab4997368dad2a6f
+Size: 7426
+SHA256sum: 10d7d6d85c0f3a64266d6201199dc9f52e65afdf29d9b615c7fe6e3fa8b50b50
 Description:  This package provides support for 'REALTIME dialplan function' in Asterisk.
 
 Package: asterisk13-func-sha1
@@ -1771,10 +1771,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2339
+Installed-Size: 2338
 Filename: asterisk13-func-sha1_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3175
-SHA256sum: c3bda523a0f3ff354657fdfb74e8747e72ce1d8aef4a79c300835b495b1917af
+Size: 3170
+SHA256sum: 80f547780d34baa901c6f36948942758dfd893961aa427e41e90e3299733e74e
 Description:  This package provides support for 'SHA1 digest related dialplan functions' in Asterisk.
 
 Package: asterisk13-func-shell
@@ -1783,10 +1783,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2602
+Installed-Size: 2601
 Filename: asterisk13-func-shell_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3418
-SHA256sum: e8cc5ebf1090a60fd646ed1a80d70c4d798212ee4aa8a929d6371d5c5a55d3e4
+Size: 3412
+SHA256sum: b6853830cf522be75bff61848aef7eaa5818918e35514dd77fab8e8fe4565926
 Description:  This package provides support for 'support for shell execution' in Asterisk.
 
 Package: asterisk13-func-sorcery
@@ -1795,10 +1795,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3495
+Installed-Size: 3494
 Filename: asterisk13-func-sorcery_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4293
-SHA256sum: d98090da1c7f13792f23415ebce743c0c00dafc375072b1d395a2b9d6d867b9f
+Size: 4286
+SHA256sum: 70d11c9289b5eeb91233efadc5734f23e664b990f8129cc92b3527ddc7e00cb5
 Description:  This package provides support for 'get a field from a sorcery object' in Asterisk.
 
 Package: asterisk13-func-sprintf
@@ -1807,10 +1807,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3537
+Installed-Size: 3535
 Filename: asterisk13-func-sprintf_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4330
-SHA256sum: 075f57e573348c46bc62b8107445d80f4abd7d45b9a37d22262d414d3075093c
+Size: 4328
+SHA256sum: cc66ad4b0ed0a4c60369d86a9e0a24c78ae46a8080acf58a5c7344fb63e76581
 Description:  This package provides support for 'string manipulation dialplan functions' in Asterisk.
 
 Package: asterisk13-func-srv
@@ -1819,10 +1819,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4349
+Installed-Size: 4348
 Filename: asterisk13-func-srv_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5134
-SHA256sum: d4871103fbbdb5c407f265b163959fd4b492e979c61bec4f2e8dfe05c6852ca2
+Size: 5125
+SHA256sum: 376afafab6888ca36366f1520b74bbb72631fafbffe74cf36f8bc132820ad60c
 Description:  This package provides support for 'SRV related dialplan functions' in Asterisk.
 
 Package: asterisk13-func-sysinfo
@@ -1831,10 +1831,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2886
+Installed-Size: 2885
 Filename: asterisk13-func-sysinfo_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3687
-SHA256sum: fd3b6c644bf8855c48915e367067c4b30a4dd47820024340a8f60ff4e0c75632
+Size: 3688
+SHA256sum: 476dccb0974db0fcbfb3bd1244e320af690dd1368a5d25455887fd429658963d
 Description:  This package provides support for 'SYSINFO function to return various system data' in Asterisk.
 
 Package: asterisk13-func-talkdetect
@@ -1843,10 +1843,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4859
+Installed-Size: 4857
 Filename: asterisk13-func-talkdetect_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5677
-SHA256sum: 15e23e621baaaaf121f05be06d052e60df5a85ab96c0c7f0f0c1d6f96db12739
+Size: 5668
+SHA256sum: c06f8dcc7279c08fa0411a2087e7127a5ee01a21d5f6a2df615f419e1b1bc580
 Description:  This package provides support for 'function that raises events when talking is detected on a channel' in Asterisk.
 
 Package: asterisk13-func-uri
@@ -1857,8 +1857,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2375
 Filename: asterisk13-func-uri_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3206
-SHA256sum: 080fd0fe65ce14f5b4da8a83a1eae526e8d10704fc1d7dc439f90462ed34b3e8
+Size: 3204
+SHA256sum: f5a8c4ebc1f21dbc4d249bb07ce5237a2353700eb289220cbd947240d20b3b57
 Description:  This package provides support for 'Encodes and decodes URI-safe strings' in Asterisk.
 
 Package: asterisk13-func-version
@@ -1867,10 +1867,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2818
+Installed-Size: 2817
 Filename: asterisk13-func-version_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3645
-SHA256sum: 8ebeb432362df4b97a3cd65ce00be89761453852deb98cfed47be7722ba21028
+Size: 3641
+SHA256sum: 9edf65af6310e8e8fb83e3bbc231911b8c9ea3da18ce89bf1a0530da5d8f71d1
 Description:  This package provides support for 'return the current version strings' in Asterisk.
 
 Package: asterisk13-func-vmcount
@@ -1879,10 +1879,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2361
+Installed-Size: 2360
 Filename: asterisk13-func-vmcount_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3185
-SHA256sum: 982d016d21835fd5e0681672a334887f2b5d1b5b6ed91e8ad3503ec3ce75f8ec
+Size: 3179
+SHA256sum: 9bca8bfadc377fe34bfc5db323b28127fe65e8895d1f090fc5a75671a0982c1f
 Description:  This package provides support for 'a vmcount dialplan function' in Asterisk.
 
 Package: asterisk13-func-volume
@@ -1891,10 +1891,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3760
+Installed-Size: 3759
 Filename: asterisk13-func-volume_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4561
-SHA256sum: 164d428e11e58c58e85a0ab78b91defc28001f0ff6140fb85bbbf87ef49e28f4
+Size: 4553
+SHA256sum: 89f00cf18b02ca28ace2b5c76bfe4410c88ee89a325a97de2a2983d9da759653
 Description:  This package provides support for 'technology independent volume control' in Asterisk.
 
 Package: asterisk13-odbc
@@ -1903,10 +1903,10 @@ Depends: libc, librt, libpthread, asterisk13, libpthread, libc, unixodbc
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 92377
+Installed-Size: 92370
 Filename: asterisk13-odbc_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 93066
-SHA256sum: 1e9165a1456048b0bba5cf1a1a9c2ce71d541599276dc8fe59ce0acab9f40982
+Size: 93120
+SHA256sum: c23806ad3a7787239c85a7fb953680b1465019135eda6633cdf70134c17e0b11
 Description:  This package provides support for 'ODBC support' in Asterisk.
 
 Package: asterisk13-pbx-ael
@@ -1915,10 +1915,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ael-share
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9446
+Installed-Size: 9443
 Filename: asterisk13-pbx-ael_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 10343
-SHA256sum: 380a51054d6a870e2c6e24b28355607b6f21e8168be4196f89c0a19505d967a2
+Size: 10340
+SHA256sum: 75bafeca985faf20991f7c31590f072806d4010f32ba8da5173dd87a21718b39
 Description:  This package provides support for 'support for symbolic Asterisk Extension Logic' in Asterisk.
 
 Package: asterisk13-pbx-dundi
@@ -1927,10 +1927,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 74804
+Installed-Size: 74799
 Filename: asterisk13-pbx-dundi_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 75513
-SHA256sum: 067366b54e6b56eb1341734ef81bad3c71946bfec327f2caa8bce10825f972d9
+Size: 75503
+SHA256sum: 6cf9132f71b750f4c7baa50d224379cb2ac5f56e4a9b494820aed1eba135ed9d
 Description:  This package provides support for 'provides Dundi Lookup service for Asterisk' in Asterisk.
 
 Package: asterisk13-pbx-loopback
@@ -1939,10 +1939,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3546
+Installed-Size: 3545
 Filename: asterisk13-pbx-loopback_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4330
-SHA256sum: add4b2279168d607371c42ed3a4de75802fbc85bb583a4a7c8937a7d166eb44d
+Size: 4326
+SHA256sum: 67bf45c2165251626e20d65116afa8c16f6cee1dd4cb35c9cfcab22cab677fde
 Description:  This package provides support for 'loopback PBX module' in Asterisk.
 
 Package: asterisk13-pbx-realtime
@@ -1951,10 +1951,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6634
+Installed-Size: 6632
 Filename: asterisk13-pbx-realtime_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7385
-SHA256sum: f080206ca1ba9291e88114405f5f67e48cbbe9f3cfc25878de0732a3e9d1e158
+Size: 7454
+SHA256sum: cbd5e7b21516c36e060103a4fee7bff880ca77effb4ace4417234c84559b2d66
 Description:  This package provides support for 'realtime switch support' in Asterisk.
 
 Package: asterisk13-pbx-spool
@@ -1963,10 +1963,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11532
+Installed-Size: 11528
 Filename: asterisk13-pbx-spool_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 12363
-SHA256sum: 641d96f0e973ab733c45de9cc13a75149109af85f22f0462aed749b62b8e5505
+Size: 12358
+SHA256sum: e1d488a4041a0c868d7dcc07c370c625dcb7f33cb64a19b1c4acfabdacab8d00
 Description:  This package provides support for 'outgoing call spool support' in Asterisk.
 
 Package: asterisk13-pgsql
@@ -1975,10 +1975,10 @@ Depends: libc, librt, libpthread, asterisk13, libpq
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 58601
+Installed-Size: 58596
 Filename: asterisk13-pgsql_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 59465
-SHA256sum: 8b1e4a1bfb5a53ec29fe971d1d30683709b8f80bb04c194a233ce6977a83ecc4
+Size: 59423
+SHA256sum: c481fb81e53eaaea3665f5b54a7d0068ca9e9e2376ec1a74541e4be1cd69b70e
 Description:  This package provides support for 'PostgreSQL support' in Asterisk.
 
 Package: asterisk13-pjsip
@@ -1987,10 +1987,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-sorcery, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 444614
+Installed-Size: 444612
 Filename: asterisk13-pjsip_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 442421
-SHA256sum: fa5c1aab2d32954e4bbd10f7d94d67d73c1d1275564f223736d170a102fef7a4
+Size: 442472
+SHA256sum: 49569a2afe63c5601f5b9c6a319ed4a8b0aebe38c46140e49e34f21f47cb8c0a
 Description:  This package provides support for 'the channel pjsip' in Asterisk.
 
 Package: asterisk13-res-adsi
@@ -1999,10 +1999,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 14581
+Installed-Size: 14579
 Filename: asterisk13-res-adsi_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 15363
-SHA256sum: bf946cd5bc92334696be59301dbce3b43e22b6573e119988cc41953d58df10db
+Size: 15359
+SHA256sum: 5a7db6f7c38c8798d0dce59caf54afd475e5c4f461424c409b08fe7e131e39cd
 Description:  This package provides support for 'Analog Display Services Interface capability' in Asterisk.
 
 Package: asterisk13-res-ael-share
@@ -2011,10 +2011,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 54504
+Installed-Size: 54501
 Filename: asterisk13-res-ael-share_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 55267
-SHA256sum: 5569c9be86dc67e8f221667ec949addf5611927f5e39d472c1976620c8c92dd1
+Size: 55271
+SHA256sum: 9f7b10c0ba1bc1972a2339a2a2db2bbbf1b83228052514e16c4a2560e21abd8a
 Description:  This package provides support for 'support for shareable AEL code mainly between internal and external modules' in Asterisk.
 
 Package: asterisk13-res-agi
@@ -2023,10 +2023,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-speech
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 33893
+Installed-Size: 33892
 Filename: asterisk13-res-agi_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 34527
-SHA256sum: 1c715d92c9667819b3321aa4cce947b5713708f9589e9713d723bd1ff09a8329
+Size: 34521
+SHA256sum: cc4c48464815961eac1f93ef3a9956136f14ed7602897ea6a90bd9cd902316e7
 Description:  This package provides support for 'Support for the Asterisk Gateway Interface extension' in Asterisk.
 
 Package: asterisk13-res-ari-applications
@@ -2035,10 +2035,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4831
+Installed-Size: 4827
 Filename: asterisk13-res-ari-applications_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5662
-SHA256sum: c4022180886f87dbbd9ca2b6815d9d4c9742403a2012a724b19106cc0a60cd40
+Size: 5648
+SHA256sum: ac7a8d95813fe162f34c62172acf09f85c311aa6683a8a48f14ea771399283f9
 Description:  This package provides support for 'RESTful API module - Stasis application resources' in Asterisk.
 
 Package: asterisk13-res-ari-asterisk
@@ -2047,10 +2047,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9407
+Installed-Size: 9406
 Filename: asterisk13-res-ari-asterisk_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 10247
-SHA256sum: 38f084507efbb6d2ba2600663b8919666e608c4521280fc1e98aff1588cc61cc
+Size: 10245
+SHA256sum: 00f99539a445d9b9c49f5af5ed384ea2f805578b906c6233e7b748648f9a0614
 Description:  This package provides support for 'RESTful API module - Asterisk resources' in Asterisk.
 
 Package: asterisk13-res-ari-bridges
@@ -2059,10 +2059,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 13077
+Installed-Size: 13076
 Filename: asterisk13-res-ari-bridges_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 13867
-SHA256sum: 6ee8ddceae6f3a47cb07c0e974b876fa7adc107cef93767aa5477b27dd82d981
+Size: 13864
+SHA256sum: ebe2e71fda584929a78ec431747787b7b3be6021b4eb9999cc6bf8a662b6c8ca
 Description:  This package provides support for 'RESTful API module - bridge resources' in Asterisk.
 
 Package: asterisk13-res-ari-channels
@@ -2071,10 +2071,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 17169
+Installed-Size: 17165
 Filename: asterisk13-res-ari-channels_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 17962
-SHA256sum: 83983748ee4ba5ef3b4ac1fe7f677ee717c7b9975623dbce9ad11d3060c5b580
+Size: 18013
+SHA256sum: 616b56557d42419fcccd34b7704d8ff3331be87844b6bdee8f4787b5c85b8540
 Description:  This package provides support for 'RESTful API module - channel resources' in Asterisk.
 
 Package: asterisk13-res-ari-device-states
@@ -2083,10 +2083,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3251
+Installed-Size: 3249
 Filename: asterisk13-res-ari-device-states_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4076
-SHA256sum: 2fa286bfad75a0986468cddb2c7dc8713ae2b693343e5e4acf684e6082226508
+Size: 4067
+SHA256sum: d7e36b1e16c0a334b4ead43298c203af49e6d3686984ddcb41c07073bbc9e76c
 Description:  This package provides support for 'RESTful API module - device state resources' in Asterisk.
 
 Package: asterisk13-res-ari-endpoints
@@ -2095,10 +2095,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5174
+Installed-Size: 5175
 Filename: asterisk13-res-ari-endpoints_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 5997
-SHA256sum: 105a548ccb3cc503dfcd40f62f755e740598298e9903c531c7fdbfe2e6e6fafc
+SHA256sum: 82d18f9f8f4564d4532e1f9ebd186083c3323ceb6d5b9445b2ef0bd03c556578
 Description:  This package provides support for 'RESTful API module - endpoint resources' in Asterisk.
 
 Package: asterisk13-res-ari-events
@@ -2107,10 +2107,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8731
+Installed-Size: 8729
 Filename: asterisk13-res-ari-events_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 9590
-SHA256sum: b8b2e93fcbe8d6cb62c3406c24b22c7757d6af62a57c1fb50d38655e93fec37d
+Size: 9582
+SHA256sum: c71bdaead2791de1042fa22f9170ad11b4697d1c1a720a2a8e4eff1a1f99e617
 Description:  This package provides support for 'RESTful API module - WebSocket resource' in Asterisk.
 
 Package: asterisk13-res-ari-mailboxes
@@ -2119,10 +2119,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3278
+Installed-Size: 3279
 Filename: asterisk13-res-ari-mailboxes_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4098
-SHA256sum: 52ea3c7976513db08e62f03bdeab6acd013e7cb43eac599b9f0c8523c5a80a33
+Size: 4101
+SHA256sum: 5048409059593ac65b40716fdec5b39e83312dc2fe6aa50cd977186527fc50b8
 Description:  This package provides support for 'RESTful API module - mailboxes resources' in Asterisk.
 
 Package: asterisk13-res-ari-model
@@ -2131,10 +2131,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 40095
+Installed-Size: 40092
 Filename: asterisk13-res-ari-model_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 40769
-SHA256sum: be9bc28fb49238967bef3ba373b204855e7f23910ba62ac81903b608fae23274
+Size: 40773
+SHA256sum: b62bec7711fa7fc790cfa05fd569c9e59b21483c2decd5725c5a19baf451aa01
 Description:  This package provides support for 'ARI model validators' in Asterisk.
 
 Package: asterisk13-res-ari-playbacks
@@ -2143,10 +2143,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-ari, asterisk13-res
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3483
+Installed-Size: 3484
 Filename: asterisk13-res-ari-playbacks_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4306
-SHA256sum: 290bd3ffe12bbee27f4f4fc8a27b684963a23587b0890307aa36151473e84c3f
+Size: 4302
+SHA256sum: 143162157f5f3a4335d8d04030bb5ddf04851d9ad63966ebc456b957f0c804d5
 Description:  This package provides support for 'RESTful API module - playback control resources' in Asterisk.
 
 Package: asterisk13-res-ari-recordings
@@ -2157,8 +2157,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4721
 Filename: asterisk13-res-ari-recordings_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5549
-SHA256sum: 7a5faa6e55e8e8496849d854f9e2b72bd8d025b9f9174b8754c59319c66cb549
+Size: 5543
+SHA256sum: e6d89d613b2351e79b48e7cce4e0a075a9f455cf5ed0317472877b5ec2324a15
 Description:  This package provides support for 'RESTful API module - recording resources' in Asterisk.
 
 Package: asterisk13-res-ari-sounds
@@ -2170,7 +2170,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 4087
 Filename: asterisk13-res-ari-sounds_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 4901
-SHA256sum: 9e556ebf0c465a63511ebff893d48ce906294534402013e14a07fd74d8a86f37
+SHA256sum: 0aee4b2016d577ad94127cfcec7d263e7a6d347401829909973b29228487052c
 Description:  This package provides support for 'RESTful API module - sound resources' in Asterisk.
 
 Package: asterisk13-res-ari
@@ -2179,10 +2179,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-http-websocket
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 19998
+Installed-Size: 19995
 Filename: asterisk13-res-ari_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 20654
-SHA256sum: d91d7178aee92e38698ea2402be265ece87c433dcd740ee64d7e470cfc905ab8
+Size: 20680
+SHA256sum: 599c6493fce9507fd750893eb060b4cc3530f91b17526dd7fa34cd4224b20c83
 Description:  This package provides support for 'HTTP binding for the Stasis API' in Asterisk.
 
 Package: asterisk13-res-calendar-caldav
@@ -2193,8 +2193,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 11253
 Filename: asterisk13-res-calendar-caldav_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 12014
-SHA256sum: 63a6c0c61cdac7cf6741513522bfd602fd3092e7cf9ea1d88fb6deae03693cda
+Size: 12086
+SHA256sum: 8aa348f317be1cfbb7354510087068f8445c697fd35dc6cb1713025c632eac79
 Description:  This package provides support for 'CalDAV calendar integration' in Asterisk.
 
 Package: asterisk13-res-calendar-ews
@@ -2203,10 +2203,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-calendar, libneon
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 14400
+Installed-Size: 14398
 Filename: asterisk13-res-calendar-ews_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 15221
-SHA256sum: 63b5f4010bb6bcfedaee3748dfacf3cc6bd2ce83a2a532a8e626896a5e2b7fdb
+Size: 15219
+SHA256sum: 12aefdb879587928d47b9a8adfab98d511a93d9dd1846979b11a8a02ae52429b
 Description:  This package provides support for 'MS Exchange Web Service calendar integration' in Asterisk.
 
 Package: asterisk13-res-calendar-exchange
@@ -2215,10 +2215,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-calendar, libical, 
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10989
+Installed-Size: 10988
 Filename: asterisk13-res-calendar-exchange_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11847
-SHA256sum: 3e7aa9943fda8f463523e3099422b7b744cc3f292d38aeee3c314bcdee999437
+Size: 11836
+SHA256sum: 99603c12d313e212bad0435ddac16520da500dad16327e68affa9654ff318a33
 Description:  This package provides support for 'MS Exchange calendar integration' in Asterisk.
 
 Package: asterisk13-res-calendar-icalendar
@@ -2227,10 +2227,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-calendar, libical, 
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9324
+Installed-Size: 9325
 Filename: asterisk13-res-calendar-icalendar_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 10032
-SHA256sum: 445b82f60ed299a28d9dd1f1aa189f2cf33fbb87214ecb80d1ccea0fcfcd0f72
+Size: 10036
+SHA256sum: 260402dc3736f9a0684000f050ac734e4bdcfcd53c0134b5e618c927b41eb03e
 Description:  This package provides support for 'iCalendar calendar integration' in Asterisk.
 
 Package: asterisk13-res-calendar
@@ -2239,10 +2239,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23184
+Installed-Size: 23182
 Filename: asterisk13-res-calendar_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 24024
-SHA256sum: 005a26c0ff9dfaab0e2e8b028fd84c1d9229c72089aa337ed74418f2a772acfc
+Size: 24022
+SHA256sum: 3e125283d0198d66ac9db10730ee811bf77ee7bbd4fa6c4edd2b9c38e5a58bde
 Description:  This package provides support for 'the calendar API' in Asterisk.
 
 Package: asterisk13-res-chan-stats
@@ -2251,10 +2251,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-statsd
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3574
+Installed-Size: 3573
 Filename: asterisk13-res-chan-stats_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4389
-SHA256sum: d76fe9b6103565e95e1580a2c138f447e6f3fa1857964bac98a69e75e1446e39
+Size: 4383
+SHA256sum: 7c17fd1760d5cfd8cbf1343547a2bd71fae5e4dcf485ed51f4acb0c9d806dc6c
 Description:  This package provides support for 'example of how to subscribe to Stasis events' in Asterisk.
 
 Package: asterisk13-res-clialiases
@@ -2263,10 +2263,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6833
+Installed-Size: 6831
 Filename: asterisk13-res-clialiases_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7691
-SHA256sum: 2a1fe691e4539e3625d8d53d7c2e1334fe86afe7059ebae1ca7c7ed99b0e05a1
+Size: 7692
+SHA256sum: f0d426a7748b781756a6e6cb2dffd916b8b8c3dc5b9d8860b345b2564f43cffc
 Description:  This package provides support for 'CLI aliases' in Asterisk.
 
 Package: asterisk13-res-clioriginate
@@ -2275,10 +2275,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4144
+Installed-Size: 4142
 Filename: asterisk13-res-clioriginate_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4940
-SHA256sum: 0f053f362f2678a8cc23f4e57efe9d5d4d364b499fca4a13dc4e844f74603ce5
+Size: 4930
+SHA256sum: b9eca451ad707935dc31abb3030b471e2b205cc201f91974a78158b73dbe17e2
 Description:  This package provides support for 'Originate calls via the CLI' in Asterisk.
 
 Package: asterisk13-res-config-ldap
@@ -2287,10 +2287,10 @@ Depends: libc, librt, libpthread, asterisk13, libopenldap
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 20738
+Installed-Size: 20736
 Filename: asterisk13-res-config-ldap_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 21646
-SHA256sum: 3039329cd82e7cacc7a679984f2fb21b2c819fcaaee5091408922ac95e0c709a
+Size: 21641
+SHA256sum: 332e52d8d2e9058b35311d9c25d689c5fe44861bf0cccfa46be3f00e18d59f75
 Description:  This package provides support for 'LDAP plugin for portable configuration engine' in Asterisk.
 
 Package: asterisk13-res-config-mysql
@@ -2299,10 +2299,10 @@ Depends: libc, librt, libpthread, asterisk13, libmysqlclient
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 27668
+Installed-Size: 27665
 Filename: asterisk13-res-config-mysql_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 28482
-SHA256sum: 730c719ac54473ebb26b87409655cfb8573d8a7fef3e59784648ce0895ffd97f
+Size: 28477
+SHA256sum: 960a1360c4d869a673ab924cbb0eec37f3e8c989f2acf0411c89a4f1ad535606
 Description:  This package provides support for 'MySQL CDR backend' in Asterisk.
 
 Package: asterisk13-res-config-sqlite3
@@ -2311,10 +2311,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 18878
+Installed-Size: 18876
 Filename: asterisk13-res-config-sqlite3_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 19724
-SHA256sum: bbe42db348d9a4edf8a9bb403472bef1b9ce2913d78a5f73e4c212820dfbe707
+Size: 19697
+SHA256sum: 939b527ac0bf47aaa792735878078783b251b51fc634e3e10907ab6f867ebade
 Description:  This package provides support for 'SQLite 3 configuration engine' in Asterisk.
 
 Package: asterisk13-res-convert
@@ -2323,10 +2323,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3296
+Installed-Size: 3295
 Filename: asterisk13-res-convert_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4108
-SHA256sum: 90b8283a8215038a9f2486dec3dc2afb702f524249e0642b485f6f3c5b1b569d
+Size: 4106
+SHA256sum: c96deb603f703e23fc950a6f886bef5e44c51db87e83d1f347b03eca8866c438
 Description:  This package provides support for 'file format conversion CLI command using Asterisk formats and translators' in Asterisk.
 
 Package: asterisk13-res-endpoint-stats
@@ -2335,10 +2335,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-statsd
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3533
+Installed-Size: 3530
 Filename: asterisk13-res-endpoint-stats_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4323
-SHA256sum: 84bf6616856178977a67d19fc32460a5c8e1a120a325d69b3e0bd2a2ab9f175e
+Size: 4322
+SHA256sum: 1ac9ebdb1146d90ac4deec8c1aeb1c6dd71f22f1a2f8852e4ba0caaaa96fb851
 Description:  This package provides support for 'statsd endpoint stats' in Asterisk.
 
 Package: asterisk13-res-fax-spandsp
@@ -2347,10 +2347,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-fax, libspandsp, li
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 12047
+Installed-Size: 12046
 Filename: asterisk13-res-fax-spandsp_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 12885
-SHA256sum: 0ac50510e29c33ea65abcc22bef89e7db1f74d2caa7c8154f4338f6a0e102bfc
+Size: 12880
+SHA256sum: 88f9799980431a7e40a3b89fe1b3a9ac856441b00ccbe8bebc2103c24e6a96bf
 Description:  This package provides support for 'Spandsp T.38 and G.711 FAX Resource' in Asterisk.
 
 Package: asterisk13-res-fax
@@ -2359,10 +2359,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-timing-pthread
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 48544
+Installed-Size: 48541
 Filename: asterisk13-res-fax_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 49448
-SHA256sum: 97211522c73a0daeab106f87b56f859202a2e5756f89263b6b5fe29f152890c8
+Size: 49445
+SHA256sum: eff3a0594c018a873080c09255c453f41b1c83ccc24f5f3a7a7646c4d619c060
 Description:  This package provides support for 'Generic FAX resource for FAX technology resource modules' in Asterisk.
 
 Package: asterisk13-res-format-attr-celt
@@ -2371,10 +2371,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3136
+Installed-Size: 3137
 Filename: asterisk13-res-format-attr-celt_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3934
-SHA256sum: 9006500b460bb5fbd21fedd9690586b8b0175a1efba28ceffbc23d863ca02bff
+Size: 3937
+SHA256sum: 16f2dede0d4ed6e55b6d08d5adfe092e19a0d5e6458c807e0d88c86f4d3a83b1
 Description:  This package provides support for 'CELT format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-g729
@@ -2385,8 +2385,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2145
 Filename: asterisk13-res-format-attr-g729_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 2975
-SHA256sum: 3e53fa832954535eb4681bd519cd78bf529ef217b8491c32f62366abe7098f04
+Size: 2983
+SHA256sum: 60cf59b5042b2bdd2b9eeb30eba68be16302c644ebd3179bf88dc2fcc14355f0
 Description:  This package provides support for 'G.729 format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-h263
@@ -2395,10 +2395,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4143
+Installed-Size: 4142
 Filename: asterisk13-res-format-attr-h263_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4940
-SHA256sum: b1861de958cfd5a606a9560c75f64be9e8a44fdf7a172a06d5d2a5c53fc08ecd
+Size: 4937
+SHA256sum: 153260b5498b54f6c699b137965f55f34c6fbfcbb0213dc24e82cd053afeeb7e
 Description:  This package provides support for 'H.263 format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-h264
@@ -2407,10 +2407,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5417
+Installed-Size: 5415
 Filename: asterisk13-res-format-attr-h264_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 6188
-SHA256sum: 60f4fce90a52d7443cfbee23f13358fd6b60eea0ae6245ad68ec80fc5100812b
+Size: 6183
+SHA256sum: 70ea1d91edc1a8e6cca7d6081034896ca7fbede7ccc33d09438f2757da146133
 Description:  This package provides support for 'H.264 format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-opus
@@ -2419,10 +2419,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4390
+Installed-Size: 4389
 Filename: asterisk13-res-format-attr-opus_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5182
-SHA256sum: 19b903f97df3ad00ca09fb8b9106c2f0ca234c86e9803bf0925a6e3c6273d82f
+Size: 5179
+SHA256sum: b5bb92f5eb1e034d22be6402ffe5bdeea6514a3d583b0690bf549d089b0e7671
 Description:  This package provides support for 'Opus format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-silk
@@ -2431,10 +2431,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3475
+Installed-Size: 3473
 Filename: asterisk13-res-format-attr-silk_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4276
-SHA256sum: 3870764fff936bb86dc29e99692af56da1245e488c3f786d05869ae788073b63
+Size: 4273
+SHA256sum: 3cd843fbf36e08290f62eba5dae940e83dbef24d5e856209df5490e59a2d5827
 Description:  This package provides support for 'SILK format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-siren14
@@ -2445,8 +2445,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2402
 Filename: asterisk13-res-format-attr-siren14_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3238
-SHA256sum: 21b11ceb71135abda83c399d2e91ac0aa6b52b995ea022a14f5d8b1a7bbec1c9
+Size: 3239
+SHA256sum: 4521264abe4643340648b257ef97e206a1506a7bf27c80a71d1de450c24259d3
 Description:  This package provides support for 'Siren14 format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-siren7
@@ -2455,10 +2455,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2399
+Installed-Size: 2398
 Filename: asterisk13-res-format-attr-siren7_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3234
-SHA256sum: ebaff67bb7d5bca11ceac03f1e8e59d8ee1f11a3d3b3ef9b6bb74ff0dc968d28
+Size: 3236
+SHA256sum: 49b0146ff71d3dd8f829573aea8f57a4ad8d3d5f485278e9ff90f48898b84b9c
 Description:  This package provides support for 'Siren7 format attribute interface' in Asterisk.
 
 Package: asterisk13-res-format-attr-vp8
@@ -2467,10 +2467,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3270
+Installed-Size: 3271
 Filename: asterisk13-res-format-attr-vp8_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4058
-SHA256sum: d18c5a965ec173c47ea6990dadb269bbaa3d162cf879ce0b706183778fbd7979
+Size: 4059
+SHA256sum: 42e7f5781b3ed243662342fe8f3eb3d33e1115be4e992f6625e0900ef573357d
 Description:  This package provides support for 'VP8 format attribute interface' in Asterisk.
 
 Package: asterisk13-res-hep-pjsip
@@ -2482,7 +2482,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 4077
 Filename: asterisk13-res-hep-pjsip_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 4880
-SHA256sum: 28d2c4d6fcaa5c07dc72391df629343b087ec127ae12ee6efd8a8fa06bff54d9
+SHA256sum: 669d2b8052a05dc1f7936272960fbb75eefcb45bf8b2c70db96740c8ba2301a8
 Description:  This package provides support for 'PJSIP logging with Homer' in Asterisk.
 
 Package: asterisk13-res-hep-rtcp
@@ -2491,10 +2491,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-hep
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3659
+Installed-Size: 3658
 Filename: asterisk13-res-hep-rtcp_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4460
-SHA256sum: a280e53ca7cbe22ee987f57b627cb553f25e20d58b610cd0007ed57f6a4b9856
+Size: 4449
+SHA256sum: efe41afe34c9f0f658c8c020d053ba40776275b017977f27f50b6ba52788a995
 Description:  This package provides support for 'RTCP logging with Homer' in Asterisk.
 
 Package: asterisk13-res-hep
@@ -2503,10 +2503,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6801
+Installed-Size: 6798
 Filename: asterisk13-res-hep_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7671
-SHA256sum: 3c1ad83ec108fc71cbd2fd243d43fdc43807d2182bb0b78153e96ce9c20ff3fc
+Size: 7674
+SHA256sum: 6be07f287176fedaf13aac1106747505ea1c33594802e2babb6f9b2d7c93244e
 Description:  This package provides support for 'Routines for integration with Homer using HEPv3' in Asterisk.
 
 Package: asterisk13-res-http-websocket
@@ -2515,10 +2515,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 15670
+Installed-Size: 15669
 Filename: asterisk13-res-http-websocket_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 16429
-SHA256sum: 8fc7639737285662c415537f16e08fa166ce2a8bbb987ff044de68738da7b666
+Size: 16426
+SHA256sum: 7cc5f3d748c3f05a5109ebd617e3ca5b43058eef2b9a7151c61e3fc20f8ee35a
 Description:  This package provides support for 'WebSocket support for the Asterisk internal HTTP server' in Asterisk.
 
 Package: asterisk13-res-limit
@@ -2527,10 +2527,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4765
+Installed-Size: 4763
 Filename: asterisk13-res-limit_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5551
-SHA256sum: 227f34b697df38aad265fe63c6d753a2b2442681df48fa930a32a4f2da0dd47a
+Size: 5545
+SHA256sum: 165b190e9317f45056141798391f97aac4227deea2debf6e8e91630f209b32b3
 Description:  This package provides support for 'resource limits' in Asterisk.
 
 Package: asterisk13-res-manager-devicestate
@@ -2539,10 +2539,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3006
+Installed-Size: 3005
 Filename: asterisk13-res-manager-devicestate_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 3803
-SHA256sum: 6649db214e9597ce34b915b9daf8144356ab7116d268d992aa7858415bd91e8b
+SHA256sum: 78a4e7298dcc1b663127e2e311ad9602f28596ab6c68558dc521185b5a98e146
 Description:  This package provides support for 'list the current known device states' in Asterisk.
 
 Package: asterisk13-res-manager-presencestate
@@ -2554,7 +2554,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 2997
 Filename: asterisk13-res-manager-presencestate_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 3787
-SHA256sum: 7df4d31a1a9e968a09d14f2c527b18db9b8482bdcbb56fbd49b9fb9aeedbfa1a
+SHA256sum: 9fdc6ebe45d0a9b72e90c7e42683d9c1ab939f7e062bf894a9402a3f52d33d6d
 Description:  This package provides support for 'list the current known presence states' in Asterisk.
 
 Package: asterisk13-res-monitor
@@ -2563,10 +2563,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-func-periodic-hook
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10310
+Installed-Size: 10311
 Filename: asterisk13-res-monitor_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11149
-SHA256sum: d43ca2760e0afe836a1550a54d36b65a3bc7504f85755c59f89947adbceaa075
+Size: 11148
+SHA256sum: 706c9ea8d2d589b99d4637add64f4433d11a38a6c32737750fb22bd861c1a34a
 Description:  This package provides support for 'call monitoring resource' in Asterisk.
 
 Package: asterisk13-res-musiconhold
@@ -2575,10 +2575,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 22687
+Installed-Size: 22680
 Filename: asterisk13-res-musiconhold_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 23431
-SHA256sum: c637ef8bfd135b619a0af37a7576d16683abb0965df25df4b518c49e54014f39
+Size: 23478
+SHA256sum: 8d24f56887d8b7e95531600add8d454e0f13f97c48ceadb487d3eace22e1d507
 Description:  This package provides support for 'Music On Hold support' in Asterisk.
 
 Package: asterisk13-res-mutestream
@@ -2589,8 +2589,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3308
 Filename: asterisk13-res-mutestream_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4098
-SHA256sum: 26e09926c6c8088aa94bcaff251b966acf1370cba540b0a66a612586a2a084b3
+Size: 4095
+SHA256sum: 0ea73bc8b6fb3a6ef0cd5a15cc7ad5c676c164a34233f30dc961478f49147abb
 Description:  This package provides support for 'MUTESTREAM audiohooks' in Asterisk.
 
 Package: asterisk13-res-mwi-external-ami
@@ -2599,10 +2599,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-mwi-external
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4256
+Installed-Size: 4253
 Filename: asterisk13-res-mwi-external-ami_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5045
-SHA256sum: 0047ac61dcbd821b18f42f4971f0090448ee2acd114ba2d9e0414a7fa4f4b203
+Size: 5036
+SHA256sum: 70689eb1e539e4f365cc3a2b4123821d82fa1b8bdd2002a7566c59a0ca717f31
 Description:  This package provides support for 'AMI wrapper for external MWI' in Asterisk.
 
 Package: asterisk13-res-mwi-external
@@ -2613,8 +2613,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4758
 Filename: asterisk13-res-mwi-external_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5551
-SHA256sum: 2b60015827a0495e3f675c397eaf8924b641926c9c6b735fa2525d3b9336b91f
+Size: 5544
+SHA256sum: edd1f5ba8e1b3c74c9be9ca82d7df2f26587221ec2fa0a0e2c8aaab472c740e9
 Description:  This package provides support for 'core external MWI resource' in Asterisk.
 
 Package: asterisk13-res-parking
@@ -2623,10 +2623,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-bridge-holding
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 33848
+Installed-Size: 33845
 Filename: asterisk13-res-parking_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 34553
-SHA256sum: e1e5f3b57251f3a88f7268076bdd8745d8e7f03cf3f5ec397b9ecb12a5d1b285
+Size: 34544
+SHA256sum: 6095026850d0c4e928be71480b062d9bf9abfd2e210b95e7f21f5724fa8e2753
 Description:  This package provides support for 'Phone Parking application' in Asterisk.
 
 Package: asterisk13-res-phoneprov
@@ -2635,10 +2635,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 19079
+Installed-Size: 19075
 Filename: asterisk13-res-phoneprov_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 19898
-SHA256sum: 63b3d6415b4a100f504190b5d99a520d13248868bbb835de2acf697ffecf195b
+Size: 19897
+SHA256sum: 6261d5388db5ec8c088ec14bd1eb69ca901454c9ebb7996c45b6a8a87ba4962e
 Description:  This package provides support for 'Phone provisioning application for the asterisk internal http server' in Asterisk.
 
 Package: asterisk13-res-pjproject
@@ -2647,10 +2647,10 @@ Depends: libc, librt, libpthread, asterisk13, libpj, libpjlib-util, libpjmedia, 
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8450
+Installed-Size: 8446
 Filename: asterisk13-res-pjproject_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 9352
-SHA256sum: 3d1cd009b20d72d420f0a7ed8f8816d3dcf0aa1d16b4baeda9c38eb319812e24
+Size: 9355
+SHA256sum: 50eff9b11df2f7fd8b6c42cc4119c58bd2e7948f40ff90cfad58ad180e6b2d70
 Description:  This package provides support for '' in Asterisk.
 
 Package: asterisk13-res-pjsip-phoneprov
@@ -2659,10 +2659,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-pjsip, asterisk13-res-p
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4983
+Installed-Size: 4980
 Filename: asterisk13-res-pjsip-phoneprov_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5795
-SHA256sum: d4ec9e8b64cf719e9c1aee541e66189d219a7c1747f8f728e72ba8febe925c69
+Size: 5782
+SHA256sum: 0415889df442757e5851c166779941698f462b0bc24cbb2da4c9d19a86a87019
 Description:  This package provides support for 'PJSIP Phone Provisioning' in Asterisk.
 
 Package: asterisk13-res-pktccops
@@ -2671,10 +2671,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 20855
+Installed-Size: 20851
 Filename: asterisk13-res-pktccops_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 21731
-SHA256sum: 5ace92776759eef16ec45a2972aecaf8f2f94eed15012320c0ab38b4d71030ec
+Size: 21728
+SHA256sum: ecb3463e710489aa7f6ed0f189813de2494c526949dbb7fd7480a22afcd12c50
 Description:  This package provides support for 'PacketCable MGCP variation / NCS' in Asterisk.
 
 Package: asterisk13-res-realtime
@@ -2683,10 +2683,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3941
+Installed-Size: 3937
 Filename: asterisk13-res-realtime_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4731
-SHA256sum: da1bf648c6f1270b2eb7f51a1b8aecdfe1b78cced80c7c1bef6cf3f0ce958043
+Size: 4725
+SHA256sum: 4ca0a845681895d53d39578b5b78b7f33aadfcfe8501990aa61c44d8ecdd9df0
 Description:  This package provides support for 'RealTime CLI' in Asterisk.
 
 Package: asterisk13-res-rtp-asterisk
@@ -2695,10 +2695,10 @@ Depends: libc, librt, libpthread, asterisk13, libpjsip, libpjmedia, libpjnath, l
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 63092
+Installed-Size: 63088
 Filename: asterisk13-res-rtp-asterisk_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 63910
-SHA256sum: 3f710821d5ae175ce9e2de9c38ec99c799500f68f25171df414182c3e2aa6fd1
+Size: 63890
+SHA256sum: 5dc3b29dc5c676f06a504e41fc2aed68f2d9eea4bae3349524e4e52a64953529
 Description:  This package provides support for 'Supports RTP and RTCP with Symmetric RTP support for NAT traversal' in Asterisk.
 
 Package: asterisk13-res-rtp-multicast
@@ -2707,10 +2707,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6333
+Installed-Size: 6331
 Filename: asterisk13-res-rtp-multicast_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7114
-SHA256sum: b93a417dbc58e39dfaf836e047178ed3a7627106b107445a4b2ac8e596d1c0aa
+Size: 7112
+SHA256sum: 6cf73b27cd7f57e329579dcef59d0f12f9f71a40b29c4cec6cbce6a677a63d46
 Description:  This package provides support for 'Multicast RTP Engine' in Asterisk.
 
 Package: asterisk13-res-security-log
@@ -2719,10 +2719,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3577
+Installed-Size: 3575
 Filename: asterisk13-res-security-log_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4370
-SHA256sum: 9cd21934ed584f53b36f5fb072576a4b09277715c969adf1f56b7587a15a0fc5
+Size: 4363
+SHA256sum: 730a9fe7b791186f31040950111afbafc12326f944bdf2dcdbc3f33a48ff5471
 Description:  This package provides support for 'security event logging' in Asterisk.
 
 Package: asterisk13-res-smdi
@@ -2731,10 +2731,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 17762
+Installed-Size: 17759
 Filename: asterisk13-res-smdi_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 18639
-SHA256sum: e3e211ec47a124fdb89675aa755a65c3f0fc075270384e24703d9f85e9ae2373
+Size: 18637
+SHA256sum: 97a05aa7434878dfb9bf2f0e9aae5783fcd7ecc56d995999b6425068e0be1ae0
 Description:  This package provides support for 'Simple Message Desk Interface capability' in Asterisk.
 
 Package: asterisk13-res-snmp
@@ -2743,10 +2743,10 @@ Depends: libc, librt, libpthread, asterisk13, libnetsnmp
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10267
+Installed-Size: 10260
 Filename: asterisk13-res-snmp_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11059
-SHA256sum: 28968f80a87eb7a2db011f3585d7bb1290a3faf516ad8311a4a407da0425bcc6
+Size: 11053
+SHA256sum: c184d731faf3fd393ef1095aeb59c0d1342877b0096e73960951920d44c40853
 Description:  This package provides support for 'SNMP Agent / SubAgent' in Asterisk.
 
 Package: asterisk13-res-sorcery-memory-cache
@@ -2755,10 +2755,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 16151
+Installed-Size: 16150
 Filename: asterisk13-res-sorcery-memory-cache_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 16878
-SHA256sum: 15a0f256461e416150d709d329270c6cf80b93df18b3c268e2495b52b101ca83
+Size: 16869
+SHA256sum: 24bb64de4d00960725ec4a4a08c373b281036fa329a38e8244b797360006e0b6
 Description:  This package provides support for 'sorcery memory cache object wizard' in Asterisk.
 
 Package: asterisk13-res-sorcery
@@ -2769,8 +2769,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 15698
 Filename: asterisk13-res-sorcery_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 16537
-SHA256sum: 484f536a4610fa540a53632c4dc661f50a0396d69c4ba3e664ed19a66e6cf453
+Size: 16530
+SHA256sum: a3b7030add90bd48200d5fd309269ef880d3cf6022aee96e36cd1c44055e5c4a
 Description:  This package provides support for 'Sorcery backend modules for data access intended for using realtime as backend' in Asterisk.
 
 Package: asterisk13-res-speech
@@ -2779,10 +2779,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4441
+Installed-Size: 4440
 Filename: asterisk13-res-speech_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5231
-SHA256sum: f98eb191ad5937f9188b53e81c6702d28613291ba07b83e0f27e459b2b833599
+Size: 5232
+SHA256sum: c3c1947297ade7874729ddae0685cb89863057f2646c1d9b023c1add960f07c6
 Description:  This package provides support for 'Support for the Asterisk Generic Speech Recognition API' in Asterisk.
 
 Package: asterisk13-res-srtp
@@ -2791,10 +2791,10 @@ Depends: libc, librt, libpthread, asterisk13, libsrtp2
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7544
+Installed-Size: 7543
 Filename: asterisk13-res-srtp_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 8358
-SHA256sum: e43c0ca3d68d805abbbaf00c81e3b74533c958eda0eed4bacc66db3f65d6ea69
+Size: 8359
+SHA256sum: 9ad575585c505e15f0293da0a3d34782621029dc88a83fafefa2a357c93ad241
 Description:  This package provides support for 'Secure RTP connection' in Asterisk.
 
 Package: asterisk13-res-stasis-answer
@@ -2803,10 +2803,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2538
+Installed-Size: 2537
 Filename: asterisk13-res-stasis-answer_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3373
-SHA256sum: f185e3ef0ad64082449906b4448533d689d4914f78e6930ab8d26d6428f135b1
+Size: 3366
+SHA256sum: ce3c91c95a0a860b43746e9ab18df9f45dc36b3321d6eba49f607da25e967a85
 Description:  This package provides support for 'Stasis application control' in Asterisk.
 
 Package: asterisk13-res-stasis-device-state
@@ -2817,8 +2817,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 6368
 Filename: asterisk13-res-stasis-device-state_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7226
-SHA256sum: 5eda0d7e43e18494a769e2e294f584711e2a3edc7934f8199ccd4f1842964326
+Size: 7221
+SHA256sum: c7709afb48eaf0046e8ada6bd461bec4798b26cd7f4d57d28f209c6b5e3cd84f
 Description:  This package provides support for 'Stasis application control' in Asterisk.
 
 Package: asterisk13-res-stasis-mailbox
@@ -2827,10 +2827,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis, asterisk13-
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3008
+Installed-Size: 3007
 Filename: asterisk13-res-stasis-mailbox_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3815
-SHA256sum: 8953bc39184a88e8a64017f46b581dd3f826e23fe2465206b6d1ef68cc71592d
+Size: 3808
+SHA256sum: db7b3b6538268b71abf15b8fb045b90c0de8cb9a5a64b8dc2bd14d2986905f31
 Description:  This package provides support for 'Stasis application control' in Asterisk.
 
 Package: asterisk13-res-stasis-playback
@@ -2839,10 +2839,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis-recording
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7351
+Installed-Size: 7347
 Filename: asterisk13-res-stasis-playback_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 8177
-SHA256sum: 07075ac252cb60b8075884543437a70cbb039c5905cbfbf27412a2c9f596aa63
+Size: 8170
+SHA256sum: a1e562648d383b496a53165a03a56a99a9ade99e1f77ad42fb4b16ead54131c9
 Description:  This package provides support for 'res_stasis playback' in Asterisk.
 
 Package: asterisk13-res-stasis-recording
@@ -2851,10 +2851,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9782
+Installed-Size: 9780
 Filename: asterisk13-res-stasis-recording_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 10603
-SHA256sum: 513cb09902a3866ca958ecc712f7d78b5bda7d4569387490fe178af01b8ed339
+Size: 10525
+SHA256sum: 3e0256d050524ab83954d40bfd94087ace429f91fcfbe29d2fe0984f3642a905
 Description:  This package provides support for 'res_stasis recording' in Asterisk.
 
 Package: asterisk13-res-stasis-snoop
@@ -2863,10 +2863,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-stasis-recording
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5771
+Installed-Size: 5770
 Filename: asterisk13-res-stasis-snoop_13.20.0-4_arm_cortex-a9_neon.ipk
 Size: 6586
-SHA256sum: 54029e110df03e0f07987dcd39e75e3371fecc886262d2bff56f451a9da988e5
+SHA256sum: 7cfb8d9a2895cd4d56f8b3573885d66770220b63d1f9ee8cd5cfeda71466fa04
 Description:  This package provides support for 'Stasis application snoop control' in Asterisk.
 
 Package: asterisk13-res-stasis
@@ -2875,10 +2875,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 41510
+Installed-Size: 41507
 Filename: asterisk13-res-stasis_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 42005
-SHA256sum: 451587af6968fdbdcef5c66204e6eddb8d6cc5309b9a89a88e0bc8d0c12dd94c
+Size: 41996
+SHA256sum: 6726f0c5c0ec862f5b956382ead615f93c138cd04038b0bf5d620b718e17ef6a
 Description:  This package provides support for 'Stasis application' in Asterisk.
 
 Package: asterisk13-res-statsd
@@ -2887,10 +2887,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6388
+Installed-Size: 6385
 Filename: asterisk13-res-statsd_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7252
-SHA256sum: 87a13a1b9c94d289480e030bd06b8bda8d31b16fea15250e340ce2766116f10e
+Size: 7274
+SHA256sum: 7dd0b633fc6d93003d08e9125618507c7c7e350e7e630efc1fcfb1bd9319a0bc
 Description:  This package provides support for 'publishing to a statsd server' in Asterisk.
 
 Package: asterisk13-res-stun-monitor
@@ -2899,10 +2899,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6759
+Installed-Size: 6755
 Filename: asterisk13-res-stun-monitor_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7602
-SHA256sum: d50987925cc9061c80c21a38c262611620da1ad52895c7139b91ff06b8b6a5a6
+Size: 7604
+SHA256sum: d27af457e65a571bca87146b9f794a6d6a8c5ddfdc7c99695eb5a797bf7b1cc2
 Description:  This package provides support for 'resource STUN Monitor' in Asterisk.
 
 Package: asterisk13-res-timing-pthread
@@ -2911,10 +2911,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5222
+Installed-Size: 5221
 Filename: asterisk13-res-timing-pthread_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 5998
-SHA256sum: 0e9053edf6dcd1de68cefa3c3a1a77639b85603db82b2c3beaeda19dc9a4ca32
+Size: 5995
+SHA256sum: 5c7312af9be9d1a2ec3cb93edab8d353dd6768c322166a7dd921e441ecf54b36
 Description:  This package provides support for 'POSIX pthreads Timing Interface' in Asterisk.
 
 Package: asterisk13-res-timing-timerfd
@@ -2923,10 +2923,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3955
+Installed-Size: 3954
 Filename: asterisk13-res-timing-timerfd_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 4757
-SHA256sum: c0cf756d7eb868be014f3e9ea6e0016c7b0746aaceefdd2eb8eac4cc5f183e8d
+Size: 4753
+SHA256sum: 8666cae78e5e293fbc19daffe46f6a1ecca05c5c1c762a93081d41526abd42bd
 Description:  This package provides support for 'Timing interface provided by Linux kernel' in Asterisk.
 
 Package: asterisk13-res-xmpp
@@ -2935,10 +2935,10 @@ Depends: libc, librt, libpthread, asterisk13, libiksemel, libopenssl
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 44812
+Installed-Size: 44809
 Filename: asterisk13-res-xmpp_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 45540
-SHA256sum: d552a925418313efccce139bdac6e079a6ec631798d700dc1413c2aeba04d9ad
+Size: 45535
+SHA256sum: 0be6c3bc2c401acf8faf2efc3864014d09504f3adb9af27db557baf27c10e3b5
 Description:  This package provides support for 'reference module for interfacting Asterisk directly as a client or component with XMPP server' in Asterisk.
 
 Package: asterisk13-sounds
@@ -2947,10 +2947,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1923813
+Installed-Size: 1923810
 Filename: asterisk13-sounds_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 1925025
-SHA256sum: 40a7c07199efcf4b230803651d8b662af228efe72d5ac37a7f78f1e188e3bd71
+Size: 1925022
+SHA256sum: 1e73c0ee359842a1a1e6824d437d21e502033a3ebd360234d6af182abcaa77a1
 Description:  This package provides the sound-files for Asterisk-13.
 
 Package: asterisk13-util-aelparse
@@ -2961,8 +2961,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 91100
 Filename: asterisk13-util-aelparse_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 91871
-SHA256sum: 0bca764fce069cdc3f546a2cf7ace5228e012aa155633aab95a0c6166c2b7181
+Size: 91880
+SHA256sum: c838fb29175a4f3c3391aaaff991ca2e74b93f6173d605651744c01346dc7202
 Description:  Check extensions.ael file.
 
 Package: asterisk13-util-astcanary
@@ -2973,8 +2973,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2567
 Filename: asterisk13-util-astcanary_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3370
-SHA256sum: eee9165a5ab54c4a9b72e8d705a4595f4147e7545051afec41d30f1fed563315
+Size: 3371
+SHA256sum: 9e6086052ae54acc9487e494de1434c50ea0d050c4d7d319c20449623ee085f8
 Description:  Assures Asterisk no threads have gone missing.
 
 Package: asterisk13-util-astdb2bdb
@@ -2985,8 +2985,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 32008
 Filename: asterisk13-util-astdb2bdb_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 32694
-SHA256sum: 361fae8ee183d0d8576405bd36d52d3949eacc2d6876cf7f1219ed86ddf58dc2
+Size: 32685
+SHA256sum: 268e80f4df6b0260822e987e85dc3f1bec2c9639a85cd43fd984d4c22193943a
 Description:  Convert astdb back to Berkeley DB 1.86.
 
 Package: asterisk13-util-astdb2sqlite3
@@ -2995,10 +2995,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 32454
+Installed-Size: 32453
 Filename: asterisk13-util-astdb2sqlite3_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 33147
-SHA256sum: c798ccac97774182d0616702f76abe7602e2a6259ebf5a9f05f345409ee7dd99
+Size: 33142
+SHA256sum: 266e71babb79c4df3437a7407f0a9af99704155e2e2b84a5ad2d560a5f99bd7c
 Description:  Convert astdb to SQLite 3.
 
 Package: asterisk13-util-check-expr2
@@ -3009,8 +3009,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 16444
 Filename: asterisk13-util-check-expr2_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 17212
-SHA256sum: d283647297db0cc74ecdc1369274d0c6e42d5a2f23687c6a53f3bd7e111cd0b3
+Size: 17203
+SHA256sum: e878027e670bf13bbdd3c37d47352eb691dce198619ddc969f7a85db2b4a5926
 Description:  Expression checker [newer version].
 
 Package: asterisk13-util-check-expr
@@ -3019,10 +3019,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 21552
+Installed-Size: 21550
 Filename: asterisk13-util-check-expr_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 22258
-SHA256sum: 009a67950ad7b0d56c2a40a71521c609ef33ece7152ed0252a8c6c5f1f75551f
+Size: 22248
+SHA256sum: 584556a401bccf192c57cf46f0a9c447ce53b8871a52a141e09daf36d0b946b2
 Description:  Expression checker [older version].
 
 Package: asterisk13-util-conf2ael
@@ -3033,8 +3033,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 91454
 Filename: asterisk13-util-conf2ael_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 92201
-SHA256sum: e26eda5f2f9fe4d42a45b3e84ecb20340b3f12d1468f6092a4e1d67d1830de43
+Size: 92204
+SHA256sum: 3081150ce87b298948360d3989fc3ddb745bb06d305c0ed1c59827a2a59111ab
 Description:  Convert .conf to .ael.
 
 Package: asterisk13-util-muted
@@ -3043,10 +3043,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7032
+Installed-Size: 7029
 Filename: asterisk13-util-muted_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 7909
-SHA256sum: 64b9a0a316ae19133be3c1ea6ecbde4db3b37dc4008c9b81715126600865e1ec
+Size: 7906
+SHA256sum: c6e460f4b10e98180c4a888b732a7e4cbaa3e9b69a4b6c512b872298650ca650
 Description:  Listens for AMI events. Mutes soundcard during call.
 
 Package: asterisk13-util-smsq
@@ -3055,10 +3055,10 @@ Depends: libc, librt, libpthread, asterisk13, libpopt
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 11069
+Installed-Size: 11068
 Filename: asterisk13-util-smsq_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 11847
-SHA256sum: 10fd6c6e82f80a15bc79fd2323d15bfa5c38ff469aebcd6087344828a3bdd652
+Size: 11849
+SHA256sum: 14b089a1ae8077f9b148f8e0bc2ba35556a462b588190107d83c5a4d4251d9ac
 Description:  Send messages from command line.
 
 Package: asterisk13-util-stereorize
@@ -3069,8 +3069,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 9727
 Filename: asterisk13-util-stereorize_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 10521
-SHA256sum: 6956865143130cc98c5f5296b87811176eb59d64876eebba4415100c06412c3c
+Size: 10524
+SHA256sum: 12bbe6e053c04d2a5e566c9098e069925b14c83d59aa4cc1ef5560f043951d25
 Description:  Merge two mono WAV-files to one stereo WAV-file.
 
 Package: asterisk13-util-streamplayer
@@ -3079,10 +3079,10 @@ Depends: libc, librt, libpthread, asterisk13
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2551
+Installed-Size: 2550
 Filename: asterisk13-util-streamplayer_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 3368
-SHA256sum: b5d1b0b42a17afaae67a0b4b10e10d08a980ab60a2061332e84417e196e5d06a
+Size: 3367
+SHA256sum: 5fd3037422801daa26e54ed07bd3eb2de073d525996f8b64891422230aa4c7d6
 Description:  A utility for reading from a raw TCP stream [MOH source].
 
 Package: asterisk13-voicemail
@@ -3091,10 +3091,10 @@ Depends: libc, librt, libpthread, asterisk13, asterisk13-res-adsi, asterisk13-re
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 667807
+Installed-Size: 667796
 Filename: asterisk13-voicemail_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 668501
-SHA256sum: 0224c82214cbeff8a91ec78caadfba4fed3874c5723ff98deade020b5c96cc68
+Size: 668479
+SHA256sum: 18c3a5100239be17200c87b4e057b575bfc0f2047cb4b8f5c853dd09540c125f
 Description:  This package provides support for 'voicemail related modules' in Asterisk.
 
 Package: asterisk13
@@ -3103,10 +3103,10 @@ Depends: libc, librt, libpthread, libstdcpp, jansson, libcap, libedit, libncurse
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1153222
+Installed-Size: 1153211
 Filename: asterisk13_13.20.0-4_arm_cortex-a9_neon.ipk
-Size: 1152457
-SHA256sum: 7d063ec1ed470faecf2021170bbc858d92a993a1e6ad389484e84c50f2bbc6e2
+Size: 1152517
+SHA256sum: 72af1228209813f5e9ea0604df7a9c00f5bd02d506cbca1ad62345cd709b1792
 Description:  Asterisk is a complete PBX in software. It provides all of the features
  you would expect from a PBX and more. Asterisk does voice over IP in three
  protocols, and can interoperate with almost all standards-based telephony
@@ -3148,10 +3148,10 @@ Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, li
 License: GPL-2.0
 Section: lib
 Architecture: arm_cortex-a9_neon
-Installed-Size: 67343
+Installed-Size: 67349
 Filename: libpj_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 67732
-SHA256sum: a8294cc1a5f483448ce3a737d2716a3f5cabb4a57306319b346b7f7bb2620d75
+Size: 67726
+SHA256sum: e7eb608e62726d21a284abf7dea1e7415e0f2e3868cfe5282c3f9f6062ce8d79
 Description:  libpj library
 
 Package: libpjlib-util
@@ -3160,10 +3160,10 @@ Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, li
 License: GPL-2.0
 Section: lib
 Architecture: arm_cortex-a9_neon
-Installed-Size: 77007
+Installed-Size: 77006
 Filename: libpjlib-util_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 77228
-SHA256sum: 665fa4fc4297a3c2c3c6ddb33335ff0d5cbf789e1e31908e9af4a69faa1ee532
+Size: 77251
+SHA256sum: f2ccc8c9b95b5e29d68ccd96b1b868e5cde17786fce3c73f5938349bcbc4db56
 Description:  libpjlib-util library
 
 Package: libpjmedia
@@ -3172,10 +3172,10 @@ Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, li
 License: GPL-2.0
 Section: lib
 Architecture: arm_cortex-a9_neon
-Installed-Size: 125331
+Installed-Size: 125332
 Filename: libpjmedia_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 125080
-SHA256sum: 3edbad22e7a239db6601f9c5443a71d8e4d1dbc704e248c582729127d56d60e4
+Size: 125027
+SHA256sum: 5558b41d438b935217f7db30b3b1caad09a73bec64bd31cb23ad961e604790ee
 Description:  libpjmedia library
 
 Package: libpjnath
@@ -3186,8 +3186,8 @@ Section: lib
 Architecture: arm_cortex-a9_neon
 Installed-Size: 63026
 Filename: libpjnath_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 63534
-SHA256sum: fcc769d1df9f206cef9b5ddf8960aeb05f17afe03285320f69ddefcf6e73a421
+Size: 63510
+SHA256sum: d0e2a38e4e3dcf9da9cd776bc8e715b146e82c7dff59708d76e7f38b918781a0
 Description:  libpjnath library
 
 Package: libpjsip-simple
@@ -3198,8 +3198,8 @@ Section: lib
 Architecture: arm_cortex-a9_neon
 Installed-Size: 26902
 Filename: libpjsip-simple_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 27539
-SHA256sum: ce6bde957f33cae9b42e71ef0741f7aa58a10ae93e610cc27796eb109885d31f
+Size: 27589
+SHA256sum: 4cf1b09fe66153c5c5fc54d540aa94c8a40bbfa5159f79bc80cb6b28b119ef79
 Description:  libpjsip-simple library
 
 Package: libpjsip-ua
@@ -3208,10 +3208,10 @@ Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, li
 License: GPL-2.0
 Section: lib
 Architecture: arm_cortex-a9_neon
-Installed-Size: 38372
+Installed-Size: 38369
 Filename: libpjsip-ua_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 39052
-SHA256sum: 37784056fb1e34232f0663c83a391c8ef120ebb1a4973358038a5e32f6b2cc2f
+Size: 39050
+SHA256sum: 61c3e28f7238b874432f6a8127e3049686520aa934542495481d9efbe1d3659a
 Description:  libpjsip-ua library
 
 Package: libpjsip
@@ -3220,10 +3220,10 @@ Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, li
 License: GPL-2.0
 Section: lib
 Architecture: arm_cortex-a9_neon
-Installed-Size: 110211
+Installed-Size: 110210
 Filename: libpjsip_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 109927
-SHA256sum: 56ac78bf1ec4ae212a1e756f2c8206b02f18db0b4763920d4388c04ec35b4387
+Size: 109901
+SHA256sum: b2b11b73ca5ef68dadc6c0da40301051dca1745b10802455dd089fe86495541e
 Description:  libpjsip library
 
 Package: libpjsua2
@@ -3232,10 +3232,10 @@ Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, li
 License: GPL-2.0
 Section: lib
 Architecture: arm_cortex-a9_neon
-Installed-Size: 157610
+Installed-Size: 157606
 Filename: libpjsua2_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 157497
-SHA256sum: 8e2465f1cfc7c93c6f654abde210a96d324c1ad85ad05aa02b04a3eb51d90b19
+Size: 157480
+SHA256sum: 2b798aee72a408b42807c5d236a279cbf6c973db4863ee6aacd5251084eeeb76
 Description:  libpjsua2 library
 
 Package: libpjsua
@@ -3244,10 +3244,10 @@ Depends: libc, librt, libpthread, libstdcpp, libopenssl, libuuid, libpthread, li
 License: GPL-2.0
 Section: lib
 Architecture: arm_cortex-a9_neon
-Installed-Size: 112999
+Installed-Size: 112998
 Filename: libpjsua_2.7.2-2_arm_cortex-a9_neon.ipk
-Size: 112908
-SHA256sum: 6e6de5ee70786c2931c72b987d4e03a223c00f4f3f80cff0bf48c892e892fa5c
+Size: 112913
+SHA256sum: 38e812ce512f38b23cf7513d1afb49c9099a72d6f6b743c0e1bb8c3a088ecf55
 Description:  libpjsua library
 
 Package: libspandsp

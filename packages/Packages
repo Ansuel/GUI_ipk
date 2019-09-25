@@ -19,10 +19,10 @@ Depends: libc, librt, libpthread, libopenssl, libncurses, libpthread, libpam
 License: Apache-2.0
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1981575
+Installed-Size: 1981561
 Filename: alpine-nossl_2.20-2_arm_cortex-a9_neon.ipk
-Size: 1981051
-SHA256sum: 84d51946d60f56d7bcd97bee86c3e0eaf36af710d44156d306da8e1f22dd6c04
+Size: 1980910
+SHA256sum: 2e01e9eb6a9fece78b161e0685f1c1ec3657644d036fa5fb582a3a0bdb352778
 Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
  free software email client developed at the University of Washington.
  It is suitable for both the inexperienced email user as well as for
@@ -35,10 +35,10 @@ Depends: libc, librt, libpthread, libopenssl, libncurses, libpthread, libpam, li
 License: Apache-2.0
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2025389
+Installed-Size: 2025366
 Filename: alpine_2.20-2_arm_cortex-a9_neon.ipk
-Size: 2024375
-SHA256sum: 0ec266cbc8e33c8e46952a87f054fce4321a4257631ef9bb55e57ca8a9375e73
+Size: 2024460
+SHA256sum: 04a1f967fe5061d718d6a4ba830af44fa28fbd416cff9bff4e68907c8961e2e1
 Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
  free software email client developed at the University of Washington.
  It is suitable for both the inexperienced email user as well as for
@@ -58,16 +58,49 @@ SHA256sum: 8e1dd4b538b0a3b74bf791219a72d1e08df1f425152b5a5d1772a2b685edb92f
 Description:  This is the library package for alsa, needed by some userspace programs.
  You must have enabled the ALSA support in the kernel.
 
+Package: alsa-utils-seq
+Version: 1.1.6-2
+Depends: libc, librt, libpthread, alsa-lib, libpthread
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 70814
+Filename: alsa-utils-seq_1.1.6-2_arm_cortex-a9_neon.ipk
+Size: 71371
+SHA256sum: 9830aadeb18a8185f992f8a7c6dfc2b6e0ac701dd0c91a6dd8cfbbb05b540715
+Description:  ALSA sequencer utilities
+
+Package: alsa-utils-tests
+Version: 1.1.6-2
+Depends: libc, librt, libpthread, alsa-lib, libpthread
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 896581
+Filename: alsa-utils-tests_1.1.6-2_arm_cortex-a9_neon.ipk
+Size: 897277
+SHA256sum: 26208e37bcbeeae97b256d0312ff056cf351aa2e384c6e14c987c6766b001a16
+Description:  ALSA utilities test data (adds ~1.3M to image)
+
+Package: alsa-utils
+Version: 1.1.6-2
+Depends: libc, librt, libpthread, alsa-lib, libncursesw, libpthread
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 138515
+Filename: alsa-utils_1.1.6-2_arm_cortex-a9_neon.ipk
+Size: 137532
+SHA256sum: 7eac179472686468a0b11e704733f1e2af3003e2cee123a1bf94c66998b5633e
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
 Package: aria2
 Version: 1.33.0-1
 Depends: libc, librt, libpthread, zlib, libstdcpp, libopenssl, libxml2, libssh2, libcares, libsqlite3
 License: GPLv2
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1172686
+Installed-Size: 1172685
 Filename: aria2_1.33.0-1_arm_cortex-a9_neon.ipk
-Size: 1172550
-SHA256sum: 0a69c7ead5bf374b3f766de4e08c7041e2717cd4def2a4b7130268800b3e0232
+Size: 1172529
+SHA256sum: c1f2da0a8c54fc2e2d135592d5d1a797fa4ae3e75728eb1737c79808e3c79480
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -144,10 +177,10 @@ Depends: libc, librt, libpthread, libavahi-dbus-support, libexpat, librt, libdae
 Provides: avahi-daemon
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 39504
+Installed-Size: 39503
 Filename: avahi-dbus-daemon_0.6.32-3_arm_cortex-a9_neon.ipk
-Size: 40412
-SHA256sum: 57d196e52a588356f74fb1a0f8ad9f8d47cb09db23bd6e9f5d7f9e3fa2578005
+Size: 40413
+SHA256sum: d05e8dbf3f98bdf4dd682dc5fb64a40afbea66c76cf567d0039cc886f4673f04
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -182,8 +215,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 25067
 Filename: bind-client_9.11.9-1_arm_cortex-a9_neon.ipk
-Size: 25613
-SHA256sum: 3953fb701a15b0e314007dd52bba99a16ee341717996d23828acdbb0d9485ded
+Size: 25614
+SHA256sum: 7fae5b3511600f613ef22f04b7fb0c711293c3478b4dd878fe7403d1041259b6
 Description:  bind dynamic DNS client
 
 Package: bind-libs
@@ -192,10 +225,10 @@ Depends: libc, librt, libpthread, libopenssl, zlib
 License: BSD-3-Clause
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1291297
+Installed-Size: 1291298
 Filename: bind-libs_9.11.9-1_arm_cortex-a9_neon.ipk
-Size: 1285662
-SHA256sum: 4b13a5b0c9cf610af92342bc3aaaf800e3b3194e9bf9b7b92bea940b3c1f36a1
+Size: 1285666
+SHA256sum: d2f9f091d623b88e3b2ac670fff475def0211c3b952736d02766a460fda6473b
 Description:  bind shared libraries
 
 Package: bluez-libs
@@ -210,16 +243,412 @@ Size: 56005
 SHA256sum: 8455669f5b9a9c773090b172fe4eb8636519a5b3b7f110780d2ebe7ef4765104
 Description:  Bluetooth library
 
+Package: boost-atomic
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1781
+Filename: boost-atomic_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 2598
+SHA256sum: 466dab674fb9c4727f19f6a521e4588b789211aab3b3b2a648741522af030ac1
+Description:  This package contains the Boost atomic library.
+
+Package: boost-chrono
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 7561
+Filename: boost-chrono_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 8389
+SHA256sum: e5370c28a1d8c8c4c973b339c2243e475e7a46570c2abb395626a3ac1ba0e715
+Description:  This package contains the Boost chrono library.
+
+Package: boost-container
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 37221
+Filename: boost-container_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 38041
+SHA256sum: 97d7e141f8689cd8efbe94eccf18de49873981f247b2342f47373205e92e5972
+Description:  This package contains the Boost container library.
+
+Package: boost-context
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-chrono, boost-system, boost-thread
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3637
+Filename: boost-context_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 4433
+SHA256sum: cd57d0f87d09c756eb6a62448f57be60ee7e91f49b32bc57e304df39b37ce430
+Description:  This package contains the Boost context library.
+
+Package: boost-contract
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28007
+Filename: boost-contract_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 28714
+SHA256sum: 4710c2bd00a08b652a3c1014b10cd34b074850ba75c8cb5017860f8a5c7335d2
+Description:  This package contains the Boost contract library.
+
+Package: boost-coroutine
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system, boost-chrono, boost-context, boost-thread
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9256
+Filename: boost-coroutine_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 10086
+SHA256sum: 09f284f7197ff8cd4e508e8a511ade76067b5d62622cfda88ace2b2d47e764a6
+Description:  This package contains the Boost coroutine library.
+
+Package: boost-date_time
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14528
+Filename: boost-date_time_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 15293
+SHA256sum: b5870d64153ecb431e5639098fb6baa7f376c992689642034185a8306736d2f5
+Description:  This package contains the Boost date_time library.
+
+Package: boost-fiber
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-coroutine, boost-filesystem
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 26465
+Filename: boost-fiber_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 27193
+SHA256sum: 0af060d8fa102f8f81e409c4c1decde062859392d76e42007ca4c93e1feccd07
+Description:  This package contains the Boost fiber library.
+
+Package: boost-filesystem
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 34697
+Filename: boost-filesystem_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 35498
+SHA256sum: 00fe901ccd9faf611c85c44b5dbadade5f486296d3615e850c0ce29784012c48
+Description:  This package contains the Boost filesystem library.
+
+Package: boost-graph
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-regex
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 95765
+Filename: boost-graph_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 96281
+SHA256sum: aedd7223dede4947e2af649f180edde8b7cf1ea9bb4735c51d9f66a9fb4dcea9
+Description:  This package contains the Boost graph library.
+
+Package: boost-iostreams
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, zlib, liblzma, libbz2
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22072
+Filename: boost-iostreams_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 22796
+SHA256sum: 6a4bfdeebf1d1b0e49e25454ee8f2f35c208085c8f90cc98cb68a2ef636d5178
+Description:  This package contains the Boost iostreams library.
+
+Package: boost-libs
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-atomic, boost-chrono, boost-container, boost-context, boost-contract, boost-coroutine, boost-date_time, boost-fiber, boost-filesystem, boost-graph, boost-iostreams, boost-log, boost-math, boost-program_options, boost-python, boost-random, boost-regex, boost-serialization, boost-wserialization, boost-signals, boost-stacktrace, boost-system, boost-thread, boost-timer, boost-type_erasure, boost-wave
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: boost-libs_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 1083
+SHA256sum: 4a2ab2031d9b14c94aeb91931f834f1951b12ea2855054daac1816bb3b53588f
+Description:  This meta package contains only dependencies to the other libraries from
+ the boost libraries collection.
+
+Package: boost-log
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system, boost-chrono, boost-date_time, boost-thread, boost-filesystem, boost-regex
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 403379
+Filename: boost-log_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 401623
+SHA256sum: 89eb2132db6fa221141d2a8ebea513ef6d1ec77c05c5dc96957833700e2df44e
+Description:  This package contains the Boost log library.
+
+Package: boost-math
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 498525
+Filename: boost-math_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 498814
+SHA256sum: 3db26d1d97faa3814d59405ea11632e455006a7f6e1383a9e262973ae236c47a
+Description:  This package contains the Boost math library.
+
+Package: boost-program_options
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 121948
+Filename: boost-program_options_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 122522
+SHA256sum: d0d614786355cae800c7d94b9ded0eb064ae2b1b546a892af6d18f1bb7b4f4fe
+Description:  This package contains the Boost program_options library.
+
+Package: boost-python
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 78498
+Filename: boost-python_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 78987
+SHA256sum: 85574fbe867c38b38d3cc8c3de2042e3733601ef8f5bcfc00aac9a97d6cff0fc
+Description:  This package contains the Boost python library.
+
+Package: boost-random
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6383
+Filename: boost-random_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 7205
+SHA256sum: b6d4c604c82a5e0678b263369207f8a8a34c2b6ec9db53c5cf13c15fcbd1708a
+Description:  This package contains the Boost random library.
+
+Package: boost-regex
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 311878
+Filename: boost-regex_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 310845
+SHA256sum: b78f8c908f748c5f6a5a557d379922960ec7bd5e76d79e02b324b6b3b5658889
+Description:  This package contains the Boost regex library.
+
+Package: boost-serialization
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 64256
+Filename: boost-serialization_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 64984
+SHA256sum: 203e74df5ebf681f61e1604975801e6f3294c96ba55ba4f9fcd6c6ca9a98e24a
+Description:  This package contains the Boost serialization library.
+
+Package: boost-signals
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22506
+Filename: boost-signals_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 23171
+SHA256sum: b666f4a1fd560ad07f3026f28ccfbd26ccf01dc580d38b7a8ee05c16ba6d4f55
+Description:  This package contains the Boost signals library.
+
+Package: boost-stacktrace
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5478
+Filename: boost-stacktrace_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 6276
+SHA256sum: 06fb17957bc624cc560d1174167310bac371fb29878809e43ac2efab3b8f8379
+Description:  This package contains the Boost stacktrace library.
+
+Package: boost-system
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 5090
+Filename: boost-system_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 5879
+SHA256sum: 5c919f40b3c56cdb622ec371eb480470d14e10d75297657b378867f67b9c35ff
+Description:  This package contains the Boost system library.
+
+Package: boost-test
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system, boost-timer
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 278537
+Filename: boost-test_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 278406
+SHA256sum: f994021ea51d03f92c28b423e2362a04a1aede47ebee3c779e45001917df09f6
+Description:  Boost C++ source library (test)
+
+Package: boost-thread
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-system, boost-chrono, boost-atomic
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 34302
+Filename: boost-thread_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 34953
+SHA256sum: 911125470fbf55491946b6d44597c53c8641583bb70ebb86f9965c75bc8c6b6a
+Description:  This package contains the Boost thread library.
+
+Package: boost-timer
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-chrono
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6129
+Filename: boost-timer_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 6922
+SHA256sum: 37b0d2618fe751c4e4d21f7efe62473fcea11a58641d936c01cda79f7366c85a
+Description:  This package contains the Boost timer library.
+
+Package: boost-type_erasure
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-chrono, boost-system, boost-thread
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 14530
+Filename: boost-type_erasure_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 15351
+SHA256sum: 7fe31f193562eaa86f8fb9eb9437943c8c74a9c26410a51b7eb0f15b3b78a95d
+Description:  This package contains the Boost type_erasure library.
+
+Package: boost-wave
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-date_time, boost-thread, boost-filesystem
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 295378
+Filename: boost-wave_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 294953
+SHA256sum: 9a2640f2849a7fb138f5c70c72ed67d1a9f041d14fa1c27e4f500e1cb1a96c68
+Description:  This package contains the Boost wave library.
+
+Package: boost-wserialization
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt, boost-serialization
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 46975
+Filename: boost-wserialization_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 47714
+SHA256sum: 5e3857db5cc0ab6b1c0bb5a05b8ea74a7b1f756a84e7a3064ceccda977bda72a
+Description:  This package contains the Boost wserialization library.
+
+Package: boost
+Version: 1.68.0-6
+Depends: libc, librt, libpthread, libstdcpp, libpthread, librt
+License: Boost Software License <http://www.boost.org/users/license.html>
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 105
+Filename: boost_1.68.0-6_arm_cortex-a9_neon.ipk
+Size: 1464
+SHA256sum: fea6c5b21f7711f398418c01ff536ae6cb8fa402c05c5d98aca73eb5ac953ef6
+Description:  This package provides the Boost v1.68.0 libraries.
+ Boost is a set of free, peer-reviewed, portable C++ source libraries.
+ 
+ -----------------------------------------------------------------------------
+ |                                Warning                                    |
+ | In order to build all of the Boost Libraries, it is necessary             |
+ | to use, at least, GCC version 5 (C++14 support) and, it is necessary to   |
+ | compile the kernel with Full Language Support.                            |
+ | Without these requirerements, the following libs will not be available:   |
+ | - Boost.Locale                                                            |
+ | - Boost.Coroutine2 (header-only library - requires C++11)                 |
+ | - Boost.Fiber (requires C++14)                                            |
+ -----------------------------------------------------------------------------
+ 
+ This package provides the following run-time libraries:
+ - atomic
+ - chrono
+ - container
+ - context
+ - contract 
+ - coroutine (Deprecated - use Coroutine2)
+ - - coroutine2 (Requires GCC v5 and up)
+ - date_time
+ - exception
+ - filesystem
+ - fiber (Requires GCC v5 and up)
+ - graph
+ - - graph-parallel
+ - iostreams
+ - locale (Requires kernel being compiled with full language support)
+ - log
+ - math
+ - program_options
+ - python
+ - python3
+ - random
+ - regex
+ - serialization and wserialization
+ - signals
+ - stackstrace
+ - system
+ - thread
+ - timer
+ - type_erasure
+ - wave
+ 
+ There are many more header-only libraries supported by Boost.
+ See more at http://www.boost.org/doc/libs/1_67_0/
+
 Package: bsdtar-noopenssl
 Version: 3.4.0-1
 Depends: libc, librt, libpthread, libarchive-noopenssl
 License: BSD-2-Clause
 Section: utils
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23278
+Installed-Size: 23279
 Filename: bsdtar-noopenssl_3.4.0-1_arm_cortex-a9_neon.ipk
-Size: 23897
-SHA256sum: 82164b4b4f3fe39bbeb879be1a5862f2f6c1de287cdccacf69f94af807160b3c
+Size: 23886
+SHA256sum: b1a2a2ac1a48a3a68f6502e3a097b23fcbd0c4b820ab237df5fdc2433edca42f
 Description:  tar BSD variant (without OpenSSL dependency)
 
 Package: bsdtar
@@ -228,10 +657,10 @@ Depends: libc, librt, libpthread, libarchive
 License: BSD-2-Clause
 Section: utils
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23278
+Installed-Size: 23279
 Filename: bsdtar_3.4.0-1_arm_cortex-a9_neon.ipk
-Size: 23999
-SHA256sum: 9e483bddccfa544e261748dba146b81c5ced4b4a70e5e54cf0125dc775a14ea6
+Size: 23986
+SHA256sum: 55ab8863f113943b4dfd2a235a6100a06d6a0945c8ad6c5a6dbeaf384f65c45b
 Description:  Reads a variety of formats including tar, pax, zip, xar, lha, ar,
  cab, mtree, rar, warc, 7z and ISO images. Writes tar, pax, zip,
  xar, ar, ISO, mtree and shar archives. Automatically handles
@@ -1484,8 +1913,8 @@ Section: utils
 Architecture: arm_cortex-a9_neon
 Installed-Size: 95967
 Filename: cryptsetup-openssl_1.7.5-1_arm_cortex-a9_neon.ipk
-Size: 96379
-SHA256sum: a52b438af3f78a58be384d7ba769b1e5ecfd71ad59e7806981c5318f180c8d52
+Size: 96298
+SHA256sum: 5044f42cc2c04da2791d5c352b9f194e83b98a092f55337cdfa9e982e1a2ba4b
 Description:  Cryptsetup-luks
  linked against openssl
 
@@ -1495,10 +1924,10 @@ Depends: libc, librt, libpthread, libblkid, libuuid, libpopt, lvm2, libdevmapper
 License: GPL-2.0+ LGPL-2.1+
 Section: utils
 Architecture: arm_cortex-a9_neon
-Installed-Size: 96236
+Installed-Size: 96235
 Filename: cryptsetup_1.7.5-1_arm_cortex-a9_neon.ipk
-Size: 96727
-SHA256sum: 7e176163c2136906fc784198ed61669a4ab804fe44ec3eec3ba205981b1583dd
+Size: 96723
+SHA256sum: d10917d72f73fe9e61fe6b90e415e2bc6f15213c33fc095a66a917d970d8d6b6
 Description:  Cryptsetup-luks
  linked against libgcrypt
 
@@ -1635,10 +2064,10 @@ Depends: libc, librt, libpthread, libopenssl, libstdcpp
 License: GPL-3.0
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 516674
+Installed-Size: 516676
 Filename: emailrelay_1.9-5_arm_cortex-a9_neon.ipk
-Size: 517327
-SHA256sum: 03cea32d1a471bae0da49d4ca8eb23d0500fcce5a10d8a662db1c7b93580ab6f
+Size: 517257
+SHA256sum: 6bfaaea2da7ad88685438247123fa4d609bfeae7e9d2fbf897da4da5b8fc8c82
 Description:  Emailrelay is a simple SMTP proxy and store-and-forward message transfer agent (MTA).
  
  When running as a proxy all e-mail messages can be passed through
@@ -1789,16 +2218,29 @@ SHA256sum: 9f5de3d73bd6e3357fb2e48ff754a85721493d295b749a453f818f2168242d1f
 Description:  Access control list support
  This package provides libacl
 
+Package: libao
+Version: 1.2.0-1
+Depends: libc, librt, libpthread, alsa-lib
+License: GPL-2.0
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28730
+Filename: libao_1.2.0-1_arm_cortex-a9_neon.ipk
+Size: 29529
+SHA256sum: 9585d97404045122a8662ec72f3f882c11914f47f2dc1d601c1970e2bde93f83
+Description:  Libao is a cross-platform audio library that allows programs to
+ output audio using a simple API on a wide variety of platforms.
+
 Package: libarchive-noopenssl
 Version: 3.4.0-1
 Depends: libc, librt, libpthread, zlib, liblzma, libbz2, libexpat
 License: BSD-2-Clause
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 375140
+Installed-Size: 375141
 Filename: libarchive-noopenssl_3.4.0-1_arm_cortex-a9_neon.ipk
-Size: 374268
-SHA256sum: 69bb1423f10d83813cb01cae4cfc89bb5b2fbac24ef52dff28cc50af24b22e03
+Size: 374276
+SHA256sum: 2d2bb6d198a98881800c9bc951297d988710beafcba67a5f4fff0994bf74142e
 Description:  Multi-format archive and compression library (without OpenSSL dependency)
 
 Package: libarchive
@@ -1807,10 +2249,10 @@ Depends: libc, librt, libpthread, zlib, liblzma, libbz2, libexpat, libopenssl
 License: BSD-2-Clause
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 375140
+Installed-Size: 375141
 Filename: libarchive_3.4.0-1_arm_cortex-a9_neon.ipk
-Size: 374245
-SHA256sum: 7925a9b073883ecae0002daa581090d6837b0e664ede6b528385e141f0e49ce0
+Size: 374260
+SHA256sum: 97c2f1be4106d8d2cf2b158477d03da0abb38d72aeb76124f7072020b4c2d8d8
 Description:  Multi-format archive and compression library
 
 Package: libattr
@@ -1826,16 +2268,63 @@ SHA256sum: 33ff6727dc2d0f447c27af3d92cc0acc222cd778ee90e8e822776f2b0ad160e7
 Description:  Extended attributes support
  This package provides libattr
 
+Package: libavahi-client
+Version: 0.6.32-3
+Depends: libc, librt, libpthread, avahi-dbus-daemon
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18317
+Filename: libavahi-client_0.6.32-3_arm_cortex-a9_neon.ipk
+Size: 19422
+SHA256sum: aa441f1b178b254266da1d2b286ed7f56efdb2e1c16b85940cb4596060dd1ce6
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-compat-libdnssd
+Version: 0.6.32-3
+Depends: libc, librt, libpthread, libavahi-client
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10583
+Filename: libavahi-compat-libdnssd_0.6.32-3_arm_cortex-a9_neon.ipk
+Size: 11641
+SHA256sum: fcc943b3ee2cb5bf7a682abaced0458a2811092c37beef470ca169e49b5d1fcc
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-compat-libdnssd library.
+ It also automatically adds the required libavahi-client package.
+ For more information please see the avahi documentation.
+
 Package: libavahi-dbus-support
 Version: 0.6.32-3
 Depends: libc, librt, libpthread, dbus
 Provides: libavahi
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 73148
+Installed-Size: 73146
 Filename: libavahi-dbus-support_0.6.32-3_arm_cortex-a9_neon.ipk
-Size: 74085
-SHA256sum: 3cabc260444397f89b05cf06610a1e6672009c2f233f80b70faa06f9e71612f3
+Size: 73854
+SHA256sum: d4c561cf77175a7305f197d86e17147ada17812b95c1e34cb0dd622fc061eb8e
 Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
  implementation (library). It facilitates
  service discovery on a local network -- this means that
@@ -2176,10 +2665,10 @@ Provides: libmysqlclient, libmysqlclient-r
 License: GPL-2.0
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 324662
+Installed-Size: 324661
 Filename: libmariadbclient_10.1.41-2_arm_cortex-a9_neon.ipk
-Size: 295196
-SHA256sum: 8fe28cdc02f68256dc3fec148ca892edaeee881110d88e01daa9c18b50307439
+Size: 295376
+SHA256sum: 3fff888b56ce7ca6f14df29c4471e10c5069cd5b0cafe08ffaaacab203cd9edd
 Description:  MariaDB is a fast, stable and true multi-user, multi-threaded SQL
  database server. SQL (Structured Query Language) is the most popular
  database query language in the world. The main goals of MariaDB are
@@ -2198,6 +2687,33 @@ Filename: libminiupnpc_2.0.20170509-1_arm_cortex-a9_neon.ipk
 Size: 20733
 SHA256sum: e9dc7e50c0b05bbab599b88905a675a1f2c4534cfc48a3470b2a8191299d651e
 Description:  Lightweight UPnP library
+
+Package: libmms
+Version: 0.6.4-4
+Depends: libc, librt, libpthread
+License: LGPLv2.1
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 28956
+Filename: libmms_0.6.4-4_arm_cortex-a9_neon.ipk
+Size: 29812
+SHA256sum: 81a37e8c5c03ae6ef7a938b1b765b429740a38041815c841f3d2f99492ce20d7
+Description:  LibMMS is a common library for parsing mms:// and mmsh:// type network streams.
+ These are commonly used to stream Windows Media Video content over the web.
+ LibMMS itself is only for receiving MMS stream,
+ it doesn't handle sending at all.
+
+Package: libmpdclient
+Version: 2.11-1
+Depends: libc, librt, libpthread
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 29035
+Filename: libmpdclient_2.11-1_arm_cortex-a9_neon.ipk
+Size: 29596
+SHA256sum: 521aae502fb891933da2b4fc953fa9bd078ee94e5e5860128cf041105668fab0
+Description:  A stable, documented, asynchronous API library for interfacing MPD in the C, C++ & Objective C languages.
 
 Package: libmpg123
 Version: 1.25.10-1
@@ -2232,10 +2748,10 @@ Version: 0.30.2-2
 Depends: libc, librt, libpthread, libopenssl, libexpat, zlib
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 63417
+Installed-Size: 63415
 Filename: libneon_0.30.2-2_arm_cortex-a9_neon.ipk
-Size: 64370
-SHA256sum: e93aaeeca65f530900d1cbf183a4d08f29ce101346850e07c1f674966393fcb3
+Size: 64372
+SHA256sum: 5f6e7cbc69d5c464e8c19d985b48e9f112c7f90e58340d532953fe0779eb4615
 Description:  neon is an HTTP and WebDAV client library, with a C interface. Features:
  
  - High-level wrappers for common HTTP and WebDAV operations (GET, MOVE, DELETE, etc)
@@ -2288,10 +2804,10 @@ Depends: libc, librt, libpthread, libopenssl, libsasl2, libpthread
 License: OLDAP-2.8
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 219809
+Installed-Size: 219808
 Filename: libopenldap_2.4.45-2_arm_cortex-a9_neon.ipk
-Size: 219187
-SHA256sum: a1067f139504f1bcbf70efa0ca74c9029f732310936903f30e629fbe743d27d4
+Size: 219089
+SHA256sum: 0b28fea06ee2b445f7e67e1f9bb2a434877c8cb048f108a9e1fafef987630d6c
 Description:  OpenLDAP Software is an open source implementation of the
  Lightweight Directory Access Protocol (LDAP).
  This package contains the shared LDAP client libraries, needed by other programs.
@@ -2361,11 +2877,55 @@ Depends: libc, librt, libpthread, libopenssl
 License: BSD-4c BSD
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 94544
+Installed-Size: 94548
 Filename: libsasl2_2.1.27-rc7-1_arm_cortex-a9_neon.ipk
-Size: 95286
-SHA256sum: f227e9d38fcdb215e00c6e46e45bdfbd9e0315b61908bea7870856a4c6e2e58a
+Size: 95251
+SHA256sum: e4c7b30b99ccca3f921b91462a64c1da98652a8de26b20d835c9fb3098cf3b11
 Description:  A general purpose authentication library
+
+Package: libshout
+Version: 2.4.1-1
+Depends: libc, librt, libpthread, libvorbisidec, libpthread, libopenssl
+License: LGPL-2.0+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33976
+Filename: libshout_2.4.1-1_arm_cortex-a9_neon.ipk
+Size: 34707
+SHA256sum: d3ece0d53f3f29929aafe782ca94ad3c7571a81539c663c9c4ec88d738e69de9
+Description:  libshout allows applications to easily communicate and broadcast
+ to an Icecast streaming media server. It handles the socket connections,
+ metadata communication, and data streaming for the calling application,
+ and lets developers focus on feature sets instead of implementation
+ details.
+ .
+ This package does not have Theora support.
+
+Package: libsndfile
+Version: 2019-01-01-42132c54-1
+Depends: libc, librt, libpthread
+License: LGPLv2.1
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 256779
+Filename: libsndfile_2019-01-01-42132c54-1_arm_cortex-a9_neon.ipk
+Size: 256657
+SHA256sum: 5f0990e0f9231beb4cb7a3208e62be6c937a7a713ce30e5b2670474ea3b9c0ce
+Description:  libsndfile is a library of C routines for reading and writing files
+ containing sampled audio data.
+
+Package: libsoxr
+Version: 0.1.3-1
+Depends: libc, librt, libpthread, libpthread
+License: LGPL-2.1
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 127051
+Filename: libsoxr_0.1.3-1_arm_cortex-a9_neon.ipk
+Size: 127376
+SHA256sum: 3d4411f6cd1f1060f9c7d4ab13f16b30ad3c78957a2c388908547fa0162be590
+Description:  The SoX Resampler library
+ High quality, one-dimensional sample-rate conversion library
 
 Package: libsqlite3
 Version: 3260000-4
@@ -2388,10 +2948,10 @@ Depends: libc, librt, libpthread, libmbedtls, zlib
 License: BSD
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 73656
+Installed-Size: 73655
 Filename: libssh2_1.8.1-1_arm_cortex-a9_neon.ipk
-Size: 74315
-SHA256sum: 3bdcd86646d81912126d8bddac56e4361e920fbdd3b78c973083ff2f8a779754
+Size: 74319
+SHA256sum: 15cee4669a58a1733aeaa223d0b6a65e0c620c24773b24084d6e7128371d2b2d
 Description:  libssh2 is a client-side C library implementing the SSH2 protocol.
 
 Package: libstoken
@@ -2424,11 +2984,36 @@ Depends: libc, librt, libpthread, libopenssl, libpthread
 License: BSD-3-Clause
 Section: libs
 Architecture: arm_cortex-a9_neon
-Installed-Size: 425694
+Installed-Size: 425695
 Filename: libunbound_1.9.2-1_arm_cortex-a9_neon.ipk
-Size: 421041
-SHA256sum: 733ac0eae23275fbcaadcfa7372cc3a628cbac35bfff557974732750818fc2a0
+Size: 420910
+SHA256sum: e9f33a212243d043b9191b30c5f228afe69df09fa10e2688c88aea79bcec7a43
 Description:  This package contains the Unbound shared library.
+
+Package: libupnp-sample
+Version: 1.6.19-2
+Depends: libc, librt, libpthread, libupnp
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31439
+Filename: libupnp-sample_1.6.19-2_arm_cortex-a9_neon.ipk
+Size: 32118
+SHA256sum: f8e4df960fc20323f2c18d8a968099dae3127710dada137b95a9400f685e67c1
+Description:  TVcontrolpoint & tvdevice sample applications run inside /etc/upnp-tvdevice/
+
+Package: libupnp
+Version: 1.6.19-2
+Depends: libc, librt, libpthread, libpthread
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 80521
+Filename: libupnp_1.6.19-2_arm_cortex-a9_neon.ipk
+Size: 81099
+SHA256sum: f8dea33cf706f3a09057a3bdcc61fcc8adb23eb3eebaa20cb44dbf36cb7e6dfb
+Description:  The portable SDK for UPnP Devices (libupnp) provides developers with an API and
+ open source code for building control points, devices, and bridges that are
+ compliant with Version 1.0 of the  Universal Plug and Play Device Architecture
+ Specification.
 
 Package: libvorbis
 Version: 1.3.6-1
@@ -2448,6 +3033,33 @@ Description:  Vorbis is a general purpose audio and music encoding format
  All the technical details are published and documented, and any
  software entity may make full use of the format without license
  fee, royalty or patent concerns.
+
+Package: libvorbisidec
+Version: 1.0.3-20150104-3
+Depends: libc, librt, libpthread, libogg
+License: BSD-3-Clause
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 80593
+Filename: libvorbisidec_1.0.3-20150104-3_arm_cortex-a9_neon.ipk
+Size: 81542
+SHA256sum: 985624b493be3a842a1c682426eda2aa644a8705086abc19dc7c9edf763eb21e
+Description:  libvorbisidec is "tremor", a fixed-point implementation of libvorbis.
+ It also has libogg built-in. It is suitable as a replacement for
+ libvorbis and libogg in tremor-aware applications.
+ Tremor is a decoder only.
+
+Package: libwrap
+Version: 7.6-1
+Depends: libc, librt, libpthread
+License: BSD
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 13088
+Filename: libwrap_7.6-1_arm_cortex-a9_neon.ipk
+Size: 13841
+SHA256sum: 9bb7d69753912ae60cea33afcbc806de8cdfc5ffd404173dbe5bdedc6e26ce94
+Description:  Security wrapper library for TCP services
 
 Package: libxml2
 Version: 2.9.9-1
@@ -2517,10 +3129,10 @@ Depends: libc, librt, libpthread
 License: BSD-3-Clause
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 35246
+Installed-Size: 35244
 Filename: mailsend-nossl_1.17b15-2_arm_cortex-a9_neon.ipk
-Size: 36025
-SHA256sum: a1f9c48bc9557f88c150bfcfbec7563ad0b55d23ae26f50f6d0ad537664ff8f5
+Size: 36063
+SHA256sum: 21be64d1946a49281e9529544d4ad15c9ab9cc7179aab9321527fa1e9a137151
 Description:  Mailsend is a simple command line program to send mail via SMTP protocol.
 
 Package: mailsend
@@ -2529,10 +3141,10 @@ Depends: libc, librt, libpthread, libopenssl
 License: BSD-3-Clause
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 37094
+Installed-Size: 37095
 Filename: mailsend_1.17b15-2_arm_cortex-a9_neon.ipk
-Size: 37943
-SHA256sum: 3b443e0895b6a27c6a89d9dcbe2f5f7b73533f1c193f4c915bec78edcdafd55a
+Size: 37941
+SHA256sum: bbc40678785466be3150905a3452e268a385d7ca42b363d630fed2510644c465
 Description:  Mailsend is a simple command line program to send mail via SMTP protocol.
  .
  SSL supported is provided by OpenSSL.
@@ -2562,6 +3174,21 @@ Size: 65609
 SHA256sum: 79d37c31ec545c4254042cd178281e08e813b2f57fe412eace2d4fda634335e0
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
 
+Package: mpc
+Version: 0.28-1
+Depends: libc, librt, libpthread, libmpdclient
+License: GPL-2.0+
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19888
+Filename: mpc_0.28-1_arm_cortex-a9_neon.ipk
+Size: 20592
+SHA256sum: d2e63af8f4a48b68e618179771a73ed6fccda8081b9e1d4581200a09a8423b75
+Description:  MPD is a music player supporting flac, mp3 and ogg files.
+ It is typically controlled over a network using one of it's many
+ clients including mpc(console), gmpc(gnome), phpmp(php) etc.
+ this is MPC
+
 Package: mpg123
 Version: 1.25.10-1
 Depends: libc, librt, libpthread, libmpg123, alsa-lib, libout123
@@ -2580,10 +3207,10 @@ Depends: libc, librt, libpthread
 License: GPL-3.0+
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 206
+Installed-Size: 207
 Filename: msmtp-mta_1.6.6-1_arm_cortex-a9_neon.ipk
-Size: 1176
-SHA256sum: 762d5e9b1786e912c890b577f4864db335fd6272a0e6e225d9bfd1762480e9f6
+Size: 1171
+SHA256sum: 0a684fc05dc20315f95e7a43aa0865e24a48a3ce9a802018968f5968ebf5c302
 Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
  an SMTP server (for example at a free mail provider) which does the
  delivery. To use this program with your mail user agent (MUA), create
@@ -2600,8 +3227,8 @@ Section: mail
 Architecture: arm_cortex-a9_neon
 Installed-Size: 42004
 Filename: msmtp-nossl_1.6.6-1_arm_cortex-a9_neon.ipk
-Size: 42995
-SHA256sum: 7750744c73925080c35133a1e383c2cb473be31fad8cd486da6954dba52aec3d
+Size: 43028
+SHA256sum: 533b608b94aa00cd85d23db34ad09cff6252e95541e560eddbd8293fe73111dc
 Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
  an SMTP server (for example at a free mail provider) which does the
  delivery. To use this program with your mail user agent (MUA), create
@@ -2615,10 +3242,10 @@ Depends: libc, librt, libpthread, bash
 License: GPL-3.0+
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8692
+Installed-Size: 8695
 Filename: msmtp-queue_1.6.6-1_arm_cortex-a9_neon.ipk
-Size: 9665
-SHA256sum: c1a0aafb9bb669c832ad56dd6f93293c9273ef783ed0ac0ac2d98c4fb370130e
+Size: 9668
+SHA256sum: 062296d9d07f372a966ea8da4b11a5008099e1522b1b8ba0ec59499f4f969210
 Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
  an SMTP server (for example at a free mail provider) which does the
  delivery. To use this program with your mail user agent (MUA), create
@@ -2632,10 +3259,10 @@ Depends: libc, librt, libpthread, libopenssl, ca-bundle
 License: GPL-3.0+
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 48772
+Installed-Size: 48771
 Filename: msmtp_1.6.6-1_arm_cortex-a9_neon.ipk
-Size: 49705
-SHA256sum: b37f1351ba69253cde2e96e0847b379149b38ea197086b198b5ebf9db8cc314e
+Size: 49723
+SHA256sum: b9a9282e57de2a57a5b4b904b10ff0b1af2e333e4d9db9d1c309a9b2bf964098
 Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
  an SMTP server (for example at a free mail provider) which does the
  delivery. To use this program with your mail user agent (MUA), create
@@ -2696,10 +3323,10 @@ Depends: libc, librt, libpthread, libopenssl, libncursesw, terminfo, zlib
 License: GPL-2.0+
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 404469
+Installed-Size: 404468
 Filename: mutt_1.9.4-1_arm_cortex-a9_neon.ipk
-Size: 404756
-SHA256sum: d1d7d0416bc9e634f97d180917aa43044d46edaa1bbe3d493793401cacd6b6aa
+Size: 404706
+SHA256sum: 3540dba2c2b2072db1aff76ae8ef99f43536c17879538c694aa272e239122b8c
 Description:  Mutt is a small but very powerful text-based mail client for Unix
  operating systems.
 
@@ -2736,8 +3363,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 562625
 Filename: nginx_1.12.2-1_arm_cortex-a9_neon.ipk
-Size: 539966
-SHA256sum: e6d75c707b5be18d03ff9a56dec6b8bc1b5d171e78fa1823c793f35a9e48b4f7
+Size: 540008
+SHA256sum: 7191ac4ff02b080d48d55c5c01ca45abc58d724df89f270a7362cea61e2685df
 Description:  nginx is an HTTP and reverse proxy server, as well as a mail proxy server,
  written by Igor Sysoev.
 
@@ -2749,8 +3376,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 841
 Filename: nut-avahi-service_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 1709
-SHA256sum: c08a65cf01100fa316af0e7a01cd1f39c764d8b95584cb85b91de75f9573c593
+Size: 1706
+SHA256sum: 8a30e33540971656c448af1bd6cbcaa245c7f90353b772b12771200b67860053
 Description:  This package contains the service definition for announcing the
  attached UPS via mDNS/DNS-SD.
 
@@ -2760,10 +3387,10 @@ Depends: libc, librt, libpthread, nut, libnetsnmp, libusb-compat, libopenssl
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 19271
+Installed-Size: 19272
 Filename: nut-common_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 20212
-SHA256sum: faf8dba265010a600bf080a47bb842c91429611f0fa6e27dd98c7d45ab74c714
+Size: 20163
+SHA256sum: e074d79a522559bc264b754ac7af5a5c1f310e86b1f4df6ff1ed16e95d31d0e6
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -2779,8 +3406,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 42445
 Filename: nut-driver-bcmxcp_usb_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 43140
-SHA256sum: 460547a89a24a68f69094c9d71baf63321827374765d59ec1d215dd4094cbf16
+Size: 43141
+SHA256sum: b8bd335cb9dd54e5e3b8a2f34abe6f6ef6d6b41e500fff69ff2b4ef77864042b
 Description:  Experimental driver for UPSes supporting the BCM/XCP protocol over USB
 
 Package: nut-driver-blazer_usb
@@ -2789,10 +3416,10 @@ Depends: libc, librt, libpthread, nut, nut-server
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 34801
+Installed-Size: 34804
 Filename: nut-driver-blazer_usb_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 35536
-SHA256sum: b9cb37a52bb421eaea7781449afb5653d25c170991896920029fd164725a3084
+Size: 35609
+SHA256sum: c1fee3335413671648562417eaeabe9cfe0f71469b7ac53af2fb4459441696fc
 Description:  Driver for Megatec/Q1 protocol USB based UPS equipment
 
 Package: nut-driver-nutdrv_atcl_usb
@@ -2804,7 +3431,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 23284
 Filename: nut-driver-nutdrv_atcl_usb_2.7.4-10_arm_cortex-a9_neon.ipk
 Size: 24036
-SHA256sum: 26984d8db2bc961511e342ff47a94f4086e690603589848d8c786dc6e658b14a
+SHA256sum: 2acf0192466c161f5420dd16d187ab69ac9ec3c750933ea4a16a208c9ca861f9
 Description:  Driver for ATCL FOR UPS equipment
 
 Package: nut-driver-nutdrv_qx
@@ -2815,8 +3442,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 69220
 Filename: nut-driver-nutdrv_qx_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 68065
-SHA256sum: 23f360910d05c3b68615bad719d019a5e6ae33a7ea4d076e892f83721f3af707
+Size: 68076
+SHA256sum: c2046defe3781d286aabc411c46fc5642780425b5e2f930a24db058ce8ebd8e0
 Description:  Driver for Q* protocol serial and USB based UPS equipment
 
 Package: nut-driver-richcomm_usb
@@ -2827,8 +3454,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 23202
 Filename: nut-driver-richcomm_usb_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 23955
-SHA256sum: ecdc349ed6ccc4fa8e61bea8ccda136d7bee88dc95f6bf2a77b28a468422548b
+Size: 23956
+SHA256sum: 55b62d9300a3c34bb2b8e4f9998ffb855e958caf60afff071a1b04d9c2341551
 Description:  Driver for UPS equipment using Richcomm dry-contact to USB solution
 
 Package: nut-driver-riello_usb
@@ -2839,8 +3466,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 34235
 Filename: nut-driver-riello_usb_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 35077
-SHA256sum: 8c338a6788ed0a4215ef0c6f453460b2c5c6eeee8511439865dc597525656c11
+Size: 35017
+SHA256sum: f6d55c6d443d57c401d9c48004eff5fe4a119b2389417c43fcda04425e2e540b
 Description:  Driver for Riello UPS Protocol UPS equipment via USB
 
 Package: nut-driver-snmp-ups
@@ -2849,10 +3476,10 @@ Depends: libc, librt, libpthread, nut, nut-server
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 47548
+Installed-Size: 47547
 Filename: nut-driver-snmp-ups_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 48253
-SHA256sum: 3422f82598b4a9be8a1f967fc217f70998f07872ba71194d04735a261af24ea5
+Size: 48250
+SHA256sum: 0db669de90e6f7d7e06ca3f5328301c85d230e77e73725a6fa7e064dfe7f64f2
 Description:  Multi-MIB Driver for SNMP UPS equipment
 
 Package: nut-driver-tripplite_usb
@@ -2861,10 +3488,10 @@ Depends: libc, librt, libpthread, nut, nut-server
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 32330
+Installed-Size: 32331
 Filename: nut-driver-tripplite_usb_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 33039
-SHA256sum: 0ce793da6d22a1b3f94eb2d8c7ce0b3ff3d0ff17fd889d8a7f6b6237b0afd046
+Size: 33040
+SHA256sum: 7fd4f086a43bd312ec8af36a69c57de64bf6c72934b1f6ff04070e2872b1e1e1
 Description:  Driver for older Tripp Lite USB UPSes (not PDC HID)
 
 Package: nut-driver-usbhid-ups
@@ -2873,10 +3500,10 @@ Depends: libc, librt, libpthread, nut, nut-server
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 57345
+Installed-Size: 57347
 Filename: nut-driver-usbhid-ups_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 57993
-SHA256sum: ed31739a9c462280bccc3215bb651fb419870adcebe9df5dce3640ee1354b25c
+Size: 57985
+SHA256sum: 568385cabd5c6a1df1b055e745a54b53a9fb8d48740bad42c019349051afec75
 Description:  Driver for USB/HID UPS equipment
 
 Package: nut-server
@@ -2887,8 +3514,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 53946
 Filename: nut-server_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 55036
-SHA256sum: f0ce2d15e99a4f93767f27a79e590f748b5181ee2e53aa601a9851a73ae178ca
+Size: 55040
+SHA256sum: a625ec5bd2d8b94cbe35a1a88f155aa7e75e5deedd470ecb8e897594d402bd4b
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -2906,10 +3533,10 @@ Depends: libc, librt, libpthread, nut, nut-common
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7538
+Installed-Size: 7539
 Filename: nut-upsc_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 8573
-SHA256sum: d5a8416520f31d6c666d4f7f272bade58f8c4f1ac8f3c2aa6360124d330d077d
+Size: 8527
+SHA256sum: 51bd1f6b969bf82883493478191d9e1e5a67c77b459be66c84a547edb4ef2e35
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -2925,10 +3552,10 @@ Depends: libc, librt, libpthread, nut, nut-common
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8225
+Installed-Size: 8224
 Filename: nut-upscmd_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 9337
-SHA256sum: 1adb7997b78049c713d72be9bf4e48870fe7b466b9592b53a9ba11d1e71fd401
+Size: 9332
+SHA256sum: 92f053cd507c57785894fd29f0c54e68daea89767091f47b9e01cdadc17953d4
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -2948,8 +3575,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 9362
 Filename: nut-upslog_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 10308
-SHA256sum: 416d228f29a41ad6d0b40ca8955779d30a89756e8980cd1714f22d02b92c72e6
+Size: 10317
+SHA256sum: fbecba0bbcd77f5bcf088e8e7c295ae0e6bb2971bed3fa76ffa9feff5f505bcf
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -2965,10 +3592,10 @@ Conflicts: nut-upssched
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 665
+Installed-Size: 666
 Filename: nut-upsmon-sendmail-notify_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 1641
-SHA256sum: 8795f24afaa6ec45b78790356aab27001470ca11b63167bcb705c0e002dafaea
+Size: 1635
+SHA256sum: db136aa6c7c5310c3e590390b4149bb7d058c53a30f717b433ae281368cd7307
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -2982,10 +3609,10 @@ Depends: libc, librt, libpthread, nut, nut-common
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 21844
+Installed-Size: 21846
 Filename: nut-upsmon_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 22855
-SHA256sum: 8791df3ea7cd9e37c611d6bd17de93f3c304b3d8fdf2a4e1595a6df2634db646
+Size: 22858
+SHA256sum: b60e5af35e2edfed64e6d4f34cd13296be9d6fc50b4f0912e6ef09ae064591c1
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3004,10 +3631,10 @@ Depends: libc, librt, libpthread, nut, nut-common
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 12653
+Installed-Size: 12651
 Filename: nut-upsrw_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 13737
-SHA256sum: f1bd085bbc1b49507be34fe2d6efcc8b61317cb459da129171ba10110a4f0c66
+Size: 13731
+SHA256sum: bc2f64b7ad1a74afe11415b803884a2db92cd3490f794fcf35530d2bff4fdc7a
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3026,10 +3653,10 @@ Depends: libc, librt, libpthread, nut, nut-common, nut-upsmon
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 14936
+Installed-Size: 14933
 Filename: nut-upssched_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 16023
-SHA256sum: 7e5ab72e9f2f2895862c222da51c2a2694cd8247f08f31bcc729b299baf08b21
+Size: 16017
+SHA256sum: 135152f4fd60cf158b4d0c8090ada68d4967de13fbf3576223a2a25cb01d4ef9
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3047,10 +3674,10 @@ Depends: libc, librt, libpthread, nut, nut-common, libgd
 License: GPL-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 51552
+Installed-Size: 51548
 Filename: nut-web-cgi_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 52528
-SHA256sum: 642d6898fb5aa95acb675f16f21b07f9eac4042ca8c91b7ddd19c9a145ea6d57
+Size: 52431
+SHA256sum: 6da80a27af95711abfe2eb0306aa2ba3b38daea8325f9466b548d700db0b1f7c
 Description:  The CGI programs are clients that run through your web server.
  They allow you to see UPS status and perform certain administrative
  commands from any web browser. Javascript and cookies are not required.
@@ -3063,8 +3690,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: nut_2.7.4-10_arm_cortex-a9_neon.ipk
-Size: 1013
-SHA256sum: e2416f09a5b50701e79319d455b8fbc6244ce90181c231a95307ba0eab37e568
+Size: 1010
+SHA256sum: 979061c6f6094674ca8a1bf09887fde216c2ae1147e8cc00d049cf32bd50b674
 Description:  Network UPS Tools (NUT) is a client/server monitoring system that
  allows computers to share uninterruptible power supply (UPS) and
  power distribution unit (PDU) hardware. Clients access the hardware
@@ -3077,10 +3704,10 @@ Depends: libc, librt, libpthread, libpcap, libopenssl, librt, kmod-openvswitch
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1330859
+Installed-Size: 1330863
 Filename: openvswitch-base_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 1316459
-SHA256sum: af973b1aa7ef9e8a5796c64d927a8595ebd1250e0cb6227a689ae6af27c9c0d6
+Size: 1315699
+SHA256sum: 42c68bebab5756e39eff10b5e82ede97b769f9be9334d19812e84e0c77fcadf5
 Description:  Provides the main userspace components required for Open vSwitch to function.
  The main OVS tools (ovs-vsctl, ovs-ofctl, etc) are packaged separately
  to conserve some room and allow more configurability.
@@ -3091,10 +3718,10 @@ Depends: libc, librt, libpthread, openvswitch-base
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 160017
+Installed-Size: 160021
 Filename: openvswitch-ovn-base_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 160058
-SHA256sum: a60329eec60b7ffad08f9dacc0f5b98ae6abdd18d0a1fa8cd5540b48e0294003
+Size: 160066
+SHA256sum: 8a2c1b3abb70ef129d2425821afb976623b970bb3d915ced900af9cf7ac542c8
 Description:  Provides the main userspace components required for Open Virtual Networking
  over Open vSwitch.
 
@@ -3104,10 +3731,10 @@ Depends: libc, librt, libpthread, openvswitch-ovn-base, openvswitch-vtep
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10905
+Installed-Size: 10906
 Filename: openvswitch-ovn-controller-vtep_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 11664
-SHA256sum: 12f4aa86226722a323209c4063021a43b3f8569f4dccee750e4d6667f4cac955
+Size: 11662
+SHA256sum: d34f1e453feb5a62448f570ac5937f5cfdb9fb4e0222fd044af1fc277f27894a
 Description:  Open Virtual Network local controller for vtep enabled physical switches
 
 Package: openvswitch-ovn-controller
@@ -3116,10 +3743,10 @@ Depends: libc, librt, libpthread, openvswitch-ovn-base
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 52752
+Installed-Size: 52749
 Filename: openvswitch-ovn-controller_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 53108
-SHA256sum: 9baded0efb3ab0cc9e09bac7b31e2c6ff76e09a5129ab44298c47d6ff4e0832f
+Size: 53116
+SHA256sum: 4b46ecdc884412cbadf81d4ebc10fe0cbe85eafed59fd500332822071033e438
 Description:  Open Virtual Network local controller
 
 Package: openvswitch-ovn-detrace
@@ -3130,8 +3757,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2642
 Filename: openvswitch-ovn-detrace_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 3476
-SHA256sum: 34724496e6b5466be276ba0815b6734019c2d2f8991ba03927a8b30381f505ea
+Size: 3477
+SHA256sum: 488ffcfb3e99083a121b3491f0bf6fddc3ed9ff93344f71dc3f140255b248daa
 Description:  Convert ``ovs-appctl ofproto/trace`` output to combine OVN logical flow information
 
 Package: openvswitch-ovn-docker-overlay-driver
@@ -3142,8 +3769,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3220
 Filename: openvswitch-ovn-docker-overlay-driver_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 4001
-SHA256sum: 9ad8ab1b3774a1f7af163877fe81ade2d9cac5953604b0ad1b41f468be6cf07b
+Size: 3997
+SHA256sum: 2a97a111fc7233a948730a4a85b5e40f3c8a30574bde07d781e50c48d35930ef
 Description:  OVN Docker overlay driver utility
 
 Package: openvswitch-ovn-docker-underlay-driver
@@ -3152,10 +3779,10 @@ Depends: libc, librt, libpthread, openvswitch-ovn-base
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4310
+Installed-Size: 4311
 Filename: openvswitch-ovn-docker-underlay-driver_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 5082
-SHA256sum: eef63bbc0539a16c92a26596bc5913df6123efa5fd16024577fd1e31e7ff1f13
+Size: 5076
+SHA256sum: 46a203530a9600150e69b3c70c192c28534eb353e3d58a85dbb49cce8d2b9397
 Description:  OVN Docker underlay driver utility
 
 Package: openvswitch-ovn-nbctl
@@ -3164,10 +3791,10 @@ Depends: libc, librt, libpthread, openvswitch-ovn-base
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 28951
+Installed-Size: 28952
 Filename: openvswitch-ovn-nbctl_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 29591
-SHA256sum: 2700430a1d8858827fc0a899ec7403011f7506b5c1fb372d9e33285da232957c
+Size: 29582
+SHA256sum: acc242caccc42cdcb44a206dc89d3ab9ef38b0f089ccfb3d1dc6ec9ae5c06753
 Description:  Open Virtual Network northbound db management utility
 
 Package: openvswitch-ovn-sbctl
@@ -3178,8 +3805,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 13062
 Filename: openvswitch-ovn-sbctl_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 13698
-SHA256sum: 0cd74a1615c53b2e8b984a8ab948be3241a65f8ed1647acce361f93bd145709d
+Size: 13739
+SHA256sum: 21414d03f2f40e34e8e9d0128c317259423e15e9d875ea82f47d42de95c571ce
 Description:  Utility for querying and configuring OVN_Southbound data‐base
 
 Package: openvswitch-ovn-trace
@@ -3190,8 +3817,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 17690
 Filename: openvswitch-ovn-trace_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 18321
-SHA256sum: 29d3c7457eed68ca6414c26f4feaed5710b19c3128cfb129da3b07cd63aaaee3
+Size: 18319
+SHA256sum: c250272eacf797aacd0ebbb7ccd6d510967f8d37f0f1e68a971b7627cab2b992
 Description:  Open Virtual Network logical network tracing utility
 
 Package: openvswitch-ovn
@@ -3202,8 +3829,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: openvswitch-ovn_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 967
-SHA256sum: 4a9815ef8792288f30524edd42aba966aa4496a6875e8fdd748146057cc53570
+Size: 964
+SHA256sum: 7cf4122d554b2f38aab58f548631a66c9c78e5e937187b7e0a94cf9dd06a4fe7
 Description:  Provides all the components required for Open Virtual Networking
  (including the tools)
 
@@ -3215,8 +3842,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 14430
 Filename: openvswitch-ovs-dpctl-top_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 15203
-SHA256sum: 34206615e4d873697865d41b30d8710726b1a8c6497b83ea7a75a0c29a4de1d4
+Size: 15204
+SHA256sum: 1a625996b6cc5583dd523dd5aed049fd59de4ece12fb0bc900ed8c0300571668
 Description:  Top like behavior for ovs-dpctl dump-flows
 
 Package: openvswitch-ovs-l3ping
@@ -3225,10 +3852,10 @@ Depends: libc, librt, libpthread, openvswitch-base
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1359
+Installed-Size: 1360
 Filename: openvswitch-ovs-l3ping_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 2160
-SHA256sum: 5d4f74ae0c43fc7052379c84e5a658914410c3cc001daefdafba464a1a056a5e
+Size: 2155
+SHA256sum: 54605bf0b25565c9c71f820699907bebab1525a949af89a5daed8dd5419be9c9
 Description:  Check network deployment for L3 tunneling problems
 
 Package: openvswitch-ovs-parse-backtrace
@@ -3239,8 +3866,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1432
 Filename: openvswitch-ovs-parse-backtrace_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 2217
-SHA256sum: 1680e676ba292eaf2c7da8c3a4427af27fd3894efa5940b0fdebbca449d0f137
+Size: 2209
+SHA256sum: 01123f5bcd50dc2f8682a13d6b872d2214428eaefc57f1738bd2a4433fba7f50
 Description:  parses ovs-appctl backtrace output
 
 Package: openvswitch-ovs-pcap
@@ -3251,8 +3878,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1551
 Filename: openvswitch-ovs-pcap_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 2336
-SHA256sum: ef74a1ed83175431b0034f2776ed1403601def7f0c5176ab37784d7a3c764b37
+Size: 2335
+SHA256sum: ff1c618da4f6fff412799296dfb5e48e293384ff99a161bf96865b8d255795ef
 Description:  Print packets from a pcap file as hex
 
 Package: openvswitch-ovs-tcpdump
@@ -3261,10 +3888,10 @@ Depends: libc, librt, libpthread, openvswitch-base
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4439
+Installed-Size: 4440
 Filename: openvswitch-ovs-tcpdump_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 5239
-SHA256sum: 6b5c54b24771d2a6055f7cd7ec418d08231ce0ead854a1f62d6b5e6e71c43a1d
+Size: 5244
+SHA256sum: 50a6d7de0d64ba1acaaa7ef9cc6bf9221f0b7e2215cb00c9120e6e02ddc00deb
 Description:  Dump traffic from an Open vSwitch port using tcpdump
 
 Package: openvswitch-ovs-tcpundump
@@ -3275,8 +3902,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 1243
 Filename: openvswitch-ovs-tcpundump_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 2049
-SHA256sum: a09ca74b6deea38c7305665c2911433bda334d03e13abbae435fd8ff0c30b9de
+Size: 2044
+SHA256sum: 5828e9c6cbac55dd78b644e67c0d379692fca061647dbb6a30550e60eb6356a3
 Description:  Convert ``tcpdump -xx`` output to hex strings
 
 Package: openvswitch-ovsdb-client
@@ -3287,8 +3914,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 14223
 Filename: openvswitch-ovsdb-client_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 14904
-SHA256sum: ba3ab98a70f06af5eff76cc78d9f58bc716fd697bb1edbc83ee68d22e1d37c80
+Size: 14898
+SHA256sum: 115f9d0716703b1afc6106ebe95846e3a602f6f781fcf62810faedecc84ade64
 Description:  Open vSwitch database JSON-RPC client
 
 Package: openvswitch-vtep
@@ -3297,10 +3924,10 @@ Depends: libc, librt, libpthread, openvswitch-base
 License: Apache-2.0
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 54613
+Installed-Size: 54615
 Filename: openvswitch-vtep_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 55202
-SHA256sum: 322ca9f3dfd7424d2e04fa8685148dbb396bc5cb3456ce6ec9ea92ea658ec4bf
+Size: 55211
+SHA256sum: b313111bc0f724def999468e94d7feef4200a9f834a1d232db7a6e2d1f0954f2
 Description:  This schema specifies relations that a VTEP can use to integrate physi‐
  cal ports into logical switches maintained by a network  virtualization
  controller such as NSX.
@@ -3313,8 +3940,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: openvswitch_2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 976
-SHA256sum: 3f7a132c0ff82ecc6ca976c4c477e355a2c14ae9b39a8a09399d94a6b1029c1f
+Size: 972
+SHA256sum: b385e509945b42b9f96cf6ae0faccebf5162dc889c7d2c1157500cf8f065b6c4
 Description:  Provides the main userspace components required for Open vSwitch to function.
  Includes also most of  OVS utilities.
 
@@ -3372,10 +3999,10 @@ Depends: libc, librt, libpthread, libpthread, zlib
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 778509
+Installed-Size: 778510
 Filename: python-base_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 773548
-SHA256sum: 0a55299d30367a64e30ca2b8c66265e0d4327bb804186ffc753cf3bcf32d8d8e
+Size: 773675
+SHA256sum: d7ac9c70ee18ed1f572d4b037f9f56de6654bda1fcd0c5de984555455f42805e
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
@@ -3385,10 +4012,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 701551
+Installed-Size: 701553
 Filename: python-codecs_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 685427
-SHA256sum: 9d27c0e38f6c13d793617151adaf6fdab7ab77a96f4f39904bfd87accba36ecd
+Size: 685781
+SHA256sum: feeef5edc1907a790df9715821091ec3412faffb17e518bb0a547c1398a9f256
 Description:  Python 2.7 codecs + unicode support
 
 Package: python-compiler
@@ -3397,10 +4024,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 59809
+Installed-Size: 59812
 Filename: python-compiler_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 60756
-SHA256sum: ba4c0e03a6b1e337bf28a0a570ce62108d2b084b5a7a42645604795a39c2bff6
+Size: 60750
+SHA256sum: 85a1f715eee4cc9e4e15723fe5215c20d9156b4d9954547628050c5994ddaf8a
 Description:  Python 2.7 compiler module
 
 Package: python-ctypes
@@ -3409,10 +4036,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 64096
+Installed-Size: 64095
 Filename: python-ctypes_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 64760
-SHA256sum: 8f162e01e11e07dc47917a1235f456a3a367df947228b9130ee3fe476b39a472
+Size: 64748
+SHA256sum: 2c0a8f847b1943845ac22c5ab1efa877f5ba0760fe71cc2d96950789699e7c93
 Description:  Python 2.7 ctypes module
 
 Package: python-db
@@ -3421,10 +4048,10 @@ Depends: libc, librt, libpthread, python-light, libdb47
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 74860
+Installed-Size: 74862
 Filename: python-db_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 75059
-SHA256sum: 48acd457c71dffdfac0b5d86bb0dad3a1c3b6ddc4883647c305817148780b83b
+Size: 75052
+SHA256sum: 0631317ba12465058c4334558f4b347fba53f3db4d70854d86176cd2afb0d820
 Description:  Python 2.7 db module
 
 Package: python-decimal
@@ -3433,10 +4060,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 48940
+Installed-Size: 48939
 Filename: python-decimal_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 49825
-SHA256sum: e5d094984af66a2bb0b3488c2ea86c5c4bee25de035c7fb8ebbe8e5d4f18be80
+Size: 49826
+SHA256sum: fda7d8ace493b4c1f1d4762502719c91f38b9c49f0d263d832b8f18515633a4b
 Description:  Python 2.7 decimal module
 
 Package: python-distutils
@@ -3445,10 +4072,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 174686
+Installed-Size: 174685
 Filename: python-distutils_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 175656
-SHA256sum: f1300f782bfea5f9e390e8b34bdc748e2df75497fa753a32da8d0c2bd9be628c
+Size: 175659
+SHA256sum: 531b3a400e09de7d2a372a823e7887ddd398ecdee4837a201f4727794194c3f9
 Description:  Python 2.7 distutils
 
 Package: python-dns
@@ -3469,10 +4096,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 50380
+Installed-Size: 50384
 Filename: python-email_2.7.16-3_arm_cortex-a9_neon.ipk
 Size: 51259
-SHA256sum: 52595fd080e15e3e68c6cddd8c651de6c881ff318bd9a29fb562399f17fbeda8
+SHA256sum: 5c4bb86802045666e71b8f429f8c9be72a89c4c839d69573120421ef85840d5c
 Description:  Python 2.7 email module
 
 Package: python-gdbm
@@ -3481,10 +4108,10 @@ Depends: libc, librt, libpthread, python-light, libgdbm
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6153
+Installed-Size: 6152
 Filename: python-gdbm_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 7005
-SHA256sum: 0fbfa5d5feb9ce4fdd48c3699727c978bb5ce6c06cef2bcaa5e5313570cb6377
+Size: 7003
+SHA256sum: da9fa69515dc88f76f18f7e1efc5f1d767b8c23ada29ec2ab8aaf81a3f28550b
 Description:  Python 2.7 gdbm module
 
 Package: python-light
@@ -3493,10 +4120,10 @@ Depends: libc, librt, libpthread, python-base, libffi, libbz2
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1472099
+Installed-Size: 1472171
 Filename: python-light_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 1471806
-SHA256sum: 77b7906018558f5330eae25f6d935b108adcaaf4d8280e7db28aa981462884a8
+Size: 1472127
+SHA256sum: 13254bc737cb3c305930bbd58a9686e04bb8edd9edb9185e074ab5ae9c2bc10d
 Description:  This package is essentially the python-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
@@ -3507,10 +4134,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 42718
+Installed-Size: 42720
 Filename: python-logging_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 43620
-SHA256sum: 3ae525445738f530a31bc19abfddcfd68c93715e7a0226567fa8b5cdbf2c5aba
+Size: 43627
+SHA256sum: dd9519cfa4d9d166aead67c4d9d1e7971610b6b1f84cf3b779b10ba0b3d632bd
 Description:  Python 2.7 logging module
 
 Package: python-multiprocessing
@@ -3519,10 +4146,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 65190
+Installed-Size: 65192
 Filename: python-multiprocessing_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 66062
-SHA256sum: 2e2fad081ee2820d9a1d8aa0b472164b87309b21e56edc792c6168d95ca6fb4f
+Size: 66068
+SHA256sum: 80e0cac50014a08f297505ed95b0258a6ad399120eb6c3fb1d3727ce577edaf5
 Description:  Python 2.7 multiprocessing
 
 Package: python-ncurses
@@ -3531,10 +4158,10 @@ Depends: libc, librt, libpthread, python-light, libncurses
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 33907
+Installed-Size: 33912
 Filename: python-ncurses_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 34563
-SHA256sum: 74a600496d7f18403521442c8b9ffc71ac73e209e20777253d26bb88f4664e2c
+Size: 34556
+SHA256sum: 9bd4f43474ad474deee5407ae0b7276cb7f61234b300e3976eb9691c131c417a
 Description:  Python 2.7 ncurses module
 
 Package: python-openssl
@@ -3545,8 +4172,8 @@ Section: lang
 Architecture: arm_cortex-a9_neon
 Installed-Size: 36758
 Filename: python-openssl_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 37266
-SHA256sum: 5a2e6f5f6b7b564f54d9278766ee5bada70f1cca827713d50fe8cb4492f95ce5
+Size: 37254
+SHA256sum: b0227265291fd566e5a448f2e50ba306e845ce1c45cfb6c54c170bc261e635f8
 Description:  Python 2.7 SSL module
 
 Package: python-pydoc
@@ -3555,10 +4182,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 183045
+Installed-Size: 183051
 Filename: python-pydoc_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 183804
-SHA256sum: feac5c7f0525da3d9f1490cd6e9255e4c820cbace1f18d1a5b16ec5a8b95ea15
+Size: 183815
+SHA256sum: b5a5b5057d81b0a1c46bb1ca0642b27905f6188814a36ced11c4b53eb6e2079e
 Description:  Python 2.7 pydoc module
 
 Package: python-sqlite3
@@ -3567,10 +4194,10 @@ Depends: libc, librt, libpthread, python-light, libsqlite3
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 27931
+Installed-Size: 27932
 Filename: python-sqlite3_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 28720
-SHA256sum: bae29980098aea6f06717158e3feecb49f29d2e011b68af5aeb62efbc16be1aa
+Size: 28717
+SHA256sum: f0b526eb44a857b1efd3d24941e6db00f5899c72a762a7b5c942b23453ab4eec
 Description:  Python 2.7 sqlite3 module
 
 Package: python-unittest
@@ -3579,10 +4206,10 @@ Depends: libc, librt, libpthread, python-light
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 33404
+Installed-Size: 33406
 Filename: python-unittest_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 34303
-SHA256sum: 9d4eb7b1a1ec5d5b4069d69b1ffaa6fccbed4688e830dd984100e5f1063f2b92
+Size: 34304
+SHA256sum: 7a02e3dc68d438cee19b17e10ff0704a203b9c8cdc9c5d1205748b5c0233797c
 Description:  Python 2.7 unittest module
 
 Package: python-xml
@@ -3591,10 +4218,10 @@ Depends: libc, librt, libpthread, python-light, libexpat
 License: PSF
 Section: lang
 Architecture: arm_cortex-a9_neon
-Installed-Size: 182878
+Installed-Size: 182880
 Filename: python-xml_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 183550
-SHA256sum: acde871e0e108ca99c5396a09e28f84a9d463a51d85e11c1cec9de6c98407a46
+Size: 183577
+SHA256sum: fb2e8502056a268324eb7875d338cf4fc18ce0b4c525f4d292104ac6d2074cae
 Description:  Python 2.7 xml libs
 
 Package: python
@@ -3606,7 +4233,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: python_2.7.16-3_arm_cortex-a9_neon.ipk
 Size: 1046
-SHA256sum: 1484174b67211b815e771bd16796212232ee157c009744074f663ff191a4e362
+SHA256sum: b6c426bf2e218d0437fd7a784c46efa0867e6274dbf94fd70e01e70f4fa3a9d1
 Description:  This package contains the (almost) full Python install.
  It's python-light + all other packages.
 
@@ -3640,6 +4267,93 @@ Size: 1412
 SHA256sum: a2ea7db6f3e1b0e247d0ffc0ff9af6aaccbc6131b9ae1a2bc58132cb22b02bb9
 Description:  rsyncd is a configuration file and initscript to utilize rsync as a daemon. It
  uses the same binary as rsync.
+
+Package: sbc
+Version: 1.3-2
+Depends: libc, librt, libpthread, libsndfile
+License: LGPL-2.1+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 85658
+Filename: sbc_1.3-2_arm_cortex-a9_neon.ipk
+Size: 85926
+SHA256sum: 5e7e804b0b343f96c7db241b109c2876b8a29a02fbd61333ec394b9e1b5240eb
+Description:  Low Complexity Subband Coding for bluetooth audio profiles encoding and decoding.
+ Needed for A2DP support.
+
+Package: shairplay
+Version: 2016-01-01-1
+Depends: libc, librt, libpthread, libao, libavahi-compat-libdnssd, libltdl, libpthread
+License: MIT
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 55562
+Filename: shairplay_2016-01-01-1_arm_cortex-a9_neon.ipk
+Size: 56385
+SHA256sum: bf35223973d285be1eabd47c15e7b653d44f8235912cb1d9d7ee16d5d863643a
+Description:  Free portable AirPlay server implementation similar to ShairPort.
+
+Package: shairport-sync-mbedtls
+Version: 3.1.6-1
+Depends: libc, librt, libpthread, libpthread, libstdcpp, alsa-lib, libconfig, libdaemon, libpopt, libmbedtls, libavahi-client, libsoxr
+Provides: shairport-sync
+License: MIT
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 78348
+Filename: shairport-sync-mbedtls_3.1.6-1_arm_cortex-a9_neon.ipk
+Size: 79458
+SHA256sum: 34aa6cbe552f0e5925ceaff635fe1e5bc7033f4489eebc507c80c843dc6da282
+Description:  Shairport Sync plays audio from iTunes and AirPlay sources, including
+ iOS devices, Quicktime Player and third party sources such as forkedDaapd.
+ Audio played by a Shairport Sync-powered device stays synchronised with the source
+ and hence with similar devices playing the same source.
+ 
+ Shairport Sync does not support AirPlay video or photo streaming.
+ Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
+ Also select kmod-usb-audio if you want to use USB-connected sound cards.
+
+Package: shairport-sync-mini
+Version: 3.1.6-1
+Depends: libc, librt, libpthread, libpthread, libstdcpp, alsa-lib, libconfig, libdaemon, libpopt, libmbedtls
+Provides: shairport-sync
+License: MIT
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 84785
+Filename: shairport-sync-mini_3.1.6-1_arm_cortex-a9_neon.ipk
+Size: 85727
+SHA256sum: 3b65e2c4a50cbb872b46d616a5de20f3ab056e5bc3d458c47704a95287d8a1fc
+Description:  Shairport Sync plays audio from iTunes and AirPlay sources, including
+ iOS devices, Quicktime Player and third party sources such as forkedDaapd.
+ Audio played by a Shairport Sync-powered device stays synchronised with the source
+ and hence with similar devices playing the same source.
+ 
+ Shairport Sync does not support AirPlay video or photo streaming.
+ Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
+ Also select kmod-usb-audio if you want to use USB-connected sound cards.
+ 
+ Minimal version uses mbed TLS and does not include libsoxr and avahi support.
+
+Package: shairport-sync-openssl
+Version: 3.1.6-1
+Depends: libc, librt, libpthread, libpthread, libstdcpp, alsa-lib, libconfig, libdaemon, libpopt, libopenssl, libavahi-client, libsoxr
+Provides: shairport-sync
+License: MIT
+Section: sound
+Architecture: arm_cortex-a9_neon
+Installed-Size: 78074
+Filename: shairport-sync-openssl_3.1.6-1_arm_cortex-a9_neon.ipk
+Size: 79057
+SHA256sum: 8ec38af04534357a078a5e8aa4dddd8b34447522d5bbbd9027f22503b4e50b52
+Description:  Shairport Sync plays audio from iTunes and AirPlay sources, including
+ iOS devices, Quicktime Player and third party sources such as forkedDaapd.
+ Audio played by a Shairport Sync-powered device stays synchronised with the source
+ and hence with similar devices playing the same source.
+ 
+ Shairport Sync does not support AirPlay video or photo streaming.
+ Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
+ Also select kmod-usb-audio if you want to use USB-connected sound cards.
 
 Package: speedtest-netperf
 Version: 1.0.0-1
@@ -3687,10 +4401,10 @@ Depends: libc, librt, libpthread, libopenssl
 License: GPL-2.0+
 Section: mail
 Architecture: arm_cortex-a9_neon
-Installed-Size: 12819
+Installed-Size: 12817
 Filename: ssmtp_2.64-5_arm_cortex-a9_neon.ipk
-Size: 13662
-SHA256sum: daae62ca25c89222f4e2a24ce4ff7c8920089b1494ecfaef8a08c6014f33375f
+Size: 13659
+SHA256sum: 58616a7b0e0031e126bdd0616b3b8c99760acedfb47a1cce25b5c58a5d705559
 Description:  A secure, effective and simple way of getting mail off a system to your mail hub.
  Mail is simply forwarded to the configured mailhost, no daemons running in the background.
  Extremely easy configuration.
@@ -3714,10 +4428,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-charon
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8406
+Installed-Size: 8405
 Filename: strongswan-charon-cmd_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 9221
-SHA256sum: 56a230866b263cdd0e823edb882525b4f097384fd2c39fce68dfed1461aa9fa8
+Size: 9225
+SHA256sum: 7e325a57ce6b5a1ff2b37e5553743ed0d79698df1a2b1adba6dc7a3531017d49
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains the charon-cmd utility.
 
@@ -3729,8 +4443,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 237426
 Filename: strongswan-charon_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 237646
-SHA256sum: 432b68c8c1112528531602416eb105c4ad9db892eae761c97e15e317e7484ac3
+Size: 237625
+SHA256sum: 905d514057e4cd8483707343544f70b89132c5c725394e541b6c21b5db92acca
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains charon, an IKEv2 keying daemon.
 
@@ -3743,7 +4457,7 @@ Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: strongswan-default_5.6.3-3_arm_cortex-a9_neon.ipk
 Size: 1107
-SHA256sum: 68041f7420ddb51e33623a2d9401d33accec9ab5eb0ee39b3e9317095c8e0262
+SHA256sum: ab51ad4f957e708e63eaa5cde4405263e535319152e08f8cf9464d7f54b2cef9
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This meta-package contains only dependencies to match upstream defaults.
 
@@ -3755,8 +4469,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2865
 Filename: strongswan-ipsec_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3650
-SHA256sum: 213d803a17d63e185b1060854538ed1054e98e8339b0b5b6a60144f66074e695
+Size: 3649
+SHA256sum: cf93ea601e73fe37c7fab65b5ed522461112cb39f540364b3c8f1ec6811416c6
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains the ipsec utility.
 
@@ -3768,8 +4482,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: strongswan-isakmp_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 1124
-SHA256sum: b0a98ffe625fc4cef0db103a5fed29d47e1356fbc1c36f88f2591aaafe65eac3
+Size: 1120
+SHA256sum: ded34b9cadab27af1ab3e7059e47668eba65260a80e3b9fa70cfcadae6cec3de
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This meta-package contains only dependencies to establish  ISAKMP /
  IKE PSK connections, dropping other capabilities in favor of small size 
@@ -3781,10 +4495,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 36897
+Installed-Size: 36894
 Filename: strongswan-libtls_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 37656
-SHA256sum: bda3bdcab4c3d0b231f12194a43e758b43e5bd65d1f174dde472111ef7de8cff
+Size: 37651
+SHA256sum: 3a283fd79ab85b22ab2a31e8ea971d212b8e88bcf0d42e1cce638348acdb7f6b
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains libtls for strongSwan plugins eap-tls, eap-ttls,
  eap-peap, tnc-tnccs
@@ -3797,8 +4511,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: strongswan-minimal_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 1020
-SHA256sum: 82a2e9cd8b063e57e4c0e16ebe2b60ffa74bcf7ef699af0edb3418f8a74e37f3
+Size: 1016
+SHA256sum: 24e025020b4ad643b6a1255a733f25f04728badd8fb40437a3198e89e92e2f0e
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This meta-package contains only dependencies for a minimal IKEv2 setup.
 
@@ -3808,10 +4522,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3161
+Installed-Size: 3160
 Filename: strongswan-mod-addrblock_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3934
-SHA256sum: f0c79ebcaacf46043cf07f68d9980bb2d0a1275b71e2707865057e1914e43d85
+Size: 3936
+SHA256sum: f6d0f8c61f7c4927232cc4f97e30efc02ac9d8e2ff58a98fa9daad291668c278
 Description:  StrongSwan RFC 3779 address block constraint support plugin
 
 Package: strongswan-mod-aes
@@ -3820,10 +4534,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 18864
+Installed-Size: 18863
 Filename: strongswan-mod-aes_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 18965
-SHA256sum: 774e6ca6a0174573ef9458025855f146157d6092c799ef02dfd4bc850b5da453
+Size: 18975
+SHA256sum: 4d331e239ff7c09301d4622762ea1dbe8cf5310ec966d33b8258c4c94f264023
 Description:  StrongSwan AES crypto plugin
 
 Package: strongswan-mod-af-alg
@@ -3832,10 +4546,10 @@ Depends: libc, librt, libpthread, strongswan, kmod-crypto-user
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6181
+Installed-Size: 6182
 Filename: strongswan-mod-af-alg_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 7026
-SHA256sum: 93b84c87b769032dd5a1f3e879be53d437321d928eee4db65220da79cc903036
+Size: 7023
+SHA256sum: 976eaf22580f4aa622625384638423a3520a291162a92d5264361f7412a73e72
 Description:  StrongSwan AF_ALG crypto interface to Linux Crypto API plugin
 
 Package: strongswan-mod-agent
@@ -3844,10 +4558,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4507
+Installed-Size: 4505
 Filename: strongswan-mod-agent_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5257
-SHA256sum: 5ff4b4da221a909f95353c6d186bd01d3468cb641a77510362c598229c0bef0e
+Size: 5243
+SHA256sum: 8aae381e0731a65648e9f86a45e14034cf9c6b6ffbd7294a80301cd68ad48d88
 Description:  StrongSwan SSH agent signing plugin
 
 Package: strongswan-mod-attr-sql
@@ -3856,10 +4570,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-charon
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 19525
+Installed-Size: 19524
 Filename: strongswan-mod-attr-sql_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 20321
-SHA256sum: a0086cd6d0620802bf5b8a7ee47fdcb71d7386cf28ce7d2ee3b5ddd1995b34be
+Size: 20310
+SHA256sum: 6061cea98ee1207381e4a75c0d87b5db6e1f3e2b9c6fa6203e6a7c9695c37d3b
 Description:  StrongSwan SQL based config plugin
 
 Package: strongswan-mod-attr
@@ -3868,10 +4582,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4471
+Installed-Size: 4470
 Filename: strongswan-mod-attr_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5228
-SHA256sum: b7ee76465006976fc1b6981ef4a1f11fa287b4e346267553a2d7fa132fa1d89a
+Size: 5236
+SHA256sum: 7ecee632eaa1b8e18b9037c9aa7c7f9f4689a3457681231c4c1a5ec97e6d9fdb
 Description:  StrongSwan file based config plugin
 
 Package: strongswan-mod-ccm
@@ -3880,10 +4594,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3949
+Installed-Size: 3947
 Filename: strongswan-mod-ccm_5.6.3-3_arm_cortex-a9_neon.ipk
 Size: 4714
-SHA256sum: 254e70fcd7f791c1084a8939840b4b6d43ba44d74c188f9cd8d087bfeaa11408
+SHA256sum: e2ed145e4066e5d91199b2ceb370945f9cb9fecfc69dcde354444e76b379ae1d
 Description:  StrongSwan CCM AEAD wrapper crypto plugin
 
 Package: strongswan-mod-cmac
@@ -3894,8 +4608,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3675
 Filename: strongswan-mod-cmac_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4434
-SHA256sum: b7660928166b30df23fd64b57e6545f09dc8c343cc10a5b487bb65f71b618afc
+Size: 4431
+SHA256sum: e0d68971ec898fe4e7a7086e0fb199bfa83cd10a24b1d349b491c5bf201d2f84
 Description:  StrongSwan CMAC crypto plugin
 
 Package: strongswan-mod-connmark
@@ -3904,10 +4618,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4804
+Installed-Size: 4802
 Filename: strongswan-mod-connmark_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5553
-SHA256sum: a2771063fc025a01637c4f31b2d5cbae2c8463d69d6f5143ab58e4948393f2d6
+Size: 5556
+SHA256sum: 8844e8eb04e52e569cfcdc40b5399286d725a3987a071133a6a197fcfa04fc93
 Description:  StrongSwan netfilter connection marking plugin
 
 Package: strongswan-mod-constraints
@@ -3916,10 +4630,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4940
+Installed-Size: 4937
 Filename: strongswan-mod-constraints_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5700
-SHA256sum: 30bea290a76723497dab4c9f08d2849a1a0bcc282dedd816e35f7aaa41337816
+Size: 5699
+SHA256sum: 5269028c8ff8341a4d088fa9a9523b8c96315041095a3590eefe4527ccab9207
 Description:  StrongSwan advanced X509 constraint checking plugin
 
 Package: strongswan-mod-coupling
@@ -3928,10 +4642,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3579
+Installed-Size: 3577
 Filename: strongswan-mod-coupling_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4366
-SHA256sum: 0e0ab2ef3378e009daebc90e290a32c76f793f29dfa684a936d7c18c9c7f9863
+Size: 4360
+SHA256sum: c8fdfb66cafe596c5003e8d1d9bf229723a9d1d7f599790f3bc8b2d3401716b8
 Description:  StrongSwan IKEv2 plugin to couple peer certificates permanently to authentication plugin
 
 Package: strongswan-mod-curl
@@ -3940,10 +4654,10 @@ Depends: libc, librt, libpthread, strongswan, libcurl
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4547
+Installed-Size: 4545
 Filename: strongswan-mod-curl_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5299
-SHA256sum: 63c9abe6cecb0f4260280f5e1f4386193d2a7c5e667dd79758d42340161a94a0
+Size: 5291
+SHA256sum: f51813ff4bd6fe98c314f7fe68d71183161d3010ba1a43c3ab2451d26b106d92
 Description:  StrongSwan cURL fetcher plugin plugin
 
 Package: strongswan-mod-curve25519
@@ -3952,10 +4666,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 101580
+Installed-Size: 101579
 Filename: strongswan-mod-curve25519_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 102387
-SHA256sum: 9138d131c2dec8cf310209e92663b394a9d4fdfd296d431e398df988db5b219e
+Size: 102370
+SHA256sum: 32f61a00bfe043e5b8f22c461195ab65b7f171f5b623bc98da5ca7117a2d09c5
 Description:  StrongSwan Curve25519 Diffie-Hellman plugin
 
 Package: strongswan-mod-des
@@ -3966,8 +4680,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 10339
 Filename: strongswan-mod-des_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 11075
-SHA256sum: 608b5727f1beac4c7fc7cb36f94206a7c3d4a80fa8b3cc9c78e806211e58c046
+Size: 11057
+SHA256sum: ecb4292a2d3008556ca74a38b8992cf26ea654502983e8935bdab586dedd6645
 Description:  StrongSwan DES crypto plugin
 
 Package: strongswan-mod-dhcp
@@ -3976,10 +4690,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7843
+Installed-Size: 7839
 Filename: strongswan-mod-dhcp_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 8638
-SHA256sum: 49aac724c13e7eb5fcb3f8d346f43c254e18959fc436db1f84c0a78185890f83
+Size: 8641
+SHA256sum: f29d4b6fe52033e6819cb0246c993fad6c372e19712451eb4005f39794881a09
 Description:  StrongSwan DHCP based attribute provider plugin
 
 Package: strongswan-mod-dnskey
@@ -3988,10 +4702,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3043
+Installed-Size: 3041
 Filename: strongswan-mod-dnskey_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3793
-SHA256sum: ffd90d8305fc1c87cbbc527cc9434af50a7893a8237832bd29af04639ec05c96
+Size: 3786
+SHA256sum: 2dc2553d6889601ce292279cef5971ecea3cc64e75c780751317b8246de1e78a
 Description:  StrongSwan DNS RR key decoding plugin
 
 Package: strongswan-mod-duplicheck
@@ -4000,10 +4714,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6063
+Installed-Size: 6061
 Filename: strongswan-mod-duplicheck_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 6824
-SHA256sum: 938b585ec2fd84a9379979ec069d812335787e1785eaad5c9ce573a912231187
+Size: 6822
+SHA256sum: 6a522ce2b06e233e20c7474f69e42242cfc7321f1b5af233910339a22e65123a
 Description:  StrongSwan advanced duplicate checking plugin
 
 Package: strongswan-mod-eap-identity
@@ -4012,10 +4726,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2668
+Installed-Size: 2666
 Filename: strongswan-mod-eap-identity_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3430
-SHA256sum: 256089d10f08c6b4812275bcb430e96ee9d37876d684c61a5671539b4680b4bd
+Size: 3424
+SHA256sum: 531ac6330f47760a40928333efa7a5ca19e9f5b2d54acfa0774e82cc5815c021
 Description:  StrongSwan EAP identity helper plugin
 
 Package: strongswan-mod-eap-md5
@@ -4026,8 +4740,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3585
 Filename: strongswan-mod-eap-md5_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4353
-SHA256sum: 520ef5f179e099ecf6d355a5548fc7002d3329c5f6a0762f28742e6052ab3bb2
+Size: 4349
+SHA256sum: 8c08a3140766a61d7ba486176710c2cf710f83eaafe6e0faf56615838820271d
 Description:  StrongSwan EAP MD5 (CHAP) EAP auth plugin
 
 Package: strongswan-mod-eap-mschapv2
@@ -4036,10 +4750,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-mod-md4, strongswan-mod
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 10081
+Installed-Size: 10080
 Filename: strongswan-mod-eap-mschapv2_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 10880
-SHA256sum: f1e73298c1da45fdd309a39a7f1fb074e0cd0f1eac8f4f7c273ebbaf439d1519
+Size: 10878
+SHA256sum: 3cf7f4ff378fb87902dbd37937ee4a1bcc0b400049c6a78b89911a0d89aa6b09
 Description:  StrongSwan EAP MS-CHAPv2 EAP auth plugin
 
 Package: strongswan-mod-eap-radius
@@ -4048,10 +4762,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 31654
+Installed-Size: 31651
 Filename: strongswan-mod-eap-radius_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 32412
-SHA256sum: 32c742034ce89501e6fbf0347993ff6a5fb8d471302df3d61faf1d9c30675ced
+Size: 32383
+SHA256sum: f2ba4ba6cdd484286c5c753cf0097b0e73238dc21734d9f7b63227cf9fee0eac
 Description:  StrongSwan EAP RADIUS auth plugin
 
 Package: strongswan-mod-eap-tls
@@ -4060,10 +4774,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-libtls
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2770
+Installed-Size: 2768
 Filename: strongswan-mod-eap-tls_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3523
-SHA256sum: 6b5756007a6747dd7ad813e6fad4986c822597f34dfb2c942319c273c33f3808
+Size: 3517
+SHA256sum: 6b9ff2f0f0220a269d7493898689f12c5e5d4d0a84fe20c444ba28abc83a5163
 Description:  StrongSwan EAP TLS auth plugin
 
 Package: strongswan-mod-farp
@@ -4072,10 +4786,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3564
+Installed-Size: 3563
 Filename: strongswan-mod-farp_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4319
-SHA256sum: c7b22d091251970057ffdbbaf5012dc73eca66cc599203a7e1383fb1918cc7eb
+Size: 4317
+SHA256sum: ff81be24721219ab0c2677ffb2f2afe8c23274c7c2db5b99d980b52c8da11b06
 Description:  StrongSwan fake arp respsonses plugin
 
 Package: strongswan-mod-fips-prf
@@ -4084,10 +4798,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-mod-sha1
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3108
+Installed-Size: 3107
 Filename: strongswan-mod-fips-prf_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3866
-SHA256sum: 9e4b963cb0ce43e679cea6a6793961909dd7c64eb9cdf27e72c06d892c32b13c
+Size: 3862
+SHA256sum: 12a0dbc7fc657c6edc70c661c5d1437d6f6e74300cf2aa3d74ad76aaa7e66007
 Description:  StrongSwan FIPS PRF crypto plugin
 
 Package: strongswan-mod-forecast
@@ -4096,10 +4810,10 @@ Depends: libc, librt, libpthread, strongswan, kmod-ipt-conntrack-extra
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8214
+Installed-Size: 8213
 Filename: strongswan-mod-forecast_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 9021
-SHA256sum: 1b8518601b7bed5510d2a4c7bd2a9303b889272799d82373dcf3a8b4440bb865
+Size: 9010
+SHA256sum: 1058a90d8a46d53d8e60d1ff81d5c6ddb250748ff875030346f8988a099c4b0a
 Description:  StrongSwan forward multi/broadcast traffic plugin
 
 Package: strongswan-mod-gcm
@@ -4108,10 +4822,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4073
+Installed-Size: 4071
 Filename: strongswan-mod-gcm_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4834
-SHA256sum: 97a1e5c61a982bc6aa922adf2b624ac4fb5bf739089241b6a7fc34d0066bb082
+Size: 4828
+SHA256sum: 72688cbf90876cea1e4d7a96e633e3c9ee635fe4d7ff68471ee677370dbd446a
 Description:  StrongSwan GCM AEAD wrapper crypto plugin
 
 Package: strongswan-mod-gcrypt
@@ -4122,8 +4836,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 12388
 Filename: strongswan-mod-gcrypt_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 13117
-SHA256sum: be64805beb5934e4528c6f5aa7d6a7dd7f64913ff9d7861435341f452a958d32
+Size: 13116
+SHA256sum: eff1c9784cedcab6ececd9a4fa376c985050e37793a4ed08612c9f2e4c899205
 Description:  StrongSwan libgcrypt plugin
 
 Package: strongswan-mod-gmp
@@ -4132,10 +4846,10 @@ Depends: libc, librt, libpthread, strongswan, libgmp
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 13120
+Installed-Size: 13119
 Filename: strongswan-mod-gmp_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 13825
-SHA256sum: 27c1223b2658ed8f8af0932fd86167f3a9828c04af102db18830f6b0b1415f0a
+Size: 13822
+SHA256sum: b92af916fb52e5dd731e04d0fab08020cdbab0ad8ea42d24bb75ed4e4949c2fe
 Description:  StrongSwan libgmp plugin
 
 Package: strongswan-mod-gmpdh
@@ -4144,10 +4858,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 16915
+Installed-Size: 16914
 Filename: strongswan-mod-gmpdh_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 17673
-SHA256sum: 79225e4ca930681c75f7fbf85baea83313f0412e2727e6315934057f139930d7
+Size: 17668
+SHA256sum: 5dca2a0ce7a13469c68dff3e64aacc9528624a312a53d97a9acb7129904e1c4e
 Description:  StrongSwan DH-Groups; no libgmp dep plugin
 
 Package: strongswan-mod-ha
@@ -4156,10 +4870,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 23323
+Installed-Size: 23321
 Filename: strongswan-mod-ha_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 24075
-SHA256sum: 4b237a1fb5c93be04445bcf07c0ccf0ba38b5eb4d5dfb216fc564df383c237c4
+Size: 24079
+SHA256sum: b011655bcdb35c37457a1f05ef57588b801499b88aa5facfc8572d3933a0a679
 Description:  StrongSwan high availability cluster plugin
 
 Package: strongswan-mod-hmac
@@ -4168,10 +4882,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2950
+Installed-Size: 2949
 Filename: strongswan-mod-hmac_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3697
-SHA256sum: 9334842096d9c91a736548f8a9621de9bde5a87236c8ecba16525f4ad42792c9
+Size: 3700
+SHA256sum: 78eb8fd9853169542c62731caa05ec7feecf6b80d3cc079aa1883002031aee62
 Description:  StrongSwan HMAC crypto plugin
 
 Package: strongswan-mod-kernel-libipsec
@@ -4180,10 +4894,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 22223
+Installed-Size: 22222
 Filename: strongswan-mod-kernel-libipsec_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 23017
-SHA256sum: 5f9b88e264221c8b0777fcdb643842a0abe23414ace2415a5935cdf7279d0baa
+Size: 23008
+SHA256sum: f37161472108d5314b1751b661d475dbd517c9c498651cfff86bbcd41f3e45f3
 Description:  StrongSwan libipsec kernel interface plugin
 
 Package: strongswan-mod-kernel-netlink
@@ -4192,10 +4906,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 38849
+Installed-Size: 38848
 Filename: strongswan-mod-kernel-netlink_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 39673
-SHA256sum: d4bfe3e9ad6614938542ecbd3c61864fcc9b9252f7e8a602ff9e67e4c10445df
+Size: 39668
+SHA256sum: 3e91eb08fc9bb259b89bc591f8c24eb973dac085fa267889a0f6ac12e242fa15
 Description:  StrongSwan netlink kernel interface plugin
 
 Package: strongswan-mod-ldap
@@ -4204,10 +4918,10 @@ Depends: libc, librt, libpthread, strongswan, libopenldap
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3138
+Installed-Size: 3136
 Filename: strongswan-mod-ldap_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3898
-SHA256sum: b9fedab29388cb081a492e23a47c0cfc4d2b1b8e89b949aab7d2629e86524806
+Size: 3890
+SHA256sum: cbf706e438741e31e781740d4bbd861496de2936803e4dfaab7dbe5da22c797e
 Description:  StrongSwan LDAP plugin
 
 Package: strongswan-mod-led
@@ -4216,10 +4930,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3583
+Installed-Size: 3580
 Filename: strongswan-mod-led_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4342
-SHA256sum: 5ecf20aba5a74aa5861589af855f71937d1d55211c584de1b9d1beccafab0fc8
+Size: 4343
+SHA256sum: a39e87f57df80642735983e1c491918138cacc081523e9e040208dffe3334cdb
 Description:  StrongSwan LED blink on IKE activity plugin
 
 Package: strongswan-mod-load-tester
@@ -4228,10 +4942,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 14243
+Installed-Size: 14242
 Filename: strongswan-mod-load-tester_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 14957
-SHA256sum: 3a0ffaf96211636e39d8261347a1010d640cbe6ab3f8d362e75b5255495773f5
+Size: 14949
+SHA256sum: f2a4c6396d5891bf61c49508e83d6e5295b4f6f2ac8caee24c7f715e07b1b610
 Description:  StrongSwan load testing plugin
 
 Package: strongswan-mod-md4
@@ -4240,10 +4954,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3997
+Installed-Size: 3993
 Filename: strongswan-mod-md4_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4748
-SHA256sum: 17149a0670f066cc5ebeaff56fa81de225873eda9a56024e25fca71a90b60ebb
+Size: 4741
+SHA256sum: af4c41d9466271673d76f5ad93dd6ee383ef922ad9218ca9d89838e485ee8816
 Description:  StrongSwan MD4 crypto plugin
 
 Package: strongswan-mod-md5
@@ -4254,8 +4968,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4638
 Filename: strongswan-mod-md5_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5390
-SHA256sum: 46c04babaa9ff8c8c4acf955074b3c137af8ba36497455b569b20f4addf10738
+Size: 5397
+SHA256sum: 0d2a20bcc5ccb69b6b4f809b2cfc020acc8f93a1659cf197c63e5e45e8f96579
 Description:  StrongSwan MD5 crypto plugin
 
 Package: strongswan-mod-mysql
@@ -4266,8 +4980,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 5899
 Filename: strongswan-mod-mysql_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 6690
-SHA256sum: d807a8400659d5534350b6287a241b89dabc2d888fb47b84d9a4bef09ef3a578
+Size: 6694
+SHA256sum: 7f96825d13e243ac2550e3e7db62042a318d1e32fc18d85b031eeabfb125b69f
 Description:  StrongSwan MySQL database interface plugin
 
 Package: strongswan-mod-nonce
@@ -4276,10 +4990,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2190
+Installed-Size: 2189
 Filename: strongswan-mod-nonce_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 2931
-SHA256sum: 0d607a066b23a968723053f3e08464071b1d914b465065da8e9c8eb4cd8be008
+Size: 2928
+SHA256sum: 26eca147022594c3ab3b39bcc31e3aa36b29b7ee2dd21ff1d375dde4f01afab5
 Description:  StrongSwan nonce genereation plugin
 
 Package: strongswan-mod-openssl
@@ -4288,10 +5002,10 @@ Depends: libc, librt, libpthread, strongswan, libopenssl
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 32832
+Installed-Size: 32831
 Filename: strongswan-mod-openssl_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 33169
-SHA256sum: 296be8147c5545cfa6ad9ec70fc68905ef6d5d95fdfe55d609e7e1b62f433685
+Size: 33155
+SHA256sum: 35dbcad025f762ff2db713da03ce4e505c39d7f945b18a136a0ac1fe697ed433
 Description:  StrongSwan OpenSSL crypto plugin
 
 Package: strongswan-mod-pem
@@ -4300,10 +5014,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7425
+Installed-Size: 7424
 Filename: strongswan-mod-pem_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 8217
-SHA256sum: f744a2cc21c3ddfb2aea3b5f2990c69b27fbba9a663d46be3d83bae024eb520a
+Size: 8210
+SHA256sum: 0720cf7fea5b6e24fbf01e4e240f0863be18ef705a3d837c3f5e5b0dc2509072
 Description:  StrongSwan PEM decoding plugin
 
 Package: strongswan-mod-pgp
@@ -4312,10 +5026,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6816
+Installed-Size: 6814
 Filename: strongswan-mod-pgp_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 7594
-SHA256sum: b9ee03786a2ef13507648453a9de3f665a9f9023763821dcfc42fc2fd6466ead
+Size: 7591
+SHA256sum: c4fbc00993c9b33454bb0c3468ec2547d0d2d80f9ba7f38d147500be7001535a
 Description:  StrongSwan PGP key decoding plugin
 
 Package: strongswan-mod-pkcs11
@@ -4324,10 +5038,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 27771
+Installed-Size: 27767
 Filename: strongswan-mod-pkcs11_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 28378
-SHA256sum: 51e39590c7b7e514a0faff48a2dd8e189c12f1ba65b3e9b1ca9d6f23290e56c0
+Size: 28418
+SHA256sum: ed00fce7677e444b477b9504e99982c9e4e26e6aeac226206f92c6a7a1848682
 Description:  StrongSwan PKCS11 key decoding plugin
 
 Package: strongswan-mod-pkcs12
@@ -4336,10 +5050,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4656
+Installed-Size: 4654
 Filename: strongswan-mod-pkcs12_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5417
-SHA256sum: 64feb3fc801ed1447051dfbdebe8f934ed6fc8fe8475eea9a9709f474fb4d823
+Size: 5410
+SHA256sum: e8376a3974c203624b00ba72c7bf566c2f9241ec0a1b1bc053090c009ab6eb02
 Description:  StrongSwan PKCS12 key decoding plugin
 
 Package: strongswan-mod-pkcs1
@@ -4348,10 +5062,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4942
+Installed-Size: 4939
 Filename: strongswan-mod-pkcs1_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5701
-SHA256sum: d4bbd8b178c642875185eadc81e1971d313c4cac698f9dac5efbd94c9b058379
+Size: 5695
+SHA256sum: e181332e57f68993f5a1f62c105600b9e20b7e8a348f90ff5008eb7aee2d486f
 Description:  StrongSwan PKCS1 key decoding plugin
 
 Package: strongswan-mod-pkcs7
@@ -4360,10 +5074,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 12356
+Installed-Size: 12354
 Filename: strongswan-mod-pkcs7_5.6.3-3_arm_cortex-a9_neon.ipk
 Size: 13109
-SHA256sum: 0ca5f516c12355438ed9be104cd1683c52e77b40b517e45de0a045cb0f00668e
+SHA256sum: f419697d69223c188603a82a79e1924ea7da3ffe364fc69ffeb6085cadb1cc76
 Description:  StrongSwan PKCS7 key decoding plugin
 
 Package: strongswan-mod-pkcs8
@@ -4372,10 +5086,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3039
+Installed-Size: 3037
 Filename: strongswan-mod-pkcs8_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3792
-SHA256sum: b6d04cd0dedf991c19200d8776a51dbdc7457d4ecc20e25f8feddf9c8c1dacf4
+Size: 3789
+SHA256sum: 734564e546b60ac605c8021f43b16dd105d9a4548c7d0c5b2434ca13330d26e5
 Description:  StrongSwan PKCS8 key decoding plugin
 
 Package: strongswan-mod-pubkey
@@ -4384,10 +5098,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3217
+Installed-Size: 3216
 Filename: strongswan-mod-pubkey_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3972
-SHA256sum: 0bea933b6e3dd4a3f0b88db3b23f7faf349004654f2816be4a4bc8627b0ff665
+Size: 3967
+SHA256sum: a9dea8ac612772bf4140480e8bdb0df5db3efb4a7953559d598d9319b2830cea
 Description:  StrongSwan raw public key plugin
 
 Package: strongswan-mod-random
@@ -4398,8 +5112,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 2997
 Filename: strongswan-mod-random_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 3738
-SHA256sum: a601eeebee540d518002b126bb4f2e6a36725290ebd7e96e43a75d48fa3d3a04
+Size: 3732
+SHA256sum: c0459f683db1fa9282ca5f594f205a50df7f27028fd4b2ba8d0ad7dd6250aef2
 Description:  StrongSwan RNG plugin
 
 Package: strongswan-mod-rc2
@@ -4410,8 +5124,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4157
 Filename: strongswan-mod-rc2_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4915
-SHA256sum: ba755b9543aedb8cbb82275469b4a66fc59e680ef0df5b72f7381b2a9a51abbb
+Size: 4910
+SHA256sum: c6dab01144bf44d11cee10c41f9c70b872e4d1309c995154038ee308acacfe48
 Description:  StrongSwan RC2 crypto plugin
 
 Package: strongswan-mod-resolve
@@ -4420,10 +5134,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4604
+Installed-Size: 4602
 Filename: strongswan-mod-resolve_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5355
-SHA256sum: b7051e52cf395e7b55a67baaeba78dc2a1c8222f2ea955b320d86cdb4a9c1084
+Size: 5337
+SHA256sum: 37503a8e9304d309106f61d3a2534a3b1c1b5e636ed2e30e450f9e15111ea0d7
 Description:  StrongSwan DNS resolver plugin
 
 Package: strongswan-mod-revocation
@@ -4434,8 +5148,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 6804
 Filename: strongswan-mod-revocation_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 7626
-SHA256sum: 6f4b3d28b63e955a4d1d4264ccdaa558671b5a2cea98a87da714831109d9ac29
+Size: 7617
+SHA256sum: 67e8261236da4cd18999b3b0f1a1473509d2dae0282272e92e1ab67c53cd27e7
 Description:  StrongSwan X509 CRL/OCSP revocation plugin
 
 Package: strongswan-mod-sha1
@@ -4446,8 +5160,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 7011
 Filename: strongswan-mod-sha1_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 7814
-SHA256sum: c055e0d861d74cad8358df277636cbcd64eb22f8eba80cde12023163758e0f7b
+Size: 7816
+SHA256sum: 4533be21d3fae3757d743f62f32668fcd86d367ded518fd8d6bbabbe63d9944c
 Description:  StrongSwan SHA1 crypto plugin
 
 Package: strongswan-mod-sha2
@@ -4456,10 +5170,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6493
+Installed-Size: 6492
 Filename: strongswan-mod-sha2_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 7313
-SHA256sum: 31fb679c4f52f8828021cc002f3e6cd8cc8910a0835da2ab4b146d5d8e997dc8
+Size: 7306
+SHA256sum: 176da0f38cf60f02eb79251adaaf095cc2375c7cd42859fb478427005d525ffc
 Description:  StrongSwan SHA2 crypto plugin
 
 Package: strongswan-mod-smp
@@ -4470,8 +5184,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 7762
 Filename: strongswan-mod-smp_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 8554
-SHA256sum: 9e354bffdf88d8e53b311a7b98441c96ab5b99f3ccbed9429915fd1d6d7f0fb3
+Size: 8563
+SHA256sum: 9d7f6b66b45ab7b66e77b36eeaead2ba007d0492480098c7e744219722cad578
 Description:  StrongSwan SMP configuration and control interface plugin
 
 Package: strongswan-mod-socket-default
@@ -4480,10 +5194,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5821
+Installed-Size: 5820
 Filename: strongswan-mod-socket-default_5.6.3-3_arm_cortex-a9_neon.ipk
 Size: 6592
-SHA256sum: 0ea11f317b927bd0a4fab204cbbe1c62bc3cedfba9d52910517355035269468d
+SHA256sum: 3d84f586f3d014b1a6a9365e50e5c3f3d3efd828f7e3b6e5c7ed4aa9213af695
 Description:  StrongSwan default socket implementation for charon plugin
 
 Package: strongswan-mod-socket-dynamic
@@ -4492,10 +5206,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 5263
+Installed-Size: 5262
 Filename: strongswan-mod-socket-dynamic_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 6028
-SHA256sum: 209b34bee5fa5309655c5a610ff1223a58cf6ccfb68b7d7174285ac4087124a3
+Size: 6033
+SHA256sum: 6cbd0dd8bef61c9da11436d9538e72e9d9c15c41eda7ab053be054b86a00f19f
 Description:  StrongSwan dynamic socket implementation for charon plugin
 
 Package: strongswan-mod-sql
@@ -4504,10 +5218,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 8507
+Installed-Size: 8501
 Filename: strongswan-mod-sql_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 9302
-SHA256sum: 06f20eabc875db9016ccf1084d67d95a4bc5899580c82c4eb740d366c6d41c98
+Size: 9298
+SHA256sum: bd1f75dedd5e6be5f5a0d4966447a0a41b91bf769ddf331d9f2a256d9a9c4424
 Description:  StrongSwan SQL database interface plugin
 
 Package: strongswan-mod-sqlite
@@ -4516,10 +5230,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-mod-sql, libsqlite3
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 4441
+Installed-Size: 4442
 Filename: strongswan-mod-sqlite_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5211
-SHA256sum: 486cd4c5ce55e116ddd14f7f7e24aa0ebd434912044e31dd5af04a60efbbc0e5
+Size: 5209
+SHA256sum: 1920fb46e20f735f804c1eb95e7f0e55518b9e15503ecda28a9fc4bad6ce7de4
 Description:  StrongSwan SQLite database interface plugin
 
 Package: strongswan-mod-sshkey
@@ -4530,8 +5244,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 4675
 Filename: strongswan-mod-sshkey_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 5431
-SHA256sum: a141b40efbc77cf661b1e9743871313aa4998746f21d8c5fae5ea7acfd0b084d
+Size: 5428
+SHA256sum: 267fa5929271ab34b8fff18a68d06f34c43b40af4e58fbaa25e652c88c001ea4
 Description:  StrongSwan SSH key decoding plugin
 
 Package: strongswan-mod-stroke
@@ -4540,10 +5254,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-charon, strongswan-ipse
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 78480
+Installed-Size: 78479
 Filename: strongswan-mod-stroke_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 79148
-SHA256sum: 4733f3e1242a9c080ab99dcce0f323a22618cd8ae4e97251f43e8c8419895425
+Size: 79122
+SHA256sum: 401f381cc83491f5dc87261ea9bb81f86a21f93fc9c9a06b78c82b844ae310ea
 Description:  StrongSwan Stroke plugin
 
 Package: strongswan-mod-test-vectors
@@ -4552,10 +5266,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 47861
+Installed-Size: 47859
 Filename: strongswan-mod-test-vectors_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 48348
-SHA256sum: 01381fa398045be2d07695adb37118ba1e858a661f45bcfec7dd087d16d6ed3d
+Size: 48325
+SHA256sum: 077cbd4e62f3872179a14d3267e2493ba9865fe0beec1508670b5c72b4835705
 Description:  StrongSwan crypto test vectors plugin
 
 Package: strongswan-mod-uci
@@ -4564,10 +5278,10 @@ Depends: libc, librt, libpthread, strongswan, libuci
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 7021
+Installed-Size: 7017
 Filename: strongswan-mod-uci_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 7798
-SHA256sum: a4978f4c2d1ef632a02c730af749b19fd4a1b1dc6ac29e355caf1b55b2e1b976
+Size: 7797
+SHA256sum: a22e1771ba898160ffd7cdf1f5724410839ed43c9006d8a72008af6aef429c5e
 Description:  StrongSwan UCI config interface plugin
 
 Package: strongswan-mod-unity
@@ -4576,10 +5290,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6135
+Installed-Size: 6132
 Filename: strongswan-mod-unity_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 6907
-SHA256sum: acec88269c79fdfa196941f398293a3784735dd5feeb97b3d92abcc247ae7b13
+Size: 6898
+SHA256sum: c3572699df1cdf13de4243e18afc7f34de2bc864b9b7c22cc8483b768cbac083
 Description:  StrongSwan Cisco Unity extension plugin
 
 Package: strongswan-mod-updown
@@ -4588,10 +5302,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 9358
+Installed-Size: 9357
 Filename: strongswan-mod-updown_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 10117
-SHA256sum: 466864e228b24e90adab8eee12e0111b2be74457cc17ecfda15244028aa8497c
+Size: 10113
+SHA256sum: aa509986a02215cb94497a9a70f5ed86cb95264dfdc2cec629e911642bcc7a5e
 Description:  StrongSwan updown firewall plugin
 
 Package: strongswan-mod-vici
@@ -4600,10 +5314,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 58865
+Installed-Size: 58863
 Filename: strongswan-mod-vici_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 59563
-SHA256sum: 92d008ffd7d8112f706f168b65d9c6b03eab1e78f7906a6f9391e6d5eae3cdd6
+Size: 59551
+SHA256sum: 5c09e39281f59c8732c5c4d90fc5f4e9d4caaa0015515609f3e804744352add4
 Description:  StrongSwan Versatile IKE Configuration Interface plugin
 
 Package: strongswan-mod-whitelist
@@ -4612,10 +5326,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6675
+Installed-Size: 6671
 Filename: strongswan-mod-whitelist_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 7467
-SHA256sum: b50613f4d67548934d28fa6e05b6b57c30e22f50a868dcb000ffb93b04556e6b
+Size: 7462
+SHA256sum: 3115a6c30fabeecbe236fbf4a64bc7f20976051c0401715152fb75882d4a7a8c
 Description:  StrongSwan peer identity whitelisting plugin
 
 Package: strongswan-mod-x509
@@ -4626,8 +5340,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 33278
 Filename: strongswan-mod-x509_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 33744
-SHA256sum: 2c78944b1f28fc25da1610f0f973d736ee3975cb4858f72fa753e3cbc80aa589
+Size: 33732
+SHA256sum: 6ac327e6f6d1cef070165ca921464cf679eec3d6f11835a8cee26dfff6dc064a
 Description:  StrongSwan x509 certificate plugin
 
 Package: strongswan-mod-xauth-eap
@@ -4638,8 +5352,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3471
 Filename: strongswan-mod-xauth-eap_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4222
-SHA256sum: dc33e76ce5e335e8f272e7185cdda297d1252ef3be137f37af5dd9d8e2847690
+Size: 4233
+SHA256sum: baed1b0a1d1bc4e240544ae30a18f1ac6bf0b168f39191e5cf3ecc4c5885051a
 Description:  StrongSwan EAP XAuth backend plugin
 
 Package: strongswan-mod-xauth-generic
@@ -4648,10 +5362,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3435
+Installed-Size: 3437
 Filename: strongswan-mod-xauth-generic_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4201
-SHA256sum: 440d9e0fafcc165f80940fafb388a2894dcd251265e487b05d1b70c9032c088d
+Size: 4193
+SHA256sum: b233955432d75a9d562e470d0127bba1430bbeccba6565b3e4285e404d2614e1
 Description:  StrongSwan generic XAuth backend plugin
 
 Package: strongswan-mod-xcbc
@@ -4662,8 +5376,8 @@ Section: net
 Architecture: arm_cortex-a9_neon
 Installed-Size: 3611
 Filename: strongswan-mod-xcbc_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 4361
-SHA256sum: 3708f7b667740db9e817ae3490264ac1276b1215fe33e2f04d3010a55107488b
+Size: 4359
+SHA256sum: 048afef2070d3445b7d49a5bc543b0f5bcf243d9ff41c2684237046a7f0562f5
 Description:  StrongSwan xcbc crypto plugin
 
 Package: strongswan-pki
@@ -4672,10 +5386,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 29551
+Installed-Size: 29548
 Filename: strongswan-pki_5.6.3-3_arm_cortex-a9_neon.ipk
 Size: 30297
-SHA256sum: 76b9e9f5243fbeffd9c0fb2b400f78b2abc1116e780dbea8390604713765087c
+SHA256sum: 3275f6b17a66343ce3d20f6d212edb7cf20c0ebbb517386b9818d77e53e99356
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains the pki tool.
 
@@ -4685,10 +5399,10 @@ Depends: libc, librt, libpthread, strongswan
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 13770
+Installed-Size: 13767
 Filename: strongswan-scepclient_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 14576
-SHA256sum: 84a25f80e05a6a562ff48c5793a5a2c25deafdf1a02aa929c31fad2d8aa5a310
+Size: 14538
+SHA256sum: 140409c6ce6e02b23652cd4b45f58ca912dff3d6abfbed6ff69c7b39ee9eb5de
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains the SCEP client.
 
@@ -4698,10 +5412,10 @@ Depends: libc, librt, libpthread, strongswan, strongswan-mod-vici
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 31935
+Installed-Size: 31932
 Filename: strongswan-swanctl_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 32809
-SHA256sum: a612c98a5a30b563e0a77c10b9c98900bcf927a2013e52d56255d698d5ea99b2
+Size: 32795
+SHA256sum: 8439d85e09de443563520ffa91042a3b71290069462b0a77a5ec7fc3ca87ec6c
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains the swanctl utility.
 
@@ -4711,10 +5425,10 @@ Depends: libc, librt, libpthread, libpthread, ip, kmod-crypto-authenc, kmod-ipse
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 166593
+Installed-Size: 166592
 Filename: strongswan_5.6.3-3_arm_cortex-a9_neon.ipk
-Size: 166379
-SHA256sum: d116c68fa1be9b72c9a043ca726eab84df2409cca37dadb8c8d0e403b8f2e1bd
+Size: 166363
+SHA256sum: f3b8efc2ef23b2b8f6aab1988ce15f2f8c9b9bb7b4085b5dd3df09b1b2080020
 Description:  StrongSwan is an OpenSource IPsec implementation for the Linux operating system.
  This package contains shared libraries and scripts.
 
@@ -4724,10 +5438,10 @@ Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, l
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 254173
+Installed-Size: 254172
 Filename: transmission-daemon-openssl_2.94-4_arm_cortex-a9_neon.ipk
-Size: 254677
-SHA256sum: b514ffc825aedc5370c00f0e77323002ce229de46e9feb676daf7bb0d4cb2087
+Size: 254678
+SHA256sum: 2be3da059608ba5af1c5047b8dc23be68a0f085279ecf024b5bcefec29e2241e
 Description:  Transmission is a simple BitTorrent client.
  It features a very simple, intuitive interface
  on top on an efficient, cross-platform back-end.
@@ -4739,10 +5453,10 @@ Depends: libc, librt, libpthread, libcurl, libevent2, libminiupnpc, libnatpmp, l
 License: GPL-2.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 43623
+Installed-Size: 43621
 Filename: transmission-remote-openssl_2.94-4_arm_cortex-a9_neon.ipk
-Size: 44449
-SHA256sum: fabcfd6ca69c9312bb402b93be4fd2e1cda9f924923ba37043389b0a4e8aea12
+Size: 44408
+SHA256sum: 4ea2371ee82ee3e4c84c9f1e33e676319cfb03a31b3f730f3843bb8086a6037c
 Description:  CLI remote interface for transmission.
 
 Package: transmission-web
@@ -4751,10 +5465,10 @@ Depends: libc, librt, libpthread
 License: GPL-2.0+
 Section: net
 Architecture: all
-Installed-Size: 241584
+Installed-Size: 241586
 Filename: transmission-web_2.94-4_all.ipk
-Size: 242445
-SHA256sum: d6b4429484ec4b99d85ac0c159004e75dc125b7eb59207fa05199abc14bc88b1
+Size: 242443
+SHA256sum: 126c0dd5c5a0a2a64f7b52ae426e5a84c0c3b9118782d38d6c28c9ed41d81302
 Description:  Webinterface resources for transmission.
 
 Package: unbound
@@ -4763,10 +5477,10 @@ Depends: libc, librt, libpthread, libopenssl, libunbound
 License: BSD-3-Clause
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 187522
+Installed-Size: 187526
 Filename: unbound_1.9.2-1_arm_cortex-a9_neon.ipk
-Size: 186773
-SHA256sum: 67892f0af8a8191fd147f91ba79819422603ef0bed8e1daf8c787e068f163320
+Size: 186787
+SHA256sum: 92eeb6ac50076580886c44b4db5b42a9552e74372ecf58ad4a1cf31d3633ed00
 Description:  This package contains the Unbound daemon.
 
 Package: unixodbc
@@ -4876,10 +5590,10 @@ Depends: libc, librt, libpthread, libopenssl
 License: GPLv2
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 57032
+Installed-Size: 57031
 Filename: vsftpd-tls_3.0.3-2_arm_cortex-a9_neon.ipk
-Size: 57825
-SHA256sum: 73bc2f84b19163ffd7aafe102e5204fc3df026c1a8eb852e2cc8724318f3348c
+Size: 57826
+SHA256sum: 03b8bbe63b9c42b64f011be72217ec1743081ab77ff4e4efb103c2390520a524
 Description:  Fast and secure FTP server (TLS)
 
 Package: vsftpd
@@ -4888,22 +5602,22 @@ Depends: libc, librt, libpthread
 License: GPLv2
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 53322
+Installed-Size: 53320
 Filename: vsftpd_3.0.3-2_arm_cortex-a9_neon.ipk
-Size: 54115
-SHA256sum: 43c060f151da7fa55e04b6fbb945db3a0254e89e81a1423b01c72bdcfee51ef4
+Size: 54042
+SHA256sum: 101e95bfc9303aa6cc9b3f8f091a7b4d8295a8c228b76682e17eb6bbc52b75bf
 Description:  Fast and secure FTP server (no TLS)
 
 Package: wget-nossl
-Version: 1.19.5-1
+Version: 1.19.5-2
 Depends: libc, librt, libpthread, libpcre, zlib
 License: GPL-3.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 230764
-Filename: wget-nossl_1.19.5-1_arm_cortex-a9_neon.ipk
-Size: 231314
-SHA256sum: e307df31091be395bd3cdf0b06da199a1766f69ed36cdc2dce8a6ed489442699
+Installed-Size: 230879
+Filename: wget-nossl_1.19.5-2_arm_cortex-a9_neon.ipk
+Size: 231367
+SHA256sum: b52cbdec065ac138abd04bf8d9d086994ddfd08f93d38da762abc5d067f18dad
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -4913,15 +5627,15 @@ Description:  Wget is a network utility to retrieve files from the Web using htt
  This package is built without SSL support.
 
 Package: wget
-Version: 1.19.5-1
+Version: 1.19.5-2
 Depends: libc, librt, libpthread, libpcre, zlib, libopenssl, librt
 License: GPL-3.0+
 Section: net
 Architecture: arm_cortex-a9_neon
-Installed-Size: 252254
-Filename: wget_1.19.5-1_arm_cortex-a9_neon.ipk
-Size: 252718
-SHA256sum: 4020045b01e2f4852406fc48578192389865578312561446b263dff609502d02
+Installed-Size: 252352
+Filename: wget_1.19.5-2_arm_cortex-a9_neon.ipk
+Size: 252805
+SHA256sum: 68da62b27f956bf1a23c72117ae62dc3ab1b89c34e2af29a84bca04faf69200b
 Description:  Wget is a network utility to retrieve files from the Web using http
  and ftp, the two most widely used Internet protocols. It works
  non-interactively, so it will work in the background, after having
@@ -4952,10 +5666,10 @@ Depends: libc, librt, libpthread, liblua, libopenssl
 License: GPLv2
 Section: multimedia
 Architecture: arm_cortex-a9_neon
-Installed-Size: 719121
+Installed-Size: 719113
 Filename: xupnpd_2017-10-31-1_arm_cortex-a9_neon.ipk
-Size: 719774
-SHA256sum: 8770fc29e893f684781328d96b0274351b984dd8eeb9fb9b76a13f0647d804d1
+Size: 719698
+SHA256sum: e2ec9c70fd653c84a07a8debcd211ec322c8ac1925df54ad805e608e1fbf5abb
 Description:  xupnpd - eXtensible UPnP agent
  This program is a light DLNA Media Server which provides ContentDirectory:1 service for sharing IPTV unicast streams over local area network (with udpxy for multicast to HTTP unicast conversion).
  The program shares UTF8-encoded M3U playlists with links over local area network as content of the directory.

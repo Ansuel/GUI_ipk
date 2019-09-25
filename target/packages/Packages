@@ -1373,8 +1373,8 @@ Section: kernel
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
 Filename: kmod-openvswitch-geneve_4.1.38+2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 870
-SHA256sum: 1593f05e0a1baf821026011ce1fd27460834cead1d3e6fcf829f8cfd53bfb95e
+Size: 869
+SHA256sum: 2f7f54d2571fad2461f40ddd656d11c5a8251006bb06bf41dc203a6bcf47633a
 Description:  Open vSwitch Geneve tunneling support
 
 Package: kmod-openvswitch-gre
@@ -1383,10 +1383,10 @@ Depends: kernel, kmod-openvswitch, kmod-gre
 License: Apache-2.0
 Section: kernel
 Architecture: arm_cortex-a9_neon
-Installed-Size: 2899
+Installed-Size: 2898
 Filename: kmod-openvswitch-gre_4.1.38+2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 3663
-SHA256sum: 43ffe048a0f364b8041e36880971761279565feaf9dc6010bbe119faa9b0f7c1
+Size: 3654
+SHA256sum: d13a9d57d5f4ae98649380f6fae18f1f36aa36a31136f12370d7d5351c0ba819
 Description:  Open vSwitch GRE tunneling support
 
 Package: kmod-openvswitch-vxlan
@@ -1395,10 +1395,10 @@ Depends: kernel, kmod-openvswitch, kmod-vxlan
 License: Apache-2.0
 Section: kernel
 Architecture: arm_cortex-a9_neon
-Installed-Size: 3077
+Installed-Size: 3075
 Filename: kmod-openvswitch-vxlan_4.1.38+2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 3839
-SHA256sum: 46c4b3c055e39a21b05d87e0a86669194b5e388a4321ae431ae6d65c84a75849
+Size: 3841
+SHA256sum: 43391f4cb122c093bf4a59e264bae618090eadc66b063b01c1bc963ebfadcb25
 Description:  Open vSwitch VXLAN tunneling support
 
 Package: kmod-openvswitch
@@ -1409,8 +1409,8 @@ Section: kernel
 Architecture: arm_cortex-a9_neon
 Installed-Size: 40410
 Filename: kmod-openvswitch_4.1.38+2.8.5-1_arm_cortex-a9_neon.ipk
-Size: 41227
-SHA256sum: 2f623386e227bbeb74009149a2fac3321a5d8beb2f03c2a28a6f8dbb2b16b1fd
+Size: 41232
+SHA256sum: 19ab2ceb902ed2bcd280cb63a3143fcd32679b83ba80aa51b503d8db49213d5d
 Description:  Open vSwitch kernel datapath
 
 Package: kmod-ppp
