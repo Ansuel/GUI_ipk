@@ -304,6 +304,18 @@ SHA256sum: 0e522e42d7bec2750f5701278a2721a769a586ecfa3d138759c2370913ed3264
 Description:  GMP is a free library for arbitrary precision arithmetic, operating on
  signed integers, rational numbers, and floating point numbers.
 
+Package: libintl-full
+Version: 0.19.8.1-1
+Depends: libc, librt, libpthread
+License: GPL-3.0+
+Section: libs
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18739
+Filename: libintl-full_0.19.8.1-1_arm_cortex-a9_neon.ipk
+Size: 19461
+SHA256sum: a1a0563d87a94d68b94bdecf68e55782c8beaabae8d733e22333ee24af842cd3
+Description:  GNU Internationalization library
+
 Package: libjson-c
 Version: 0.12.1-2
 Depends: libc, librt, libpthread

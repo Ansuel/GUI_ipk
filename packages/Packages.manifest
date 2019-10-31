@@ -1,3 +1,18 @@
+Package: acme
+Version: 2.8.3-1
+Depends: libc, librt, libpthread, gnu-wget, ca-bundle, openssl-util, socat
+Source: feeds/packages/net/acme
+License: GPL-3.0-only
+LicenseFiles: LICENSE.md
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 46038
+Filename: acme_2.8.3-1_all.ipk
+Size: 46944
+SHA256sum: b6cd64787957502bdacb7c429b7d9a1d8dfadfca59cd603678605b9675ffc630
+Description:  A client for issuing Letsencrypt certificates.
+
 Package: adblock
 Version: 3.5.5-3
 Depends: libc, librt, libpthread, jshn, jsonfilter
@@ -241,34 +256,6 @@ SHA256sum: cbca391b1294f9c0a0cbea8d100922ba9d8a3a7dd635c5cd8606942c7a4705c0
 Description:  Bash is an sh-compatible command language interpreter that executes
  commands read from the standard input or from a file. Bash also
  incorporates useful features from the Korn and C shells (ksh and csh).
-
-Package: bind-client
-Version: 9.11.9-1
-Depends: libc, librt, libpthread, bind-libs
-Source: feeds/packages/net/bind
-License: BSD-3-Clause
-Section: net
-Maintainer: Noah Meyerhans <frodo@morgul.net>
-Architecture: arm_cortex-a9_neon
-Installed-Size: 25067
-Filename: bind-client_9.11.9-1_arm_cortex-a9_neon.ipk
-Size: 25614
-SHA256sum: 7fae5b3511600f613ef22f04b7fb0c711293c3478b4dd878fe7403d1041259b6
-Description:  bind dynamic DNS client
-
-Package: bind-libs
-Version: 9.11.9-1
-Depends: libc, librt, libpthread, libopenssl, zlib
-Source: feeds/packages/net/bind
-License: BSD-3-Clause
-Section: libs
-Maintainer: Noah Meyerhans <frodo@morgul.net>
-Architecture: arm_cortex-a9_neon
-Installed-Size: 1291298
-Filename: bind-libs_9.11.9-1_arm_cortex-a9_neon.ipk
-Size: 1285666
-SHA256sum: d2f9f091d623b88e3b2ac670fff475def0211c3b952736d02766a460fda6473b
-Description:  bind shared libraries
 
 Package: bluez-libs
 Version: 5.49-1
@@ -2533,6 +2520,21 @@ Size: 6118
 SHA256sum: f2b2000dc5ef26887d506866894ab1d4cd3ec4aa66de5187c7eeea5f15c2b3a7
 Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
 
+Package: icu
+Version: 61.2-3
+Depends: libc, librt, libpthread, libstdcpp, libpthread
+Source: feeds/packages/libs/icu
+License: ICU-1.8.1+
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1665512
+Filename: icu_61.2-3_arm_cortex-a9_neon.ipk
+Size: 1650447
+SHA256sum: de04f0058cfe14c6fe690b7ca66995536cdaf37c490309e7ea5860b365e48553
+Description:  International Components for Unicode
+
 Package: jansson
 Version: 2.10-1
 Depends: libc, librt, libpthread
@@ -2857,18 +2859,18 @@ Description:  libexif is a library for parsing, editing, and saving EXIF data. I
  utilities and programs with GUIs.
 
 Package: libexpat
-Version: 2.2.5-1
+Version: 2.2.9-1
 Depends: libc, librt, libpthread
 Source: feeds/packages/libs/expat
 License: MIT
 LicenseFiles: COPYING
 Section: libs
-Maintainer: Steven Barth <cyrus@openwrt.org>, Ted Hess <thess@kitschensync.net>
+Maintainer: Ted Hess <thess@kitschensync.net>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 62642
-Filename: libexpat_2.2.5-1_arm_cortex-a9_neon.ipk
-Size: 63450
-SHA256sum: b627691f2d019003eb755becdf01837be9bb12aa579aad4b13db3c4fcfb05005
+Installed-Size: 62658
+Filename: libexpat_2.2.9-1_arm_cortex-a9_neon.ipk
+Size: 63396
+SHA256sum: 306a6dcce7e3a9aed36350baed0a395742bd2bea98b3868250b7ff08e2dc427b
 Description:  A fast, non-validating, stream-oriented XML parsing library.
 
 Package: libffi
@@ -2933,8 +2935,26 @@ Size: 171947
 SHA256sum: 053c18cad505ae1b2fd4ccd4ee8ffb347ecab1f32756b240564b172f5242b850
 Description:  Free Lossless Audio Codec library
 
+Package: libfreetype
+Version: 2.9-1
+Depends: libc, librt, libpthread, zlib, libbz2, libpng
+Source: feeds/packages/libs/freetype
+License: FTL GPL-2.0 MIT ZLIB
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h
+Section: libs
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 350363
+Filename: libfreetype_2.9-1_arm_cortex-a9_neon.ipk
+Size: 350733
+SHA256sum: cc678a2366e21050f5f195616202e1f1eb423de38d686e191f6135cda41323a8
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
 Package: libgcrypt
-Version: 1.6.6-2
+Version: 1.6.6-3
 Depends: libc, librt, libpthread, libgpg-error
 Source: feeds/packages/libs/libgcrypt
 License: LGPL-2.1+ GPL-2.0+
@@ -2942,10 +2962,10 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 392052
-Filename: libgcrypt_1.6.6-2_arm_cortex-a9_neon.ipk
-Size: 391134
-SHA256sum: 63746a60259e2d8fb2ceeb433603072060975e54962731a1c88c8e4b8db828f6
+Installed-Size: 392253
+Filename: libgcrypt_1.6.6-3_arm_cortex-a9_neon.ipk
+Size: 391500
+SHA256sum: 2f80ed094b6bea52a6216be6ba322002e193d9a7bb8a79f9fa393b8f0ec1dded
 Description:  This is a general purpose cryptographic library based on the code from
  GnuPG. It provides functions for all cryptograhic building blocks:
  symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
@@ -3058,6 +3078,28 @@ Size: 25163
 SHA256sum: 97e2d7cba13fd7a82fa71b01f8edc2194f26003df298401dddf06dbf98dabb62
 Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
  ID3v1 and the various versions of ID3v2.
+
+Package: libidn2
+Version: 2.0.4-1
+Depends: libc, librt, libpthread, libunistring
+Source: feeds/packages/libs/libidn2
+License: GPL-2.0-or-later LGPL-3.0-or-later
+LicenseFiles: COPYING COPYINGv2 COPYING.LESSERv3
+Section: libs
+Maintainer: Kevin Darbyshire-Bryant <ldir@darbyshire-bryant.me.uk>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 61039
+Filename: libidn2_2.0.4-1_arm_cortex-a9_neon.ipk
+Size: 58613
+SHA256sum: def5ac888f68c91d2ab5dd85f3b934e4249875d56bc3ed169c27aea9dcbe9d44
+Description:  Libidn2 is a free software implementation of IDNA2008,
+ Punycode and TR46 in library form. It contains
+ functionality to convert internationalized domain
+ names to and from ASCII Compatible Encoding (ACE),
+ following the IDNA2008 and TR46 standards.
+ 
+ Library only package
+ 
 
 Package: libjpeg
 Version: 9a-1
@@ -3254,21 +3296,19 @@ Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw
  streams into a single physical bitstream.
 
 Package: libopenldap
-Version: 2.4.45-2
+Version: 2.4.48-1
 Depends: libc, librt, libpthread, libopenssl, libsasl2, libpthread
 Source: feeds/packages/libs/openldap
 License: OLDAP-2.8
 LicenseFiles: LICENSE
-Section: libs
+Section: net
 Maintainer: W. Michael Petullo <mike@flyn.org>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 219808
-Filename: libopenldap_2.4.45-2_arm_cortex-a9_neon.ipk
-Size: 219089
-SHA256sum: 0b28fea06ee2b445f7e67e1f9bb2a434877c8cb048f108a9e1fafef987630d6c
-Description:  OpenLDAP Software is an open source implementation of the
- Lightweight Directory Access Protocol (LDAP).
- This package contains the shared LDAP client libraries, needed by other programs.
+Installed-Size: 274302
+Filename: libopenldap_2.4.48-1_arm_cortex-a9_neon.ipk
+Size: 273514
+SHA256sum: 2815aeae8f8dd37026cf7c9e0bd0dc3367d7a8998de871b6f303e4c76fb06e5c
+Description:  OpenLDAP Software is an open source implementation of the Lightweight Directory Access Protocol (LDAP). This package contains the shared LDAP client libraries, needed by other programs.
 
 Package: libout123
 Version: 1.25.10-1
@@ -3471,7 +3511,7 @@ SHA256sum: ef0032a86269b905665a8c03f1e862b6ae32dc393ecf969e837ad756bcd368e6
 Description:  TIFF library
 
 Package: libunbound
-Version: 1.9.2-1
+Version: 1.9.4-1
 Depends: libc, librt, libpthread, libopenssl, libpthread
 Source: feeds/packages/net/unbound
 License: BSD-3-Clause
@@ -3479,11 +3519,26 @@ LicenseFiles: LICENSE
 Section: libs
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 425695
-Filename: libunbound_1.9.2-1_arm_cortex-a9_neon.ipk
-Size: 420910
-SHA256sum: e9f33a212243d043b9191b30c5f228afe69df09fa10e2688c88aea79bcec7a43
+Installed-Size: 431796
+Filename: libunbound_1.9.4-1_arm_cortex-a9_neon.ipk
+Size: 426822
+SHA256sum: 3a71a519252fff7e78874b33f9067a38f04e1d8f0bbf3f04698fccd4524e7017
 Description:  This package contains the Unbound shared library.
+
+Package: libunistring
+Version: 0.9.8-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/libs/libunistring
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Espen Jürgensen <espenjurgensen+openwrt@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 600011
+Filename: libunistring_0.9.8-1_arm_cortex-a9_neon.ipk
+Size: 590828
+SHA256sum: b6f30e2f3b5339b51753da8f03b48db0d082dacb33801f59dd3d170e6c3b5a2c
+Description:  This library provides functions for manipulating Unicode strings and for manipulating C strings according to the Unicode standard.
 
 Package: libupnp-sample
 Version: 1.6.19-2
@@ -3582,6 +3637,21 @@ Filename: libxml2_2.9.9-1_arm_cortex-a9_neon.ipk
 Size: 652756
 SHA256sum: 779d22b4ba6d2752605026f0e3e4b3f1809686a141fc8070b83ec450265835d6
 Description:  A library for manipulating XML and HTML resources.
+
+Package: luci-app-acme
+Version: 2.8.3-1
+Depends: libc, librt, libpthread, lua, luci-base, acme
+Source: feeds/packages/net/acme
+License: GPL-3.0-only
+LicenseFiles: LICENSE.md
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 2387
+Filename: luci-app-acme_2.8.3-1_all.ipk
+Size: 3323
+SHA256sum: fe9e0a5be1ba35eaadf87ea234b38e34b663d5a6138d81e400aa34a080fd9c65
+Description:  Control the ACME Letsencrypt certificate interface
 
 Package: luci-app-sqm
 Version: 1.2.4-1
@@ -4660,6 +4730,739 @@ Description:  p910nd is a small daemon that copies any data received on
  to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
  default is port 9100 to /dev/lp0.
 
+Package: php7-cgi
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libstdcpp
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1348311
+Filename: php7-cgi_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 1347164
+SHA256sum: db1bb26cc6a4df9fce2ec7653201bc8ae3c5e759dcabb30023b3405657d564f3
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CGI version of the PHP7 interpreter.
+
+Package: php7-cli
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libstdcpp
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1364673
+Filename: php7-cli_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 1363338
+SHA256sum: 5bbd5c6c919b339d3d39a27ee9ad75125007a4a9b05dd8f59f9f158d1b36f4be
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the CLI version of the PHP7 interpreter.
+
+Package: php7-fastcgi
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, php7-cgi
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 523
+Filename: php7-fastcgi_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 1350
+SHA256sum: aeb37554c55558ae371d659c9938df78b7504b97d7e69e51407b3557a21621c2
+Description:  As FastCGI support is now a core feature the php7-fastcgi package now depends
+ on the php7-cgi package, containing just the startup script.
+
+Package: php7-fpm
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libstdcpp
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 1395849
+Filename: php7-fpm_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 1395108
+SHA256sum: 2d870a4db7a73c488016aba5a98c7929acf94c7e59380c8ebeacf864221d975b
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains the FastCGI Process Manager of the PHP7 interpreter.
+
+Package: php7-mod-calendar
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10842
+Filename: php7-mod-calendar_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 11618
+SHA256sum: 731d5170d7d8ec51ed3138413acd0d4e84c135d1154df681f41df184b117b4b7
+Description:  Calendar shared module
+
+Package: php7-mod-ctype
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2999
+Filename: php7-mod-ctype_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 3759
+SHA256sum: 7e14070d2a1497f63da76f0e45e35cc75a8b6a1e118a7e0911153fc97c3a7e42
+Description:  Ctype shared module
+
+Package: php7-mod-curl
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libcurl
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33483
+Filename: php7-mod-curl_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 34235
+SHA256sum: ecf240763467cca7a856c089abdd8478cd85c7b535eb838ad3329b3b6fbc846e
+Description:  cURL shared module
+
+Package: php7-mod-dom
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libxml2
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 54488
+Filename: php7-mod-dom_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 54806
+SHA256sum: 3f1caa51bdf604eacb42fae77885f2e5c762762c5d1b27e61a1b3defd031de42
+Description:  DOM shared module
+
+Package: php7-mod-exif
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 33767
+Filename: php7-mod-exif_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 33927
+SHA256sum: 0b9bd10991bd5b0265e61fed51e1d4bb85b4c578474e9e551347efe27e8a6da7
+Description:  EXIF shared module
+
+Package: php7-mod-fileinfo
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 324891
+Filename: php7-mod-fileinfo_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 319646
+SHA256sum: 77e952649a6cc324015d2fb2ee89808796ec692624bf166e76f8fe221b89abad
+Description:  Fileinfo shared module
+
+Package: php7-mod-ftp
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libopenssl
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19938
+Filename: php7-mod-ftp_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 20641
+SHA256sum: d7607332ba2f8108d5deb8a2403e9c3c142327470059ae4c95ac9ad6b7a6f377
+Description:  FTP shared module
+
+Package: php7-mod-gd
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libjpeg, libpng, libfreetype
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 127131
+Filename: php7-mod-gd_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 127528
+SHA256sum: f9d5f781497a656ccbf8dfd72b27bb1f070d9eca7299da36c590966ca23c9b5d
+Description:  GD graphics shared module
+
+Package: php7-mod-gettext
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libintl-full
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3913
+Filename: php7-mod-gettext_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 4680
+SHA256sum: 5e7c919d3080b54605ff9d618347aaecb100cbd4881c16dea2318958291a4139
+Description:  Gettext shared module
+
+Package: php7-mod-gmp
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libgmp
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 19484
+Filename: php7-mod-gmp_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 20211
+SHA256sum: 6c3513374c86d0cc62942f99f166db68e2d5c75e0b66d3d6f5a140e0bfcc3bd7
+Description:  GMP shared module
+
+Package: php7-mod-hash
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 124809
+Filename: php7-mod-hash_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 124901
+SHA256sum: 2ae8b8590f54f861bae6ac5caeffd0389802262b12671ea2c5496ccc7d771617
+Description:  Hash shared module
+
+Package: php7-mod-iconv
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18071
+Filename: php7-mod-iconv_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 18832
+SHA256sum: 20ca44e54ce869abe72604cbd265b4a97e701ff1059bc33ca4ec93f3901ebeab
+Description:  iConv shared module
+
+Package: php7-mod-imap
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libopenssl, libpam, uw-imap
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 27908
+Filename: php7-mod-imap_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 28594
+SHA256sum: 9c2abc2359757646c5487d460842c30f301135dadc9a20e4821f2c4a5dade2e2
+Description:  IMAP shared module
+
+Package: php7-mod-intl
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, icu
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 140659
+Filename: php7-mod-intl_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 139513
+SHA256sum: 5a4cbc937d817267b58252648435d2ee940e983d45ccba57532c4e30df0f0710
+Description:  Internationalization Functions shared module
+
+Package: php7-mod-json
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 18857
+Filename: php7-mod-json_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 19631
+SHA256sum: 8140ebe2b6ecbf3d7dd0ca32d455a2f48536f82e4025d644c487433585666073
+Description:  JSON shared module
+
+Package: php7-mod-ldap
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libopenldap, libsasl2
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 22574
+Filename: php7-mod-ldap_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 23328
+SHA256sum: a39b2f5b12eabf3693f4200e2f10c68e4cea803467d56f3e8309df0a3c96d411
+Description:  LDAP shared module
+
+Package: php7-mod-mbstring
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 693246
+Filename: php7-mod-mbstring_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 680583
+SHA256sum: b3b1dc68a286e283dff3c4e88740a2fe5a1e08bb60cbc5544fcb789c5bae4bbb
+Description:  MBString shared module
+
+Package: php7-mod-mysqli
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, php7-mod-mysqlnd
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 36076
+Filename: php7-mod-mysqli_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 36735
+SHA256sum: a59cfc4b19b582a56fc4bc59f7599796d5a0101ce30af0b011e3f9f59a31388b
+Description:  MySQL Improved Extension shared module
+
+Package: php7-mod-mysqlnd
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, php7-mod-hash
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 88024
+Filename: php7-mod-mysqlnd_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 87657
+SHA256sum: 72180d531c1c785df4a643707eb47020e22fb62c5b65fa6b1ceb0b9b87b89ca6
+Description:  MySQL Native Driver shared module
+
+Package: php7-mod-opcache
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 206559
+Filename: php7-mod-opcache_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 206142
+SHA256sum: db4ad362d1d0bbb72546a936b61447fb56abdfa112c65dbfa2f830d341806956
+Description:  OPcache shared module
+
+Package: php7-mod-openssl
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libopenssl
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 62094
+Filename: php7-mod-openssl_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 62214
+SHA256sum: cc602bd9640c77b4b59dd26eacf4a45f37450b1b719a2d1c655db7e92a4d69de
+Description:  OpenSSL shared module
+
+Package: php7-mod-pcntl
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10556
+Filename: php7-mod-pcntl_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 11296
+SHA256sum: 419ecbbf09b3f5c2e97dac441d04354ef6ef7f580c4eced9312a2ba74f2bf754
+Description:  PCNTL shared module
+
+Package: php7-mod-pdo-mysql
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, php7-mod-pdo, php7-mod-mysqlnd
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 11028
+Filename: php7-mod-pdo-mysql_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 11785
+SHA256sum: 5346dcca4e2ed6d32c6c7818b1ecaea2b8e2957f333f7feb7c999fb2b5677052
+Description:  PDO driver for MySQL shared module
+
+Package: php7-mod-pdo-pgsql
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, php7-mod-pdo, libpq
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16500
+Filename: php7-mod-pdo-pgsql_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 17230
+SHA256sum: fb17080d7ab68710c023c80fbe4bed5e12841e12aac36fa7d1bedb5c1536c33b
+Description:  PDO driver for PostgreSQL shared module
+
+Package: php7-mod-pdo-sqlite
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, php7-mod-pdo, libsqlite3, librt
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9959
+Filename: php7-mod-pdo-sqlite_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 10729
+SHA256sum: 2ed9e154192a55dc5c8e390b59aecd0082b8a6c8c1d6bf1a014e054789b1bb91
+Description:  PDO driver for SQLite 3.x shared module
+
+Package: php7-mod-pdo
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 42683
+Filename: php7-mod-pdo_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 43291
+SHA256sum: 10ca0982c5cb286e8fa7f30c3bbc9dfff1b6fd2b884efc6e3af3fadfaea04307
+Description:  PHP Data Objects shared module
+
+Package: php7-mod-pgsql
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libpq
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 46531
+Filename: php7-mod-pgsql_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 47062
+SHA256sum: c47f1d4b23ec8283f2b27e11f70d8f7a7c3fca96442ddd805a365a55cef8fd1b
+Description:  PostgreSQL shared module
+
+Package: php7-mod-phar
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, php7-mod-hash
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 115016
+Filename: php7-mod-phar_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 115570
+SHA256sum: 618d48d57d651b8611d6c91effbdb706d30f0e0247614f20a8289b34ab727a0c
+Description:  Phar Archives shared module
+
+Package: php7-mod-session
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 32973
+Filename: php7-mod-session_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 33678
+SHA256sum: 8b4390b7a42fcb95f3492bc32852aacf0591911f51776ba11cc98943160dc806
+Description:  Session shared module
+
+Package: php7-mod-shmop
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3655
+Filename: php7-mod-shmop_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 4411
+SHA256sum: 728f32018fe1248915014b172785e1d23e9d33d425563ce33cf74b46a36d438e
+Description:  Shared Memory shared module
+
+Package: php7-mod-simplexml
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libxml2
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 23286
+Filename: php7-mod-simplexml_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 24019
+SHA256sum: 52c4c0f1a5d6746b34dbb39f446c60a67010a53ff13134e80101a3f0ee0f773d
+Description:  SimpleXML shared module
+
+Package: php7-mod-snmp
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libnetsnmp, libopenssl
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16997
+Filename: php7-mod-snmp_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 17599
+SHA256sum: 57c59de90c846c2bf9a179093d60c7d46bd42710c65a865b96aff70a9078a46a
+Description:  SNMP shared module
+
+Package: php7-mod-soap
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libxml2
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 138409
+Filename: php7-mod-soap_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 138838
+SHA256sum: 83b56a092d6bbd36a39277b75bb3dc42f4fb3b39ee6af94ef38fbc3c7ec50706
+Description:  SOAP shared module
+
+Package: php7-mod-sockets
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 31463
+Filename: php7-mod-sockets_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 32126
+SHA256sum: e2237aa3e4568d98c3909c695e4869f54b737b7959413d15f2982061cb55fb98
+Description:  Sockets shared module
+
+Package: php7-mod-sqlite3
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libsqlite3
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 15857
+Filename: php7-mod-sqlite3_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 16507
+SHA256sum: 4e5cce351a59bab75e8f5fca4415a0513f8eb79eeefa57605e1b8285404ed8eb
+Description:  SQLite3 shared module
+
+Package: php7-mod-sysvmsg
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4985
+Filename: php7-mod-sysvmsg_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 5742
+SHA256sum: 8defb9b4cf99afe917e5b07fb92d4818d2fc2699819a903000e3cd35eeaefabe
+Description:  System V messages shared module
+
+Package: php7-mod-sysvsem
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 3272
+Filename: php7-mod-sysvsem_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 4041
+SHA256sum: 968763873341565565ea3da271be13ed9f35db7ca28fe69a9518872358ad49a2
+Description:  System V shared memory shared module
+
+Package: php7-mod-sysvshm
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 4153
+Filename: php7-mod-sysvshm_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 4929
+SHA256sum: 2e26137c146bc557b94fd3c0f709b30e7fdb81d5db620b459972c3906bc5fe0e
+Description:  System V semaphore shared module
+
+Package: php7-mod-tokenizer
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 6976
+Filename: php7-mod-tokenizer_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 7715
+SHA256sum: 1092d8502e1b3c912cfbfdd50f5eeeb7233c31d668bdc2e867c2d9f2b2c9f12b
+Description:  Tokenizer shared module
+
+Package: php7-mod-xml
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libxml2
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 16040
+Filename: php7-mod-xml_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 16642
+SHA256sum: e66ae1e28431283d4f2514a146a436c9f6a9c564d1b4b026115fea6a25ee4df2
+Description:  XML shared module
+
+Package: php7-mod-xmlreader
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libxml2
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 9833
+Filename: php7-mod-xmlreader_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 10584
+SHA256sum: ee982d5034956dcc8a7ed599ac5abf8e636a9158ef94f35e2cd568726640791b
+Description:  XMLReader shared module
+
+Package: php7-mod-xmlwriter
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, libxml2
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 10174
+Filename: php7-mod-xmlwriter_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 10874
+SHA256sum: e3e8cd8dd1e8bdc0786d69adc1795e6bad872fc07313413eeeb8e64613dcb2ec
+Description:  XMLWriter shared module
+
+Package: php7-mod-zip
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, php7, zlib
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 53244
+Filename: php7-mod-zip_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 53872
+SHA256sum: 747f2d2bfffcc522468a6f62eafb8a1cffa044a14d2a3e6e89b3c09895210c52
+Description:  ZIP shared module
+
+Package: php7
+Version: 7.2.19-1
+Depends: libc, librt, libpthread, libpcre, zlib, libxml2, zoneinfo-core
+Source: feeds/packages/lang/php7
+License: PHPv3.01
+LicenseFiles: LICENSE
+Section: lang
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 2200
+Filename: php7_7.2.19-1_arm_cortex-a9_neon.ipk
+Size: 3241
+SHA256sum: 6c64403b09696eb760fed0596333163534a2eb420d12083ae35977537c4a35be
+Description:  PHP is a widely-used general-purpose scripting language that is especially
+ suited for Web development and can be embedded into HTML.
+ This package contains only the PHP config file. You must actually choose
+ your PHP flavour (cli, cgi or fastcgi).
+ 
+ Please note, that installing php5 and php7 in parallel on the same target
+ is not supported in OpenWrt/LEDE.
+
 Package: polipo
 Version: 1.1.1-2
 Depends: libc, librt, libpthread
@@ -4696,7 +5499,7 @@ Description:  PortAudio is a free, cross-platform, open-source, audio I/O librar
  different platforms. Many applications use PortAudio for Audio I/O.
 
 Package: python-base
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, libpthread, zlib
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4704,15 +5507,15 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 778510
-Filename: python-base_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 773675
-SHA256sum: d7ac9c70ee18ed1f572d4b037f9f56de6654bda1fcd0c5de984555455f42805e
+Installed-Size: 778577
+Filename: python-base_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 773730
+SHA256sum: 8072f31d66b1642ab736fe37e06b920fe53a335a16a879458707455054c4f674
 Description:  This package contains only the interpreter and the bare minimum
  for the interpreter to start.
 
 Package: python-codecs
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4720,14 +5523,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 701553
-Filename: python-codecs_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 685781
-SHA256sum: feeef5edc1907a790df9715821091ec3412faffb17e518bb0a547c1398a9f256
+Installed-Size: 701542
+Filename: python-codecs_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 685611
+SHA256sum: 5c851c634715a2545ce81982bb4b8e4563e0b192349ebd50d36cda0d3135c0bd
 Description:  Python 2.7 codecs + unicode support
 
 Package: python-compiler
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4735,14 +5538,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 59812
-Filename: python-compiler_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 60750
-SHA256sum: 85a1f715eee4cc9e4e15723fe5215c20d9156b4d9954547628050c5994ddaf8a
+Installed-Size: 59814
+Filename: python-compiler_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 60757
+SHA256sum: 194506adc772f8a5ca80ee528880974774a4596b01d91546b6241407675f198d
 Description:  Python 2.7 compiler module
 
 Package: python-ctypes
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4750,14 +5553,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 64095
-Filename: python-ctypes_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 64748
-SHA256sum: 2c0a8f847b1943845ac22c5ab1efa877f5ba0760fe71cc2d96950789699e7c93
+Installed-Size: 64124
+Filename: python-ctypes_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 64666
+SHA256sum: e047e6885ccceb71f9fff3e97ff04b56a11642a9bf8f0bc0d54232a6dd724e5f
 Description:  Python 2.7 ctypes module
 
 Package: python-db
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light, libdb47
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4765,14 +5568,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 74862
-Filename: python-db_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 75052
-SHA256sum: 0631317ba12465058c4334558f4b347fba53f3db4d70854d86176cd2afb0d820
+Installed-Size: 74859
+Filename: python-db_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 75063
+SHA256sum: 28884792702b923690bf440dac29b0bdb56abac882aa867320504e16af656d13
 Description:  Python 2.7 db module
 
 Package: python-decimal
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4780,14 +5583,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 48939
-Filename: python-decimal_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 49826
-SHA256sum: fda7d8ace493b4c1f1d4762502719c91f38b9c49f0d263d832b8f18515633a4b
+Installed-Size: 48933
+Filename: python-decimal_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 49816
+SHA256sum: 306c9b9e489b767e5dc109ffae6ddc7e823f67cbe7fd7de37a7c59c0a417b0a6
 Description:  Python 2.7 decimal module
 
 Package: python-distutils
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4795,10 +5598,10 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 174685
-Filename: python-distutils_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 175659
-SHA256sum: 531b3a400e09de7d2a372a823e7887ddd398ecdee4837a201f4727794194c3f9
+Installed-Size: 174743
+Filename: python-distutils_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 175696
+SHA256sum: 8549099bdf80d99f99cd724c8f9583e94cb013be05556a811e5d56f769d7983c
 Description:  Python 2.7 distutils
 
 Package: python-dns
@@ -4817,7 +5620,7 @@ SHA256sum: 0c032d198b2ea1b93c27aa157e99e135183f3fbc7b5fa62767c85951503d6cbc
 Description:  dnspython is a DNS toolkit for Python. It supports almost all record types. It can be used for queries, zone transfers, and dynamic updates. It supports TSIG authenticated messages and EDNS0.
 
 Package: python-email
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4825,14 +5628,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 50384
-Filename: python-email_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 51259
-SHA256sum: 5c4bb86802045666e71b8f429f8c9be72a89c4c839d69573120421ef85840d5c
+Installed-Size: 50266
+Filename: python-email_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 51149
+SHA256sum: a51bd7203e422f1acf667fbea97b6b580227c1e365056a3919e7a78d6a63d91a
 Description:  Python 2.7 email module
 
 Package: python-gdbm
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light, libgdbm
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4840,14 +5643,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 6152
-Filename: python-gdbm_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 7003
-SHA256sum: da9fa69515dc88f76f18f7e1efc5f1d767b8c23ada29ec2ab8aaf81a3f28550b
+Installed-Size: 6148
+Filename: python-gdbm_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 6993
+SHA256sum: d61086eb0e1f9e568f2ac3190c69307521d892a07c2dbb46e48631e079242ad9
 Description:  Python 2.7 gdbm module
 
 Package: python-light
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-base, libffi, libbz2
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4855,16 +5658,16 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 1472171
-Filename: python-light_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 1472127
-SHA256sum: 13254bc737cb3c305930bbd58a9686e04bb8edd9edb9185e074ab5ae9c2bc10d
+Installed-Size: 1472421
+Filename: python-light_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 1472246
+SHA256sum: a1e3b15ea4f3b2427eb409b6d3f3ce747c212ecc59d9a226db8268f3861f9794
 Description:  This package is essentially the python-base package plus
  a few of the rarely used (and big) libraries stripped out
  into separate packages.
 
 Package: python-logging
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4872,14 +5675,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 42720
-Filename: python-logging_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 43627
-SHA256sum: dd9519cfa4d9d166aead67c4d9d1e7971610b6b1f84cf3b779b10ba0b3d632bd
+Installed-Size: 42718
+Filename: python-logging_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 43629
+SHA256sum: 2bd6939eddcd40cc469d69d07db2d6ee2bd3c2d01c480a2f94a9464a3ab465ce
 Description:  Python 2.7 logging module
 
 Package: python-multiprocessing
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4887,14 +5690,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 65192
-Filename: python-multiprocessing_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 66068
-SHA256sum: 80e0cac50014a08f297505ed95b0258a6ad399120eb6c3fb1d3727ce577edaf5
+Installed-Size: 65198
+Filename: python-multiprocessing_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 66067
+SHA256sum: 2b31b76328e8b1d99396d86a6051dbeb0946b2dafbbfa344fc3b200276862bbf
 Description:  Python 2.7 multiprocessing
 
 Package: python-ncurses
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light, libncurses
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4902,14 +5705,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 33912
-Filename: python-ncurses_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 34556
-SHA256sum: 9bd4f43474ad474deee5407ae0b7276cb7f61234b300e3976eb9691c131c417a
+Installed-Size: 33907
+Filename: python-ncurses_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 34519
+SHA256sum: 8b58381668c02d735849280e4b0f6d47f16763e6f9e7f797c870832d377aad5e
 Description:  Python 2.7 ncurses module
 
 Package: python-openssl
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light, libopenssl
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4917,14 +5720,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 36758
-Filename: python-openssl_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 37254
-SHA256sum: b0227265291fd566e5a448f2e50ba306e845ce1c45cfb6c54c170bc261e635f8
+Installed-Size: 36790
+Filename: python-openssl_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 37371
+SHA256sum: 20e73c5404ac00dd46d1f345f5305953d8698150752bb063a6864c1169bc6f2a
 Description:  Python 2.7 SSL module
 
 Package: python-pydoc
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4932,14 +5735,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 183051
-Filename: python-pydoc_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 183815
-SHA256sum: b5a5b5057d81b0a1c46bb1ca0642b27905f6188814a36ced11c4b53eb6e2079e
+Installed-Size: 183045
+Filename: python-pydoc_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 183800
+SHA256sum: 1949448fe937e45f7baf3b22432171ce132c80f7e21d369c1b528c65eb0ca5a8
 Description:  Python 2.7 pydoc module
 
 Package: python-sqlite3
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light, libsqlite3
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4947,14 +5750,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 27932
-Filename: python-sqlite3_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 28717
-SHA256sum: f0b526eb44a857b1efd3d24941e6db00f5899c72a762a7b5c942b23453ab4eec
+Installed-Size: 27975
+Filename: python-sqlite3_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 28627
+SHA256sum: 41ac16271e25e609215ae102dac20cf411e34a9b657ec10ff47ef12cb304641c
 Description:  Python 2.7 sqlite3 module
 
 Package: python-unittest
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4963,13 +5766,13 @@ Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 33406
-Filename: python-unittest_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 34304
-SHA256sum: 7a02e3dc68d438cee19b17e10ff0704a203b9c8cdc9c5d1205748b5c0233797c
+Filename: python-unittest_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 34301
+SHA256sum: ff2360ebc9dfc983204ac63a50e7207f9b1ed59c178a7d198f045c82db36b822
 Description:  Python 2.7 unittest module
 
 Package: python-xml
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light, libexpat
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4977,14 +5780,14 @@ LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin
 Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 182880
-Filename: python-xml_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 183577
-SHA256sum: fb2e8502056a268324eb7875d338cf4fc18ce0b4c525f4d292104ac6d2074cae
+Installed-Size: 182970
+Filename: python-xml_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 183701
+SHA256sum: 288008aa3182856a13a140c28da01e97a6eaf06799b26fe75681ff141b237877
 Description:  Python 2.7 xml libs
 
 Package: python
-Version: 2.7.16-3
+Version: 2.7.17-1
 Depends: libc, librt, libpthread, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-codecs, python-sqlite3, python-logging, python-gdbm, python-email, python-distutils, python-xml, python-compiler, python-db, python-openssl, python-decimal, python-unittest, python-ncurses
 Source: feeds/packages/lang/python/python
 License: PSF
@@ -4993,9 +5796,9 @@ Section: lang
 Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
 Architecture: arm_cortex-a9_neon
 Installed-Size: 105
-Filename: python_2.7.16-3_arm_cortex-a9_neon.ipk
-Size: 1046
-SHA256sum: b6c426bf2e218d0437fd7a784c46efa0867e6274dbf94fd70e01e70f4fa3a9d1
+Filename: python_2.7.17-1_arm_cortex-a9_neon.ipk
+Size: 1048
+SHA256sum: b7312c34dcb24ad87d8ed8e30da9a7ce903c334811dbb54d5701f3ac7b851497
 Description:  This package contains the (almost) full Python install.
  It's python-light + all other packages.
 
@@ -5137,6 +5940,26 @@ Description:  Shairport Sync plays audio from iTunes and AirPlay sources, includ
  Shairport Sync does not support AirPlay video or photo streaming.
  Ensure Kernel Modules > Sound Support > kmod-sound-core is selected.
  Also select kmod-usb-audio if you want to use USB-connected sound cards.
+
+Package: socat
+Version: 1.7.3.2-3
+Depends: libc, librt, libpthread, libpthread, librt
+Source: feeds/packages/net/socat
+License: GPL-2.0 OpenSSL
+LicenseFiles: COPYING COPYING.OpenSSL
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 99825
+Filename: socat_1.7.3.2-3_arm_cortex-a9_neon.ipk
+Size: 100552
+SHA256sum: 2eb065bda9418ba45a085777a63e8aea85748d4f26cd9ddb8ce18237ba248e65
+Description:  SoCat (for SOcket CAT) establishes two bidirectional byte streams and
+ transfers data between them.
+ Data channels may be files, pipes, devices (terminal or modem, etc.), or
+ sockets (Unix, IPv4, IPv6, raw, UDP, TCP, SSL). It provides forking,
+ logging and tracing, different modes for interprocess communication and
+ many more options.
 
 Package: speedtest-netperf
 Version: 1.0.0-1
@@ -6441,7 +7264,7 @@ SHA256sum: 126c0dd5c5a0a2a64f7b52ae426e5a84c0c3b9118782d38d6c28c9ed41d81302
 Description:  Webinterface resources for transmission.
 
 Package: unbound
-Version: 1.9.2-1
+Version: 1.9.4-1
 Depends: libc, librt, libpthread, libopenssl, libunbound
 Source: feeds/packages/net/unbound
 License: BSD-3-Clause
@@ -6450,10 +7273,10 @@ Section: net
 Require-User: unbound=553:unbound=553
 Maintainer: Eric Luehrsen <ericluehrsen@gmail.com>
 Architecture: arm_cortex-a9_neon
-Installed-Size: 187526
-Filename: unbound_1.9.2-1_arm_cortex-a9_neon.ipk
-Size: 186787
-SHA256sum: 92eeb6ac50076580886c44b4db5b42a9552e74372ecf58ad4a1cf31d3633ed00
+Installed-Size: 188423
+Filename: unbound_1.9.4-1_arm_cortex-a9_neon.ipk
+Size: 187771
+SHA256sum: 3e307f64d42fd0ad9bd371449e58c253f8a939c7eb774366688e3e64f4281fe6
 Description:  This package contains the Unbound daemon.
 
 Package: unixodbc
@@ -6504,6 +7327,23 @@ Description:  InfoZIP's unzip program. With the exception of multi-volume archiv
  (ie, .ZIP files that are split across several disks using PKZIP's /& option),
  this can handle any file produced either by PKZIP, or the corresponding
  InfoZIP zip program.
+
+Package: uw-imap
+Version: 2007f-1
+Depends: libc, librt, libpthread, libpthread, libopenssl
+Source: feeds/packages/libs/uw-imap
+License: Apache-2.0
+LicenseFiles: LICENSE.txt
+Section: libs
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 526494
+Filename: uw-imap_2007f-1_arm_cortex-a9_neon.ipk
+Size: 524409
+SHA256sum: 219312b78f446b5e46e7f7e6bf26c6642e92be53650767388dea6f3fd963aeb7
+Description:  The UW IMAP tookit includes the following:
+ c-lient library : an API (application programming interface) used to build email clients and servers,
+ including support for IMAP,POP3, SMTP and NNTP protocols and for local mailbox file access on Unix and Windows
 
 Package: vim-full
 Version: 8.0.586-2
@@ -6838,4 +7678,18 @@ Description:  This is InfoZIP's zip program. It produces files that are fully
  compatible with the popular PKZIP program; however, the command line
  options are not identical. In other words, the end result is the same,
  but the methods differ.
+
+Package: zoneinfo-core
+Version: 2018e-1
+Depends: libc, librt, libpthread
+Source: feeds/packages/utils/zoneinfo
+License: Public Domain
+Section: utils
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: arm_cortex-a9_neon
+Installed-Size: 20523
+Filename: zoneinfo-core_2018e-1_arm_cortex-a9_neon.ipk
+Size: 21070
+SHA256sum: 8bc8483e1795402cb69aaef886527800621d22376839da41afc55cc277592269
+Description:  Zone Information (core)
 
